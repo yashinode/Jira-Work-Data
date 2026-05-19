@@ -2,13 +2,13 @@
   "epic_key": "IRDS-2499",
   "epic_name": "Rules and Action",
   "fr_prefix": "FR-RA",
-  "created_at": "2026-05-19T09:38:07",
+  "created_at": "2026-05-19T09:45:38",
   "pairs": {
     "1": {
       "n": 1,
       "fr_id": "FR-RA-01",
       "priority": "High",
-      "title": "Access Rules and Action Page",
+      "title": "Action Menu for Each Row",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -18,7 +18,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall provide access to the Rules and Action page under RAMS → Rack → IRDS → Rules and Action."
+                "text": "The system shall provide an Action menu (⋮) for each row in the Rules and Action table."
               }
             ]
           }
@@ -49,7 +49,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -58,7 +58,7 @@
               },
               {
                 "type": "text",
-                "text": " access the Rules and Action page from the navigation path RAMS → Rack → IRDS → Rules and Action,"
+                "text": " an Action menu (⋮) for each row in the Rules and Action table,"
               },
               {
                 "type": "hardBreak"
@@ -74,7 +74,7 @@
               },
               {
                 "type": "text",
-                "text": " I can manage rack elements and associated actions."
+                "text": " I can access edit or other element-level actions easily."
               }
             ]
           }
@@ -105,7 +105,7 @@
               },
               {
                 "type": "text",
-                "text": " the user navigates through the path RAMS → Rack → IRDS → Rules and Action,"
+                "text": " the Rules and Action table is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -121,7 +121,7 @@
               },
               {
                 "type": "text",
-                "text": " the user clicks the “Rules and Action” menu,"
+                "text": " the user hovers over or clicks the Action icon (⋮) beside a row,"
               },
               {
                 "type": "hardBreak"
@@ -137,7 +137,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall open the Rules and Action page successfully."
+                "text": " the system shall display an Action menu specific to that element."
               }
             ]
           }
@@ -148,7 +148,7 @@
       "n": 2,
       "fr_id": "FR-RA-02",
       "priority": "High",
-      "title": "Display Rack Elements List",
+      "title": "Edit Element Option in Menu",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -158,7 +158,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall display a searchable and sortable list of rack elements with columns: Element PIN, Element Name, Category, Status, and Action."
+                "text": "The system shall display an Edit Element option in the Action menu for that row."
               }
             ]
           }
@@ -198,7 +198,7 @@
               },
               {
                 "type": "text",
-                "text": " the Rules and Action page to display a table of rack elements,"
+                "text": " an Edit Element option inside the Action menu,"
               },
               {
                 "type": "hardBreak"
@@ -214,7 +214,7 @@
               },
               {
                 "type": "text",
-                "text": " I can view all existing elements and their details."
+                "text": " I can modify the name of an existing rack element."
               }
             ]
           }
@@ -245,7 +245,7 @@
               },
               {
                 "type": "text",
-                "text": " the Rules and Action page is loaded,"
+                "text": " the Action menu is expanded,"
               },
               {
                 "type": "hardBreak"
@@ -261,7 +261,7 @@
               },
               {
                 "type": "text",
-                "text": " the system fetches data,"
+                "text": " the user views the menu options,"
               },
               {
                 "type": "hardBreak"
@@ -277,42 +277,7 @@
               },
               {
                 "type": "text",
-                "text": " it shall display a sortable and searchable table with columns:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Element PIN"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Element Name"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Category"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Status"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Action."
+                "text": " Edit Element shall be listed along with other possible actions (e.g., Delete, View)."
               }
             ]
           }
@@ -323,7 +288,7 @@
       "n": 3,
       "fr_id": "FR-RA-03",
       "priority": "High",
-      "title": "Search Functionality",
+      "title": "Open Edit Element Modal",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -333,7 +298,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall allow users to search elements using the Search bar at the top of the page, filtering results dynamically as text is entered."
+                "text": "When the user selects Edit Element, the system shall open an Edit Element modal centered on the screen."
               }
             ]
           }
@@ -364,7 +329,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -373,7 +338,7 @@
               },
               {
                 "type": "text",
-                "text": " search for specific rack elements using a search bar,"
+                "text": " the Edit Element option to open a modal popup,"
               },
               {
                 "type": "hardBreak"
@@ -389,7 +354,7 @@
               },
               {
                 "type": "text",
-                "text": " I can quickly find the elements I need."
+                "text": " I can view and edit element details without leaving the page."
               }
             ]
           }
@@ -420,7 +385,7 @@
               },
               {
                 "type": "text",
-                "text": " the table of rack elements is displayed,"
+                "text": " the user clicks Edit Element,"
               },
               {
                 "type": "hardBreak"
@@ -436,7 +401,7 @@
               },
               {
                 "type": "text",
-                "text": " the user types text in the search bar,"
+                "text": " the system processes the request,"
               },
               {
                 "type": "hardBreak"
@@ -452,7 +417,7 @@
               },
               {
                 "type": "text",
-                "text": " the results shall dynamically filter and update based on matching text in any column."
+                "text": " an Edit Element modal shall appear centered on the screen."
               }
             ]
           }
@@ -462,8 +427,8 @@
     "4": {
       "n": 4,
       "fr_id": "FR-RA-04",
-      "priority": "Medium",
-      "title": "Dropdown Filter for Rule Sets",
+      "priority": "High",
+      "title": "Display Current Element Name and Reference Element dropdown",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -473,7 +438,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall provide a dropdown filter (e.g., “RAMS Recommends”) allowing users to view customized or predefined rule sets."
+                "text": "The Edit Element modal shall display the current value of the Element’s name and Reference Element in an editable text input field."
               }
             ]
           }
@@ -504,7 +469,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -513,7 +478,7 @@
               },
               {
                 "type": "text",
-                "text": " use a dropdown filter (e.g., “RAMS Recommends”),"
+                "text": " the modal to pre-fill the existing Element Name and Reference Element in an editable field,"
               },
               {
                 "type": "hardBreak"
@@ -529,7 +494,7 @@
               },
               {
                 "type": "text",
-                "text": " I can view customized or predefined rule sets for rack elements."
+                "text": " I can see and update the current value."
               }
             ]
           }
@@ -560,7 +525,7 @@
               },
               {
                 "type": "text",
-                "text": " the user opens the dropdown filter,"
+                "text": " the Edit Element modal opens,"
               },
               {
                 "type": "hardBreak"
@@ -576,7 +541,7 @@
               },
               {
                 "type": "text",
-                "text": " a predefined rule set (like “RAMS Recommends”) is selected,"
+                "text": " it loads element data,"
               },
               {
                 "type": "hardBreak"
@@ -592,7 +557,7 @@
               },
               {
                 "type": "text",
-                "text": " the table shall refresh and display only the elements applicable to that rule set."
+                "text": " the current Element Name shall appear in an editable text input labeled Element Name, and current Reference Element shall appear in Reference Element dropdown."
               }
             ]
           }
@@ -603,7 +568,7 @@
       "n": 5,
       "fr_id": "FR-RA-05",
       "priority": "Medium",
-      "title": "Access Risk Assessment Chart",
+      "title": "Buttons in Edit Modal",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -613,7 +578,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall include a Risk Assessment Chart button that redirects to or displays risk evaluation charts related to rack elements."
+                "text": "The Edit Element modal shall include two buttons: Cancel and Save Changes."
               }
             ]
           }
@@ -653,7 +618,7 @@
               },
               {
                 "type": "text",
-                "text": " a Risk Assessment Chart button,"
+                "text": " the modal to include Cancel and Save Changes buttons,"
               },
               {
                 "type": "hardBreak"
@@ -669,7 +634,7 @@
               },
               {
                 "type": "text",
-                "text": " I can quickly view graphical risk evaluation data for rack elements."
+                "text": " I can choose to either discard or confirm my edits."
               }
             ]
           }
@@ -700,7 +665,7 @@
               },
               {
                 "type": "text",
-                "text": " the user clicks the Risk Assessment Chart button,"
+                "text": " the Edit Element modal is open,"
               },
               {
                 "type": "hardBreak"
@@ -716,7 +681,7 @@
               },
               {
                 "type": "text",
-                "text": " the system processes the action,"
+                "text": " the user views the bottom section,"
               },
               {
                 "type": "hardBreak"
@@ -732,7 +697,7 @@
               },
               {
                 "type": "text",
-                "text": " it shall open or redirect to a page displaying risk evaluation charts."
+                "text": " two buttons shall be visible: Cancel and Save Changes."
               }
             ]
           }
@@ -742,8 +707,8 @@
     "6": {
       "n": 6,
       "fr_id": "FR-RA-06",
-      "priority": "High",
-      "title": "Add New Element Button",
+      "priority": "Medium",
+      "title": "Cancel Action Behavior",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -753,7 +718,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall provide an “Add New Element” button at the top right corner of the page to add a new element entry."
+                "text": "Clicking Cancel shall clear any unsaved changes in the input field and restore the original Element Name value from before opening the modal."
               }
             ]
           }
@@ -793,7 +758,7 @@
               },
               {
                 "type": "text",
-                "text": " an Add New Element button on the Rules and Action page,"
+                "text": " the Cancel button to clear unsaved changes and restore the original name,"
               },
               {
                 "type": "hardBreak"
@@ -809,7 +774,7 @@
               },
               {
                 "type": "text",
-                "text": " I can create new rack element entries easily."
+                "text": " no accidental edits are saved."
               }
             ]
           }
@@ -840,7 +805,7 @@
               },
               {
                 "type": "text",
-                "text": " the user is on the Rules and Action page,"
+                "text": " the user edits the Element Name,"
               },
               {
                 "type": "hardBreak"
@@ -856,7 +821,7 @@
               },
               {
                 "type": "text",
-                "text": " the user clicks Add New Element,"
+                "text": " they click Cancel,"
               },
               {
                 "type": "hardBreak"
@@ -872,21 +837,7 @@
               },
               {
                 "type": "text",
-                "text": " a modal popup shall appear with:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Input field labelled Element Name"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Buttons: Save and Cancel."
+                "text": " the modal shall reset the field to its original value and close the modal without saving."
               }
             ]
           }
@@ -897,7 +848,7 @@
       "n": 7,
       "fr_id": "FR-RA-07",
       "priority": "High",
-      "title": "Add New Element Modal",
+      "title": "Show Confirmation Popup When Saving Edited Element",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -907,14 +858,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "On clicking Add New Element, a modal popup shall appear with mandatory input fields labelled Element Name, Reference Element dropdown, Geometry Type dropdown and action buttons Save and Cancel."
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Reference Element shall include all standard Element."
+                "text": "When the user clicks Save Changes in the Edit Element form, the system shall display a confirmation pop-up titled “Confirm Update Element”"
               }
             ]
           }
@@ -950,14 +894,14 @@
               },
               {
                 "type": "text",
-                "text": " a modal popup to appear when I click “Add New Element”"
+                "text": " a confirmation popup to appear when I click Save Changes in the Edit Element form"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "So that",
+                "text": "so that",
                 "marks": [
                   {
                     "type": "strong"
@@ -966,7 +910,7 @@
               },
               {
                 "type": "text",
-                "text": " I can enter the name of a new element and save it."
+                "text": " I can confirm the update before the system applies configuration changes."
               }
             ]
           }
@@ -990,136 +934,7 @@
               },
               {
                 "type": "text",
-                "text": " the user clicks “Add New Element”,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "when",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the action is triggered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a modal popup shall appear containing input fields labelled “Element Name” and “Reference Element” and “Geometry Type” dropdown along with Save and Cancel buttons."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "8": {
-      "n": 8,
-      "fr_id": "FR-RA-08",
-      "priority": "High",
-      "title": "Geometry Type Dropdown Options",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "The Geometry type dropdown shall include the following options – Node, Line and Plate."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Geometry Type dropdown to show predefined geometry options"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can select the correct geometry type while configuring the element."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Geometry Type dropdown is visible on the form,"
+                "text": " the user is on the Edit Element form"
               },
               {
                 "type": "hardBreak"
@@ -1135,7 +950,7 @@
               },
               {
                 "type": "text",
-                "text": " the user clicks to expand the dropdown,"
+                "text": " the user clicks Save Changes"
               },
               {
                 "type": "hardBreak"
@@ -1151,7 +966,143 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display the following selectable options: Node, Line, and Plat."
+                "text": " the system shall display a confirmation pop-up titled “Confirm Update Element”."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "8": {
+      "n": 8,
+      "fr_id": "FR-RA-08",
+      "priority": "Medium",
+      "title": "Display Confirmation Description Message",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The confirmation pop-up shall include a description “You’re about to update this element’s configuration. Please confirm that all linked activity phases and observations should be updated as well."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the confirmation popup to show a clear description of the impact"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "so that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand that linked activity phases and observations may also be updated."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the confirmation pop-up is displayed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the popup loads"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it shall show the description:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“You’re about to update this element’s configuration. Please confirm that all linked activity phases and observations should be updated as well.”"
               }
             ]
           }
@@ -1162,7 +1113,7 @@
       "n": 9,
       "fr_id": "FR-RA-09",
       "priority": "High",
-      "title": "Validate Element Name Field",
+      "title": "Display Cancel and Confirm & Update Buttons",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1172,7 +1123,903 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall validate that the Element Name field is not empty before enabling the Save button."
+                "text": "The pop-up shall contain two buttons: Cancel and Confirm & Update."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the popup to display Cancel and Confirm & Update buttons"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "so that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can choose whether to proceed with the update or cancel it."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the confirmation popup appears"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the user views the popup"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it shall contain two buttons:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Cancel"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Confirm & Update"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "10": {
+      "n": 10,
+      "fr_id": "FR-RA-10",
+      "priority": "High",
+      "title": "Cancel Closes Popup Without Saving Changes",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Clicking Cancel shall close the confirmation pop-up and return the user to the Edit Element form without applying changes."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " clicking Cancel to close the popup and return me to the form"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "so that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can continue editing without saving changes."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the confirmation popup is open"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the user clicks Cancel"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the popup shall close"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shall return to the Edit Element form"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " no changes shall be applied."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "11": {
+      "n": 11,
+      "fr_id": "FR-RA-11",
+      "priority": "High",
+      "title": "Confirm & Update Applies All Changes",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Clicking Confirm & Update shall save all changes made to the element and update any linked activity phases and observations as required."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " clicking Confirm & Update to save my edits"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "so that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the element and all linked configurations are updated correctly."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the user clicks Confirm & Update"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system processes the update"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it shall:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Save all changes made to the element"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Update all linked activity phases"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Update all linked observations as required"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "12": {
+      "n": 12,
+      "fr_id": "FR-RA-12",
+      "priority": "High",
+      "title": "Close Modals and Refresh Element List After Update",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "After successful update, the system shall close all models and refresh the element list to reflect updated details."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system to close all popups and refresh the list after a successful update"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "so that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can immediately see the updated element details."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the update completes successfully"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system finishes saving"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " all open modals shall close"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the element list shall refresh to reflect the updated details."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "13": {
+      "n": 13,
+      "fr_id": "FR-RA-13",
+      "priority": "High",
+      "title": "Refresh Table Row After Successful Update",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "After a successful update, the system shall immediately refresh the table row with the new Element Name without requiring a full page reload."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the updated element’s row in the table to refresh immediately after saving changes"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "so that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can see the new Element Name without needing a full page reload."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the user successfully updates an element"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system completes the update"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the specific table row for that element shall refresh automatically"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it shall display the updated Element Name"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the page shall not reload fully."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "14": {
+      "n": 14,
+      "fr_id": "FR-RA-14",
+      "priority": "High",
+      "title": "Show Success Toast After Update",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "After a successful update, the system shall display a success toast/notification in the top right corner of the screen with the message: “Element updated successfully.”"
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a success toast notification after the update"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "so that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I receive confirmation that the element was updated."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the element update is successful"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system completes the action"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a success toast shall appear in the top-right corner with the message:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“Element updated successfully.”"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "15": {
+      "n": 15,
+      "fr_id": "FR-RA-15",
+      "priority": "Medium",
+      "title": "Close Icon on Modal",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The system shall provide a close (“X”) icon in the top right of the Edit Element modal to allow the user to dismiss the modal without saving."
               }
             ]
           }
@@ -1212,7 +2059,7 @@
               },
               {
                 "type": "text",
-                "text": " the system to validate that the Element Name field is not empty,"
+                "text": " a close (“X”) icon at the top-right of the modal,"
               },
               {
                 "type": "hardBreak"
@@ -1228,7 +2075,7 @@
               },
               {
                 "type": "text",
-                "text": " no blank records are saved."
+                "text": " I can dismiss the popup without saving."
               }
             ]
           }
@@ -1259,7 +2106,7 @@
               },
               {
                 "type": "text",
-                "text": " the Add Element modal is open,"
+                "text": " the Edit Element modal is open,"
               },
               {
                 "type": "hardBreak"
@@ -1275,7 +2122,7 @@
               },
               {
                 "type": "text",
-                "text": " the Element Name field is empty,"
+                "text": " the user clicks the “X” icon,"
               },
               {
                 "type": "hardBreak"
@@ -1291,50 +2138,18 @@
               },
               {
                 "type": "text",
-                "text": " the Save button shall remain disabled."
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " valid text is entered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Save button shall become enabled."
+                "text": " the modal shall close immediately without saving any changes."
               }
             ]
           }
         ]
       }
     },
-    "10": {
-      "n": 10,
-      "fr_id": "FR-RA-10",
+    "16": {
+      "n": 16,
+      "fr_id": "FR-RA-16",
       "priority": "High",
-      "title": "Save New Element",
+      "title": "Validate Empty or Invalid Element Name",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1344,7 +2159,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "If the user clicks Save, the new element shall be added to the table with a unique Element PIN automatically generated by the system."
+                "text": "If the Element Name field is empty or invalid when the user clicks Save Changes, the system shall prevent saving and display an inline error message below the field (e.g. “Element name is required”)."
               }
             ]
           }
@@ -1375,7 +2190,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -1384,7 +2199,7 @@
               },
               {
                 "type": "text",
-                "text": " save a new rack element,"
+                "text": " the system to prevent saving if the Element Name field is empty or invalid,"
               },
               {
                 "type": "hardBreak"
@@ -1400,7 +2215,7 @@
               },
               {
                 "type": "text",
-                "text": " it gets added to the system with a unique PIN."
+                "text": " no incomplete or incorrect data is saved."
               }
             ]
           }
@@ -1431,7 +2246,7 @@
               },
               {
                 "type": "text",
-                "text": " the user enters a valid Element Name and clicks Save,"
+                "text": " the Element Name field is empty or invalid,"
               },
               {
                 "type": "hardBreak"
@@ -1447,7 +2262,7 @@
               },
               {
                 "type": "text",
-                "text": " the form is submitted,"
+                "text": " the user clicks Save Changes,"
               },
               {
                 "type": "hardBreak"
@@ -1470,1042 +2285,21 @@
               },
               {
                 "type": "text",
-                "text": "Generate a unique Element PIN automatically"
+                "text": "Prevent saving,"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "Add the element to the table."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "11": {
-      "n": 11,
-      "fr_id": "FR-RA-11",
-      "priority": "Medium",
-      "title": "Assign Default Category",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "The system shall assign a default Category as “General” when adding a new element manually."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
+                "text": "Display an inline error message below the field (e.g., “Element name is required”),"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system to assign a default Category automatically when adding an element,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "so that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " classification is consistent."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user adds a new element,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the record is saved,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall auto-assign a default Category (General) when the user adds a new element manually."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "12": {
-      "n": 12,
-      "fr_id": "FR-RA-12",
-      "priority": "High",
-      "title": "Toggle Element Status",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "The system shall allow each element’s Status to be toggled between Active and Inactive using a switch button."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " toggle the status of each element between Active and Inactive,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "so that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can control which elements are currently in use."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the element list is visible,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user toggles the status switch,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the element’s status shall change immediately between Active (blue) and Inactive (grey)."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "13": {
-      "n": 13,
-      "fr_id": "FR-RA-13",
-      "priority": "Medium",
-      "title": "Display Status Text and Color",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "The system shall display the current status in text format beside the toggle: “Active” (blue) or “Inactive” (grey)."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the current status text to be displayed beside the toggle,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "so that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can visually identify an element’s current state."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the status toggle is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the element is Active,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the text “Active” shall be shown in blue."
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the element is Inactive,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the text “Inactive” shall be shown in grey."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "14": {
-      "n": 14,
-      "fr_id": "FR-RA-14",
-      "priority": "Medium",
-      "title": "Perform Actions via Three-Dot Menu",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "The system shall allow users to perform additional actions for each element via the three-dot (⋮) menu in the Action column (e.g., Edit Element, Rack Health Parameter, Edit Activity Phase, Pre-Inspection Guide)."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " use the three-dot (⋮) menu beside each element,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "so that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can perform additional actions such as Edit, Delete, or View Details."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user clicks the three-dot (⋮) menu in the Action column,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the menu expands,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the options Edit Element, Rack Health Parameter, Edit New Activity Phase and Pre-Inspection Guide."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "15": {
-      "n": 15,
-      "fr_id": "FR-RA-15",
-      "priority": "Low",
-      "title": "Cancel Button Behaviour",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "On clicking Cancel in the Add Element popup, the input field shall be cleared, and focus shall return to the Element Name field."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " cancel the input field in the Add Element modal,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "so that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can clear the field and start over."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Add Element modal is open,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user clicks Cancel,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Element Name field shall be cleared,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the cursor focus shall return to that field."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "16": {
-      "n": 16,
-      "fr_id": "FR-RA-16",
-      "priority": "Medium",
-      "title": "Pagination Controls",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "The system shall show pagination controls at the bottom of the table, allowing navigation between pages and adjusting rows per page (e.g., 10, 25, 50)."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " pagination controls below the table,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "so that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can navigate between multiple pages of rack elements."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the element list contains more rows than the current page limit,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user scrolls to the bottom,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " pagination controls shall appear showing navigation options and a “Rows per Page” selector (10, 25, 50)."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "17": {
-      "n": 17,
-      "fr_id": "FR-RA-17",
-      "priority": "High",
-      "title": "Real-Time Table Update",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "The system shall update the table view immediately after a new element is added, without requiring a page reload."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the table to update instantly after adding or editing an element,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "so that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I don’t need to reload the page to see changes."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user adds, edits, or deletes an element,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the operation completes successfully,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall refresh the table data automatically without a full page reload"
+                "text": "Keep the modal open for correction."
               }
             ]
           }
@@ -2518,8 +2312,8 @@
     "story_only": [],
     "missing_acceptance": [],
     "odd_prefix_ids": [],
-    "req_count": 17,
-    "story_count": 17,
-    "matched": 17
+    "req_count": 16,
+    "story_count": 16,
+    "matched": 16
   }
 }
