@@ -1,14 +1,14 @@
 {
   "epic_key": "IRDS-2499",
   "epic_name": "Rules and Action",
-  "fr_prefix": "FR-RC",
-  "created_at": "2026-05-19T10:43:32",
+  "fr_prefix": "FR-RA",
+  "created_at": "2026-05-19T10:55:46",
   "pairs": {
     "1": {
       "n": 1,
-      "fr_id": "FR-RC-01",
+      "fr_id": "FR-RA-01",
       "priority": "High",
-      "title": "Display Risk Assessment Chart Button",
+      "title": "Navigate to Rules and Actions Screen",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -18,7 +18,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall display a “Risk Assessment chart” button in the Rules and Action page header."
+                "text": "System shall display the Rules and actions screen when user selects -> Rack -> IRDS -> Rules and actions."
               }
             ]
           }
@@ -54,7 +54,7 @@
               },
               {
                 "type": "text",
-                "text": " a “Risk Assessment Chart” button in the Rules and Action page"
+                "text": " the Rules and Actions screen to open when I navigate through Rack → IRDS → Rules and Actions"
               },
               {
                 "type": "hardBreak"
@@ -70,7 +70,7 @@
               },
               {
                 "type": "text",
-                "text": " I can access the risk configuration panel."
+                "text": " I can configure diagnostic rules."
               }
             ]
           }
@@ -94,7 +94,23 @@
               },
               {
                 "type": "text",
-                "text": " I am on the Rules and Action page,"
+                "text": " I navigate through Rack → IRDS → Rules and Actions,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the selection is triggered,"
               },
               {
                 "type": "hardBreak"
@@ -110,7 +126,7 @@
               },
               {
                 "type": "text",
-                "text": " the header must display a button labeled “Risk Assessment Chart”."
+                "text": " the Rules and Actions screen is displayed."
               }
             ]
           }
@@ -119,9 +135,9 @@
     },
     "2": {
       "n": 2,
-      "fr_id": "FR-RC-02",
-      "priority": "High",
-      "title": "Open Risk Assessment Chart Modal",
+      "fr_id": "FR-RA-02",
+      "priority": "Medium",
+      "title": "View Breadcrumb Navigation",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -131,7 +147,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "When the user clicks “Risk assessment chart”, a centred modal titled “Risk Assessment Chart” shall open over the Rules and Action page with a background overlay."
+                "text": "System shall display breadcrumb navigation: Rack > Integrated Rack Diagnostic Suite > Rules and Action."
               }
             ]
           }
@@ -167,7 +183,7 @@
               },
               {
                 "type": "text",
-                "text": " the chart to open in a centered modal"
+                "text": " breadcrumb navigation displayed"
               },
               {
                 "type": "hardBreak"
@@ -183,7 +199,7 @@
               },
               {
                 "type": "text",
-                "text": " I can configure risk settings clearly."
+                "text": " I understand my navigation context."
               }
             ]
           }
@@ -207,7 +223,7 @@
               },
               {
                 "type": "text",
-                "text": " the Rules & Action page is loaded,"
+                "text": " I am on the Rules and Actions screen,"
               },
               {
                 "type": "hardBreak"
@@ -223,7 +239,7 @@
               },
               {
                 "type": "text",
-                "text": " I click “Risk Assessment Chart”,"
+                "text": " the page loads,"
               },
               {
                 "type": "hardBreak"
@@ -239,23 +255,7 @@
               },
               {
                 "type": "text",
-                "text": " a centered modal opens with title “Risk Assessment Chart”"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the background becomes dimmed/overlaid."
+                "text": " the breadcrumb displays “Rack > Integrated Rack Diagnostic Suite > Rules and Action”."
               }
             ]
           }
@@ -264,9 +264,9 @@
     },
     "3": {
       "n": 3,
-      "fr_id": "FR-RC-03",
-      "priority": "Medium",
-      "title": "Display Helper Text Below Title",
+      "fr_id": "FR-RA-03",
+      "priority": "High",
+      "title": "View Page Title",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -276,7 +276,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The modal shall display a brief helper text below the title: e.g. “Set severity levels and probability thresholds for each category.”"
+                "text": "System shall display page title as “Rules and Action”."
               }
             ]
           }
@@ -312,7 +312,7 @@
               },
               {
                 "type": "text",
-                "text": " helper text under the modal title"
+                "text": " the page title displayed"
               },
               {
                 "type": "hardBreak"
@@ -328,7 +328,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the purpose of the chart."
+                "text": " I know which module I am using."
               }
             ]
           }
@@ -352,7 +352,23 @@
               },
               {
                 "type": "text",
-                "text": " the modal is open,"
+                "text": " the Rules and Actions page is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the page header loads,"
               },
               {
                 "type": "hardBreak"
@@ -368,14 +384,7 @@
               },
               {
                 "type": "text",
-                "text": " helper text appears under the title, e.g.:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "“Set severity levels and probability thresholds for each category.”"
+                "text": " the title “Rules and Action” is visible."
               }
             ]
           }
@@ -384,9 +393,9 @@
     },
     "4": {
       "n": 4,
-      "fr_id": "FR-RC-04",
+      "fr_id": "FR-RA-04",
       "priority": "High",
-      "title": "Close Icon Behaviour",
+      "title": "View Inspection and Testing Tabs",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -396,7 +405,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The modal shall have a Close (X) icon in the top-right corner. Clicking it shall close the modal without saving unsaved changes."
+                "text": "System shall provide two tabs: Inspection and Testing."
               }
             ]
           }
@@ -432,7 +441,7 @@
               },
               {
                 "type": "text",
-                "text": " a Close (X) icon"
+                "text": " two tabs labeled Inspection and Testing"
               },
               {
                 "type": "hardBreak"
@@ -448,7 +457,7 @@
               },
               {
                 "type": "text",
-                "text": " I can exit the modal without saving."
+                "text": " I can switch between rule categories."
               }
             ]
           }
@@ -472,23 +481,7 @@
               },
               {
                 "type": "text",
-                "text": " the modal is open,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a Close (X) icon appears in the top-right."
+                "text": " the Rules and Actions page is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -504,7 +497,7 @@
               },
               {
                 "type": "text",
-                "text": " I click the X icon,"
+                "text": " the tab section loads,"
               },
               {
                 "type": "hardBreak"
@@ -520,23 +513,7 @@
               },
               {
                 "type": "text",
-                "text": " the modal closes"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " any unsaved changes are discarded."
+                "text": " Inspection and Testing tabs are visible."
               }
             ]
           }
@@ -545,9 +522,9 @@
     },
     "5": {
       "n": 5,
-      "fr_id": "FR-RC-05",
+      "fr_id": "FR-RA-05",
       "priority": "High",
-      "title": "Initial View Mode + Edit Changes Button",
+      "title": "Highlight Active Tab",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -557,7 +534,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "On initial load, all numeric fields in the chart shall be view-only (greyed / non-editable) and the primary button at the bottom-right shall be labelled “Edit Changes.”"
+                "text": "System shall highlight the selected tab."
               }
             ]
           }
@@ -593,7 +570,7 @@
               },
               {
                 "type": "text",
-                "text": " the chart to open in view-only mode"
+                "text": " the selected tab highlighted"
               },
               {
                 "type": "hardBreak"
@@ -609,7 +586,7 @@
               },
               {
                 "type": "text",
-                "text": " accidental edits do not happen."
+                "text": " I know which tab is active."
               }
             ]
           }
@@ -633,7 +610,23 @@
               },
               {
                 "type": "text",
-                "text": " the modal just opened,"
+                "text": " I select a tab,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the tab is activated,"
               },
               {
                 "type": "hardBreak"
@@ -649,23 +642,7 @@
               },
               {
                 "type": "text",
-                "text": " all numeric fields (severity scale + matrix values) are non-editable."
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the primary button shows “Edit Changes.”"
+                "text": " the selected tab is visually highlighted."
               }
             ]
           }
@@ -674,9 +651,9 @@
     },
     "6": {
       "n": 6,
-      "fr_id": "FR-RC-06",
+      "fr_id": "FR-RA-06",
       "priority": "High",
-      "title": "Switch to Edit Mode",
+      "title": "View Test List in Testing Tab",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -686,7 +663,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Clicking “Edit Changes” shall switch the modal into edit mode, making all Min/Max fields editable and changing the primary button label to “Save Changes.”"
+                "text": "When user selects Testing tab, system shall display the list of Test names."
               }
             ]
           }
@@ -722,7 +699,7 @@
               },
               {
                 "type": "text",
-                "text": " toggle into edit mode"
+                "text": " see a list of tests when I select the Testing tab"
               },
               {
                 "type": "hardBreak"
@@ -738,7 +715,7 @@
               },
               {
                 "type": "text",
-                "text": " I can modify severity and matrix values."
+                "text": " I can review available testing rules."
               }
             ]
           }
@@ -762,7 +739,23 @@
               },
               {
                 "type": "text",
-                "text": " I click “Edit Changes”,"
+                "text": " the Testing tab is selected,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the content loads,"
               },
               {
                 "type": "hardBreak"
@@ -778,23 +771,7 @@
               },
               {
                 "type": "text",
-                "text": " all Min/Max numeric fields become editable,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the primary button label changes to “Save Changes.”"
+                "text": " the system displays the list of test names."
               }
             ]
           }
@@ -803,9 +780,9 @@
     },
     "7": {
       "n": 7,
-      "fr_id": "FR-RC-07",
+      "fr_id": "FR-RA-07",
       "priority": "High",
-      "title": "Display Severity Scale (1–9) Section",
+      "title": "View Search Field for Tests",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -815,7 +792,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The section “Severity Scale (1–9)” shall display three color-coded categories in a row: Red, Amber, and Green, each with two numeric inputs: From and To."
+                "text": "System shall provide a search field labelled “Search tests…”."
               }
             ]
           }
@@ -842,7 +819,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -851,7 +828,7 @@
               },
               {
                 "type": "text",
-                "text": " see the severity scale inputs"
+                "text": " a search field labeled “Search tests…”"
               },
               {
                 "type": "hardBreak"
@@ -867,7 +844,7 @@
               },
               {
                 "type": "text",
-                "text": " I can configure Red, Amber, and Green ranges."
+                "text": " I can find specific tests quickly."
               }
             ]
           }
@@ -891,7 +868,23 @@
               },
               {
                 "type": "text",
-                "text": " the modal is open,"
+                "text": " the Testing tab is active,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the page loads,"
               },
               {
                 "type": "hardBreak"
@@ -907,65 +900,7 @@
               },
               {
                 "type": "text",
-                "text": " a section titled “Severity Scale (1–9)” appears."
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " it shows three color-coded categories horizontally:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Red"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Amber"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Green"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Each category has two inputs:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "From"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "To"
+                "text": " a search field labeled “Search tests…” is displayed."
               }
             ]
           }
@@ -974,9 +909,9 @@
     },
     "8": {
       "n": 8,
-      "fr_id": "FR-RC-08",
+      "fr_id": "FR-RA-08",
       "priority": "High",
-      "title": "Integer Validation for Severity Scale",
+      "title": "Dynamically Filter Test Records",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -986,7 +921,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Each Severity Scale input shall accept only integer values from 1 to 9; non-numeric or out-of-range entries shall be prevented or flagged with inline validation."
+                "text": "System shall filter test records dynamically based on entered search keyword (Test ID or Test Name)."
               }
             ]
           }
@@ -1022,7 +957,7 @@
               },
               {
                 "type": "text",
-                "text": " the severity scale inputs to allow only valid integers"
+                "text": " test records filtered dynamically based on search input"
               },
               {
                 "type": "hardBreak"
@@ -1038,7 +973,7 @@
               },
               {
                 "type": "text",
-                "text": " invalid data cannot be saved."
+                "text": " I can quickly locate specific tests."
               }
             ]
           }
@@ -1062,7 +997,23 @@
               },
               {
                 "type": "text",
-                "text": " I try to edit a severity input,"
+                "text": " the search field contains a keyword,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I enter text matching Test ID or Test Name,"
               },
               {
                 "type": "hardBreak"
@@ -1078,28 +1029,7 @@
               },
               {
                 "type": "text",
-                "text": " only integer values between 1 and 9 are allowed."
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "non-numeric, out-of-range, or decimal entries must be:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Blocked OR"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Flagged with inline validation error."
+                "text": " the table dynamically filters the test records."
               }
             ]
           }
@@ -1108,9 +1038,9 @@
     },
     "9": {
       "n": 9,
-      "fr_id": "FR-RC-09",
+      "fr_id": "FR-RA-09",
       "priority": "High",
-      "title": "Validate From ≤ To for Each Severity Band",
+      "title": "Display Test Records in Table",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1120,7 +1050,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall validate that for each severity band, from ≤ To; if not, show inline error text under the field (e.g., “From value cannot be greater than to”)."
+                "text": "System shall display test records in tabular format."
               }
             ]
           }
@@ -1156,7 +1086,7 @@
               },
               {
                 "type": "text",
-                "text": " validation of the numeric range"
+                "text": " test records displayed in tabular format"
               },
               {
                 "type": "hardBreak"
@@ -1172,7 +1102,7 @@
               },
               {
                 "type": "text",
-                "text": " the band definition is always valid."
+                "text": " I can review test details efficiently."
               }
             ]
           }
@@ -1196,7 +1126,7 @@
               },
               {
                 "type": "text",
-                "text": " I enter values in “From” and “To”,"
+                "text": " test records exist,"
               },
               {
                 "type": "hardBreak"
@@ -1212,7 +1142,7 @@
               },
               {
                 "type": "text",
-                "text": " From > To,"
+                "text": " the Testing tab loads,"
               },
               {
                 "type": "hardBreak"
@@ -1228,30 +1158,7 @@
               },
               {
                 "type": "text",
-                "text": " show inline error:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "“From value cannot be greater than To.”"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Save Changes is blocked."
+                "text": " the records appear in a table layout."
               }
             ]
           }
@@ -1260,9 +1167,9 @@
     },
     "10": {
       "n": 10,
-      "fr_id": "FR-RC-10",
+      "fr_id": "FR-RA-10",
       "priority": "High",
-      "title": "Prevent Overlapping Severity Bands",
+      "title": "View Table Columns",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1272,7 +1179,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall prevent overlapping or duplicate ranges between Red, Amber, and Green (e.g., the same number cannot fall into two colours). If overlap occurs, an inline error shall appear."
+                "text": "System shall display the following columns: Test ID, Test Name, Test Scope, Linked Element Types, Status, and Action menu."
               }
             ]
           }
@@ -1308,7 +1215,7 @@
               },
               {
                 "type": "text",
-                "text": " the system to block overlapping definitions"
+                "text": " the table to display all relevant columns"
               },
               {
                 "type": "hardBreak"
@@ -1324,7 +1231,7 @@
               },
               {
                 "type": "text",
-                "text": " each value from 1–9 belongs to exactly one color."
+                "text": " I can understand test configuration details."
               }
             ]
           }
@@ -1348,7 +1255,7 @@
               },
               {
                 "type": "text",
-                "text": " I enter severity scale values,"
+                "text": " the test table is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1364,7 +1271,7 @@
               },
               {
                 "type": "text",
-                "text": " any number overlaps between two colors (e.g., Red 1–3 & Amber 3–5),"
+                "text": " the header row is rendered,"
               },
               {
                 "type": "hardBreak"
@@ -1380,30 +1287,7 @@
               },
               {
                 "type": "text",
-                "text": " inline error appears:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "“Severity ranges cannot overlap.”"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Save is blocked."
+                "text": " the columns Test ID, Test Name, Test Scope, Linked Element Types, Status, and Action menu are visible."
               }
             ]
           }
@@ -1412,9 +1296,9 @@
     },
     "11": {
       "n": 11,
-      "fr_id": "FR-RC-11",
-      "priority": "High",
-      "title": "Display Probability & Consequence Matrix",
+      "fr_id": "FR-RA-11",
+      "priority": "Medium",
+      "title": "Sort Table Columns",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1424,7 +1308,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The section “Probability & Consequence Matrix” shall be displayed as a grid with rows for High, Moderate, Low, Minimal (probability) and columns for Minor, Significant, Critical, Catastrophic (consequence)."
+                "text": "System shall allow sorting on Test ID column, Test Name column and Test Scope column."
               }
             ]
           }
@@ -1460,7 +1344,7 @@
               },
               {
                 "type": "text",
-                "text": " see the full probability–consequence grid"
+                "text": " sort the table by Test ID, Test Name, and Test Scope"
               },
               {
                 "type": "hardBreak"
@@ -1476,7 +1360,7 @@
               },
               {
                 "type": "text",
-                "text": " I can configure risk band values."
+                "text": " I can organize test records."
               }
             ]
           }
@@ -1500,7 +1384,23 @@
               },
               {
                 "type": "text",
-                "text": " the modal is open,"
+                "text": " sortable columns are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click the column header for Test ID, Test Name, or Test Scope,"
               },
               {
                 "type": "hardBreak"
@@ -1516,79 +1416,7 @@
               },
               {
                 "type": "text",
-                "text": " the Probability & Consequence Matrix appears with:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Rows (Probability):"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "High"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Moderate"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Low"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Minimal"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Columns (Consequence):"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Minor"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Significant"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Critical"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Catastrophic"
+                "text": " the table records are sorted accordingly."
               }
             ]
           }
@@ -1597,9 +1425,9 @@
     },
     "12": {
       "n": 12,
-      "fr_id": "FR-RC-12",
+      "fr_id": "FR-RA-12",
       "priority": "High",
-      "title": "Min/Max Inputs Inside Each Matrix Cell",
+      "title": "Display Test Scope with Visual Differentiation",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1609,7 +1437,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Each cell in the Probability & Consequence Matrix shall contain two numeric inputs Min and Max to define the risk score band for that probability–consequence combination."
+                "text": "System shall display Test Scope as either “Global” or “Local” with visual differentiation."
               }
             ]
           }
@@ -1645,7 +1473,7 @@
               },
               {
                 "type": "text",
-                "text": " each matrix cell to have numeric inputs"
+                "text": " the Test Scope displayed with visual differentiation"
               },
               {
                 "type": "hardBreak"
@@ -1661,7 +1489,7 @@
               },
               {
                 "type": "text",
-                "text": " I can define the risk score band for each combination."
+                "text": " I can quickly identify Global or Local scope."
               }
             ]
           }
@@ -1685,7 +1513,23 @@
               },
               {
                 "type": "text",
-                "text": " any matrix cell is visible,"
+                "text": " test records are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Test Scope column is rendered,"
               },
               {
                 "type": "hardBreak"
@@ -1701,21 +1545,7 @@
               },
               {
                 "type": "text",
-                "text": " it contains two fields:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Min"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Max"
+                "text": " the scope appears as either “Global” or “Local” with visual styling."
               }
             ]
           }
@@ -1724,9 +1554,9 @@
     },
     "13": {
       "n": 13,
-      "fr_id": "FR-RC-13",
+      "fr_id": "FR-RA-13",
       "priority": "High",
-      "title": "Integer Validation in Matrix Inputs",
+      "title": "Display Linked Element Types as Tags",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1736,7 +1566,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "All matrix Min/Max inputs shall accept only integer values (no decimals, text, or negative numbers); invalid entries shall be blocked or flagged inline."
+                "text": "System shall display linked element types as tags (e.g., Beam, Upright, Bracing, Baseplate, Floor)."
               }
             ]
           }
@@ -1772,7 +1602,7 @@
               },
               {
                 "type": "text",
-                "text": " clean numeric validation in each matrix field"
+                "text": " linked element types displayed as tags"
               },
               {
                 "type": "hardBreak"
@@ -1788,7 +1618,7 @@
               },
               {
                 "type": "text",
-                "text": " risk scoring remains accurate."
+                "text": " I can easily identify related rack elements."
               }
             ]
           }
@@ -1812,7 +1642,23 @@
               },
               {
                 "type": "text",
-                "text": " I edit a Min or Max field inside the matrix,"
+                "text": " linked element types exist,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the table row is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1828,42 +1674,7 @@
               },
               {
                 "type": "text",
-                "text": " it must only allow:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Positive integers"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "No decimals"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "No letters"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "No negative values"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Invalid entries are blocked or show inline validation."
+                "text": " element types appear as tags (e.g., Beam, Upright, Bracing, Baseplate, Floor)."
               }
             ]
           }
@@ -1872,9 +1683,9 @@
     },
     "14": {
       "n": 14,
-      "fr_id": "FR-RC-14",
-      "priority": "High",
-      "title": "Validate Min ≤ Max for Every Matrix Cell",
+      "fr_id": "FR-RA-14",
+      "priority": "Medium",
+      "title": "Display Placeholder When No Linked Elements",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1884,7 +1695,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "For every matrix cell, the system shall validate Min ≤ Max; if violated, an inline error shall appear."
+                "text": "System shall display “—” if no linked element types are available."
               }
             ]
           }
@@ -1920,7 +1731,7 @@
               },
               {
                 "type": "text",
-                "text": " validation ensuring Min is never greater than Max"
+                "text": " a placeholder displayed when no linked elements exist"
               },
               {
                 "type": "hardBreak"
@@ -1936,7 +1747,7 @@
               },
               {
                 "type": "text",
-                "text": " each risk band remains valid."
+                "text": " I understand that no elements are associated."
               }
             ]
           }
@@ -1960,7 +1771,7 @@
               },
               {
                 "type": "text",
-                "text": " I am editing a Probability–Consequence matrix cell,"
+                "text": " a test rule has no linked element types,"
               },
               {
                 "type": "hardBreak"
@@ -1976,7 +1787,7 @@
               },
               {
                 "type": "text",
-                "text": " I enter values where Min > Max,"
+                "text": " the table row is rendered,"
               },
               {
                 "type": "hardBreak"
@@ -1992,30 +1803,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays an inline error message under that cell,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "e.g., “Min value cannot be greater than Max.”"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Save Changes action is blocked."
+                "text": " the system displays “—”."
               }
             ]
           }
@@ -2024,9 +1812,9 @@
     },
     "15": {
       "n": 15,
-      "fr_id": "FR-RC-15",
+      "fr_id": "FR-RA-15",
       "priority": "High",
-      "title": "Mandatory Fields Enforcement",
+      "title": "Toggle Test Rule Status",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2036,7 +1824,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Fields marked with an asterisk (*) in the modal (e.g., probability rows) shall be mandatory. If any required field is empty in edit mode, show inline error “Required field” and prevent save."
+                "text": "System shall display status toggle for each test name."
               }
             ]
           }
@@ -2072,7 +1860,7 @@
               },
               {
                 "type": "text",
-                "text": " required fields to be validated"
+                "text": " a status toggle for each test name"
               },
               {
                 "type": "hardBreak"
@@ -2088,7 +1876,7 @@
               },
               {
                 "type": "text",
-                "text": " the matrix is always fully defined."
+                "text": " I can enable or disable tests."
               }
             ]
           }
@@ -2112,7 +1900,7 @@
               },
               {
                 "type": "text",
-                "text": " fields marked with an asterisk (*) are required,"
+                "text": " a test rule is listed,"
               },
               {
                 "type": "hardBreak"
@@ -2128,7 +1916,7 @@
               },
               {
                 "type": "text",
-                "text": " any required field is left empty in edit mode,"
+                "text": " the Status column is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -2144,23 +1932,7 @@
               },
               {
                 "type": "text",
-                "text": " an inline error appears: “Required field”"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Save Changes is prevented until all required fields are completed."
+                "text": " a toggle control is available for that test name."
               }
             ]
           }
@@ -2169,9 +1941,9 @@
     },
     "16": {
       "n": 16,
-      "fr_id": "FR-RC-16",
-      "priority": "Low",
-      "title": "Display Static Instructional Note",
+      "fr_id": "FR-RA-16",
+      "priority": "High",
+      "title": "Display Active Status When Toggle is ON",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2181,14 +1953,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The Note section at the bottom of the modal shall display static instructional text (1.“set severity as per your experience by number 1-9 for green, amber, red"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "2. all required fields must be filled out. Please review your entries and complete the necessary information.”) This text is non-editable."
+                "text": "When toggle is ON, system shall display status as “Active”."
               }
             ]
           }
@@ -2224,7 +1989,7 @@
               },
               {
                 "type": "text",
-                "text": " clear instructional text displayed at the bottom"
+                "text": " the test rule to show “Active” when the toggle is ON"
               },
               {
                 "type": "hardBreak"
@@ -2240,7 +2005,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand how severity and required fields work."
+                "text": " I know the rule is enabled."
               }
             ]
           }
@@ -2264,7 +2029,23 @@
               },
               {
                 "type": "text",
-                "text": " the Risk Assessment Chart modal is open,"
+                "text": " a test rule toggle is switched ON,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the status is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -2280,37 +2061,7 @@
               },
               {
                 "type": "text",
-                "text": " a Note section appears at the bottom containing the static non-editable text:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "“Set severity as per your experience by number 1–9 for green, amber, red.”"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "“All required fields must be filled out. Please review your entries and complete the necessary information.”"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " users cannot edit or modify this note."
+                "text": " the system shows the status as “Active”."
               }
             ]
           }
@@ -2319,9 +2070,9 @@
     },
     "17": {
       "n": 17,
-      "fr_id": "FR-RC-17",
+      "fr_id": "FR-RA-17",
       "priority": "High",
-      "title": "Cancel Button Discards Unsaved Changes",
+      "title": "Deactivate Test Rule",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2331,7 +2082,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Clicking Cancel in the bottom-left of the modal shall close the modal and discard any unsaved changes made in the current edit session."
+                "text": "When user switches toggle OFF, system shall deactivate the test rule."
               }
             ]
           }
@@ -2352,500 +2103,6 @@
                     "type": "strong"
                   }
                 ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a Cancel button to discard edits"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can exit without saving accidental modifications."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I am in edit mode,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I click Cancel (bottom-left),"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the modal closes"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " all unsaved edits from the current session are discarded"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " no changes are saved to the backend."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "18": {
-      "n": 18,
-      "fr_id": "FR-RC-18",
-      "priority": "High",
-      "title": "Confirmation Popup Before Saving Changes",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Clicking “Save Changes” shall display a confirmation pop-up of “Confirm changes?” and text below – “This update will affect all modules, inspections, and rules that reference this chart.” “Proceed only if you want these changes applied system wide.”"
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a confirmation dialog before saving"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand the system-wide impact of changes."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I click Save Changes,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a confirmation popup appears titled “Confirm changes?”And contains the text:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "“This update will affect all modules, inspections, and rules that reference this chart. Proceed only if you want these changes applied system wide.”"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the popup displays two actions:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Cancel"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Apply Changes"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "19": {
-      "n": 19,
-      "fr_id": "FR-RC-19",
-      "priority": "High",
-      "title": "Save, Close Modal, and Show Success Toast",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "After Clicking Apply Changes, the modal shall close automatically and the user shall be returned to the Rules and Action list screen and a green toast notification shall appear at the top-right of the Rules and Action screen with message “Risk assessment chart updated successfully” and a success icon."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " successful updates to be saved and acknowledged"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know changes have been applied."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I am on the confirmation popup,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I click Apply Changes,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Saves the updated severity and matrix configuration"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Closes the Risk Assessment Chart modal"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Returns me to the Rules & Action list screen"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Displays a green toast notification at top-right:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "“Risk assessment chart updated successfully”"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "(with success icon)"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "20": {
-      "n": 20,
-      "fr_id": "FR-RC-20",
-      "priority": "High",
-      "title": "Show Latest Saved Values When Reopening",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "On re-opening the Risk Assessment Chart, all fields shall show the latest saved values (both Severity Scale and Probability & Consequence Matrix)."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
               },
               {
                 "type": "hardBreak"
@@ -2861,7 +2118,7 @@
               },
               {
                 "type": "text",
-                "text": " see the most recently saved chart values"
+                "text": " deactivate a test rule using the toggle"
               },
               {
                 "type": "hardBreak"
@@ -2877,7 +2134,7 @@
               },
               {
                 "type": "text",
-                "text": " I always work with the latest configuration."
+                "text": " the rule stops applying."
               }
             ]
           }
@@ -2901,7 +2158,23 @@
               },
               {
                 "type": "text",
-                "text": " the user reopens the Risk Assessment Chart,"
+                "text": " a test rule is active,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I switch the toggle OFF,"
               },
               {
                 "type": "hardBreak"
@@ -2917,35 +2190,55 @@
               },
               {
                 "type": "text",
-                "text": " all fields in both:"
+                "text": " the system deactivates the test rule."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "18": {
+      "n": 18,
+      "fr_id": "FR-RA-18",
+      "priority": "High",
+      "title": "Persist Status Changes",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall persist status changes after toggle action."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "Severity Scale (1–9)"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Probability & Consequence Matrix"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "show the latest saved values,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -2954,7 +2247,1498 @@
               },
               {
                 "type": "text",
-                "text": " these values appear in view-only mode until the user chooses Edit Changes."
+                "text": " status changes saved after toggling"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the rule state remains consistent."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I change the toggle status of a test rule,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the action completes,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system persists the updated status."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "19": {
+      "n": 19,
+      "fr_id": "FR-RA-19",
+      "priority": "High",
+      "title": "Support Pagination",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall support pagination for test records."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " pagination available for test records"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " large lists are easier to navigate."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " multiple test records exist,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the table loads,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " pagination controls are displayed."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "20": {
+      "n": 20,
+      "fr_id": "FR-RA-20",
+      "priority": "High",
+      "title": "Display Page Indicator",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display current page indicator (e.g., Page 1 of 2)."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see the current page indicator"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I know my position in the list."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " pagination is enabled,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the table is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows the current page indicator (e.g., Page 1 of 2)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "21": {
+      "n": 21,
+      "fr_id": "FR-RA-21",
+      "priority": "High",
+      "title": "Navigate Using Previous and Next Controls",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall provide Previous and Next navigation controls for pagination."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Previous and Next controls"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can move between pages."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " multiple pages exist,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click Previous or Next,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system navigates to the respective page."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "22": {
+      "n": 22,
+      "fr_id": "FR-RA-22",
+      "priority": "Medium",
+      "title": "Select Rows Per Page",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall allow user to select number of rows per page (e.g., 10)."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " choose how many rows appear per page"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can adjust table density."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " pagination controls are visible,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I select a row count option (e.g., 10),"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the table updates to display the selected number of rows."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "23": {
+      "n": 23,
+      "fr_id": "FR-RA-23",
+      "priority": "Medium",
+      "title": "Update Record Count Dynamically",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall dynamically update record count based on selected rows per page."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the record count to update when rows per page changes"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I know how many records are displayed."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I change the rows per page setting,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the table refreshes,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the displayed record count updates dynamically."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "24": {
+      "n": 24,
+      "fr_id": "FR-RA-24",
+      "priority": "High",
+      "title": "Load Additional Records on Page Navigation",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall load additional test records when navigating to next page."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " additional test records loaded when navigating pages"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can view the full dataset."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I navigate to the next page,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the page loads,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system displays the next set of test records."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "25": {
+      "n": 25,
+      "fr_id": "FR-RA-25",
+      "priority": "High",
+      "title": "Maintain Search and Sort During Pagination",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall maintain applied search and sort criteria during pagination."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " search and sort criteria preserved while paging"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " filtered results remain consistent."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " search or sorting is applied,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I navigate between pages,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system maintains the applied search and sorting criteria."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "26": {
+      "n": 26,
+      "fr_id": "FR-RA-26",
+      "priority": "Medium",
+      "title": "Visually Differentiate Global and Local Tests",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall visually differentiate Global tests (e.g., G1–G5) from Local tests (e.g., L1–L10)."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Global and Local tests visually distinguished"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can easily identify their type."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the test list is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " test IDs are shown,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Global tests (e.g., G1–G5) and Local tests (e.g., L1–L10) appear visually differentiated."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "27": {
+      "n": 27,
+      "fr_id": "FR-RA-27",
+      "priority": "Medium",
+      "title": "Restrict Linked Elements for Global Tests",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall ensure that Global tests cannot require linked element types."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Global tests to not require linked element types"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " global rules remain universal."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a test rule has Global scope,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it is displayed or configured,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " linked element types are not required."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "28": {
+      "n": 28,
+      "fr_id": "FR-RA-28",
+      "priority": "High",
+      "title": "Allow Element Linking for Local Tests",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall allow Local tests to be associated with one or more element types."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Local tests to support linking with element types"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " rules can target specific rack components."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a test rule has Local scope,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it is configured,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system allows association with one or more element types."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "29": {
+      "n": 29,
+      "fr_id": "FR-RA-29",
+      "priority": "High",
+      "title": "Refresh List When Switching Tabs",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall refresh test list when switching between Inspection and Testing tabs."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the test list refreshed when switching between Inspection and Testing tabs"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I always see the correct data."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I switch between Inspection and Testing tabs,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the tab changes,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system refreshes and loads the relevant records."
               }
             ]
           }
@@ -2967,8 +3751,8 @@
     "story_only": [],
     "missing_acceptance": [],
     "odd_prefix_ids": [],
-    "req_count": 20,
-    "story_count": 20,
-    "matched": 20
+    "req_count": 29,
+    "story_count": 29,
+    "matched": 29
   }
 }
