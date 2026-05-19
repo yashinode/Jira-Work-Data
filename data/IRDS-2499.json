@@ -1,14 +1,14 @@
 {
   "epic_key": "IRDS-2499",
   "epic_name": "Rules and Action",
-  "fr_prefix": "FR-RA",
-  "created_at": "2026-05-19T09:45:38",
+  "fr_prefix": "FR-RHP",
+  "created_at": "2026-05-19T09:51:10",
   "pairs": {
     "1": {
       "n": 1,
-      "fr_id": "FR-RA-01",
+      "fr_id": "FR-RPH-01",
       "priority": "High",
-      "title": "Action Menu for Each Row",
+      "title": "Access Rack Health Parameters for Selected Element",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -18,7 +18,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall provide an Action menu (⋮) for each row in the Rules and Action table."
+                "text": "The system shall provide access via Rules & Action → [Element] → Rack Health Parameters and display a tabular list of sub-issue types for the selected element."
               }
             ]
           }
@@ -41,15 +41,11 @@
                 ]
               },
               {
-                "type": "text",
-                "text": ","
-              },
-              {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "I want",
+                "text": "I want to",
                 "marks": [
                   {
                     "type": "strong"
@@ -58,14 +54,14 @@
               },
               {
                 "type": "text",
-                "text": " an Action menu (⋮) for each row in the Rules and Action table,"
+                "text": " navigate to Rack Health Parameters from Rules & Action"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -74,7 +70,7 @@
               },
               {
                 "type": "text",
-                "text": " I can access edit or other element-level actions easily."
+                "text": " I can view sub-issue types of the selected element."
               }
             ]
           }
@@ -89,13 +85,6 @@
             "content": [
               {
                 "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
                 "text": "Given",
                 "marks": [
                   {
@@ -105,7 +94,7 @@
               },
               {
                 "type": "text",
-                "text": " the Rules and Action table is displayed,"
+                "text": " I am on Rules & Action → [Element],"
               },
               {
                 "type": "hardBreak"
@@ -121,7 +110,7 @@
               },
               {
                 "type": "text",
-                "text": " the user hovers over or clicks the Action icon (⋮) beside a row,"
+                "text": " I click Rack Health Parameters,"
               },
               {
                 "type": "hardBreak"
@@ -137,7 +126,23 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display an Action menu specific to that element."
+                "text": " the system opens the Rack Health Parameters page"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " displays a tabular list of sub-issue types for that specific element."
               }
             ]
           }
@@ -146,9 +151,9 @@
     },
     "2": {
       "n": 2,
-      "fr_id": "FR-RA-02",
+      "fr_id": "FR-RPH-02",
       "priority": "High",
-      "title": "Edit Element Option in Menu",
+      "title": "Display Columns in Rack Health Parameter Table",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -158,7 +163,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall display an Edit Element option in the Action menu for that row."
+                "text": "The table shall display columns:  Observation logged, Probability of Event, Effect of Event, Severity (badge), Severity Type (A/B/…), Risk Type (1–9)."
               }
             ]
           }
@@ -181,10 +186,6 @@
                 ]
               },
               {
-                "type": "text",
-                "text": ","
-              },
-              {
                 "type": "hardBreak"
               },
               {
@@ -198,14 +199,14 @@
               },
               {
                 "type": "text",
-                "text": " an Edit Element option inside the Action menu,"
+                "text": " the table to show required rack health parameter fields"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -214,7 +215,7 @@
               },
               {
                 "type": "text",
-                "text": " I can modify the name of an existing rack element."
+                "text": " I can understand the risk details clearly."
               }
             ]
           }
@@ -229,13 +230,6 @@
             "content": [
               {
                 "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
                 "text": "Given",
                 "marks": [
                   {
@@ -245,23 +239,7 @@
               },
               {
                 "type": "text",
-                "text": " the Action menu is expanded,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user views the menu options,"
+                "text": " the Rack Health Parameters table is visible,"
               },
               {
                 "type": "hardBreak"
@@ -277,7 +255,49 @@
               },
               {
                 "type": "text",
-                "text": " Edit Element shall be listed along with other possible actions (e.g., Delete, View)."
+                "text": " it displays the columns:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Observation Logged"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Probability of Event"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Effect of Event"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Severity (badge)"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Severity Type (A/B/…)"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Risk Type (1–9)"
               }
             ]
           }
@@ -286,9 +306,9 @@
     },
     "3": {
       "n": 3,
-      "fr_id": "FR-RA-03",
+      "fr_id": "FR-RHP-03",
       "priority": "High",
-      "title": "Open Edit Element Modal",
+      "title": "Open Rack Health Parameter Page From Action Menu",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -298,7 +318,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "When the user selects Edit Element, the system shall open an Edit Element modal centered on the screen."
+                "text": "Clicking “Rack Health Parameter” in Rules & Action shall open the Rack Health Parameters list page. Of that particular selected element."
               }
             ]
           }
@@ -321,10 +341,6 @@
                 ]
               },
               {
-                "type": "text",
-                "text": ","
-              },
-              {
                 "type": "hardBreak"
               },
               {
@@ -338,14 +354,14 @@
               },
               {
                 "type": "text",
-                "text": " the Edit Element option to open a modal popup,"
+                "text": " clicking “Rack Health Parameter” from Rules & Action to open the correct page"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -354,7 +370,7 @@
               },
               {
                 "type": "text",
-                "text": " I can view and edit element details without leaving the page."
+                "text": " I see parameters only for that element."
               }
             ]
           }
@@ -369,13 +385,6 @@
             "content": [
               {
                 "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
                 "text": "Given",
                 "marks": [
                   {
@@ -385,23 +394,7 @@
               },
               {
                 "type": "text",
-                "text": " the user clicks Edit Element,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system processes the request,"
+                "text": " I am on Rules & Action and click Rack Health Parameter,"
               },
               {
                 "type": "hardBreak"
@@ -417,7 +410,14 @@
               },
               {
                 "type": "text",
-                "text": " an Edit Element modal shall appear centered on the screen."
+                "text": " the system opens the Rack Health Parameters list"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Filtered for the selected element."
               }
             ]
           }
@@ -426,9 +426,9 @@
     },
     "4": {
       "n": 4,
-      "fr_id": "FR-RA-04",
+      "fr_id": "FR-RHP-04",
       "priority": "High",
-      "title": "Display Current Element Name and Reference Element dropdown",
+      "title": "Search Bar for Dynamic Filtering",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -438,7 +438,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The Edit Element modal shall display the current value of the Element’s name and Reference Element in an editable text input field."
+                "text": "The page shall display a search bar allowing users to search observations or issue types dynamically."
               }
             ]
           }
@@ -461,10 +461,6 @@
                 ]
               },
               {
-                "type": "text",
-                "text": ","
-              },
-              {
                 "type": "hardBreak"
               },
               {
@@ -478,14 +474,14 @@
               },
               {
                 "type": "text",
-                "text": " the modal to pre-fill the existing Element Name and Reference Element in an editable field,"
+                "text": " a search bar on the Rack Health Parameter page"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -494,7 +490,7 @@
               },
               {
                 "type": "text",
-                "text": " I can see and update the current value."
+                "text": " I can dynamically filter observations/issue types."
               }
             ]
           }
@@ -509,13 +505,6 @@
             "content": [
               {
                 "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
                 "text": "Given",
                 "marks": [
                   {
@@ -525,7 +514,7 @@
               },
               {
                 "type": "text",
-                "text": " the Edit Element modal opens,"
+                "text": " the search bar is visible,"
               },
               {
                 "type": "hardBreak"
@@ -541,7 +530,7 @@
               },
               {
                 "type": "text",
-                "text": " it loads element data,"
+                "text": " I type any text,"
               },
               {
                 "type": "hardBreak"
@@ -557,7 +546,21 @@
               },
               {
                 "type": "text",
-                "text": " the current Element Name shall appear in an editable text input labeled Element Name, and current Reference Element shall appear in Reference Element dropdown."
+                "text": " the list filters dynamically based on:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Observation"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Issue Type"
               }
             ]
           }
@@ -566,9 +569,9 @@
     },
     "5": {
       "n": 5,
-      "fr_id": "FR-RA-05",
-      "priority": "Medium",
-      "title": "Buttons in Edit Modal",
+      "fr_id": "FR-RHP-05",
+      "priority": "High",
+      "title": "Display Main Rack Health Parameter Table",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -578,7 +581,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The Edit Element modal shall include two buttons: Cancel and Save Changes."
+                "text": "The main “Rack health parameter” screen/table shall list all configured health parameter entries with columns: Observation ID, Observation Name, Probability of Event, Effect of Event, Severity."
               }
             ]
           }
@@ -601,10 +604,6 @@
                 ]
               },
               {
-                "type": "text",
-                "text": ","
-              },
-              {
                 "type": "hardBreak"
               },
               {
@@ -618,14 +617,14 @@
               },
               {
                 "type": "text",
-                "text": " the modal to include Cancel and Save Changes buttons,"
+                "text": " the Rack Health Parameter screen to show configured entries"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -634,7 +633,7 @@
               },
               {
                 "type": "text",
-                "text": " I can choose to either discard or confirm my edits."
+                "text": " I can view all health parameters in one place."
               }
             ]
           }
@@ -649,13 +648,6 @@
             "content": [
               {
                 "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
                 "text": "Given",
                 "marks": [
                   {
@@ -665,23 +657,7 @@
               },
               {
                 "type": "text",
-                "text": " the Edit Element modal is open,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user views the bottom section,"
+                "text": " the page loads,"
               },
               {
                 "type": "hardBreak"
@@ -697,7 +673,42 @@
               },
               {
                 "type": "text",
-                "text": " two buttons shall be visible: Cancel and Save Changes."
+                "text": " the screen displays a table containing:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Observation ID"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Observation Name"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Probability of Event"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Effect of Event"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Severity"
               }
             ]
           }
@@ -706,9 +717,9 @@
     },
     "6": {
       "n": 6,
-      "fr_id": "FR-RA-06",
-      "priority": "Medium",
-      "title": "Cancel Action Behavior",
+      "fr_id": "FR-RHP-06",
+      "priority": "High",
+      "title": "Observation Click Opens Edit Modal",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -718,7 +729,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Clicking Cancel shall clear any unsaved changes in the input field and restore the original Element Name value from before opening the modal."
+                "text": "Each Observation shall be shown as a clickable hyperlink that opens the Rack Health Parameters Setup modal in edit mode."
               }
             ]
           }
@@ -741,10 +752,6 @@
                 ]
               },
               {
-                "type": "text",
-                "text": ","
-              },
-              {
                 "type": "hardBreak"
               },
               {
@@ -758,14 +765,14 @@
               },
               {
                 "type": "text",
-                "text": " the Cancel button to clear unsaved changes and restore the original name,"
+                "text": " each observation to be a hyperlink"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -774,7 +781,7 @@
               },
               {
                 "type": "text",
-                "text": " no accidental edits are saved."
+                "text": " I can open and edit specific parameters."
               }
             ]
           }
@@ -789,13 +796,6 @@
             "content": [
               {
                 "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
                 "text": "Given",
                 "marks": [
                   {
@@ -805,23 +805,7 @@
               },
               {
                 "type": "text",
-                "text": " the user edits the Element Name,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " they click Cancel,"
+                "text": " the table is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -837,7 +821,39 @@
               },
               {
                 "type": "text",
-                "text": " the modal shall reset the field to its original value and close the modal without saving."
+                "text": " each Observation appears as a clickable hyperlink."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click the Observation text,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Rack Health Parameter Setup modal opens in edit mode."
               }
             ]
           }
@@ -846,9 +862,9 @@
     },
     "7": {
       "n": 7,
-      "fr_id": "FR-RA-07",
-      "priority": "High",
-      "title": "Show Confirmation Popup When Saving Edited Element",
+      "fr_id": "FR-RHP-07",
+      "priority": "Medium",
+      "title": "Severity Uses Colour Tags",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -858,7 +874,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "When the user clicks Save Changes in the Edit Element form, the system shall display a confirmation pop-up titled “Confirm Update Element”"
+                "text": "Severity column shall use visual tags (Amber/Red/Green)."
               }
             ]
           }
@@ -894,14 +910,14 @@
               },
               {
                 "type": "text",
-                "text": " a confirmation popup to appear when I click Save Changes in the Edit Element form"
+                "text": " the severity column to use coloured badges"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -910,7 +926,7 @@
               },
               {
                 "type": "text",
-                "text": " I can confirm the update before the system applies configuration changes."
+                "text": " severity levels are visually identifiable."
               }
             ]
           }
@@ -934,23 +950,7 @@
               },
               {
                 "type": "text",
-                "text": " the user is on the Edit Element form"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user clicks Save Changes"
+                "text": " severity is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -966,7 +966,28 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display a confirmation pop-up titled “Confirm Update Element”."
+                "text": " the column uses coloured visual tags:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Green = Low"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Amber = Medium"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Red = High"
               }
             ]
           }
@@ -975,9 +996,9 @@
     },
     "8": {
       "n": 8,
-      "fr_id": "FR-RA-08",
+      "fr_id": "FR-RHP-08",
       "priority": "Medium",
-      "title": "Display Confirmation Description Message",
+      "title": "Pagination Controls",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -987,7 +1008,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The confirmation pop-up shall include a description “You’re about to update this element’s configuration. Please confirm that all linked activity phases and observations should be updated as well."
+                "text": "Pagination controls shall appear at the bottom right (e.g., Next, Previous, Page numbers)."
               }
             ]
           }
@@ -1023,14 +1044,14 @@
               },
               {
                 "type": "text",
-                "text": " the confirmation popup to show a clear description of the impact"
+                "text": " pagination at the bottom of the table"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -1039,7 +1060,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand that linked activity phases and observations may also be updated."
+                "text": " I can navigate through multiple records."
               }
             ]
           }
@@ -1063,23 +1084,7 @@
               },
               {
                 "type": "text",
-                "text": " the confirmation pop-up is displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the popup loads"
+                "text": " more records than the page limit exist,"
               },
               {
                 "type": "hardBreak"
@@ -1095,14 +1100,28 @@
               },
               {
                 "type": "text",
-                "text": " it shall show the description:"
+                "text": " pagination controls appear at the bottom-right:"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "“You’re about to update this element’s configuration. Please confirm that all linked activity phases and observations should be updated as well.”"
+                "text": "Previous"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Next"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Page numbers"
               }
             ]
           }
@@ -1111,9 +1130,9 @@
     },
     "9": {
       "n": 9,
-      "fr_id": "FR-RA-09",
-      "priority": "High",
-      "title": "Display Cancel and Confirm & Update Buttons",
+      "fr_id": "FR-RHP-09",
+      "priority": "Medium",
+      "title": "Rows Per Page Dropdown",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1123,7 +1142,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The pop-up shall contain two buttons: Cancel and Confirm & Update."
+                "text": "Rows per page” dropdown must allow users to select number of rows (10, 20, 50, 100)."
               }
             ]
           }
@@ -1159,14 +1178,14 @@
               },
               {
                 "type": "text",
-                "text": " the popup to display Cancel and Confirm & Update buttons"
+                "text": " a dropdown for selecting number of rows per page"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -1175,7 +1194,7 @@
               },
               {
                 "type": "text",
-                "text": " I can choose whether to proceed with the update or cancel it."
+                "text": " I can expand or limit the visible list."
               }
             ]
           }
@@ -1199,23 +1218,7 @@
               },
               {
                 "type": "text",
-                "text": " the confirmation popup appears"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user views the popup"
+                "text": " the table is visible,"
               },
               {
                 "type": "hardBreak"
@@ -1231,7 +1234,3072 @@
               },
               {
                 "type": "text",
-                "text": " it shall contain two buttons:"
+                "text": " a “Rows per page” dropdown is shown with options:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "10"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "20"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "50"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "100"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "10": {
+      "n": 10,
+      "fr_id": "FR-RHP-10",
+      "priority": "Low",
+      "title": "Empty State for No Search Results",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "If no matching results found in search, show a friendly empty state: “No parameters found for the selected criteria.”"
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a user-friendly empty result message"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand that no matching data exists."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I type a search term that matches no results,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " show empty state:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“No parameters found for the selected criteria.”"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "11": {
+      "n": 11,
+      "fr_id": "FR-RHP-11",
+      "priority": "High",
+      "title": "Clicking Observation Opens Setup Modal",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "When user clicks an Observation from the observation column, the Rack Health Parameters Setup modal shall open."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " clicking an observation to open its setup modal"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can edit details immediately."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the table is visible,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click an Observation hyperlink,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Rack Health Parameters Setup modal opens."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "12": {
+      "n": 12,
+      "fr_id": "FR-RHP-12",
+      "priority": "High",
+      "title": "Modal Opens Centered With Close Icon",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The modal shall open as a centered overlay with close icon (X) in top right."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the setup modal to appear centered"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it is clearly visible and focused."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Setup modal opens,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it appears centered on screen"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " displays a close icon (X) in the top-right corner."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "13": {
+      "n": 13,
+      "fr_id": "FR-RHP-13",
+      "priority": "High",
+      "title": "View Risk Chart Navigation Link",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Navigation text “View Risk Chart” (hyperlink) shall appear on top right inside modal and shall open the Risk Assessment Chart modal."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a “View Risk Chart” hyperlink inside the modal"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can view the risk matrix/chart."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Setup modal is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a hyperlink “View Risk Chart” appears in the top-right."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click it,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Risk Assessment Chart modal opens."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "14": {
+      "n": 14,
+      "fr_id": "FR-RHP-14",
+      "priority": "High",
+      "title": "Rack Health Parameter Modal Sections",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The Rack Health Parameter modal shall include 4 sections:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Primary assessment: Observation and"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Risk probability of event"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Risk factors: Effect of event, Severity, Action"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Detailed Analysis: Possible reason"
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the modal organised into four sections"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " all attributes can be edited clearly."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Rack Health Parameter modal opens,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it contains these 4 structured sections:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "1. Primary Assessment"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Observation"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Risk Probability of Event"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "2. Risk Factors"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Effect of Event"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Severity"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Action"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "3. Detailed Analysis"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Possible Reason"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "15": {
+      "n": 15,
+      "fr_id": "FR-RHP-15",
+      "priority": "High",
+      "title": "Observation Field Non-Editable",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The field Observation shall be displayed as a non-editable text box when editing an existing rule."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Observation field to be locked during editing"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I cannot modify the original observation text."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I open the Rack Health Parameter modal in edit mode,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Observation field appears as a non-editable text box."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "16": {
+      "n": 16,
+      "fr_id": "FR-RHP-16",
+      "priority": "High",
+      "title": "Probability of Event Radio Buttons",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Risk Probability of Event shall include radio buttons: Minimal, Low, Moderate, High."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " predefined radio options for Risk Probability"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can choose the correct probability level."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the modal is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Risk Probability of Event field displays radio buttons:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Minimal"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Low"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Moderate"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "High"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "17": {
+      "n": 17,
+      "fr_id": "FR-RHP-17",
+      "priority": "High",
+      "title": "Probability Required Validation",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "One probability option must always be selected. If nothing is selected at Save, show inline validation: “Please select probability of event.”"
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " validation if probability is missing"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " all assessments contain a probability value."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click Save,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " no probability option is selected,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " show inline validation:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“Please select probability of event.”"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " prevent saving."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "18": {
+      "n": 18,
+      "fr_id": "FR-RHP-18",
+      "priority": "High",
+      "title": "Effect of Event Dropdown",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Effect of Event dropdown shall show impact categories (Minor, Significant, Critical, Catastrophic)."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a dropdown for the Effect of Event"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can select the appropriate impact category."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the modal is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Effect of Event dropdown shows:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Minor"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Significant"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Critical"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Catastrophic"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "19": {
+      "n": 19,
+      "fr_id": "FR-RHP-19",
+      "priority": "High",
+      "title": "Effect of Event Validation",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "If Effect of Event is not selected, show inline error: “Select effect of event.”"
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " an inline error when Effect of Event is not selected"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I do not save incomplete assessments."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click Save,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Effect of Event is empty,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " display inline error:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“Select effect of event.”"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " do not save."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "20": {
+      "n": 20,
+      "fr_id": "FR-RHP-20",
+      "priority": "High",
+      "title": "Auto-Populate Severity",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Severity field shall auto-populate based on the Severity Scale defined in the Risk Assessment Chart (Red/Amber/Green)."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Severity to auto-fill based on the Risk Assessment Chart"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " severity is consistent and rule-driven."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Probability and Effect values exist,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " either field changes,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Severity updates automatically using the matrix (Red/Amber/Green)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "21": {
+      "n": 21,
+      "fr_id": "FR-RHP-21",
+      "priority": "High",
+      "title": "Severity Type Auto-Populate & Non-Editable",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Severity Type field shall auto-populate based on matrix rule and be non-editable."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Severity Type to auto-populate and remain locked"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it remains consistent with severity rules."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the modal is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Severity Type field is non-editable."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Probability or Effect changes,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Severity Type updates automatically per matrix logic."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "22": {
+      "n": 22,
+      "fr_id": "FR-RHP-22",
+      "priority": "Medium",
+      "title": "Action Dropdown",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Action dropdown shall list configured actions (e.g., Replace, Repair, Monitor, etc.)."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " an Action dropdown"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can assign the correct corrective measure."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the modal is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Action dropdown lists configured actions:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "(e.g., Replace, Repair, Monitor)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "23": {
+      "n": 23,
+      "fr_id": "FR-RHP-23",
+      "priority": "High",
+      "title": "Action Field Mandatory",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Action field shall be mandatory. Empty selection shall show: “Please select an action.”"
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " mandatory validation on Action"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " no rule is left without required action."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click Save,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Action field is empty,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " show inline error:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“Please select an action.”"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " prevent saving."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "24": {
+      "n": 24,
+      "fr_id": "FR-RHP-24",
+      "priority": "High",
+      "title": "Severity Fields Read-Only and Auto-Updating",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Severity and Severity Type fields shall become read-only and update automatically when user changes Probability or Effect of Event."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Severity and Severity Type to update automatically"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " values always reflect risk matrix logic."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the modal is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Severity and Severity Type are read-only."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Probability or Effect of Event changes,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " both Severity and Severity Type update automatically."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "25": {
+      "n": 25,
+      "fr_id": "FR-RHP-25",
+      "priority": "Medium",
+      "title": "Possible Reason Multi-Line Input",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The Possible Reason text area shall allow multi-line input to capture defect analysis."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a text area for Possible Reason"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can enter detailed analysis notes."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the modal is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Possible Reason appears as a multi-line text area."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "26": {
+      "n": 26,
+      "fr_id": "FR-RHP-26",
+      "priority": "Low",
+      "title": "Character Limit for Possible Reason",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The system shall support up to 500 characters in Possible Reason."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a 500-character limit"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can add enough detail without overfilling."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the text area is active,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Possible Reason accepts up to 500 characters"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " prevents input beyond that limit."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "27": {
+      "n": 27,
+      "fr_id": "FR-RHP-27",
+      "priority": "High",
+      "title": "Validate Required Fields Before Save",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "If Required fields are missing, the modal shall not save and inline errors must appear below each field."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system to stop me from saving incomplete data"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " all risk parameters are valid."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " any required field (Probability, Effect, Action) is empty,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click Save,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the modal does NOT save"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " inline errors appear under each missing field."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "28": {
+      "n": 28,
+      "fr_id": "FR-RHP-28",
+      "priority": "High",
+      "title": "Edit Rack Health Parameters Button",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Edit Rack Health Parameters button at the bottom of the modal shall convert the form into editable mode (if initially view-only)."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a button to switch from view-only to editable mode"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can update existing data."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the modal opens in view-only mode,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " an Edit Rack Health Parameters button appears at the bottom."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click it,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " all editable fields become active."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "29": {
+      "n": 29,
+      "fr_id": "FR-RHP-29",
+      "priority": "High",
+      "title": "Save Changes Validation",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Clicking Save Changes shall validate: Probability, Effect of Event, Action, and ensure Severity values are auto-generated."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " saving to validate required fields"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the parameters are complete and correct."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click Save Changes,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " validate:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Probability"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Effect of Event"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Action"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Auto-generated Severity & Severity Type"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "If any validation fails, do not save."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "30": {
+      "n": 30,
+      "fr_id": "FR-RHP-30",
+      "priority": "High",
+      "title": "Confirm Changes Popup",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "After Clicking save changes a confirmation pop-up shall be displayed “Confirm changes?” – “Updating Rack Health Parameters will modify all observations that use this configuration. Are you sure you want to apply these changes?”."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a confirmation popup before applying changes"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand the impact on multiple observations."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click Save Changes,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " show popup:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“Confirm changes?”"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“Updating Rack Health Parameters will modify all observations that use this configuration. Are you sure you want to apply these changes?”"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "31": {
+      "n": 31,
+      "fr_id": "FR-RHP-31",
+      "priority": "High",
+      "title": "Confirmation Popup Buttons",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The confirmation pop-up shall display two buttons “Cancel” and “Apply Changes.”"
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Cancel and Apply Changes buttons"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can confirm or cancel the update."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the popup is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it contains:"
               },
               {
                 "type": "hardBreak"
@@ -1245,18 +4313,50 @@
               },
               {
                 "type": "text",
-                "text": "Confirm & Update"
+                "text": "Apply Changes"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click Cancel,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the popup closes and changes are discarded."
               }
             ]
           }
         ]
       }
     },
-    "10": {
-      "n": 10,
-      "fr_id": "FR-RA-10",
+    "32": {
+      "n": 32,
+      "fr_id": "FR-RHP-32",
       "priority": "High",
-      "title": "Cancel Closes Popup Without Saving Changes",
+      "title": "Cancel Discards Changes and Closes Modal",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1266,7 +4366,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Clicking Cancel shall close the confirmation pop-up and return the user to the Edit Element form without applying changes."
+                "text": "On clicking cancel the changes shall be discarded and the modal shall be closed."
               }
             ]
           }
@@ -1302,14 +4402,14 @@
               },
               {
                 "type": "text",
-                "text": " clicking Cancel to close the popup and return me to the form"
+                "text": " cancelling to discard all edits"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -1318,7 +4418,7 @@
               },
               {
                 "type": "text",
-                "text": " I can continue editing without saving changes."
+                "text": " no unwanted updates are made."
               }
             ]
           }
@@ -1342,7 +4442,7 @@
               },
               {
                 "type": "text",
-                "text": " the confirmation popup is open"
+                "text": " the confirmation popup is open,"
               },
               {
                 "type": "hardBreak"
@@ -1358,7 +4458,7 @@
               },
               {
                 "type": "text",
-                "text": " the user clicks Cancel"
+                "text": " I click Cancel,"
               },
               {
                 "type": "hardBreak"
@@ -1374,7 +4474,7 @@
               },
               {
                 "type": "text",
-                "text": " the popup shall close"
+                "text": " the modal closes"
               },
               {
                 "type": "hardBreak"
@@ -1390,34 +4490,18 @@
               },
               {
                 "type": "text",
-                "text": " the system shall return to the Edit Element form"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " no changes shall be applied."
+                "text": " no changes are saved."
               }
             ]
           }
         ]
       }
     },
-    "11": {
-      "n": 11,
-      "fr_id": "FR-RA-11",
+    "33": {
+      "n": 33,
+      "fr_id": "FR-RHP-33",
       "priority": "High",
-      "title": "Confirm & Update Applies All Changes",
+      "title": "Apply Changes Success Toast",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1427,7 +4511,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Clicking Confirm & Update shall save all changes made to the element and update any linked activity phases and observations as required."
+                "text": "On clicking “Apply changes” a green toast notification shall appear on Rack Health Parameter screen to the top right corner “Element Health Parameter updated successfully.”"
               }
             ]
           }
@@ -1463,14 +4547,14 @@
               },
               {
                 "type": "text",
-                "text": " clicking Confirm & Update to save my edits"
+                "text": " a success toast after applying changes"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -1479,7 +4563,7 @@
               },
               {
                 "type": "text",
-                "text": " the element and all linked configurations are updated correctly."
+                "text": " I receive feedback on the update."
               }
             ]
           }
@@ -1503,14 +4587,14 @@
               },
               {
                 "type": "text",
-                "text": " the user clicks Confirm & Update"
+                "text": " I click Apply Changes,"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "When",
+                "text": "And",
                 "marks": [
                   {
                     "type": "strong"
@@ -1519,7 +4603,7 @@
               },
               {
                 "type": "text",
-                "text": " the system processes the update"
+                "text": " the update succeeds,"
               },
               {
                 "type": "hardBreak"
@@ -1535,39 +4619,25 @@
               },
               {
                 "type": "text",
-                "text": " it shall:"
+                "text": " show toast at top-right on the Rack Health Parameter screen:"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "Save all changes made to the element"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Update all linked activity phases"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Update all linked observations as required"
+                "text": "“Element Health Parameter updated successfully.”"
               }
             ]
           }
         ]
       }
     },
-    "12": {
-      "n": 12,
-      "fr_id": "FR-RA-12",
+    "34": {
+      "n": 34,
+      "fr_id": "FR-RHP-34",
       "priority": "High",
-      "title": "Close Modals and Refresh Element List After Update",
+      "title": "Refresh List After Successful Save",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1577,7 +4647,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "After successful update, the system shall close all models and refresh the element list to reflect updated details."
+                "text": "If the save operation succeeds, the Confirm modal shall close and the particular element’s Rack Health Parameters list shall refresh with updated values."
               }
             ]
           }
@@ -1613,14 +4683,14 @@
               },
               {
                 "type": "text",
-                "text": " the system to close all popups and refresh the list after a successful update"
+                "text": " the list to refresh after saving changes"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -1629,7 +4699,7 @@
               },
               {
                 "type": "text",
-                "text": " I can immediately see the updated element details."
+                "text": " I see updated Rack Health Parameter values immediately."
               }
             ]
           }
@@ -1653,7 +4723,7 @@
               },
               {
                 "type": "text",
-                "text": " the update completes successfully"
+                "text": " I click Apply Changes,"
               },
               {
                 "type": "hardBreak"
@@ -1669,7 +4739,7 @@
               },
               {
                 "type": "text",
-                "text": " the system finishes saving"
+                "text": " the save operation succeeds,"
               },
               {
                 "type": "hardBreak"
@@ -1685,7 +4755,7 @@
               },
               {
                 "type": "text",
-                "text": " all open modals shall close"
+                "text": " the confirmation modal closes"
               },
               {
                 "type": "hardBreak"
@@ -1701,18 +4771,34 @@
               },
               {
                 "type": "text",
-                "text": " the element list shall refresh to reflect the updated details."
+                "text": " the Rack Health Parameters list for that element refreshes"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " updated values are displayed."
               }
             ]
           }
         ]
       }
     },
-    "13": {
-      "n": 13,
-      "fr_id": "FR-RA-13",
+    "35": {
+      "n": 35,
+      "fr_id": "FR-RHP-35",
       "priority": "High",
-      "title": "Refresh Table Row After Successful Update",
+      "title": "Auto-Calculate Severity and Severity Type",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1722,7 +4808,163 @@
             "content": [
               {
                 "type": "text",
-                "text": "After a successful update, the system shall immediately refresh the table row with the new Element Name without requiring a full page reload."
+                "text": "Severity and Severity Type must be auto-calculated based on the currently configured Risk Assessment Chart matrix."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " system"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Severity and Severity Type to be auto-calculated"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " they always follow the Risk Assessment Chart logic."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Risk Assessment matrix is configured,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Probability or Effect values change,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Severity and Severity Type auto-calculate"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Based on the matrix rules"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " remain read-only."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "36": {
+      "n": 36,
+      "fr_id": "FR-RHP-36",
+      "priority": "High",
+      "title": "Auto-Refresh Severity & Risk Type",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Changing Probability of Event or Effect of Event shall immediately refresh Severity and Risk Type."
               }
             ]
           }
@@ -1758,14 +5000,14 @@
               },
               {
                 "type": "text",
-                "text": " the updated element’s row in the table to refresh immediately after saving changes"
+                "text": " Risk Type and Severity to refresh instantly"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -1774,7 +5016,7 @@
               },
               {
                 "type": "text",
-                "text": " I can see the new Element Name without needing a full page reload."
+                "text": " the calculated risk is always accurate."
               }
             ]
           }
@@ -1798,7 +5040,7 @@
               },
               {
                 "type": "text",
-                "text": " the user successfully updates an element"
+                "text": " the Setup modal is open,"
               },
               {
                 "type": "hardBreak"
@@ -1814,7 +5056,7 @@
               },
               {
                 "type": "text",
-                "text": " the system completes the update"
+                "text": " I change Probability of Event or Effect of Event,"
               },
               {
                 "type": "hardBreak"
@@ -1830,7 +5072,7 @@
               },
               {
                 "type": "text",
-                "text": " the specific table row for that element shall refresh automatically"
+                "text": " Severity updates immediately"
               },
               {
                 "type": "hardBreak"
@@ -1846,34 +5088,18 @@
               },
               {
                 "type": "text",
-                "text": " it shall display the updated Element Name"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the page shall not reload fully."
+                "text": " Risk Type updates immediately."
               }
             ]
           }
         ]
       }
     },
-    "14": {
-      "n": 14,
-      "fr_id": "FR-RA-14",
+    "37": {
+      "n": 37,
+      "fr_id": "FR-RHP-37",
       "priority": "High",
-      "title": "Show Success Toast After Update",
+      "title": "Prevent Saving Invalid Data",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1883,7 +5109,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "After a successful update, the system shall display a success toast/notification in the top right corner of the screen with the message: “Element updated successfully.”"
+                "text": "Invalid data entries (empty, malformed, or invalid state combinations) shall prevent save and show inline messaging."
               }
             ]
           }
@@ -1919,14 +5145,14 @@
               },
               {
                 "type": "text",
-                "text": " a success toast notification after the update"
+                "text": " validation for empty, malformed, or invalid values"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -1935,7 +5161,7 @@
               },
               {
                 "type": "text",
-                "text": " I receive confirmation that the element was updated."
+                "text": " only correct configurations can be saved."
               }
             ]
           }
@@ -1959,7 +5185,7 @@
               },
               {
                 "type": "text",
-                "text": " the element update is successful"
+                "text": " any required field is missing or malformed,"
               },
               {
                 "type": "hardBreak"
@@ -1975,7 +5201,7 @@
               },
               {
                 "type": "text",
-                "text": " the system completes the action"
+                "text": " I click Save/Apply Changes,"
               },
               {
                 "type": "hardBreak"
@@ -1991,25 +5217,884 @@
               },
               {
                 "type": "text",
-                "text": " a success toast shall appear in the top-right corner with the message:"
+                "text": " the system prevents saving"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "“Element updated successfully.”"
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " inline error messages appear under invalid fields."
               }
             ]
           }
         ]
       }
     },
-    "15": {
-      "n": 15,
-      "fr_id": "FR-RA-15",
+    "38": {
+      "n": 38,
+      "fr_id": "FR-RHP-38",
+      "priority": "High",
+      "title": "Prevent Duplicate Rack Health Configurations",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The system shall prevent conflicting configurations—same Observation + same risk mapping combination cannot be duplicated."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " system"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " prevent duplicate Observation + Risk combinations"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " conflicting risk mappings cannot exist."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " an Observation already exists with a defined probability/effect combination,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the user attempts to save a duplicate combination,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " saving is blocked"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " show inline error:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“A configuration with this Observation and risk mapping already exists.”"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "39": {
+      "n": 39,
+      "fr_id": "FR-RHP-39",
+      "priority": "High",
+      "title": "Open Risk Chart Modal",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "In the Rack Health Parameters Setup modal, clicking the “View Risk Chart” link (top-right) shall open a Risk Assessment Chart modal as a centered overlay, without closing the underlying Setup modal."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " open the Risk Assessment Chart without losing progress"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can reference the matrix while editing."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Setup modal is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click “View Risk Chart”,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Risk Assessment Chart modal opens centered"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Without closing or altering the underlying Setup modal."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "40": {
+      "n": 40,
+      "fr_id": "FR-RHP-40",
+      "priority": "High",
+      "title": "Display Matrix Structure in Risk Chart Modal",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The Risk Assessment Chart modal shall show a color-coded matrix with rows for Probability or Likelihood levels (High, Moderate, Low, Minimal) and columns for Minor, Significant, Critical, Catastrophic."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the modal to show a structured color-coded matrix"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can understand probability vs consequence levels."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Risk Chart modal is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it shows:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Rows = Probability (High, Moderate, Low, Minimal)"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Columns = Consequence (Minor, Significant, Critical, Catastrophic)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "41": {
+      "n": 41,
+      "fr_id": "FR-RHP-41",
+      "priority": "High",
+      "title": "Show Risk Index Values & Colours in Matrix",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Each matrix cell shall display the corresponding risk index value and background colours (Red / Amber / Green) representing the risk band. The values and colours are view-only in this modal."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " each matrix cell to show risk value + colour band"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can interpret severity at a glance."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Risk Chart modal is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " each matrix cell displays:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Risk Index value (1–9)"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Background colours (Red, Amber, or Green)"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " all cells are view-only."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "42": {
+      "n": 42,
+      "fr_id": "FR-RHP-42",
+      "priority": "High",
+      "title": "Legend/Explanation Below Matrix",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "A small legend or note shall appear below the matrix explaining how to interpret the numbers and colours (“The number are essentially a Risk Index – a relationship probability and consequence”"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "We recommend severity by number 1 to 9 as it allows what is in effect “shades” of each colour)."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a legend explaining the numbers and colours"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand how the matrix works."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the modal is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a legend/note appears below the matrix:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“The numbers are essentially a Risk Index – a relationship between probability and consequence. Severity 1 to 9 allows finer differentiation within each color band.”"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "43": {
+      "n": 43,
+      "fr_id": "FR-RHP-43",
+      "priority": "High",
+      "title": "Close Risk Chart Modal",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The Risk Assessment Chart modal shall have a Close (X) icon in the top-right. Clicking it shall close the chart and return focus to the Rack Health Parameters Setup modal."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " close the Risk Assessment Chart modal"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can return to editing parameters."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Risk Chart modal is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it displays a Close (X) button top-right."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click the Close icon,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Risk Chart modal closes"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " user focus returns to the underlying Setup modal."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "44": {
+      "n": 44,
+      "fr_id": "FR-RHP-44",
       "priority": "Medium",
-      "title": "Close Icon on Modal",
+      "title": "Disable Background Interaction When Risk Chart Is Open",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2019,7 +6104,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall provide a close (“X”) icon in the top right of the Edit Element modal to allow the user to dismiss the modal without saving."
+                "text": "While the Risk Chart is open, the background (Setup modal + list page) shall be dimmed and non-interactive."
               }
             ]
           }
@@ -2042,10 +6127,6 @@
                 ]
               },
               {
-                "type": "text",
-                "text": ","
-              },
-              {
                 "type": "hardBreak"
               },
               {
@@ -2059,14 +6140,14 @@
               },
               {
                 "type": "text",
-                "text": " a close (“X”) icon at the top-right of the modal,"
+                "text": " the background to be non-interactive"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -2075,7 +6156,7 @@
               },
               {
                 "type": "text",
-                "text": " I can dismiss the popup without saving."
+                "text": " I focus only on the Risk Chart modal."
               }
             ]
           }
@@ -2090,13 +6171,6 @@
             "content": [
               {
                 "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
                 "text": "Given",
                 "marks": [
                   {
@@ -2106,23 +6180,7 @@
               },
               {
                 "type": "text",
-                "text": " the Edit Element modal is open,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user clicks the “X” icon,"
+                "text": " the Risk Chart modal is open,"
               },
               {
                 "type": "hardBreak"
@@ -2138,43 +6196,14 @@
               },
               {
                 "type": "text",
-                "text": " the modal shall close immediately without saving any changes."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "16": {
-      "n": 16,
-      "fr_id": "FR-RA-16",
-      "priority": "High",
-      "title": "Validate Empty or Invalid Element Name",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
+                "text": " the Setup modal and list screen behind it become dimmed"
+              },
+              {
+                "type": "hardBreak"
+              },
               {
                 "type": "text",
-                "text": "If the Element Name field is empty or invalid when the user clicks Save Changes, the system shall prevent saving and display an inline error message below the field (e.g. “Element name is required”)."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
+                "text": "And",
                 "marks": [
                   {
                     "type": "strong"
@@ -2183,123 +6212,7 @@
               },
               {
                 "type": "text",
-                "text": ","
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system to prevent saving if the Element Name field is empty or invalid,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "so that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " no incomplete or incorrect data is saved."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Element Name field is empty or invalid,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user clicks Save Changes,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Prevent saving,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Display an inline error message below the field (e.g., “Element name is required”),"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Keep the modal open for correction."
+                "text": " are non-interactive (cannot click or scroll)."
               }
             ]
           }
@@ -2311,9 +6224,12 @@
     "req_only": [],
     "story_only": [],
     "missing_acceptance": [],
-    "odd_prefix_ids": [],
-    "req_count": 16,
-    "story_count": 16,
-    "matched": 16
+    "odd_prefix_ids": [
+      "FR-RPH-01",
+      "FR-RPH-02"
+    ],
+    "req_count": 44,
+    "story_count": 44,
+    "matched": 44
   }
 }
