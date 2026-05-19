@@ -1,14 +1,14 @@
 {
   "epic_key": "IRDS-2499",
   "epic_name": "Rules and Action",
-  "fr_prefix": "FR-RA",
-  "created_at": "2026-05-19T10:55:46",
+  "fr_prefix": "FR-CB",
+  "created_at": "2026-05-19T11:46:49",
   "pairs": {
     "1": {
       "n": 1,
-      "fr_id": "FR-RA-01",
+      "fr_id": "FR-CB-01",
       "priority": "High",
-      "title": "Navigate to Rules and Actions Screen",
+      "title": "Open Component Bend Configuration Drawer",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -18,7 +18,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Rules and actions screen when user selects -> Rack -> IRDS -> Rules and actions."
+                "text": "When user selects a Component Bend Local test (e.g., L1 or L2) from the Rules and Action list, system shall open a right-side configuration drawer."
               }
             ]
           }
@@ -54,7 +54,7 @@
               },
               {
                 "type": "text",
-                "text": " the Rules and Actions screen to open when I navigate through Rack → IRDS → Rules and Actions"
+                "text": " the configuration drawer to open when I select a Component Bend Local test"
               },
               {
                 "type": "hardBreak"
@@ -70,7 +70,7 @@
               },
               {
                 "type": "text",
-                "text": " I can configure diagnostic rules."
+                "text": " I can configure its evaluation parameters."
               }
             ]
           }
@@ -94,7 +94,7 @@
               },
               {
                 "type": "text",
-                "text": " I navigate through Rack → IRDS → Rules and Actions,"
+                "text": " I am viewing the Rules and Action list,"
               },
               {
                 "type": "hardBreak"
@@ -110,7 +110,7 @@
               },
               {
                 "type": "text",
-                "text": " the selection is triggered,"
+                "text": " I select a Component Bend Local test (e.g., L1 or L2),"
               },
               {
                 "type": "hardBreak"
@@ -126,7 +126,7 @@
               },
               {
                 "type": "text",
-                "text": " the Rules and Actions screen is displayed."
+                "text": " the system opens a right-side configuration drawer."
               }
             ]
           }
@@ -135,9 +135,9 @@
     },
     "2": {
       "n": 2,
-      "fr_id": "FR-RA-02",
-      "priority": "Medium",
-      "title": "View Breadcrumb Navigation",
+      "fr_id": "FR-CB-02",
+      "priority": "High",
+      "title": "Display Test Name and ID in Header",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -147,7 +147,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display breadcrumb navigation: Rack > Integrated Rack Diagnostic Suite > Rules and Action."
+                "text": "System shall display the test name and test ID in the drawer header (e.g., Component Bend (L1) — Configuration)."
               }
             ]
           }
@@ -183,7 +183,7 @@
               },
               {
                 "type": "text",
-                "text": " breadcrumb navigation displayed"
+                "text": " the test name and ID displayed in the drawer header"
               },
               {
                 "type": "hardBreak"
@@ -199,7 +199,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand my navigation context."
+                "text": " I can identify the selected test configuration."
               }
             ]
           }
@@ -223,7 +223,7 @@
               },
               {
                 "type": "text",
-                "text": " I am on the Rules and Actions screen,"
+                "text": " the configuration drawer is open,"
               },
               {
                 "type": "hardBreak"
@@ -239,7 +239,7 @@
               },
               {
                 "type": "text",
-                "text": " the page loads,"
+                "text": " the header is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -255,7 +255,7 @@
               },
               {
                 "type": "text",
-                "text": " the breadcrumb displays “Rack > Integrated Rack Diagnostic Suite > Rules and Action”."
+                "text": " the system shows the test name and ID (e.g., Component Bend (L1) — Configuration)."
               }
             ]
           }
@@ -264,9 +264,9 @@
     },
     "3": {
       "n": 3,
-      "fr_id": "FR-RA-03",
-      "priority": "High",
-      "title": "View Page Title",
+      "fr_id": "FR-CB-03",
+      "priority": "Medium",
+      "title": "Display Test Scope Badge",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -276,7 +276,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display page title as “Rules and Action”."
+                "text": "System shall display the test scope badge (e.g., Local) in the header."
               }
             ]
           }
@@ -312,7 +312,7 @@
               },
               {
                 "type": "text",
-                "text": " the page title displayed"
+                "text": " the test scope badge displayed"
               },
               {
                 "type": "hardBreak"
@@ -328,7 +328,7 @@
               },
               {
                 "type": "text",
-                "text": " I know which module I am using."
+                "text": " I know the scope classification of the test."
               }
             ]
           }
@@ -352,7 +352,7 @@
               },
               {
                 "type": "text",
-                "text": " the Rules and Actions page is displayed,"
+                "text": " the configuration drawer header is visible,"
               },
               {
                 "type": "hardBreak"
@@ -368,7 +368,7 @@
               },
               {
                 "type": "text",
-                "text": " the page header loads,"
+                "text": " the test details are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -384,7 +384,7 @@
               },
               {
                 "type": "text",
-                "text": " the title “Rules and Action” is visible."
+                "text": " the system shows the scope badge (e.g., Local)."
               }
             ]
           }
@@ -393,9 +393,9 @@
     },
     "4": {
       "n": 4,
-      "fr_id": "FR-RA-04",
+      "fr_id": "FR-CB-04",
       "priority": "High",
-      "title": "View Inspection and Testing Tabs",
+      "title": "Display Close Icon in Header",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -405,7 +405,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall provide two tabs: Inspection and Testing."
+                "text": "System shall provide a close (X) icon to dismiss the configuration drawer."
               }
             ]
           }
@@ -441,7 +441,7 @@
               },
               {
                 "type": "text",
-                "text": " two tabs labeled Inspection and Testing"
+                "text": " a close (X) icon in the configuration drawer header"
               },
               {
                 "type": "hardBreak"
@@ -457,7 +457,7 @@
               },
               {
                 "type": "text",
-                "text": " I can switch between rule categories."
+                "text": " I can quickly dismiss the drawer."
               }
             ]
           }
@@ -481,7 +481,7 @@
               },
               {
                 "type": "text",
-                "text": " the Rules and Actions page is displayed,"
+                "text": " the configuration drawer is open,"
               },
               {
                 "type": "hardBreak"
@@ -497,7 +497,7 @@
               },
               {
                 "type": "text",
-                "text": " the tab section loads,"
+                "text": " the header is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -513,7 +513,7 @@
               },
               {
                 "type": "text",
-                "text": " Inspection and Testing tabs are visible."
+                "text": " the system provides a close (X) icon."
               }
             ]
           }
@@ -522,9 +522,9 @@
     },
     "5": {
       "n": 5,
-      "fr_id": "FR-RA-05",
+      "fr_id": "FR-CB-05",
       "priority": "High",
-      "title": "Highlight Active Tab",
+      "title": "Close Drawer Without Saving Changes",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -534,7 +534,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall highlight the selected tab."
+                "text": "When user clicks close icon, system shall close the drawer without saving unsaved changes."
               }
             ]
           }
@@ -570,7 +570,7 @@
               },
               {
                 "type": "text",
-                "text": " the selected tab highlighted"
+                "text": " the drawer to close without saving when I click the close icon"
               },
               {
                 "type": "hardBreak"
@@ -586,7 +586,7 @@
               },
               {
                 "type": "text",
-                "text": " I know which tab is active."
+                "text": " accidental changes are not stored."
               }
             ]
           }
@@ -610,7 +610,7 @@
               },
               {
                 "type": "text",
-                "text": " I select a tab,"
+                "text": " the configuration drawer contains unsaved changes,"
               },
               {
                 "type": "hardBreak"
@@ -626,7 +626,7 @@
               },
               {
                 "type": "text",
-                "text": " the tab is activated,"
+                "text": " I click the close (X) icon,"
               },
               {
                 "type": "hardBreak"
@@ -642,7 +642,7 @@
               },
               {
                 "type": "text",
-                "text": " the selected tab is visually highlighted."
+                "text": " the system closes the drawer without saving the changes."
               }
             ]
           }
@@ -651,9 +651,9 @@
     },
     "6": {
       "n": 6,
-      "fr_id": "FR-RA-06",
-      "priority": "High",
-      "title": "View Test List in Testing Tab",
+      "fr_id": "FR-CB-06",
+      "priority": "Medium",
+      "title": "Display Test Description",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -663,7 +663,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "When user selects Testing tab, system shall display the list of Test names."
+                "text": "System shall display descriptive subtitle explaining the test logic (e.g., Geometric deformation tolerance)."
               }
             ]
           }
@@ -690,7 +690,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -699,7 +699,7 @@
               },
               {
                 "type": "text",
-                "text": " see a list of tests when I select the Testing tab"
+                "text": " a descriptive subtitle explaining the test logic"
               },
               {
                 "type": "hardBreak"
@@ -715,7 +715,7 @@
               },
               {
                 "type": "text",
-                "text": " I can review available testing rules."
+                "text": " I understand the purpose of the configuration."
               }
             ]
           }
@@ -739,7 +739,7 @@
               },
               {
                 "type": "text",
-                "text": " the Testing tab is selected,"
+                "text": " the configuration drawer is open,"
               },
               {
                 "type": "hardBreak"
@@ -755,7 +755,7 @@
               },
               {
                 "type": "text",
-                "text": " the content loads,"
+                "text": " the description section is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -771,7 +771,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays the list of test names."
+                "text": " the system shows a subtitle explaining the test logic (e.g., Geometric deformation tolerance)."
               }
             ]
           }
@@ -780,9 +780,9 @@
     },
     "7": {
       "n": 7,
-      "fr_id": "FR-RA-07",
+      "fr_id": "FR-CB-07",
       "priority": "High",
-      "title": "View Search Field for Tests",
+      "title": "Group Configuration by Element Types",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -792,7 +792,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall provide a search field labelled “Search tests…”."
+                "text": "System shall group configuration sections by linked element types (e.g., Beam, Upright, Bracing)."
               }
             ]
           }
@@ -828,7 +828,7 @@
               },
               {
                 "type": "text",
-                "text": " a search field labeled “Search tests…”"
+                "text": " configuration sections grouped by element types"
               },
               {
                 "type": "hardBreak"
@@ -844,7 +844,7 @@
               },
               {
                 "type": "text",
-                "text": " I can find specific tests quickly."
+                "text": " I can easily configure rules for each element."
               }
             ]
           }
@@ -868,7 +868,7 @@
               },
               {
                 "type": "text",
-                "text": " the Testing tab is active,"
+                "text": " the configuration drawer is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -884,7 +884,7 @@
               },
               {
                 "type": "text",
-                "text": " the page loads,"
+                "text": " the configuration sections load,"
               },
               {
                 "type": "hardBreak"
@@ -900,7 +900,7 @@
               },
               {
                 "type": "text",
-                "text": " a search field labeled “Search tests…” is displayed."
+                "text": " the system groups them by linked element types such as Beam, Upright, and Bracing."
               }
             ]
           }
@@ -909,9 +909,9 @@
     },
     "8": {
       "n": 8,
-      "fr_id": "FR-RA-08",
-      "priority": "High",
-      "title": "Dynamically Filter Test Records",
+      "fr_id": "FR-CB-08",
+      "priority": "Medium",
+      "title": "Support Expand/Collapse Sections",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -921,7 +921,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall filter test records dynamically based on entered search keyword (Test ID or Test Name)."
+                "text": "System shall allow expand/collapse behaviour for each element section."
               }
             ]
           }
@@ -957,7 +957,7 @@
               },
               {
                 "type": "text",
-                "text": " test records filtered dynamically based on search input"
+                "text": " each element section to support expand and collapse behaviour"
               },
               {
                 "type": "hardBreak"
@@ -973,7 +973,7 @@
               },
               {
                 "type": "text",
-                "text": " I can quickly locate specific tests."
+                "text": " I can manage screen space while reviewing configurations."
               }
             ]
           }
@@ -997,7 +997,7 @@
               },
               {
                 "type": "text",
-                "text": " the search field contains a keyword,"
+                "text": " element configuration sections are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1013,7 +1013,7 @@
               },
               {
                 "type": "text",
-                "text": " I enter text matching Test ID or Test Name,"
+                "text": " I click an expand or collapse control,"
               },
               {
                 "type": "hardBreak"
@@ -1029,7 +1029,7 @@
               },
               {
                 "type": "text",
-                "text": " the table dynamically filters the test records."
+                "text": " the system expands or collapses the selected section."
               }
             ]
           }
@@ -1038,9 +1038,9 @@
     },
     "9": {
       "n": 9,
-      "fr_id": "FR-RA-09",
+      "fr_id": "FR-CB-09",
       "priority": "High",
-      "title": "Display Test Records in Table",
+      "title": "Display Beam Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1050,7 +1050,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display test records in tabular format."
+                "text": "System shall display Beam section with Lateral Deformation Rule description."
               }
             ]
           }
@@ -1086,7 +1086,7 @@
               },
               {
                 "type": "text",
-                "text": " test records displayed in tabular format"
+                "text": " the Beam configuration section displayed"
               },
               {
                 "type": "hardBreak"
@@ -1102,7 +1102,7 @@
               },
               {
                 "type": "text",
-                "text": " I can review test details efficiently."
+                "text": " I can review the lateral deformation rule."
               }
             ]
           }
@@ -1126,7 +1126,7 @@
               },
               {
                 "type": "text",
-                "text": " test records exist,"
+                "text": " the configuration drawer is open,"
               },
               {
                 "type": "hardBreak"
@@ -1142,7 +1142,7 @@
               },
               {
                 "type": "text",
-                "text": " the Testing tab loads,"
+                "text": " the Beam section loads,"
               },
               {
                 "type": "hardBreak"
@@ -1158,7 +1158,7 @@
               },
               {
                 "type": "text",
-                "text": " the records appear in a table layout."
+                "text": " the system displays the Beam section with the Lateral Deformation Rule description."
               }
             ]
           }
@@ -1167,9 +1167,9 @@
     },
     "10": {
       "n": 10,
-      "fr_id": "FR-RA-10",
+      "fr_id": "FR-CB-10",
       "priority": "High",
-      "title": "View Table Columns",
+      "title": "Display Divisor Input Field",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1179,7 +1179,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the following columns: Test ID, Test Name, Test Scope, Linked Element Types, Status, and Action menu."
+                "text": "System shall display “Divisor” input mandatory field in Beam section."
               }
             ]
           }
@@ -1215,7 +1215,7 @@
               },
               {
                 "type": "text",
-                "text": " the table to display all relevant columns"
+                "text": " a Divisor input field in the Beam section"
               },
               {
                 "type": "hardBreak"
@@ -1231,7 +1231,7 @@
               },
               {
                 "type": "text",
-                "text": " I can understand test configuration details."
+                "text": " I can configure allowable deformation parameters."
               }
             ]
           }
@@ -1255,7 +1255,7 @@
               },
               {
                 "type": "text",
-                "text": " the test table is displayed,"
+                "text": " the Beam section is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1271,7 +1271,7 @@
               },
               {
                 "type": "text",
-                "text": " the header row is rendered,"
+                "text": " configuration inputs are shown,"
               },
               {
                 "type": "hardBreak"
@@ -1287,7 +1287,7 @@
               },
               {
                 "type": "text",
-                "text": " the columns Test ID, Test Name, Test Scope, Linked Element Types, Status, and Action menu are visible."
+                "text": " the system displays a mandatory Divisor input field."
               }
             ]
           }
@@ -1296,9 +1296,9 @@
     },
     "11": {
       "n": 11,
-      "fr_id": "FR-RA-11",
-      "priority": "Medium",
-      "title": "Sort Table Columns",
+      "fr_id": "FR-CB-11",
+      "priority": "High",
+      "title": "Display Allowable Deformation Formula",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1308,7 +1308,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall allow sorting on Test ID column, Test Name column and Test Scope column."
+                "text": "System shall display “Allowable lateral deformation” formula (Span / 400)."
               }
             ]
           }
@@ -1335,7 +1335,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -1344,7 +1344,7 @@
               },
               {
                 "type": "text",
-                "text": " sort the table by Test ID, Test Name, and Test Scope"
+                "text": " the allowable deformation formula displayed"
               },
               {
                 "type": "hardBreak"
@@ -1360,7 +1360,7 @@
               },
               {
                 "type": "text",
-                "text": " I can organize test records."
+                "text": " I understand how allowable deformation is calculated."
               }
             ]
           }
@@ -1384,7 +1384,7 @@
               },
               {
                 "type": "text",
-                "text": " sortable columns are displayed,"
+                "text": " the Beam configuration section is visible,"
               },
               {
                 "type": "hardBreak"
@@ -1400,7 +1400,7 @@
               },
               {
                 "type": "text",
-                "text": " I click the column header for Test ID, Test Name, or Test Scope,"
+                "text": " formulas are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1416,7 +1416,7 @@
               },
               {
                 "type": "text",
-                "text": " the table records are sorted accordingly."
+                "text": " the system shows the formula Allowable Lateral Deformation = Span / 400."
               }
             ]
           }
@@ -1425,9 +1425,9 @@
     },
     "12": {
       "n": 12,
-      "fr_id": "FR-RA-12",
+      "fr_id": "FR-CB-12",
       "priority": "High",
-      "title": "Display Test Scope with Visual Differentiation",
+      "title": "Display Red Threshold Formula",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1437,7 +1437,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display Test Scope as either “Global” or “Local” with visual differentiation."
+                "text": "System shall display “Red threshold” formula (e.g. 2 × (Span/400)."
               }
             ]
           }
@@ -1473,7 +1473,7 @@
               },
               {
                 "type": "text",
-                "text": " the Test Scope displayed with visual differentiation"
+                "text": " the Red threshold formula displayed"
               },
               {
                 "type": "hardBreak"
@@ -1489,7 +1489,7 @@
               },
               {
                 "type": "text",
-                "text": " I can quickly identify Global or Local scope."
+                "text": " I understand the critical deformation limit."
               }
             ]
           }
@@ -1513,7 +1513,7 @@
               },
               {
                 "type": "text",
-                "text": " test records are displayed,"
+                "text": " the Beam section is visible,"
               },
               {
                 "type": "hardBreak"
@@ -1529,7 +1529,7 @@
               },
               {
                 "type": "text",
-                "text": " the Test Scope column is rendered,"
+                "text": " threshold formulas are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1545,7 +1545,7 @@
               },
               {
                 "type": "text",
-                "text": " the scope appears as either “Global” or “Local” with visual styling."
+                "text": " the system shows the Red threshold formula 2 × (Span / 400)."
               }
             ]
           }
@@ -1554,9 +1554,9 @@
     },
     "13": {
       "n": 13,
-      "fr_id": "FR-RA-13",
+      "fr_id": "FR-CB-13",
       "priority": "High",
-      "title": "Display Linked Element Types as Tags",
+      "title": "Auto-Derive Span from Digital Twin",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1566,7 +1566,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display linked element types as tags (e.g., Beam, Upright, Bracing, Baseplate, Floor)."
+                "text": "System shall automatically derive Span (L) from Digital Twin data. and display text “Span L is automatically derived from the Digital Twin. No manual configuration required.”"
               }
             ]
           }
@@ -1602,7 +1602,7 @@
               },
               {
                 "type": "text",
-                "text": " linked element types displayed as tags"
+                "text": " the span value automatically derived from Digital Twin data"
               },
               {
                 "type": "hardBreak"
@@ -1618,7 +1618,7 @@
               },
               {
                 "type": "text",
-                "text": " I can easily identify related rack elements."
+                "text": " manual configuration is not required."
               }
             ]
           }
@@ -1642,7 +1642,7 @@
               },
               {
                 "type": "text",
-                "text": " linked element types exist,"
+                "text": " Digital Twin geometry data is available,"
               },
               {
                 "type": "hardBreak"
@@ -1658,7 +1658,7 @@
               },
               {
                 "type": "text",
-                "text": " the table row is displayed,"
+                "text": " the Beam configuration section loads,"
               },
               {
                 "type": "hardBreak"
@@ -1674,7 +1674,7 @@
               },
               {
                 "type": "text",
-                "text": " element types appear as tags (e.g., Beam, Upright, Bracing, Baseplate, Floor)."
+                "text": " the system automatically derives Span (L) and displays the message “Span L is automatically derived from the Digital Twin. No manual configuration required.”  indicating it is auto-derived."
               }
             ]
           }
@@ -1683,9 +1683,9 @@
     },
     "14": {
       "n": 14,
-      "fr_id": "FR-RA-14",
-      "priority": "Medium",
-      "title": "Display Placeholder When No Linked Elements",
+      "fr_id": "FR-CB-14",
+      "priority": "High",
+      "title": "Restrict Editing of Span",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1695,7 +1695,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display “—” if no linked element types are available."
+                "text": "System shall restrict manual editing of auto-derived Span value."
               }
             ]
           }
@@ -1731,7 +1731,7 @@
               },
               {
                 "type": "text",
-                "text": " a placeholder displayed when no linked elements exist"
+                "text": " the auto-derived span value to be non-editable"
               },
               {
                 "type": "hardBreak"
@@ -1747,7 +1747,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand that no elements are associated."
+                "text": " incorrect manual changes are prevented."
               }
             ]
           }
@@ -1771,7 +1771,7 @@
               },
               {
                 "type": "text",
-                "text": " a test rule has no linked element types,"
+                "text": " the span value is derived automatically,"
               },
               {
                 "type": "hardBreak"
@@ -1787,7 +1787,7 @@
               },
               {
                 "type": "text",
-                "text": " the table row is rendered,"
+                "text": " the value is displayed in the configuration drawer,"
               },
               {
                 "type": "hardBreak"
@@ -1803,7 +1803,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays “—”."
+                "text": " the system restricts manual editing of the span field."
               }
             ]
           }
@@ -1812,9 +1812,9 @@
     },
     "15": {
       "n": 15,
-      "fr_id": "FR-RA-15",
+      "fr_id": "FR-CB-15",
       "priority": "High",
-      "title": "Toggle Test Rule Status",
+      "title": "Display Upright Configuration Inputs",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1824,7 +1824,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display status toggle for each test name."
+                "text": "System shall display Upright configuration inputs: Cross-Aisle Limit (mm) and Down-Aisle Limit (mm)."
               }
             ]
           }
@@ -1860,7 +1860,7 @@
               },
               {
                 "type": "text",
-                "text": " a status toggle for each test name"
+                "text": " Upright configuration inputs displayed"
               },
               {
                 "type": "hardBreak"
@@ -1876,7 +1876,7 @@
               },
               {
                 "type": "text",
-                "text": " I can enable or disable tests."
+                "text": " I can define deformation limits."
               }
             ]
           }
@@ -1900,7 +1900,7 @@
               },
               {
                 "type": "text",
-                "text": " a test rule is listed,"
+                "text": " the Upright configuration section is visible,"
               },
               {
                 "type": "hardBreak"
@@ -1916,7 +1916,7 @@
               },
               {
                 "type": "text",
-                "text": " the Status column is displayed,"
+                "text": " configuration inputs are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1932,7 +1932,7 @@
               },
               {
                 "type": "text",
-                "text": " a toggle control is available for that test name."
+                "text": " the system shows fields for Cross-Aisle Limit (mm) and Down-Aisle Limit (mm)."
               }
             ]
           }
@@ -1941,9 +1941,9 @@
     },
     "16": {
       "n": 16,
-      "fr_id": "FR-RA-16",
+      "fr_id": "FR-CB-16",
       "priority": "High",
-      "title": "Display Active Status When Toggle is ON",
+      "title": "Mark Mandatory Fields",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1953,7 +1953,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "When toggle is ON, system shall display status as “Active”."
+                "text": "System shall mark mandatory fields with an asterisk (*)."
               }
             ]
           }
@@ -1989,7 +1989,7 @@
               },
               {
                 "type": "text",
-                "text": " the test rule to show “Active” when the toggle is ON"
+                "text": " mandatory fields clearly marked"
               },
               {
                 "type": "hardBreak"
@@ -2005,7 +2005,7 @@
               },
               {
                 "type": "text",
-                "text": " I know the rule is enabled."
+                "text": " I know which inputs are required."
               }
             ]
           }
@@ -2029,7 +2029,7 @@
               },
               {
                 "type": "text",
-                "text": " a test rule toggle is switched ON,"
+                "text": " configuration fields are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -2045,7 +2045,7 @@
               },
               {
                 "type": "text",
-                "text": " the status is displayed,"
+                "text": " mandatory inputs are shown,"
               },
               {
                 "type": "hardBreak"
@@ -2061,7 +2061,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shows the status as “Active”."
+                "text": " the system marks them with an asterisk (*)."
               }
             ]
           }
@@ -2070,9 +2070,9 @@
     },
     "17": {
       "n": 17,
-      "fr_id": "FR-RA-17",
+      "fr_id": "FR-CB-17",
       "priority": "High",
-      "title": "Deactivate Test Rule",
+      "title": "Validate Numeric Input",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2082,7 +2082,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "When user switches toggle OFF, system shall deactivate the test rule."
+                "text": "System shall validate numeric input for limit fields (mm values only)."
               }
             ]
           }
@@ -2109,7 +2109,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -2118,7 +2118,7 @@
               },
               {
                 "type": "text",
-                "text": " deactivate a test rule using the toggle"
+                "text": " numeric validation for limit fields"
               },
               {
                 "type": "hardBreak"
@@ -2134,7 +2134,7 @@
               },
               {
                 "type": "text",
-                "text": " the rule stops applying."
+                "text": " only valid values are entered."
               }
             ]
           }
@@ -2158,7 +2158,7 @@
               },
               {
                 "type": "text",
-                "text": " a test rule is active,"
+                "text": " the limit input fields are editable,"
               },
               {
                 "type": "hardBreak"
@@ -2174,7 +2174,7 @@
               },
               {
                 "type": "text",
-                "text": " I switch the toggle OFF,"
+                "text": " I enter values,"
               },
               {
                 "type": "hardBreak"
@@ -2190,7 +2190,7 @@
               },
               {
                 "type": "text",
-                "text": " the system deactivates the test rule."
+                "text": " the system validates that only numeric millimetre values are accepted."
               }
             ]
           }
@@ -2199,9 +2199,9 @@
     },
     "18": {
       "n": 18,
-      "fr_id": "FR-RA-18",
+      "fr_id": "FR-CB-18",
       "priority": "High",
-      "title": "Persist Status Changes",
+      "title": "Prevent Saving with Invalid Inputs",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2211,7 +2211,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall persist status changes after toggle action."
+                "text": "System shall prevent saving if mandatory fields are empty or invalid."
               }
             ]
           }
@@ -2247,7 +2247,7 @@
               },
               {
                 "type": "text",
-                "text": " status changes saved after toggling"
+                "text": " the system to block saving when mandatory fields are invalid"
               },
               {
                 "type": "hardBreak"
@@ -2263,7 +2263,7 @@
               },
               {
                 "type": "text",
-                "text": " the rule state remains consistent."
+                "text": " incomplete configurations cannot be stored."
               }
             ]
           }
@@ -2287,7 +2287,7 @@
               },
               {
                 "type": "text",
-                "text": " I change the toggle status of a test rule,"
+                "text": " mandatory fields are empty or invalid,"
               },
               {
                 "type": "hardBreak"
@@ -2303,7 +2303,7 @@
               },
               {
                 "type": "text",
-                "text": " the action completes,"
+                "text": " I click Save Configuration,"
               },
               {
                 "type": "hardBreak"
@@ -2319,7 +2319,7 @@
               },
               {
                 "type": "text",
-                "text": " the system persists the updated status."
+                "text": " the system prevents saving and displays validation errors."
               }
             ]
           }
@@ -2328,9 +2328,9 @@
     },
     "19": {
       "n": 19,
-      "fr_id": "FR-RA-19",
+      "fr_id": "FR-CB-19",
       "priority": "High",
-      "title": "Support Pagination",
+      "title": "Display Bracing Configuration Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2340,7 +2340,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall support pagination for test records."
+                "text": "System shall display Bracing configuration section with Base Limit (mm) input."
               }
             ]
           }
@@ -2376,7 +2376,7 @@
               },
               {
                 "type": "text",
-                "text": " pagination available for test records"
+                "text": " the Bracing configuration section displayed"
               },
               {
                 "type": "hardBreak"
@@ -2392,7 +2392,7 @@
               },
               {
                 "type": "text",
-                "text": " large lists are easier to navigate."
+                "text": " I can configure base deformation limits."
               }
             ]
           }
@@ -2416,7 +2416,7 @@
               },
               {
                 "type": "text",
-                "text": " multiple test records exist,"
+                "text": " the configuration drawer is open,"
               },
               {
                 "type": "hardBreak"
@@ -2432,7 +2432,7 @@
               },
               {
                 "type": "text",
-                "text": " the table loads,"
+                "text": " the Bracing section loads,"
               },
               {
                 "type": "hardBreak"
@@ -2448,7 +2448,7 @@
               },
               {
                 "type": "text",
-                "text": " pagination controls are displayed."
+                "text": " the system displays the Base Limit (mm) input field."
               }
             ]
           }
@@ -2457,9 +2457,9 @@
     },
     "20": {
       "n": 20,
-      "fr_id": "FR-RA-20",
+      "fr_id": "FR-CB-20",
       "priority": "High",
-      "title": "Display Page Indicator",
+      "title": "Provide Cancel Button",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2469,7 +2469,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display current page indicator (e.g., Page 1 of 2)."
+                "text": "System shall provide Cancel button to discard changes."
               }
             ]
           }
@@ -2496,7 +2496,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -2505,7 +2505,7 @@
               },
               {
                 "type": "text",
-                "text": " see the current page indicator"
+                "text": " a Cancel button"
               },
               {
                 "type": "hardBreak"
@@ -2521,7 +2521,7 @@
               },
               {
                 "type": "text",
-                "text": " I know my position in the list."
+                "text": " I can discard configuration changes."
               }
             ]
           }
@@ -2545,7 +2545,7 @@
               },
               {
                 "type": "text",
-                "text": " pagination is enabled,"
+                "text": " configuration changes are made,"
               },
               {
                 "type": "hardBreak"
@@ -2561,7 +2561,7 @@
               },
               {
                 "type": "text",
-                "text": " the table is displayed,"
+                "text": " I click Cancel,"
               },
               {
                 "type": "hardBreak"
@@ -2577,7 +2577,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shows the current page indicator (e.g., Page 1 of 2)."
+                "text": " the system discards the changes and closes the drawer."
               }
             ]
           }
@@ -2586,9 +2586,9 @@
     },
     "21": {
       "n": 21,
-      "fr_id": "FR-RA-21",
+      "fr_id": "FR-CB-21",
       "priority": "High",
-      "title": "Navigate Using Previous and Next Controls",
+      "title": "Provide Save Configuration Button",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2598,7 +2598,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall provide Previous and Next navigation controls for pagination."
+                "text": "System shall provide Save Configuration button to persist changes."
               }
             ]
           }
@@ -2634,7 +2634,7 @@
               },
               {
                 "type": "text",
-                "text": " Previous and Next controls"
+                "text": " a Save Configuration button"
               },
               {
                 "type": "hardBreak"
@@ -2650,7 +2650,7 @@
               },
               {
                 "type": "text",
-                "text": " I can move between pages."
+                "text": " I can store configuration changes."
               }
             ]
           }
@@ -2674,7 +2674,7 @@
               },
               {
                 "type": "text",
-                "text": " multiple pages exist,"
+                "text": " valid configuration inputs are entered,"
               },
               {
                 "type": "hardBreak"
@@ -2690,7 +2690,7 @@
               },
               {
                 "type": "text",
-                "text": " I click Previous or Next,"
+                "text": " I click Save Configuration,"
               },
               {
                 "type": "hardBreak"
@@ -2706,7 +2706,7 @@
               },
               {
                 "type": "text",
-                "text": " the system navigates to the respective page."
+                "text": " the system saves the configuration settings."
               }
             ]
           }
@@ -2715,9 +2715,9 @@
     },
     "22": {
       "n": 22,
-      "fr_id": "FR-RA-22",
-      "priority": "Medium",
-      "title": "Select Rows Per Page",
+      "fr_id": "FR-CB-22",
+      "priority": "High",
+      "title": "Validate Inputs Before Saving",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2727,7 +2727,136 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall allow user to select number of rows per page (e.g., 10)."
+                "text": "When user clicks Save Configuration, system shall validate inputs before saving."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system to validate inputs before saving"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " invalid configurations cannot be stored."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " configuration inputs are provided,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click Save Configuration,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system validates the inputs before saving the configuration."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "23": {
+      "n": 23,
+      "fr_id": "FR-CB-23",
+      "priority": "Medium",
+      "title": "Display Configuration Status Indicator",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display configuration status indicator (e.g., Not yet configured)."
               }
             ]
           }
@@ -2763,7 +2892,7 @@
               },
               {
                 "type": "text",
-                "text": " choose how many rows appear per page"
+                "text": " see the configuration status indicator"
               },
               {
                 "type": "hardBreak"
@@ -2779,7 +2908,7 @@
               },
               {
                 "type": "text",
-                "text": " I can adjust table density."
+                "text": " I know whether the test configuration has been completed."
               }
             ]
           }
@@ -2803,7 +2932,7 @@
               },
               {
                 "type": "text",
-                "text": " pagination controls are visible,"
+                "text": " the test rule is displayed in the Rules and Actions list,"
               },
               {
                 "type": "hardBreak"
@@ -2819,7 +2948,7 @@
               },
               {
                 "type": "text",
-                "text": " I select a row count option (e.g., 10),"
+                "text": " configuration status is shown,"
               },
               {
                 "type": "hardBreak"
@@ -2835,910 +2964,7 @@
               },
               {
                 "type": "text",
-                "text": " the table updates to display the selected number of rows."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "23": {
-      "n": 23,
-      "fr_id": "FR-RA-23",
-      "priority": "Medium",
-      "title": "Update Record Count Dynamically",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall dynamically update record count based on selected rows per page."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the record count to update when rows per page changes"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know how many records are displayed."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I change the rows per page setting,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the table refreshes,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the displayed record count updates dynamically."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "24": {
-      "n": 24,
-      "fr_id": "FR-RA-24",
-      "priority": "High",
-      "title": "Load Additional Records on Page Navigation",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall load additional test records when navigating to next page."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " additional test records loaded when navigating pages"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can view the full dataset."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I navigate to the next page,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the page loads,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system displays the next set of test records."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "25": {
-      "n": 25,
-      "fr_id": "FR-RA-25",
-      "priority": "High",
-      "title": "Maintain Search and Sort During Pagination",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall maintain applied search and sort criteria during pagination."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " search and sort criteria preserved while paging"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " filtered results remain consistent."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " search or sorting is applied,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I navigate between pages,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system maintains the applied search and sorting criteria."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "26": {
-      "n": 26,
-      "fr_id": "FR-RA-26",
-      "priority": "Medium",
-      "title": "Visually Differentiate Global and Local Tests",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall visually differentiate Global tests (e.g., G1–G5) from Local tests (e.g., L1–L10)."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Global and Local tests visually distinguished"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can easily identify their type."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the test list is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " test IDs are shown,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Global tests (e.g., G1–G5) and Local tests (e.g., L1–L10) appear visually differentiated."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "27": {
-      "n": 27,
-      "fr_id": "FR-RA-27",
-      "priority": "Medium",
-      "title": "Restrict Linked Elements for Global Tests",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall ensure that Global tests cannot require linked element types."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Global tests to not require linked element types"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " global rules remain universal."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a test rule has Global scope,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " it is displayed or configured,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " linked element types are not required."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "28": {
-      "n": 28,
-      "fr_id": "FR-RA-28",
-      "priority": "High",
-      "title": "Allow Element Linking for Local Tests",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall allow Local tests to be associated with one or more element types."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Local tests to support linking with element types"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " rules can target specific rack components."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a test rule has Local scope,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " it is configured,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system allows association with one or more element types."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "29": {
-      "n": 29,
-      "fr_id": "FR-RA-29",
-      "priority": "High",
-      "title": "Refresh List When Switching Tabs",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall refresh test list when switching between Inspection and Testing tabs."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the test list refreshed when switching between Inspection and Testing tabs"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I always see the correct data."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I switch between Inspection and Testing tabs,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the tab changes,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system refreshes and loads the relevant records."
+                "text": " the system displays a status indicator (e.g., Not yet configured)."
               }
             ]
           }
@@ -3751,8 +2977,8 @@
     "story_only": [],
     "missing_acceptance": [],
     "odd_prefix_ids": [],
-    "req_count": 29,
-    "story_count": 29,
-    "matched": 29
+    "req_count": 23,
+    "story_count": 23,
+    "matched": 23
   }
 }
