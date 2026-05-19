@@ -1,14 +1,14 @@
 {
   "epic_key": "IRDS-2499",
   "epic_name": "Rules and Action",
-  "fr_prefix": "FR-PG",
-  "created_at": "2026-05-19T10:35:53",
+  "fr_prefix": "FR-RC",
+  "created_at": "2026-05-19T10:43:32",
   "pairs": {
     "1": {
       "n": 1,
-      "fr_id": "FR-PG-01",
+      "fr_id": "FR-RC-01",
       "priority": "High",
-      "title": "Access Pre-Inspection Guide Option",
+      "title": "Display Risk Assessment Chart Button",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -18,7 +18,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall provide a Pre-Inspection Guide option under each element in Rules and Action → (Select Element) context menu."
+                "text": "The system shall display a “Risk Assessment chart” button in the Rules and Action page header."
               }
             ]
           }
@@ -39,10 +39,6 @@
                     "type": "strong"
                   }
                 ]
-              },
-              {
-                "type": "text",
-                "text": ","
               },
               {
                 "type": "hardBreak"
@@ -58,683 +54,7 @@
               },
               {
                 "type": "text",
-                "text": " a Pre-Inspection Guide option under each element’s context menu in Rules and Action,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "so that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can view or configure pre-inspection checklist items specific to that element."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user opens the context menu (⋮) beside any element,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user views the options,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a Pre-Inspection Guide option shall be visible and clickable."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "2": {
-      "n": 2,
-      "fr_id": "FR-PG-02",
-      "priority": "High",
-      "title": "Open Pre-Inspection Guide Screen",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "When the user selects Pre-Inspection Guide, the system shall open the corresponding screen with breadcrumb navigation (e.g. Rules and Action / Baseplate Pre-Inspection Guide)."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Pre-Inspection Guide to open in a new screen with breadcrumbs,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "so that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can navigate easily and know which element’s guide I’m editing."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user clicks Pre-Inspection Guide,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the page loads,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall open the corresponding screen with breadcrumbs like Rules and Action / [Element Name] Pre-Inspection Guide."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "3": {
-      "n": 3,
-      "fr_id": "FR-PG-03",
-      "priority": "High",
-      "title": "Display Pre-Inspection Items Table",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "The system shall display a searchable table listing all existing pre-inspection items for the selected element with the following columns:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "• Pre-Inspection Item Pin"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "• Pre-Inspection Item Description."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " view a list of all existing Pre-Inspection items for the selected element,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "so that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can review or update them as needed."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Pre-Inspection Guide page is loaded,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " data is fetched,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall display a searchable table with columns:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Pre-Inspection Item PIN"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Pre-Inspection Item."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "4": {
-      "n": 4,
-      "fr_id": "FR-PG-04",
-      "priority": "Medium",
-      "title": "Real-Time Search Functionality",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "The system shall allow users to search existing items in real time using the Search Issues… bar above the table."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " search Pre-Inspection items in real time,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "so that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can quickly locate specific checklist points."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Pre-Inspection table is visible,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user types in the Search Issues… bar,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the list shall filter dynamically to show only matching items."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "5": {
-      "n": 5,
-      "fr_id": "FR-PG-05",
-      "priority": "High",
-      "title": "Add New Pre-Inspection Item Row",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "When the user clicks Add New Pre-Inspection Item, a blank editable row shall appear at the bottom of the table to enter the checklist item name."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " click the “Add New Pre-Inspection Item” button,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "so that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a blank editable row appears in the table allowing me to enter a new checklist item name."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user is on the Pre-Inspection Guide screen,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user clicks the “Add New Pre-Inspection Item” button,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall insert a blank editable row at the bottom of the table,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "And",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the cursor shall auto-focus in the new row’s input field labeled “Item Description” (or equivalent),"
+                "text": " a “Risk Assessment Chart” button in the Rules and Action page"
               },
               {
                 "type": "hardBreak"
@@ -750,7 +70,602 @@
               },
               {
                 "type": "text",
-                "text": " the user can immediately start typing the new checklist item name."
+                "text": " I can access the risk configuration panel."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I am on the Rules and Action page,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the header must display a button labeled “Risk Assessment Chart”."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "2": {
+      "n": 2,
+      "fr_id": "FR-RC-02",
+      "priority": "High",
+      "title": "Open Risk Assessment Chart Modal",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "When the user clicks “Risk assessment chart”, a centred modal titled “Risk Assessment Chart” shall open over the Rules and Action page with a background overlay."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the chart to open in a centered modal"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can configure risk settings clearly."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Rules & Action page is loaded,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click “Risk Assessment Chart”,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a centered modal opens with title “Risk Assessment Chart”"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the background becomes dimmed/overlaid."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "3": {
+      "n": 3,
+      "fr_id": "FR-RC-03",
+      "priority": "Medium",
+      "title": "Display Helper Text Below Title",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The modal shall display a brief helper text below the title: e.g. “Set severity levels and probability thresholds for each category.”"
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " helper text under the modal title"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand the purpose of the chart."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the modal is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " helper text appears under the title, e.g.:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“Set severity levels and probability thresholds for each category.”"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "4": {
+      "n": 4,
+      "fr_id": "FR-RC-04",
+      "priority": "High",
+      "title": "Close Icon Behaviour",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The modal shall have a Close (X) icon in the top-right corner. Clicking it shall close the modal without saving unsaved changes."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a Close (X) icon"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can exit the modal without saving."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the modal is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a Close (X) icon appears in the top-right."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click the X icon,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the modal closes"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " any unsaved changes are discarded."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "5": {
+      "n": 5,
+      "fr_id": "FR-RC-05",
+      "priority": "High",
+      "title": "Initial View Mode + Edit Changes Button",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "On initial load, all numeric fields in the chart shall be view-only (greyed / non-editable) and the primary button at the bottom-right shall be labelled “Edit Changes.”"
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the chart to open in view-only mode"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " accidental edits do not happen."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the modal just opened,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " all numeric fields (severity scale + matrix values) are non-editable."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the primary button shows “Edit Changes.”"
               }
             ]
           }
@@ -759,9 +674,9 @@
     },
     "6": {
       "n": 6,
-      "fr_id": "FR-PG-06",
+      "fr_id": "FR-RC-06",
       "priority": "High",
-      "title": "Add Multiple New Items Sequentially",
+      "title": "Switch to Edit Mode",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -771,7 +686,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall allow multiple new items to be added sequentially before saving. Each new item shall be auto-numbered using the same element prefix (e.g. BSP-12074)."
+                "text": "Clicking “Edit Changes” shall switch the modal into edit mode, making all Min/Max fields editable and changing the primary button label to “Save Changes.”"
               }
             ]
           }
@@ -794,10 +709,6 @@
                 ]
               },
               {
-                "type": "text",
-                "text": ","
-              },
-              {
                 "type": "hardBreak"
               },
               {
@@ -811,14 +722,14 @@
               },
               {
                 "type": "text",
-                "text": " add multiple new items one after another before saving,"
+                "text": " toggle into edit mode"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -827,7 +738,7 @@
               },
               {
                 "type": "text",
-                "text": " I can update the checklist in one go."
+                "text": " I can modify severity and matrix values."
               }
             ]
           }
@@ -842,13 +753,6 @@
             "content": [
               {
                 "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
                 "text": "Given",
                 "marks": [
                   {
@@ -858,23 +762,7 @@
               },
               {
                 "type": "text",
-                "text": " the user adds new rows,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " each new item is created,"
+                "text": " I click “Edit Changes”,"
               },
               {
                 "type": "hardBreak"
@@ -890,7 +778,23 @@
               },
               {
                 "type": "text",
-                "text": " the system shall auto-assign temporary numbering using the same element prefix (e.g., BSP-12074)."
+                "text": " all Min/Max numeric fields become editable,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the primary button label changes to “Save Changes.”"
               }
             ]
           }
@@ -899,9 +803,9 @@
     },
     "7": {
       "n": 7,
-      "fr_id": "FR-PG-07",
+      "fr_id": "FR-RC-07",
       "priority": "High",
-      "title": "Enable Edit Mode for Existing Items",
+      "title": "Display Severity Scale (1–9) Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -911,7 +815,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall provide an Edit Pre-Inspection Item button in the header of the screen. When clicked, all rows shall switch to an editable state (inline edit)."
+                "text": "The section “Severity Scale (1–9)” shall display three color-coded categories in a row: Red, Amber, and Green, each with two numeric inputs: From and To."
               }
             ]
           }
@@ -934,10 +838,6 @@
                 ]
               },
               {
-                "type": "text",
-                "text": ","
-              },
-              {
                 "type": "hardBreak"
               },
               {
@@ -951,14 +851,14 @@
               },
               {
                 "type": "text",
-                "text": " switch all existing Pre-Inspection items to edit mode,"
+                "text": " see the severity scale inputs"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -967,7 +867,7 @@
               },
               {
                 "type": "text",
-                "text": " I can modify descriptions or delete unwanted items."
+                "text": " I can configure Red, Amber, and Green ranges."
               }
             ]
           }
@@ -982,13 +882,6 @@
             "content": [
               {
                 "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
                 "text": "Given",
                 "marks": [
                   {
@@ -998,23 +891,7 @@
               },
               {
                 "type": "text",
-                "text": " the user clicks Edit Pre-Inspection Item in the header,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system enters edit mode,"
+                "text": " the modal is open,"
               },
               {
                 "type": "hardBreak"
@@ -1030,7 +907,65 @@
               },
               {
                 "type": "text",
-                "text": " all table rows shall become editable inline."
+                "text": " a section titled “Severity Scale (1–9)” appears."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it shows three color-coded categories horizontally:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Red"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Amber"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Green"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Each category has two inputs:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "From"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "To"
               }
             ]
           }
@@ -1039,9 +974,9 @@
     },
     "8": {
       "n": 8,
-      "fr_id": "FR-PG-08",
+      "fr_id": "FR-RC-08",
       "priority": "High",
-      "title": "Edit Mode UI Components",
+      "title": "Integer Validation for Severity Scale",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1051,21 +986,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "In Edit Mode, each row shall display:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "• An editable text box for the item name."
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "• A delete (🗑️) icon for removing items temporarily from the list."
+                "text": "Each Severity Scale input shall accept only integer values from 1 to 9; non-numeric or out-of-range entries shall be prevented or flagged with inline validation."
               }
             ]
           }
@@ -1088,10 +1009,6 @@
                 ]
               },
               {
-                "type": "text",
-                "text": ","
-              },
-              {
                 "type": "hardBreak"
               },
               {
@@ -1105,14 +1022,14 @@
               },
               {
                 "type": "text",
-                "text": " each row in edit mode to have editable text boxes and delete icons,"
+                "text": " the severity scale inputs to allow only valid integers"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -1121,7 +1038,7 @@
               },
               {
                 "type": "text",
-                "text": " I can easily modify or remove checklist points."
+                "text": " invalid data cannot be saved."
               }
             ]
           }
@@ -1136,13 +1053,6 @@
             "content": [
               {
                 "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
                 "text": "Given",
                 "marks": [
                   {
@@ -1152,23 +1062,7 @@
               },
               {
                 "type": "text",
-                "text": " edit mode is active,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user views the table,"
+                "text": " I try to edit a severity input,"
               },
               {
                 "type": "hardBreak"
@@ -1184,21 +1078,28 @@
               },
               {
                 "type": "text",
-                "text": " each row shall display:"
+                "text": " only integer values between 1 and 9 are allowed."
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "Editable text field for item name"
+                "text": "non-numeric, out-of-range, or decimal entries must be:"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "Delete (🗑️) icon for temporary removal."
+                "text": "Blocked OR"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Flagged with inline validation error."
               }
             ]
           }
@@ -1207,9 +1108,9 @@
     },
     "9": {
       "n": 9,
-      "fr_id": "FR-PG-09",
+      "fr_id": "FR-RC-09",
       "priority": "High",
-      "title": "Temporary Row Deletion Behavior",
+      "title": "Validate From ≤ To for Each Severity Band",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1219,7 +1120,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "When a user deletes a row in Edit Mode, the system shall remove that row from the table immediately in the UI but shall only finalize deletion after the user clicks Save Changes."
+                "text": "The system shall validate that for each severity band, from ≤ To; if not, show inline error text under the field (e.g., “From value cannot be greater than to”)."
               }
             ]
           }
@@ -1242,10 +1143,6 @@
                 ]
               },
               {
-                "type": "text",
-                "text": ","
-              },
-              {
                 "type": "hardBreak"
               },
               {
@@ -1259,14 +1156,14 @@
               },
               {
                 "type": "text",
-                "text": " deleted rows in edit mode to disappear immediately but only finalize on save,"
+                "text": " validation of the numeric range"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -1275,7 +1172,7 @@
               },
               {
                 "type": "text",
-                "text": " I can review changes before committing them."
+                "text": " the band definition is always valid."
               }
             ]
           }
@@ -1290,13 +1187,6 @@
             "content": [
               {
                 "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
                 "text": "Given",
                 "marks": [
                   {
@@ -1306,7 +1196,7 @@
               },
               {
                 "type": "text",
-                "text": " a user deletes a row in edit mode,"
+                "text": " I enter values in “From” and “To”,"
               },
               {
                 "type": "hardBreak"
@@ -1322,7 +1212,7 @@
               },
               {
                 "type": "text",
-                "text": " the system updates the UI,"
+                "text": " From > To,"
               },
               {
                 "type": "hardBreak"
@@ -1338,14 +1228,30 @@
               },
               {
                 "type": "text",
-                "text": " that row shall disappear visually,"
+                "text": " show inline error:"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "But it shall only be permanently deleted after clicking Save Changes."
+                "text": "“From value cannot be greater than To.”"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Save Changes is blocked."
               }
             ]
           }
@@ -1354,9 +1260,9 @@
     },
     "10": {
       "n": 10,
-      "fr_id": "FR-PG-10",
+      "fr_id": "FR-RC-10",
       "priority": "High",
-      "title": "Save and Discard Buttons",
+      "title": "Prevent Overlapping Severity Bands",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1366,7 +1272,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The system shall provide Save Changes and Discard Changes buttons in the footer while in Edit Mode."
+                "text": "The system shall prevent overlapping or duplicate ranges between Red, Amber, and Green (e.g., the same number cannot fall into two colours). If overlap occurs, an inline error shall appear."
               }
             ]
           }
@@ -1389,10 +1295,6 @@
                 ]
               },
               {
-                "type": "text",
-                "text": ","
-              },
-              {
                 "type": "hardBreak"
               },
               {
@@ -1406,14 +1308,14 @@
               },
               {
                 "type": "text",
-                "text": " Save Changes and Discard Changes buttons to appear in edit mode,"
+                "text": " the system to block overlapping definitions"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -1422,7 +1324,7 @@
               },
               {
                 "type": "text",
-                "text": " I can choose whether to apply or cancel my updates."
+                "text": " each value from 1–9 belongs to exactly one color."
               }
             ]
           }
@@ -1437,13 +1339,6 @@
             "content": [
               {
                 "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
                 "text": "Given",
                 "marks": [
                   {
@@ -1453,7 +1348,7 @@
               },
               {
                 "type": "text",
-                "text": " edit mode is enabled,"
+                "text": " I enter severity scale values,"
               },
               {
                 "type": "hardBreak"
@@ -1469,7 +1364,7 @@
               },
               {
                 "type": "text",
-                "text": " the user views the footer section,"
+                "text": " any number overlaps between two colors (e.g., Red 1–3 & Amber 3–5),"
               },
               {
                 "type": "hardBreak"
@@ -1485,7 +1380,30 @@
               },
               {
                 "type": "text",
-                "text": " the buttons Save Changes and Discard Changes shall be visible."
+                "text": " inline error appears:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“Severity ranges cannot overlap.”"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Save is blocked."
               }
             ]
           }
@@ -1494,9 +1412,9 @@
     },
     "11": {
       "n": 11,
-      "fr_id": "FR-PG-11",
+      "fr_id": "FR-RC-11",
       "priority": "High",
-      "title": "Save Changes Logic",
+      "title": "Display Probability & Consequence Matrix",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1506,7 +1424,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Clicking Save Changes shall validate all non-empty fields, update existing items, add new ones, and delete removed items in the backend."
+                "text": "The section “Probability & Consequence Matrix” shall be displayed as a grid with rows for High, Moderate, Low, Minimal (probability) and columns for Minor, Significant, Critical, Catastrophic (consequence)."
               }
             ]
           }
@@ -1529,15 +1447,11 @@
                 ]
               },
               {
-                "type": "text",
-                "text": ","
-              },
-              {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "I want",
+                "text": "I want to",
                 "marks": [
                   {
                     "type": "strong"
@@ -1546,14 +1460,14 @@
               },
               {
                 "type": "text",
-                "text": " the Save Changes action to validate and update all modifications,"
+                "text": " see the full probability–consequence grid"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -1562,7 +1476,7 @@
               },
               {
                 "type": "text",
-                "text": " the backend reflects the final checklist."
+                "text": " I can configure risk band values."
               }
             ]
           }
@@ -1577,13 +1491,6 @@
             "content": [
               {
                 "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
                 "text": "Given",
                 "marks": [
                   {
@@ -1593,23 +1500,7 @@
               },
               {
                 "type": "text",
-                "text": " the user clicks Save Changes,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " validation passes,"
+                "text": " the modal is open,"
               },
               {
                 "type": "hardBreak"
@@ -1625,35 +1516,79 @@
               },
               {
                 "type": "text",
-                "text": " the system shall:"
+                "text": " the Probability & Consequence Matrix appears with:"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "Add new items,"
+                "text": "Rows (Probability):"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "Update edited items,"
+                "text": "High"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "Delete removed items,"
+                "text": "Moderate"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "Save all to backend."
+                "text": "Low"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Minimal"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Columns (Consequence):"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Minor"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Significant"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Critical"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Catastrophic"
               }
             ]
           }
@@ -1662,16 +1597,904 @@
     },
     "12": {
       "n": 12,
-      "fr_id": "FR-PG-12",
+      "fr_id": "FR-RC-12",
       "priority": "High",
-      "title": "Success Notification After Save",
+      "title": "Min/Max Inputs Inside Each Matrix Cell",
       "requirement": {
         "type": "doc",
         "version": 1,
         "content": [
           {
             "type": "paragraph",
-            "content": []
+            "content": [
+              {
+                "type": "text",
+                "text": "Each cell in the Probability & Consequence Matrix shall contain two numeric inputs Min and Max to define the risk score band for that probability–consequence combination."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " each matrix cell to have numeric inputs"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can define the risk score band for each combination."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " any matrix cell is visible,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it contains two fields:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Min"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Max"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "13": {
+      "n": 13,
+      "fr_id": "FR-RC-13",
+      "priority": "High",
+      "title": "Integer Validation in Matrix Inputs",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "All matrix Min/Max inputs shall accept only integer values (no decimals, text, or negative numbers); invalid entries shall be blocked or flagged inline."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " clean numeric validation in each matrix field"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " risk scoring remains accurate."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I edit a Min or Max field inside the matrix,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it must only allow:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Positive integers"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "No decimals"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "No letters"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "No negative values"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Invalid entries are blocked or show inline validation."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "14": {
+      "n": 14,
+      "fr_id": "FR-RC-14",
+      "priority": "High",
+      "title": "Validate Min ≤ Max for Every Matrix Cell",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "For every matrix cell, the system shall validate Min ≤ Max; if violated, an inline error shall appear."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " validation ensuring Min is never greater than Max"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " each risk band remains valid."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I am editing a Probability–Consequence matrix cell,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I enter values where Min > Max,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system displays an inline error message under that cell,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "e.g., “Min value cannot be greater than Max.”"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Save Changes action is blocked."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "15": {
+      "n": 15,
+      "fr_id": "FR-RC-15",
+      "priority": "High",
+      "title": "Mandatory Fields Enforcement",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Fields marked with an asterisk (*) in the modal (e.g., probability rows) shall be mandatory. If any required field is empty in edit mode, show inline error “Required field” and prevent save."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " required fields to be validated"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the matrix is always fully defined."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " fields marked with an asterisk (*) are required,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " any required field is left empty in edit mode,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " an inline error appears: “Required field”"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Save Changes is prevented until all required fields are completed."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "16": {
+      "n": 16,
+      "fr_id": "FR-RC-16",
+      "priority": "Low",
+      "title": "Display Static Instructional Note",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The Note section at the bottom of the modal shall display static instructional text (1.“set severity as per your experience by number 1-9 for green, amber, red"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "2. all required fields must be filled out. Please review your entries and complete the necessary information.”) This text is non-editable."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " clear instructional text displayed at the bottom"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand how severity and required fields work."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Risk Assessment Chart modal is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a Note section appears at the bottom containing the static non-editable text:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“Set severity as per your experience by number 1–9 for green, amber, red.”"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“All required fields must be filled out. Please review your entries and complete the necessary information.”"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " users cannot edit or modify this note."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "17": {
+      "n": 17,
+      "fr_id": "FR-RC-17",
+      "priority": "High",
+      "title": "Cancel Button Discards Unsaved Changes",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Clicking Cancel in the bottom-left of the modal shall close the modal and discard any unsaved changes made in the current edit session."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a Cancel button to discard edits"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can exit without saving accidental modifications."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I am in edit mode,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click Cancel (bottom-left),"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the modal closes"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " all unsaved edits from the current session are discarded"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " no changes are saved to the backend."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "18": {
+      "n": 18,
+      "fr_id": "FR-RC-18",
+      "priority": "High",
+      "title": "Confirmation Popup Before Saving Changes",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Clicking “Save Changes” shall display a confirmation pop-up of “Confirm changes?” and text below – “This update will affect all modules, inspections, and rules that reference this chart.” “Proceed only if you want these changes applied system wide.”"
+              }
+            ]
           }
         ]
       },
@@ -1709,14 +2532,14 @@
               },
               {
                 "type": "text",
-                "text": " a confirmation message after saving,"
+                "text": " a confirmation dialog before saving"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -1725,7 +2548,7 @@
               },
               {
                 "type": "text",
-                "text": " I know my updates were successful."
+                "text": " I understand the system-wide impact of changes."
               }
             ]
           }
@@ -1740,13 +2563,6 @@
             "content": [
               {
                 "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
                 "text": "Given",
                 "marks": [
                   {
@@ -1756,23 +2572,7 @@
               },
               {
                 "type": "text",
-                "text": " the backend update completes successfully,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the save action finishes,"
+                "text": " I click Save Changes,"
               },
               {
                 "type": "hardBreak"
@@ -1788,25 +2588,55 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display a toast notification:"
+                "text": " a confirmation popup appears titled “Confirm changes?”And contains the text:"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "“Pre-Inspection Guide updated successfully.”"
+                "text": "“This update will affect all modules, inspections, and rules that reference this chart. Proceed only if you want these changes applied system wide.”"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "And",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the popup displays two actions:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Cancel"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Apply Changes"
               }
             ]
           }
         ]
       }
     },
-    "13": {
-      "n": 13,
-      "fr_id": "FR-PG-13",
-      "priority": "Medium",
-      "title": "Discard Changes Behavior",
+    "19": {
+      "n": 19,
+      "fr_id": "FR-RC-19",
+      "priority": "High",
+      "title": "Save, Close Modal, and Show Success Toast",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1816,7 +2646,182 @@
             "content": [
               {
                 "type": "text",
-                "text": "Clicking Discard Changes shall revert all unsaved modifications and restore the last saved list view."
+                "text": "After Clicking Apply Changes, the modal shall close automatically and the user shall be returned to the Rules and Action list screen and a green toast notification shall appear at the top-right of the Rules and Action screen with message “Risk assessment chart updated successfully” and a success icon."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ","
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " successful updates to be saved and acknowledged"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I know changes have been applied."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I am on the confirmation popup,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click Apply Changes,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Saves the updated severity and matrix configuration"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Closes the Risk Assessment Chart modal"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Returns me to the Rules & Action list screen"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Displays a green toast notification at top-right:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“Risk assessment chart updated successfully”"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "(with success icon)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "20": {
+      "n": 20,
+      "fr_id": "FR-RC-20",
+      "priority": "High",
+      "title": "Show Latest Saved Values When Reopening",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "On re-opening the Risk Assessment Chart, all fields shall show the latest saved values (both Severity Scale and Probability & Consequence Matrix)."
               }
             ]
           }
@@ -1856,14 +2861,14 @@
               },
               {
                 "type": "text",
-                "text": " discard my unsaved edits,"
+                "text": " see the most recently saved chart values"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
+                "text": "So that",
                 "marks": [
                   {
                     "type": "strong"
@@ -1872,7 +2877,7 @@
               },
               {
                 "type": "text",
-                "text": " I can revert back to the last saved version safely."
+                "text": " I always work with the latest configuration."
               }
             ]
           }
@@ -1887,13 +2892,6 @@
             "content": [
               {
                 "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
                 "text": "Given",
                 "marks": [
                   {
@@ -1903,23 +2901,7 @@
               },
               {
                 "type": "text",
-                "text": " the user is in edit mode,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " they click Discard Changes,"
+                "text": " the user reopens the Risk Assessment Chart,"
               },
               {
                 "type": "hardBreak"
@@ -1935,122 +2917,35 @@
               },
               {
                 "type": "text",
-                "text": " the system shall restore the last saved list and exit edit mode."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "14": {
-      "n": 14,
-      "fr_id": "FR-PG-14",
-      "priority": "High",
-      "title": "Blank Field Validation",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "The system shall not allow saving if any new item field is left blank; an inline validation message “Item name is required.” shall be displayed below the respective row."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
+                "text": " all fields in both:"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " validation errors to appear if any item field is empty,"
+                "text": "Severity Scale (1–9)"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "so that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can ensure all checklist items are properly named."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": ":"
+                "text": "Probability & Consequence Matrix"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user attempts to save with a blank item name,"
+                "text": "show the latest saved values,"
               },
               {
                 "type": "hardBreak"
               },
               {
                 "type": "text",
-                "text": "When",
+                "text": "And",
                 "marks": [
                   {
                     "type": "strong"
@@ -2059,310 +2954,7 @@
               },
               {
                 "type": "text",
-                "text": " validation runs,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall prevent saving and display an inline error:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "“Item name is required.”"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "15": {
-      "n": 15,
-      "fr_id": "FR-PG-15",
-      "priority": "High",
-      "title": "Unique Pre-Inspection Item ID Assignment",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "The system shall automatically assign unique IDs (Pre-Inspection Item Pins) to newly added checklist items following the element’s code pattern."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system to auto-assign unique Pre-Inspection Item Pins to new checklist items,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "so that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " each entry is uniquely identifiable."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user adds new checklist items,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system saves them,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " unique IDs shall be generated automatically using the element’s prefix pattern (e.g., BSP-12075)."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "16": {
-      "n": 16,
-      "fr_id": "FR-PG-16",
-      "priority": "High",
-      "title": "Instant Update in Rules and Action List",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "The system shall ensure all updates in the Pre-Inspection Guide are reflected immediately when revisiting the related element in the Rules and Action list."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": ","
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " all Pre-Inspection Guide updates to be visible when I revisit the parent element,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "so that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can immediately see the revised checklist status."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": ":"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user revisits the element under Rules and Action,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Pre-Inspection Guide has been updated,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the latest data shall be reflected immediately without page reload."
+                "text": " these values appear in view-only mode until the user chooses Edit Changes."
               }
             ]
           }
@@ -2375,8 +2967,8 @@
     "story_only": [],
     "missing_acceptance": [],
     "odd_prefix_ids": [],
-    "req_count": 16,
-    "story_count": 16,
-    "matched": 16
+    "req_count": 20,
+    "story_count": 20,
+    "matched": 20
   }
 }
