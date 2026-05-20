@@ -1,14 +1,14 @@
 {
   "epic_key": "IRDS-2499",
   "epic_name": "Rules and Action",
-  "fr_prefix": "FR-CB",
-  "created_at": "2026-05-19T11:46:49",
+  "fr_prefix": "FR-CD",
+  "created_at": "2026-05-20T05:13:38",
   "pairs": {
     "1": {
       "n": 1,
-      "fr_id": "FR-CB-01",
+      "fr_id": "FR-CD-01",
       "priority": "High",
-      "title": "Open Component Bend Configuration Drawer",
+      "title": "Open Component Dent Configuration Drawer",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -18,7 +18,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "When user selects a Component Bend Local test (e.g., L1 or L2) from the Rules and Action list, system shall open a right-side configuration drawer."
+                "text": "When user selects a Component Dent test (e.g., L1 or L2) from the Rules and Action test names list, system shall open a right-side configuration drawer Component Dent (L2)- local"
               }
             ]
           }
@@ -54,7 +54,7 @@
               },
               {
                 "type": "text",
-                "text": " the configuration drawer to open when I select a Component Bend Local test"
+                "text": " a configuration drawer to open when I select a Component Dent test"
               },
               {
                 "type": "hardBreak"
@@ -70,7 +70,7 @@
               },
               {
                 "type": "text",
-                "text": " I can configure its evaluation parameters."
+                "text": " I can view and configure the test rule."
               }
             ]
           }
@@ -94,7 +94,7 @@
               },
               {
                 "type": "text",
-                "text": " I am viewing the Rules and Action list,"
+                "text": " I am on the Rules and Action test names list,"
               },
               {
                 "type": "hardBreak"
@@ -110,7 +110,7 @@
               },
               {
                 "type": "text",
-                "text": " I select a Component Bend Local test (e.g., L1 or L2),"
+                "text": " I select a Component Dent test (e.g., L1 or L2),"
               },
               {
                 "type": "hardBreak"
@@ -135,7 +135,7 @@
     },
     "2": {
       "n": 2,
-      "fr_id": "FR-CB-02",
+      "fr_id": "FR-CD-02",
       "priority": "High",
       "title": "Display Test Name and ID in Header",
       "requirement": {
@@ -147,7 +147,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the test name and test ID in the drawer header (e.g., Component Bend (L1) — Configuration)."
+                "text": "System shall display the test name and ID in the panel header (e.g., Component Splice (L3), Component Thickness (L4))."
               }
             ]
           }
@@ -174,7 +174,7 @@
               },
               {
                 "type": "text",
-                "text": "I want",
+                "text": "I want to",
                 "marks": [
                   {
                     "type": "strong"
@@ -183,7 +183,7 @@
               },
               {
                 "type": "text",
-                "text": " the test name and ID displayed in the drawer header"
+                "text": " see the test name and ID in the configuration panel header"
               },
               {
                 "type": "hardBreak"
@@ -199,7 +199,7 @@
               },
               {
                 "type": "text",
-                "text": " I can identify the selected test configuration."
+                "text": " I know which test rule I am editing."
               }
             ]
           }
@@ -255,7 +255,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shows the test name and ID (e.g., Component Bend (L1) — Configuration)."
+                "text": " the system shows the test name and ID (e.g., Component Dent (L2), Component Thickness (L4))."
               }
             ]
           }
@@ -264,7 +264,136 @@
     },
     "3": {
       "n": 3,
-      "fr_id": "FR-CB-03",
+      "fr_id": "FR-CD-03",
+      "priority": "Medium",
+      "title": "Display Test Description",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display a descriptive subtitle explaining the purpose of the test (e.g., Surface depression severity evaluated using wall thickness ratio.)"
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a descriptive subtitle explaining the test purpose"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand what the test evaluates."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the configuration drawer is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the header section loads,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system displays a descriptive subtitle explaining the purpose of the test."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "4": {
+      "n": 4,
+      "fr_id": "FR-CD-04",
       "priority": "Medium",
       "title": "Display Test Scope Badge",
       "requirement": {
@@ -303,7 +432,7 @@
               },
               {
                 "type": "text",
-                "text": "I want",
+                "text": "I want to",
                 "marks": [
                   {
                     "type": "strong"
@@ -312,7 +441,7 @@
               },
               {
                 "type": "text",
-                "text": " the test scope badge displayed"
+                "text": " see the test scope badge in the header"
               },
               {
                 "type": "hardBreak"
@@ -328,136 +457,7 @@
               },
               {
                 "type": "text",
-                "text": " I know the scope classification of the test."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the configuration drawer header is visible,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the test details are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shows the scope badge (e.g., Local)."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "4": {
-      "n": 4,
-      "fr_id": "FR-CB-04",
-      "priority": "High",
-      "title": "Display Close Icon in Header",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall provide a close (X) icon to dismiss the configuration drawer."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a close (X) icon in the configuration drawer header"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can quickly dismiss the drawer."
+                "text": " I know whether the rule is Global or Local."
               }
             ]
           }
@@ -513,7 +513,7 @@
               },
               {
                 "type": "text",
-                "text": " the system provides a close (X) icon."
+                "text": " the system shows the test scope badge (e.g., Local)."
               }
             ]
           }
@@ -522,9 +522,9 @@
     },
     "5": {
       "n": 5,
-      "fr_id": "FR-CB-05",
+      "fr_id": "FR-CD-05",
       "priority": "High",
-      "title": "Close Drawer Without Saving Changes",
+      "title": "Display Measured Parameters Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -534,2329 +534,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "When user clicks close icon, system shall close the drawer without saving unsaved changes."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the drawer to close without saving when I click the close icon"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " accidental changes are not stored."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the configuration drawer contains unsaved changes,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I click the close (X) icon,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system closes the drawer without saving the changes."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "6": {
-      "n": 6,
-      "fr_id": "FR-CB-06",
-      "priority": "Medium",
-      "title": "Display Test Description",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display descriptive subtitle explaining the test logic (e.g., Geometric deformation tolerance)."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a descriptive subtitle explaining the test logic"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand the purpose of the configuration."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the configuration drawer is open,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the description section is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shows a subtitle explaining the test logic (e.g., Geometric deformation tolerance)."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "7": {
-      "n": 7,
-      "fr_id": "FR-CB-07",
-      "priority": "High",
-      "title": "Group Configuration by Element Types",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall group configuration sections by linked element types (e.g., Beam, Upright, Bracing)."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " configuration sections grouped by element types"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can easily configure rules for each element."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the configuration drawer is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the configuration sections load,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system groups them by linked element types such as Beam, Upright, and Bracing."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "8": {
-      "n": 8,
-      "fr_id": "FR-CB-08",
-      "priority": "Medium",
-      "title": "Support Expand/Collapse Sections",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall allow expand/collapse behaviour for each element section."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " each element section to support expand and collapse behaviour"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can manage screen space while reviewing configurations."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " element configuration sections are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I click an expand or collapse control,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system expands or collapses the selected section."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "9": {
-      "n": 9,
-      "fr_id": "FR-CB-09",
-      "priority": "High",
-      "title": "Display Beam Section",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display Beam section with Lateral Deformation Rule description."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Beam configuration section displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can review the lateral deformation rule."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the configuration drawer is open,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Beam section loads,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system displays the Beam section with the Lateral Deformation Rule description."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "10": {
-      "n": 10,
-      "fr_id": "FR-CB-10",
-      "priority": "High",
-      "title": "Display Divisor Input Field",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display “Divisor” input mandatory field in Beam section."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a Divisor input field in the Beam section"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can configure allowable deformation parameters."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Beam section is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " configuration inputs are shown,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system displays a mandatory Divisor input field."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "11": {
-      "n": 11,
-      "fr_id": "FR-CB-11",
-      "priority": "High",
-      "title": "Display Allowable Deformation Formula",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display “Allowable lateral deformation” formula (Span / 400)."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the allowable deformation formula displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand how allowable deformation is calculated."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Beam configuration section is visible,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " formulas are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shows the formula Allowable Lateral Deformation = Span / 400."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "12": {
-      "n": 12,
-      "fr_id": "FR-CB-12",
-      "priority": "High",
-      "title": "Display Red Threshold Formula",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display “Red threshold” formula (e.g. 2 × (Span/400)."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Red threshold formula displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand the critical deformation limit."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Beam section is visible,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " threshold formulas are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shows the Red threshold formula 2 × (Span / 400)."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "13": {
-      "n": 13,
-      "fr_id": "FR-CB-13",
-      "priority": "High",
-      "title": "Auto-Derive Span from Digital Twin",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall automatically derive Span (L) from Digital Twin data. and display text “Span L is automatically derived from the Digital Twin. No manual configuration required.”"
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the span value automatically derived from Digital Twin data"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " manual configuration is not required."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Digital Twin geometry data is available,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Beam configuration section loads,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system automatically derives Span (L) and displays the message “Span L is automatically derived from the Digital Twin. No manual configuration required.”  indicating it is auto-derived."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "14": {
-      "n": 14,
-      "fr_id": "FR-CB-14",
-      "priority": "High",
-      "title": "Restrict Editing of Span",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall restrict manual editing of auto-derived Span value."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the auto-derived span value to be non-editable"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " incorrect manual changes are prevented."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the span value is derived automatically,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the value is displayed in the configuration drawer,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system restricts manual editing of the span field."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "15": {
-      "n": 15,
-      "fr_id": "FR-CB-15",
-      "priority": "High",
-      "title": "Display Upright Configuration Inputs",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display Upright configuration inputs: Cross-Aisle Limit (mm) and Down-Aisle Limit (mm)."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Upright configuration inputs displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can define deformation limits."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Upright configuration section is visible,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " configuration inputs are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shows fields for Cross-Aisle Limit (mm) and Down-Aisle Limit (mm)."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "16": {
-      "n": 16,
-      "fr_id": "FR-CB-16",
-      "priority": "High",
-      "title": "Mark Mandatory Fields",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall mark mandatory fields with an asterisk (*)."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " mandatory fields clearly marked"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know which inputs are required."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " configuration fields are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " mandatory inputs are shown,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system marks them with an asterisk (*)."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "17": {
-      "n": 17,
-      "fr_id": "FR-CB-17",
-      "priority": "High",
-      "title": "Validate Numeric Input",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall validate numeric input for limit fields (mm values only)."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " numeric validation for limit fields"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " only valid values are entered."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the limit input fields are editable,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I enter values,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system validates that only numeric millimetre values are accepted."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "18": {
-      "n": 18,
-      "fr_id": "FR-CB-18",
-      "priority": "High",
-      "title": "Prevent Saving with Invalid Inputs",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall prevent saving if mandatory fields are empty or invalid."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system to block saving when mandatory fields are invalid"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " incomplete configurations cannot be stored."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " mandatory fields are empty or invalid,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I click Save Configuration,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system prevents saving and displays validation errors."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "19": {
-      "n": 19,
-      "fr_id": "FR-CB-19",
-      "priority": "High",
-      "title": "Display Bracing Configuration Section",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display Bracing configuration section with Base Limit (mm) input."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Bracing configuration section displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can configure base deformation limits."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the configuration drawer is open,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Bracing section loads,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system displays the Base Limit (mm) input field."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "20": {
-      "n": 20,
-      "fr_id": "FR-CB-20",
-      "priority": "High",
-      "title": "Provide Cancel Button",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall provide Cancel button to discard changes."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a Cancel button"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can discard configuration changes."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " configuration changes are made,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I click Cancel,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system discards the changes and closes the drawer."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "21": {
-      "n": 21,
-      "fr_id": "FR-CB-21",
-      "priority": "High",
-      "title": "Provide Save Configuration Button",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall provide Save Configuration button to persist changes."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a Save Configuration button"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can store configuration changes."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " valid configuration inputs are entered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I click Save Configuration,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system saves the configuration settings."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "22": {
-      "n": 22,
-      "fr_id": "FR-CB-22",
-      "priority": "High",
-      "title": "Validate Inputs Before Saving",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "When user clicks Save Configuration, system shall validate inputs before saving."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system to validate inputs before saving"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " invalid configurations cannot be stored."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " configuration inputs are provided,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I click Save Configuration,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system validates the inputs before saving the configuration."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "23": {
-      "n": 23,
-      "fr_id": "FR-CB-23",
-      "priority": "Medium",
-      "title": "Display Configuration Status Indicator",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display configuration status indicator (e.g., Not yet configured)."
+                "text": "System shall display Measured Parameters section listing Dent Depth (d) and Nominal Wall Thickness (t)."
               }
             ]
           }
@@ -2892,7 +570,7 @@
               },
               {
                 "type": "text",
-                "text": " see the configuration status indicator"
+                "text": " see the measured parameters for the test"
               },
               {
                 "type": "hardBreak"
@@ -2908,7 +586,7 @@
               },
               {
                 "type": "text",
-                "text": " I know whether the test configuration has been completed."
+                "text": " I understand the inputs used for the test name."
               }
             ]
           }
@@ -2932,7 +610,7 @@
               },
               {
                 "type": "text",
-                "text": " the test rule is displayed in the Rules and Actions list,"
+                "text": " the configuration drawer is open,"
               },
               {
                 "type": "hardBreak"
@@ -2948,7 +626,7 @@
               },
               {
                 "type": "text",
-                "text": " configuration status is shown,"
+                "text": " the Measured Parameters section loads,"
               },
               {
                 "type": "hardBreak"
@@ -2964,7 +642,1684 @@
               },
               {
                 "type": "text",
-                "text": " the system displays a status indicator (e.g., Not yet configured)."
+                "text": " the system lists Dent Depth (d) and Nominal Wall Thickness (t)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "6": {
+      "n": 6,
+      "fr_id": "FR-CD-06",
+      "priority": "Medium",
+      "title": "Display Thickness Source Explanation",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display text that “Thickness is automatically derived from Section library, OEM design, or field reference measurement."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " an explanation of how thickness is derived"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand the data source."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Measured Parameters section is visible,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the section loads,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system displays the text explaining that thickness is automatically derived from Section library, OEM design, or field reference measurement."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "7": {
+      "n": 7,
+      "fr_id": "FR-CD-07",
+      "priority": "High",
+      "title": "Automatically Derive Thickness Value",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall automatically derive Thickness (t) from Section Library, OEM design data, or field reference measurement."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system to automatically derive thickness"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I do not need to manually input it."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the test configuration is loaded,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " thickness data is required,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system derives Thickness (t) from the Section Library, OEM design data, or field reference measurement."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "8": {
+      "n": 8,
+      "fr_id": "FR-CD-08",
+      "priority": "High",
+      "title": "Display Severity Logic Section",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display Severity Logic section with color-coded conditions (Green, Amber, Red)."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see the severity logic conditions"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand how results are classified."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the configuration drawer is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the severity section loads,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system displays a Severity Logic section with Green, Amber, and Red conditions."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "9": {
+      "n": 9,
+      "fr_id": "FR-CD-09",
+      "priority": "High",
+      "title": "Define Green Severity Condition",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall define Green condition as d ≤ 1.0 × t."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Green condition defined"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I know when a measurement is acceptable."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Severity Logic section is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Green condition is shown,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it is defined as d ≤ 1.0 × t."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "10": {
+      "n": 10,
+      "fr_id": "FR-CD-10",
+      "priority": "High",
+      "title": "Define Amber Severity Condition",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall define Amber condition as 1.0 × t < d < 2.0 × t."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Amber condition defined"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I know when a measurement requires attention."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Severity Logic section is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Amber condition is shown,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it is defined as 1.0 × t < d < 2.0 × t."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "11": {
+      "n": 11,
+      "fr_id": "FR-CD-11",
+      "priority": "High",
+      "title": "Define Red Severity Condition",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall define Red condition as d ≥ 2.0 × t."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Red severity condition clearly defined"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand when the dent severity becomes critical."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Component Dent evaluation model is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Severity Logic section is visible,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system defines the Red condition as d ≥ 2.0 × t."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "12": {
+      "n": 12,
+      "fr_id": "FR-CD-12",
+      "priority": "High",
+      "title": "Display Visual Indicators for Severity Levels",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display visual indicators for each severity level (green, amber, red)."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " visual indicators for each severity level"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can quickly interpret severity classifications."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Severity Logic section is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " severity levels are shown,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system displays visual indicators for Green, Amber, and Red severity levels."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "13": {
+      "n": 13,
+      "fr_id": "FR-CD-13",
+      "priority": "High",
+      "title": "Display Interaction with Bend Test Rule",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display Interaction with Bend Test rule: If both Dent and Bend exist, Final Severity = Worst of (Dent, Bend). Worst condition governs."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see the interaction rule between Dent and Bend tests"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand how the final severity is determined when both defects exist."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the evaluation model is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the interaction logic is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows the rule stating Final Severity = Worst of (Dent, Bend) and indicates that the worst condition governs."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "14": {
+      "n": 14,
+      "fr_id": "FR-CD-14",
+      "priority": "Medium",
+      "title": "Display System Defined Label",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display “System Defined” label in footer for non-configurable tests."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see a “System Defined” label in the footer"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand the configuration is predefined and cannot be modified."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the evaluation panel is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the footer section is visible,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system displays the label “System Defined” indicating the test configuration is non-configurable."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "15": {
+      "n": 15,
+      "fr_id": "FR-CD-15",
+      "priority": "High",
+      "title": "Ensure Thresholds Are Non-Editable",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall ensure thresholds and formulas displayed are non-editable for system-defined tests."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " thresholds and formulas locked for system-defined tests"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I cannot accidentally modify predefined engineering rules."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the test is marked as system-defined,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the thresholds and formulas are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system ensures these values are non-editable."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "16": {
+      "n": 16,
+      "fr_id": "FR-CD-16",
+      "priority": "High",
+      "title": "Provide Close Button",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall provide Close button to exit configuration drawer."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a Close button in the configuration drawer"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can exit the panel after reviewing the test configuration."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the configuration drawer is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the footer actions are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system provides a Close button."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "17": {
+      "n": 17,
+      "fr_id": "FR-CD-17",
+      "priority": "High",
+      "title": "Display Close Icon",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display a close (X) icon in the header to dismiss the panel."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a close (X) icon in the panel header"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can quickly dismiss the configuration drawer."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the configuration drawer is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the header section is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows a close (X) icon in the header."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "18": {
+      "n": 18,
+      "fr_id": "FR-CD-18",
+      "priority": "High",
+      "title": "Return to Testing List After Closing Panel",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "When user clicks Close or the close icon, system shall dismiss the side panel and return to the Rules and Action list – Testing tab."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system to return me to the Rules and Action Testing tab after closing the panel"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can continue reviewing other test configurations."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the configuration drawer is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click the Close button or the close (X) icon,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system dismisses the side panel and returns to the Rules and Action list – Testing tab."
               }
             ]
           }
@@ -2977,8 +2332,8 @@
     "story_only": [],
     "missing_acceptance": [],
     "odd_prefix_ids": [],
-    "req_count": 23,
-    "story_count": 23,
-    "matched": 23
+    "req_count": 18,
+    "story_count": 18,
+    "matched": 18
   }
 }
