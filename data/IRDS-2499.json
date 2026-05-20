@@ -1,14 +1,14 @@
 {
   "epic_key": "IRDS-2499",
   "epic_name": "Rules and Action",
-  "fr_prefix": "FR-MSV",
-  "created_at": "2026-05-20T07:16:19",
+  "fr_prefix": "FR-SCT",
+  "created_at": "2026-05-20T09:09:12",
   "pairs": {
     "1": {
       "n": 1,
-      "fr_id": "FR-MSV-01",
+      "fr_id": "FR-SCT-01",
       "priority": "High",
-      "title": "Open Material Strength Verification Panel",
+      "title": "Open Surface Coating Thickness Evaluation Panel",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -18,7 +18,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall open a right-side panel when the user clicks the Material Strength Verification test from the Rules and Action → Testing list."
+                "text": "System shall open a right-side panel when the user clicks the Surface Coating Thickness test from the Rules and Action → Testing list."
               }
             ]
           }
@@ -54,7 +54,7 @@
               },
               {
                 "type": "text",
-                "text": " a configuration panel to open when I select the Material Strength Verification test"
+                "text": " the evaluation panel to open when I select the Surface Coating Thickness test"
               },
               {
                 "type": "hardBreak"
@@ -110,7 +110,7 @@
               },
               {
                 "type": "text",
-                "text": " I click the Material Strength Verification test,"
+                "text": " I click the Surface Coating Thickness test,"
               },
               {
                 "type": "hardBreak"
@@ -135,9 +135,9 @@
     },
     "2": {
       "n": 2,
-      "fr_id": "FR-MSV-02",
+      "fr_id": "FR-SCT-02",
       "priority": "High",
-      "title": "Display Panel Title",
+      "title": "Display Evaluation Panel Title",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -147,7 +147,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the panel title “Material Strength Verification — Evaluation Model”."
+                "text": "System shall display the panel title “Surface Coating Thickness — Evaluation Model”."
               }
             ]
           }
@@ -255,7 +255,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays the title “Material Strength Verification — Evaluation Model”."
+                "text": " the system displays the title “Surface Coating Thickness — Evaluation Model”."
               }
             ]
           }
@@ -264,9 +264,9 @@
     },
     "3": {
       "n": 3,
-      "fr_id": "FR-MSV-03",
+      "fr_id": "FR-SCT-03",
       "priority": "Medium",
-      "title": "Display Scope Indicator",
+      "title": "Display Local Scope Label",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -276,7 +276,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Local scope indicator beside the test title."
+                "text": "System shall display the Local scope label beside the test title."
               }
             ]
           }
@@ -303,7 +303,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -312,7 +312,7 @@
               },
               {
                 "type": "text",
-                "text": " see the Local scope indicator beside the test title"
+                "text": " the Local scope label displayed beside the test title"
               },
               {
                 "type": "hardBreak"
@@ -352,7 +352,7 @@
               },
               {
                 "type": "text",
-                "text": " the panel header is displayed,"
+                "text": " the evaluation panel header is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -384,7 +384,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shows the Local scope indicator."
+                "text": " the system shows the Local scope label."
               }
             ]
           }
@@ -393,7 +393,7 @@
     },
     "4": {
       "n": 4,
-      "fr_id": "FR-MSV-04",
+      "fr_id": "FR-SCT-04",
       "priority": "Medium",
       "title": "Display Test Description",
       "requirement": {
@@ -405,7 +405,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a description “Verification of yield and tensile strength against design assumptions.”"
+                "text": "System shall display a description “Verification of proactive coating thickness against design specification.”"
               }
             ]
           }
@@ -513,7 +513,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays the text “Verification of yield and tensile strength against design assumptions.”"
+                "text": " the system displays the text “Verification of proactive coating thickness against design specification.”"
               }
             ]
           }
@@ -522,9 +522,9 @@
     },
     "5": {
       "n": 5,
-      "fr_id": "FR-MSV-05",
+      "fr_id": "FR-SCT-05",
       "priority": "High",
-      "title": "Display Strength Ratio Calculation Section",
+      "title": "Display Measurement Principle Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -534,7 +534,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Strength Ratio Calculation section."
+                "text": "System shall display the Measurement Principles section describing the coating measurement guidelines."
               }
             ]
           }
@@ -570,7 +570,7 @@
               },
               {
                 "type": "text",
-                "text": " the Strength Ratio Calculation section displayed"
+                "text": " the Measurement Principle section displayed"
               },
               {
                 "type": "hardBreak"
@@ -586,7 +586,652 @@
               },
               {
                 "type": "text",
-                "text": " I understand how the evaluation is performed."
+                "text": " I understand coating measurement guidelines."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the evaluation panel is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " measurement guidelines are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows the Measurement Principle section."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "6": {
+      "n": 6,
+      "fr_id": "FR-SCT-06",
+      "priority": "High",
+      "title": "Display Minimum Reading Requirement",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall indicate that a minimum of three coating thickness readings are required for evaluation."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see the requirement for multiple readings"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand the evaluation process."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Measurement Principle section is visible,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the measurement guidelines are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system indicates that at least three coating thickness readings are required."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "7": {
+      "n": 7,
+      "fr_id": "FR-SCT-07",
+      "priority": "Medium",
+      "title": "Specify Flat Area Measurement Requirement",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall specify that measurement should be taken from flat surface areas. – “Flat area selection”"
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the guideline indicating measurement should be taken from flat surfaces"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " measurements remain accurate."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " measurement guidelines are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " instructions are shown,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system specifies that readings should be taken from flat surface areas."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "8": {
+      "n": 8,
+      "fr_id": "FR-SCT-08",
+      "priority": "Medium",
+      "title": "Display Edge and Weld Avoidance Instruction",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall indicate – “Avoid edges and welds” during measurement."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see instructions to avoid edges and welds"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " measurement errors are minimized."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " measurement guidelines are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " instructions are rendered,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system indicates that edges and welds should be avoided during measurement."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "9": {
+      "n": 9,
+      "fr_id": "FR-SCT-09",
+      "priority": "High",
+      "title": "Display Minimum Reading Governing Rule",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall indicate that the minimum reading governs the durability assessment."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system to indicate that the minimum reading governs durability assessment"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the most conservative measurement determines evaluation."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the measurement guidelines are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " governing logic is shown,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system indicates that the minimum reading governs durability assessment."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "10": {
+      "n": 10,
+      "fr_id": "FR-SCT-10",
+      "priority": "High",
+      "title": "Display Thickness Calculation Section",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display the Thickness Calculation section."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Thickness Calculation section displayed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand how coating thickness evaluation is performed."
               }
             ]
           }
@@ -642,18 +1287,18 @@
               },
               {
                 "type": "text",
-                "text": " the system displays the Strength Ratio Calculation section."
+                "text": " the system displays the Thickness Calculation section."
               }
             ]
           }
         ]
       }
     },
-    "6": {
-      "n": 6,
-      "fr_id": "FR-MSV-06",
+    "11": {
+      "n": 11,
+      "fr_id": "FR-SCT-11",
       "priority": "High",
-      "title": "Display Strength Ratio Formula",
+      "title": "Calculate Minimum Thickness",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -663,136 +1308,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the formula SR = fy_test / fy_design for calculating strength ratio."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " see the strength ratio formula"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand how the ratio is calculated."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Strength Ratio Calculation section is visible,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " calculation details are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shows the formula SR = fy_test / fy_design."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "7": {
-      "n": 7,
-      "fr_id": "FR-MSV-07",
-      "priority": "Medium",
-      "title": "Display Design Yield Strength Source",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display information stating that design yield strength is derived from OEM specifications."
+                "text": "System shall calculate minimum thickness (tmin) as the minimum value from all recorded readings."
               }
             ]
           }
@@ -828,7 +1344,7 @@
               },
               {
                 "type": "text",
-                "text": " information about the source of design yield strength"
+                "text": " the system to calculate the minimum thickness"
               },
               {
                 "type": "hardBreak"
@@ -844,7 +1360,7 @@
               },
               {
                 "type": "text",
-                "text": " I know where the reference value originates."
+                "text": " the lowest measured value is identified."
               }
             ]
           }
@@ -868,7 +1384,7 @@
               },
               {
                 "type": "text",
-                "text": " the Strength Ratio Calculation section is displayed,"
+                "text": " multiple coating readings are recorded,"
               },
               {
                 "type": "hardBreak"
@@ -884,7 +1400,7 @@
               },
               {
                 "type": "text",
-                "text": " informational text is shown,"
+                "text": " the system evaluates the readings,"
               },
               {
                 "type": "hardBreak"
@@ -900,147 +1416,18 @@
               },
               {
                 "type": "text",
-                "text": " the system indicates that design yield strength is derived from OEM specifications."
+                "text": " it calculates tmin as the minimum value among all readings."
               }
             ]
           }
         ]
       }
     },
-    "8": {
-      "n": 8,
-      "fr_id": "FR-MSV-08",
-      "priority": "Medium",
-      "title": "Display Tested Yield Strength Sources",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display information indicating that Tested yield strength may be obtained from MTC, hardness conversion, or laboratory tests."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " see possible sources of tested yield strength"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand how the measured value is obtained."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Strength Ratio Calculation section is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " informational text is shown,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system indicates that tested yield strength may come from MTC, hardness conversion, or laboratory tests."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "9": {
-      "n": 9,
-      "fr_id": "FR-MSV-09",
+    "12": {
+      "n": 12,
+      "fr_id": "FR-SCT-12",
       "priority": "High",
-      "title": "Display Yield Strength Acceptance Section",
+      "title": "Calculate Coating Thickness Ratio",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1050,7 +1437,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Yield Strength Acceptance section defining acceptance criteria."
+                "text": "System shall calculate the Coating Thickness Ratio (CR) using the formula CR = tmin / tdesign."
               }
             ]
           }
@@ -1086,7 +1473,7 @@
               },
               {
                 "type": "text",
-                "text": " the Yield Strength Acceptance section displayed"
+                "text": " the system to calculate the coating thickness ratio"
               },
               {
                 "type": "hardBreak"
@@ -1102,7 +1489,7 @@
               },
               {
                 "type": "text",
-                "text": " I can review the severity criteria."
+                "text": " the measurement can be compared with the design specification."
               }
             ]
           }
@@ -1112,6 +1499,280 @@
         "type": "doc",
         "version": 1,
         "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " tmin and tdesign values are available,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " coating evaluation is performed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system calculates CR = tmin / tdesign."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "13": {
+      "n": 13,
+      "fr_id": "FR-SCT-13",
+      "priority": "Medium",
+      "title": "Display Design Thickness Source Note",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display a note indicating that Design thickness is derived from coating specification."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see a note explaining the source of design thickness"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand where the reference value comes from."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Thickness Calculation section is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " informational notes are shown,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system indicates that design thickness is derived from coating specification."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "14": {
+      "n": 14,
+      "fr_id": "FR-SCT-14",
+      "priority": "High",
+      "title": "Display Acceptance Criteria Section",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display the Acceptance Criteria section."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the"
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "section displayed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand the severity classification rules."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Acceptance Criteria"
+              }
+            ]
+          },
           {
             "type": "paragraph",
             "content": [
@@ -1142,7 +1803,7 @@
               },
               {
                 "type": "text",
-                "text": " severity criteria are displayed,"
+                "text": " severity conditions are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1158,652 +1819,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shows the Yield Strength Acceptance section."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "10": {
-      "n": 10,
-      "fr_id": "FR-MSV-10",
-      "priority": "High",
-      "title": "Define Green Severity for Yield Strength",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define Green severity when SR ≥ 1.00."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the green severity condition defined for yield strength"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know when strength meets design requirements."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " yield strength acceptance thresholds are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Green condition is rendered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines it as SR ≥ 1.00."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "11": {
-      "n": 11,
-      "fr_id": "FR-MSV-11",
-      "priority": "High",
-      "title": "Define Amber Severity for Yield Strength",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define Amber severity when 0.95 ≤ SR < 1.00."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Amber severity condition defined for yield strength"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know when strength slightly deviates from design assumptions."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " yield strength acceptance thresholds are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Amber condition is rendered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines it as 0.95 ≤ SR < 1.00."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "12": {
-      "n": 12,
-      "fr_id": "FR-MSV-12",
-      "priority": "High",
-      "title": "Define Red Severity for Yield Strength",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define Red severity when SR < 0.95."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Red severity condition defined for yield strength"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know when the material strength is insufficient."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " yield strength acceptance thresholds are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Red condition is rendered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines it as SR < 0.95."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "13": {
-      "n": 13,
-      "fr_id": "FR-MSV-13",
-      "priority": "High",
-      "title": "Display Tensile Strength Verification Section",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display the Tensile Strength Verification section when tensile strength values are specified."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Tensile Strength Verification section displayed when applicable"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can evaluate tensile strength results."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " tensile strength values are available,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the evaluation model loads,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system displays the Tensile Strength Verification section."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "14": {
-      "n": 14,
-      "fr_id": "FR-MSV-14",
-      "priority": "High",
-      "title": "Define Acceptable Tensile Strength Condition",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall mark tensile strength as acceptable when fu_test / fu_design ≥ 0.95. -> Acceptable"
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " tensile strength acceptance criteria defined"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know when tensile strength is acceptable."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " tensile strength verification is performed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the ratio is calculated,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system marks the result as acceptable when fu_test / fu_design ≥ 0.95."
+                "text": " the system shows the Acceptance Criteria section."
               }
             ]
           }
@@ -1812,9 +1828,9 @@
     },
     "15": {
       "n": 15,
-      "fr_id": "FR-MSV-15",
+      "fr_id": "FR-SCT-15",
       "priority": "High",
-      "title": "Define Red Severity for Low Tensile Strength",
+      "title": "Define Green Severity Condition",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1824,7 +1840,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall mark the test as Red severity when the tensile strength ratio is below 0.95."
+                "text": "System shall define Green condition when CR ≥ 0.80."
               }
             ]
           }
@@ -1860,7 +1876,7 @@
               },
               {
                 "type": "text",
-                "text": " the system to mark Red severity for insufficient tensile strength"
+                "text": " the Green severity condition defined"
               },
               {
                 "type": "hardBreak"
@@ -1876,7 +1892,7 @@
               },
               {
                 "type": "text",
-                "text": " structural risk is identified."
+                "text": " I know when coating thickness meets acceptable limits."
               }
             ]
           }
@@ -1900,7 +1916,7 @@
               },
               {
                 "type": "text",
-                "text": " tensile strength ratio is calculated,"
+                "text": " coating thickness ratio values are evaluated,"
               },
               {
                 "type": "hardBreak"
@@ -1916,7 +1932,7 @@
               },
               {
                 "type": "text",
-                "text": " fu_test / fu_design < 0.95,"
+                "text": " the Green condition is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1932,7 +1948,7 @@
               },
               {
                 "type": "text",
-                "text": " the system marks the test severity as Red."
+                "text": " the system defines it as CR ≥ 0.80."
               }
             ]
           }
@@ -1941,9 +1957,9 @@
     },
     "16": {
       "n": 16,
-      "fr_id": "FR-MSV-16",
-      "priority": "Medium",
-      "title": "Display Pending Verification Rule Section",
+      "fr_id": "FR-SCT-16",
+      "priority": "High",
+      "title": "Define Amber Severity Condition",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1953,7 +1969,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Pending Verification Rule section."
+                "text": "System shall define Amber condition when 0.60 ≤ CR < 0.80."
               }
             ]
           }
@@ -1989,7 +2005,7 @@
               },
               {
                 "type": "text",
-                "text": " the Pending Verification Rule section displayed"
+                "text": " the Amber severity condition defined"
               },
               {
                 "type": "hardBreak"
@@ -2005,7 +2021,394 @@
               },
               {
                 "type": "text",
-                "text": " incomplete verification cases are identified."
+                "text": " I know when coating thickness requires monitoring."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " coating thickness ratio values are evaluated,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Amber condition is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system defines it as 0.60 ≤ CR < 0.80."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "17": {
+      "n": 17,
+      "fr_id": "FR-SCT-17",
+      "priority": "High",
+      "title": "Define Red Severity Condition",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall define Red condition when CR < 0.60."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Red severity condition defined"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I know when coating thickness is critically low."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " coating thickness ratio values are evaluated,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Red condition is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system defines it as CR < 0.60."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "18": {
+      "n": 18,
+      "fr_id": "FR-SCT-18",
+      "priority": "High",
+      "title": "Display Visual Severity Indicators",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall visually represent severity levels using color indicators (Green, Amber, Red)."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " severity categories visually represented"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can quickly identify severity levels."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " severity logic is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " severity categories are rendered,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows color indicators for Green, Amber, and Red."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "19": {
+      "n": 19,
+      "fr_id": "FR-SCT-19",
+      "priority": "High",
+      "title": "Display Governing Rule Section",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display the Governing Rule section indicating that the “minimum measured thickness governs classification.”"
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see the governing rule explaining classification logic"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand how severity is determined."
               }
             ]
           }
@@ -2045,7 +2448,7 @@
               },
               {
                 "type": "text",
-                "text": " verification rules are loaded,"
+                "text": " rule logic is shown,"
               },
               {
                 "type": "hardBreak"
@@ -2061,394 +2464,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays the Pending Verification Rule section."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "17": {
-      "n": 17,
-      "fr_id": "FR-MSV-17",
-      "priority": "High",
-      "title": "Mark Verification Pending Without Material Certificate",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall mark verification as Pending when no material certificate is provided."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " verification marked as Pending when a material certificate is unavailable"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " incomplete verification is flagged."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " no material certificate is provided,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system evaluates verification status,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system marks the verification as Pending."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "18": {
-      "n": 18,
-      "fr_id": "FR-MSV-18",
-      "priority": "High",
-      "title": "Mark Verification Pending Without Material Test",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall mark verification as Pending when no material test has been performed."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " verification marked as Pending when no test has been performed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " incomplete evaluation is highlighted."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " no material test has been performed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system evaluates verification status,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system marks the verification as Pending."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "19": {
-      "n": 19,
-      "fr_id": "FR-MSV-19",
-      "priority": "High",
-      "title": "Mark Verification Pending When Steel Grade is Unknown",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall mark verification as Pending when the steel grade is unknown."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " verification marked as Pending when steel grade is unknown"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " missing material information is highlighted."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the steel grade is unknown,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " verification status is evaluated,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system marks the verification as Pending."
+                "text": " the system displays a Governing Rule section stating that the minimum measured thickness governs classification."
               }
             ]
           }
@@ -2457,781 +2473,7 @@
     },
     "20": {
       "n": 20,
-      "fr_id": "FR-MSV-20",
-      "priority": "High",
-      "title": "Display Overall Severity Logic Section",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display the Overall Severity Logic section within the Material Strength Verification evaluation panel."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Overall Severity Logic section displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand how final severity is determined."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the evaluation panel is open,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " evaluation logic is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shows the Overall Severity Logic section."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "21": {
-      "n": 21,
-      "fr_id": "FR-MSV-21",
-      "priority": "High",
-      "title": "Display Final Severity Description",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display a description indicating that the final severity is governed by the worst result among applicable strength checks."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " see a description explaining how final severity is determined"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand the evaluation logic."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Material Strength Verification evaluation panel is open,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Overall Severity Logic section is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shows a description stating that the final severity is governed by the worst result among applicable strength checks."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "22": {
-      "n": 22,
-      "fr_id": "FR-MSV-22",
-      "priority": "High",
-      "title": "Display Yield Strength Check as Severity Parameter",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display Yield Strength Check as one of the parameters used to determine the final severity."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Yield Strength Check displayed as a severity parameter"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know it contributes to the final severity evaluation."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Overall Severity Logic section is visible,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " evaluation parameters are listed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system displays Yield Strength Check as one of the parameters used to determine final severity."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "23": {
-      "n": 23,
-      "fr_id": "FR-MSV-23",
-      "priority": "High",
-      "title": "Display Tensile Strength Check as Severity Parameter",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display Tensile Strength Check (if applicable) as an additional parameter used to determine the final severity."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Tensile Strength Check displayed when applicable"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know it contributes to severity evaluation when available."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " tensile strength verification data is available,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Overall Severity Logic section is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shows Tensile Strength Check as an additional parameter used to determine final severity."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "24": {
-      "n": 24,
-      "fr_id": "FR-MSV-24",
-      "priority": "Medium",
-      "title": "Determine Final Severity Using Only Yield Strength When Tensile Data is Unavailable",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall consider only Yield Strength Check for determining final severity when tensile strength verification data is not available."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system to evaluate final severity using only yield strength when tensile data is unavailable"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " evaluation remains valid even without tensile verification."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " tensile strength verification data is not available,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system calculates final severity,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system considers only the Yield Strength Check."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "25": {
-      "n": 25,
-      "fr_id": "FR-MSV-25",
-      "priority": "Medium",
-      "title": "Determine Final Severity Using Both Yield and Tensile Strength",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall consider both Yield Strength Check and Tensile Strength Check when tensile strength verification data is available."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " both yield and tensile strength checks considered when data is available"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the evaluation uses all applicable parameters."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " tensile strength verification data is available,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system calculates final severity,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system evaluates both Yield Strength Check and Tensile Strength Check."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "26": {
-      "n": 26,
-      "fr_id": "FR-MSV-26",
+      "fr_id": "FR-SCT-20",
       "priority": "Medium",
       "title": "Display System Defined Label",
       "requirement": {
@@ -3243,7 +2485,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the System Defined label indicating that the evaluation model cannot be edited."
+                "text": "System shall display the System Defined label indicating the evaluation model is not editable by users."
               }
             ]
           }
@@ -3279,7 +2521,7 @@
               },
               {
                 "type": "text",
-                "text": " see a “System Defined” label indicating the evaluation model cannot be edited"
+                "text": " see a “System Defined” label"
               },
               {
                 "type": "hardBreak"
@@ -3295,7 +2537,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand configuration values are locked."
+                "text": " I understand the evaluation model cannot be edited."
               }
             ]
           }
@@ -3319,7 +2561,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is open,"
+                "text": " the evaluation panel is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -3335,7 +2577,7 @@
               },
               {
                 "type": "text",
-                "text": " the configuration information is displayed,"
+                "text": " configuration information is shown,"
               },
               {
                 "type": "hardBreak"
@@ -3351,18 +2593,18 @@
               },
               {
                 "type": "text",
-                "text": " the system shows a “System Defined” label indicating that the evaluation model cannot be edited."
+                "text": " the system displays a “System Defined” label."
               }
             ]
           }
         ]
       }
     },
-    "27": {
-      "n": 27,
-      "fr_id": "FR-MSV-27",
+    "21": {
+      "n": 21,
+      "fr_id": "FR-SCT-21",
       "priority": "High",
-      "title": "Close Evaluation Panel",
+      "title": "Provide Close Button",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -3372,7 +2614,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall allow the user to close the evaluation panel using the Close button or top-right close icon."
+                "text": "System shall provide a Close button to close the evaluation panel."
               }
             ]
           }
@@ -3399,7 +2641,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -3408,7 +2650,7 @@
               },
               {
                 "type": "text",
-                "text": " close the evaluation panel using the Close button or close icon"
+                "text": " a Close button available in the panel"
               },
               {
                 "type": "hardBreak"
@@ -3424,7 +2666,7 @@
               },
               {
                 "type": "text",
-                "text": " I can return to the testing list."
+                "text": " I can exit the evaluation view."
               }
             ]
           }
@@ -3464,7 +2706,7 @@
               },
               {
                 "type": "text",
-                "text": " I click the Close button or the top-right close (X) icon,"
+                "text": " the footer is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -3480,7 +2722,265 @@
               },
               {
                 "type": "text",
-                "text": " the system closes the panel and returns me to the Rules and Action → Testing list."
+                "text": " the system provides a Close button."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "22": {
+      "n": 22,
+      "fr_id": "FR-SCT-22",
+      "priority": "High",
+      "title": "Display Close Icon",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall provide a close (X) icon in the top-right corner to close the panel."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a close (X) icon in the panel header"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can quickly dismiss the panel."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the evaluation panel is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the header is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows a close (X) icon in the top-right corner."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "23": {
+      "n": 23,
+      "fr_id": "FR-SCT-23",
+      "priority": "High",
+      "title": "Return to Testing List After Closing Panel",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall return the user to the Rules and Action → Testing list after closing the panel."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system to return me to the Rules and Action → Testing list after closing the panel"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can continue reviewing other tests."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the evaluation panel is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click the Close button or close (X) icon,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system closes the panel and returns to the Rules and Action → Testing list."
               }
             ]
           }
@@ -3493,8 +2993,8 @@
     "story_only": [],
     "missing_acceptance": [],
     "odd_prefix_ids": [],
-    "req_count": 27,
-    "story_count": 27,
-    "matched": 27
+    "req_count": 23,
+    "story_count": 23,
+    "matched": 23
   }
 }
