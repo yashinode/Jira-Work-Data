@@ -1,14 +1,14 @@
 {
   "epic_key": "IRDS-2499",
   "epic_name": "Rules and Action",
-  "fr_prefix": "FR-FUVP",
-  "created_at": "2026-05-20T11:07:44",
+  "fr_prefix": "FR-OUP",
+  "created_at": "2026-05-20T11:58:01",
   "pairs": {
     "1": {
       "n": 1,
-      "fr_id": "FR-FUPV-01",
+      "fr_id": "FR-OUP-01",
       "priority": "High",
-      "title": "Open Floor UPV Test Evaluation Panel",
+      "title": "Open Overall Upright Plumbness Evaluation Panel",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -18,7 +18,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall open a right-side panel when the user clicks the Floor UPV Test from the Rules and Action → Testing list."
+                "text": "System shall open the Overall Upright Plumbness – Evaluation Model side panel when the user selects the corresponding test from the Rules & Actions Testing list."
               }
             ]
           }
@@ -54,7 +54,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel to open when I select the Floor UPV Test"
+                "text": " the evaluation panel to open when I select the Overall Upright Plumbness test"
               },
               {
                 "type": "hardBreak"
@@ -70,7 +70,7 @@
               },
               {
                 "type": "text",
-                "text": " I can review the evaluation model."
+                "text": " I can review the evaluation model configuration."
               }
             ]
           }
@@ -94,7 +94,7 @@
               },
               {
                 "type": "text",
-                "text": " I am viewing the Rules and Action → Testing list,"
+                "text": " I am viewing the Rules & Actions → Testing list,"
               },
               {
                 "type": "hardBreak"
@@ -110,7 +110,7 @@
               },
               {
                 "type": "text",
-                "text": " I click the Floor UPV Test,"
+                "text": " I select the Overall Upright Plumbness test,"
               },
               {
                 "type": "hardBreak"
@@ -126,7 +126,7 @@
               },
               {
                 "type": "text",
-                "text": " the system opens a right-side evaluation panel."
+                "text": " the system opens the Overall Upright Plumbness – Evaluation Model side panel."
               }
             ]
           }
@@ -135,7 +135,7 @@
     },
     "2": {
       "n": 2,
-      "fr_id": "FR-FUVP-02",
+      "fr_id": "FR-OUP-02",
       "priority": "High",
       "title": "Display Evaluation Panel Title",
       "requirement": {
@@ -147,7 +147,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the panel title “Floor UPV Test — Evaluation Model” at the top of the side panel."
+                "text": "System shall display the test title “Overall Upright plumbness – G1 evaluation model” at the top of the panel."
               }
             ]
           }
@@ -183,7 +183,7 @@
               },
               {
                 "type": "text",
-                "text": " the panel title displayed at the top"
+                "text": " the test title displayed at the top of the panel"
               },
               {
                 "type": "hardBreak"
@@ -255,7 +255,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays the title “Floor UPV Test — Evaluation Model”."
+                "text": " the system displays the title “Overall Upright plumbness – G1 evaluation model”."
               }
             ]
           }
@@ -264,9 +264,9 @@
     },
     "3": {
       "n": 3,
-      "fr_id": "FR-FUVP-03",
+      "fr_id": "FR-OUP-03",
       "priority": "Medium",
-      "title": "Display Global Scope Label",
+      "title": "Display Scope Label",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -276,7 +276,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Global scope label beside the test title."
+                "text": "System shall display the scope label “Global” for the G1 evaluation model."
               }
             ]
           }
@@ -312,7 +312,7 @@
               },
               {
                 "type": "text",
-                "text": " the Global scope label displayed beside the test title"
+                "text": " the Global scope label displayed"
               },
               {
                 "type": "hardBreak"
@@ -352,7 +352,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel header is displayed,"
+                "text": " the evaluation panel header is visible,"
               },
               {
                 "type": "hardBreak"
@@ -384,7 +384,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shows the Global scope label."
+                "text": " the system displays the label “Global”."
               }
             ]
           }
@@ -393,9 +393,9 @@
     },
     "4": {
       "n": 4,
-      "fr_id": "FR-FUVP-04",
+      "fr_id": "FR-OUP-04",
       "priority": "Medium",
-      "title": "Display Test Description",
+      "title": "Display Model Description",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -405,7 +405,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a description indicating that “Concrete internal quality assessment using ultrasonic pulse velocity.”"
+                "text": "System shall display a short description indicating the model is derived from δ(z) survey data representing vertical deviation profile."
               }
             ]
           }
@@ -441,7 +441,7 @@
               },
               {
                 "type": "text",
-                "text": " see the test description"
+                "text": " see a short description of the model"
               },
               {
                 "type": "hardBreak"
@@ -457,7 +457,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the purpose of the test."
+                "text": " I understand the basis of the evaluation."
               }
             ]
           }
@@ -513,7 +513,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays the text indicating “Concrete internal quality assessment using ultrasonic pulse velocity.”"
+                "text": " the system displays a description indicating the model is derived from δ(z) survey data representing vertical deviation profile."
               }
             ]
           }
@@ -522,9 +522,9 @@
     },
     "5": {
       "n": 5,
-      "fr_id": "FR-FUVP-05",
+      "fr_id": "FR-OUP-05",
       "priority": "High",
-      "title": "Display Velocity Calculation Section",
+      "title": "Display Measurement Basis Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -534,7 +534,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Velocity Calculation section explaining the UPV calculation method."
+                "text": "System shall display a Measurement Basis section describing that deviation is “computed from deviation profile δ(z).”"
               }
             ]
           }
@@ -570,7 +570,7 @@
               },
               {
                 "type": "text",
-                "text": " the Velocity Calculation section displayed"
+                "text": " the Measurement Basis section displayed"
               },
               {
                 "type": "hardBreak"
@@ -586,7 +586,265 @@
               },
               {
                 "type": "text",
-                "text": " I understand the UPV calculation method."
+                "text": " I understand how deviation measurements are derived."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the evaluation panel is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the measurement explanation is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows the Measurement Basis section."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "6": {
+      "n": 6,
+      "fr_id": "FR-OUP-06",
+      "priority": "High",
+      "title": "Display Definition of δ(z)",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display the definition of δ(z) as – “deviation of upright from nominal position at height z derived from the survey engine.”"
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the definition of δ(z) displayed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand the deviation variable."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Measurement Basis section is visible,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " definitions are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system defines δ(z) as deviation of upright from nominal position at height z derived from the survey engine."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "7": {
+      "n": 7,
+      "fr_id": "FR-OUP-07",
+      "priority": "High",
+      "title": "Display Calculation Logic Section",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display the Calculation Logic section in read-only mode."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Calculation Logic section displayed in read-only mode"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can review the calculation model."
               }
             ]
           }
@@ -642,265 +900,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays the Velocity Calculation section."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "6": {
-      "n": 6,
-      "fr_id": "FR-FUVP-06",
-      "priority": "High",
-      "title": "Display UPV Formula",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display the formula Velocity (V) = L / T for calculating ultrasonic pulse velocity."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the ultrasonic velocity calculation formula displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand how the velocity value is computed."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Velocity Calculation section is visible,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " calculation details are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shows the formula Velocity (V) = L / T."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "7": {
-      "n": 7,
-      "fr_id": "FR-FUVP-07",
-      "priority": "Medium",
-      "title": "Define Path Length Variable",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define L as Path Length used in the velocity calculation."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the variable L defined"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand the calculation inputs."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the formula is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " variable definitions are shown,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines L as the path length used in the velocity calculation."
+                "text": " the system displays the Calculation Logic section in read-only mode."
               }
             ]
           }
@@ -909,9 +909,9 @@
     },
     "8": {
       "n": 8,
-      "fr_id": "FR-FUVP-08",
-      "priority": "Medium",
-      "title": "Define Travel Time Variable",
+      "fr_id": "FR-OUP-08",
+      "priority": "High",
+      "title": "Display Deviation Formula",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -921,7 +921,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall define T as Travel Time of the ultrasonic pulse."
+                "text": "System shall display the formula Δδ(zᵢ) = δ(zᵢ) − δ(z_base)."
               }
             ]
           }
@@ -948,7 +948,7 @@
               },
               {
                 "type": "text",
-                "text": "I want",
+                "text": "I want to",
                 "marks": [
                   {
                     "type": "strong"
@@ -957,7 +957,7 @@
               },
               {
                 "type": "text",
-                "text": " the variable T defined"
+                "text": " see the deviation calculation formula"
               },
               {
                 "type": "hardBreak"
@@ -973,7 +973,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the calculation inputs."
+                "text": " I understand how deviation is derived."
               }
             ]
           }
@@ -997,7 +997,7 @@
               },
               {
                 "type": "text",
-                "text": " the formula is displayed,"
+                "text": " the Calculation Logic section is visible,"
               },
               {
                 "type": "hardBreak"
@@ -1013,7 +1013,7 @@
               },
               {
                 "type": "text",
-                "text": " variable definitions are shown,"
+                "text": " formulas are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1029,7 +1029,7 @@
               },
               {
                 "type": "text",
-                "text": " the system defines T as the travel time of the ultrasonic pulse."
+                "text": " the system shows the formula Δδ(zᵢ) = δ(zᵢ) − δ(z_base)."
               }
             ]
           }
@@ -1038,9 +1038,9 @@
     },
     "9": {
       "n": 9,
-      "fr_id": "FR-FUVP-09",
-      "priority": "High",
-      "title": "Convert Velocity to km/s",
+      "fr_id": "FR-OUP-09",
+      "priority": "Medium",
+      "title": "Compute Maximum Deviation",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1050,7 +1050,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall convert the calculated velocity value into kilometres per second  (km/s)."
+                "text": "System shall compute **maximum deviation Δδ_max = max (Δδ(zᵢ) )"
               }
             ]
           }
@@ -1086,7 +1086,7 @@
               },
               {
                 "type": "text",
-                "text": " the velocity value converted to kilometres per second"
+                "text": " the system to compute maximum deviation"
               },
               {
                 "type": "hardBreak"
@@ -1102,7 +1102,7 @@
               },
               {
                 "type": "text",
-                "text": " results are displayed in the standard unit."
+                "text": " the highest deviation value is identified."
               }
             ]
           }
@@ -1126,7 +1126,7 @@
               },
               {
                 "type": "text",
-                "text": " the velocity value is calculated,"
+                "text": " deviation values are available,"
               },
               {
                 "type": "hardBreak"
@@ -1142,7 +1142,7 @@
               },
               {
                 "type": "text",
-                "text": " the system processes the result,"
+                "text": " the system evaluates the data,"
               },
               {
                 "type": "hardBreak"
@@ -1158,7 +1158,7 @@
               },
               {
                 "type": "text",
-                "text": " it converts the velocity value into kilometres per second (km/s)."
+                "text": " it computes maximum deviation Δδ_max = max(Δδ(zᵢ))."
               }
             ]
           }
@@ -1167,9 +1167,9 @@
     },
     "10": {
       "n": 10,
-      "fr_id": "FR-FUVP-10",
+      "fr_id": "FR-OUP-10",
       "priority": "High",
-      "title": "Display Concrete Quality Classification Section",
+      "title": "Compute Plumbness Value",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1179,7 +1179,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Concrete Quality Classification section."
+                "text": "System shall compute Plumbness (mm/m) = Δδ_max / H_m."
               }
             ]
           }
@@ -1215,7 +1215,7 @@
               },
               {
                 "type": "text",
-                "text": " the Concrete Quality Classification section displayed"
+                "text": " the system to compute plumbness in mm/m"
               },
               {
                 "type": "hardBreak"
@@ -1231,7 +1231,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the severity classification rules."
+                "text": " the deviation ratio can be evaluated."
               }
             ]
           }
@@ -1255,7 +1255,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is open,"
+                "text": " Δδ_max and H_m values are available,"
               },
               {
                 "type": "hardBreak"
@@ -1271,7 +1271,7 @@
               },
               {
                 "type": "text",
-                "text": " classification logic is displayed,"
+                "text": " the calculation logic executes,"
               },
               {
                 "type": "hardBreak"
@@ -1287,7 +1287,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shows the Concrete Quality Classification section."
+                "text": " the system calculates Plumbness (mm/m) = Δδ_max / H_m."
               }
             ]
           }
@@ -1296,9 +1296,9 @@
     },
     "11": {
       "n": 11,
-      "fr_id": "FR-FUVP-11",
-      "priority": "High",
-      "title": "Define Green Classification",
+      "fr_id": "FR-OUP-11",
+      "priority": "Medium",
+      "title": "Display Upright Height Explanation",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1308,7 +1308,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall classify the result as Green when V > 3.5 km/s."
+                "text": "System shall display a note explaining H_m represents measured upright height."
               }
             ]
           }
@@ -1344,7 +1344,7 @@
               },
               {
                 "type": "text",
-                "text": " the Green classification condition defined"
+                "text": " a note explaining upright height"
               },
               {
                 "type": "hardBreak"
@@ -1360,7 +1360,7 @@
               },
               {
                 "type": "text",
-                "text": " I know when concrete quality is considered good."
+                "text": " I understand the variable used in calculations."
               }
             ]
           }
@@ -1384,7 +1384,7 @@
               },
               {
                 "type": "text",
-                "text": " velocity values are evaluated,"
+                "text": " the calculation section is visible,"
               },
               {
                 "type": "hardBreak"
@@ -1400,7 +1400,7 @@
               },
               {
                 "type": "text",
-                "text": " the Green condition is displayed,"
+                "text": " explanatory notes are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1416,7 +1416,7 @@
               },
               {
                 "type": "text",
-                "text": " the system defines it as V > 3.5 km/s."
+                "text": " the system indicates that H_m represents measured upright height."
               }
             ]
           }
@@ -1425,9 +1425,9 @@
     },
     "12": {
       "n": 12,
-      "fr_id": "FR-FUVP-12",
+      "fr_id": "FR-OUP-12",
       "priority": "High",
-      "title": "Define Amber Classification",
+      "title": "Display Threshold Configuration Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1437,7 +1437,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall classify the result as Amber when 3.0 ≤ V ≤ 3.5 km/s."
+                "text": "System shall display a Threshold Configuration section for configuring allowable deviation parameters."
               }
             ]
           }
@@ -1473,7 +1473,7 @@
               },
               {
                 "type": "text",
-                "text": " the Amber classification condition defined"
+                "text": " the Threshold Configuration section displayed"
               },
               {
                 "type": "hardBreak"
@@ -1489,7 +1489,7 @@
               },
               {
                 "type": "text",
-                "text": " I know when concrete quality is moderate."
+                "text": " I can configure allowable deviation parameters."
               }
             ]
           }
@@ -1513,7 +1513,7 @@
               },
               {
                 "type": "text",
-                "text": " velocity values are evaluated,"
+                "text": " the evaluation panel is open,"
               },
               {
                 "type": "hardBreak"
@@ -1529,7 +1529,7 @@
               },
               {
                 "type": "text",
-                "text": " the Amber condition is displayed,"
+                "text": " configuration settings are loaded,"
               },
               {
                 "type": "hardBreak"
@@ -1545,7 +1545,7 @@
               },
               {
                 "type": "text",
-                "text": " the system defines it as 3.0 ≤ V ≤ 3.5 km/s."
+                "text": " the system displays the Threshold Configuration section."
               }
             ]
           }
@@ -1554,9 +1554,9 @@
     },
     "13": {
       "n": 13,
-      "fr_id": "FR-FUVP-13",
+      "fr_id": "FR-OUP-13",
       "priority": "High",
-      "title": "Define Red Classification",
+      "title": "Display Allowable Deviation Formula",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1566,7 +1566,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall classify the result as Red when V < 3.0 km/s."
+                "text": "System shall display the Allowable Deviation Formula: Allowable Deviation = H / [200] Divisor."
               }
             ]
           }
@@ -1593,7 +1593,7 @@
               },
               {
                 "type": "text",
-                "text": "I want",
+                "text": "I want to",
                 "marks": [
                   {
                     "type": "strong"
@@ -1602,7 +1602,7 @@
               },
               {
                 "type": "text",
-                "text": " the Red classification condition defined"
+                "text": " see the allowable deviation formula"
               },
               {
                 "type": "hardBreak"
@@ -1618,7 +1618,7 @@
               },
               {
                 "type": "text",
-                "text": " I know when concrete quality is poor."
+                "text": " I understand how thresholds are derived."
               }
             ]
           }
@@ -1642,7 +1642,7 @@
               },
               {
                 "type": "text",
-                "text": " velocity values are evaluated,"
+                "text": " the threshold configuration section is visible,"
               },
               {
                 "type": "hardBreak"
@@ -1658,7 +1658,7 @@
               },
               {
                 "type": "text",
-                "text": " the Red condition is displayed,"
+                "text": " formulas are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1674,7 +1674,7 @@
               },
               {
                 "type": "text",
-                "text": " the system defines it as V < 3.0 km/s."
+                "text": " the system shows the formula Allowable Deviation = H / Divisor."
               }
             ]
           }
@@ -1683,9 +1683,9 @@
     },
     "14": {
       "n": 14,
-      "fr_id": "FR-FUVP-14",
+      "fr_id": "FR-OUP-14",
       "priority": "High",
-      "title": "Display Visual Severity Indicators",
+      "title": "Provide Configurable Divisor Field",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1695,7 +1695,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall visually represent classification categories using colour indicators (Green, Amber, Red)."
+                "text": "System shall provide a configurable Divisor field with default value 200."
               }
             ]
           }
@@ -1731,7 +1731,7 @@
               },
               {
                 "type": "text",
-                "text": " classification levels visually represented"
+                "text": " a configurable divisor field"
               },
               {
                 "type": "hardBreak"
@@ -1747,7 +1747,7 @@
               },
               {
                 "type": "text",
-                "text": " I can easily identify the severity status."
+                "text": " I can adjust allowable deviation calculations."
               }
             ]
           }
@@ -1771,7 +1771,7 @@
               },
               {
                 "type": "text",
-                "text": " classification categories are displayed,"
+                "text": " the threshold configuration section is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1787,7 +1787,7 @@
               },
               {
                 "type": "text",
-                "text": " severity indicators are rendered,"
+                "text": " configuration inputs are shown,"
               },
               {
                 "type": "hardBreak"
@@ -1803,7 +1803,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shows color indicators for Green, Amber, and Red."
+                "text": " the system provides a divisor field with default value 200."
               }
             ]
           }
@@ -1812,9 +1812,9 @@
     },
     "15": {
       "n": 15,
-      "fr_id": "FR-FUVP-15",
-      "priority": "Medium",
-      "title": "Display Standards Alignment Note",
+      "fr_id": "FR-OUP-15",
+      "priority": "High",
+      "title": "Validate Divisor Input",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1824,7 +1824,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a note indicating that “velocity classification bands aligned with IS 13311 concrete quality standards”"
+                "text": "System shall validate the divisor input to allow integer values only between minimum 100 and maximum 2000."
               }
             ]
           }
@@ -1851,7 +1851,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -1860,7 +1860,7 @@
               },
               {
                 "type": "text",
-                "text": " see the standards reference note"
+                "text": " divisor input validated"
               },
               {
                 "type": "hardBreak"
@@ -1876,7 +1876,7 @@
               },
               {
                 "type": "text",
-                "text": " I know the classification follows recognized guidelines."
+                "text": " incorrect values cannot be entered."
               }
             ]
           }
@@ -1900,7 +1900,7 @@
               },
               {
                 "type": "text",
-                "text": " the classification section is displayed,"
+                "text": " the divisor field is editable,"
               },
               {
                 "type": "hardBreak"
@@ -1916,7 +1916,7 @@
               },
               {
                 "type": "text",
-                "text": " informational notes are shown,"
+                "text": " I enter a value,"
               },
               {
                 "type": "hardBreak"
@@ -1932,7 +1932,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays the note “velocity classification bands aligned with IS 13311 concrete quality standards.”"
+                "text": " the system accepts only integer values between 100 and 2000."
               }
             ]
           }
@@ -1941,267 +1941,9 @@
     },
     "16": {
       "n": 16,
-      "fr_id": "FR-FUVP-16",
-      "priority": "High",
-      "title": "Display Overall Severity Logic Section",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display the Overall Severity Logic section."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Overall Severity Logic section displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand how the final severity is determined."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the evaluation panel is open,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " severity logic is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shows the Overall Severity Logic section."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "17": {
-      "n": 17,
-      "fr_id": "FR-FUVP-17",
-      "priority": "High",
-      "title": "Determine Final Severity from Velocity Value",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall determine the final RAG severity directly from the calculated velocity value."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the final RAG severity determined from the velocity value"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " classification is based directly on calculated results."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the velocity value is calculated,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system performs classification,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " it determines the final RAG severity directly from the calculated velocity value."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "18": {
-      "n": 18,
-      "fr_id": "FR-FUVP-18",
+      "fr_id": "FR-OUP-16",
       "priority": "Medium",
-      "title": "Display System Defined Label",
+      "title": "Display Allowable Deviation Explanation",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2211,7 +1953,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the System Defined label indicating that the evaluation logic is predefined and cannot be modified by users."
+                "text": "System shall display an explanatory note describing that allowable deviation is calculated as upright height divided by divisor."
               }
             ]
           }
@@ -2247,7 +1989,7 @@
               },
               {
                 "type": "text",
-                "text": " see a “System Defined” label"
+                "text": " see an explanation of allowable deviation calculation"
               },
               {
                 "type": "hardBreak"
@@ -2263,7 +2005,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the evaluation logic cannot be modified."
+                "text": " I understand how thresholds are derived."
               }
             ]
           }
@@ -2287,7 +2029,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is displayed,"
+                "text": " the configuration section is visible,"
               },
               {
                 "type": "hardBreak"
@@ -2303,7 +2045,7 @@
               },
               {
                 "type": "text",
-                "text": " configuration information is shown,"
+                "text": " explanatory notes are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -2319,18 +2061,18 @@
               },
               {
                 "type": "text",
-                "text": " the system displays a “System Defined” label."
+                "text": " the system indicates allowable deviation equals upright height divided by divisor."
               }
             ]
           }
         ]
       }
     },
-    "19": {
-      "n": 19,
-      "fr_id": "FR-FUVP-19",
-      "priority": "High",
-      "title": "Provide Close Button",
+    "17": {
+      "n": 17,
+      "fr_id": "FR-OUP-17",
+      "priority": "Medium",
+      "title": "Display Example Calculation",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2340,7 +2082,150 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall provide a Close button to close the evaluation panel."
+                "text": "System shall display an example calculation –"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Example = “For H = 6000 mm and Divisor = 200"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Allowable = 6000/200= 30 mm, illustrating deviation using sample values."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see an example calculation"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand how the formula works."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the threshold configuration section is visible,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " example values are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows the example calculation using sample values."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "18": {
+      "n": 18,
+      "fr_id": "FR-OUP-18",
+      "priority": "High",
+      "title": "Display Red Escalation Multiplier Field",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display a Red Escalation Multiplier field with default value 1.5."
               }
             ]
           }
@@ -2376,7 +2261,7 @@
               },
               {
                 "type": "text",
-                "text": " a Close button available in the panel"
+                "text": " a Red Escalation Multiplier field"
               },
               {
                 "type": "hardBreak"
@@ -2392,7 +2277,687 @@
               },
               {
                 "type": "text",
-                "text": " I can exit the evaluation view."
+                "text": " escalation thresholds can be configured."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the threshold configuration section is visible,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " configuration fields are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows the Red Escalation Multiplier field with default value 1.5."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "19": {
+      "n": 19,
+      "fr_id": "FR-OUP-19",
+      "priority": "High",
+      "title": "Validate Escalation Multiplier Input",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall validate the Red Escalation Multiplier to accept numeric values between Minimum: 1.0 and Maximum: 3.0 with step increments of 0.1."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the escalation multiplier validated"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " incorrect values cannot be entered."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the multiplier field is editable,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I enter a value,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system accepts numeric values between 1.0 and 3.0 with step increments of 0.1."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "20": {
+      "n": 20,
+      "fr_id": "FR-OUP-20",
+      "priority": "High",
+      "title": "Display Escalation Formula",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display the escalation formula Red when Δδ_max > multiplier - 1.5 × (H / (Divisor)."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see the escalation formula"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand how Red severity is triggered."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the escalation configuration section is visible,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " formulas are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows the Red escalation formula."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "21": {
+      "n": 21,
+      "fr_id": "FR-OUP-21",
+      "priority": "Medium",
+      "title": "Display Live Preview Section",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display a Live Preview section (read-only) showing:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Example using sample height:  H= 6000mm"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Allowable= 6000/200= 30.00mm"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Amber Range = 30.00 to 45.00 mm"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Red > 45.00 mm"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "calculated allowable deviation and severity thresholds using example height."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a Live Preview section displayed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can visualize calculated thresholds."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " configuration parameters are available,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the preview section loads,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system displays calculated example thresholds."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "22": {
+      "n": 22,
+      "fr_id": "FR-OUP-22",
+      "priority": "Medium",
+      "title": "Display Threshold Ranges in Preview",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display calculated Green, Amber, and Red threshold ranges in the preview section."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the preview section to display Green, Amber, and Red ranges"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can understand severity boundaries."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Live Preview section is visible,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " thresholds are calculated,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system displays the Green, Amber, and Red threshold ranges."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "23": {
+      "n": 23,
+      "fr_id": "FR-OUP-23",
+      "priority": "Medium",
+      "title": "Display Output Preview Section",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display an Output Preview section showing automatically calculated output parameters."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " an Output Preview section displayed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can review calculated results."
               }
             ]
           }
@@ -2432,7 +2997,7 @@
               },
               {
                 "type": "text",
-                "text": " the footer is displayed,"
+                "text": " the output preview loads,"
               },
               {
                 "type": "hardBreak"
@@ -2448,18 +3013,18 @@
               },
               {
                 "type": "text",
-                "text": " the system provides a Close button."
+                "text": " the system displays the Output Preview section."
               }
             ]
           }
         ]
       }
     },
-    "20": {
-      "n": 20,
-      "fr_id": "FR-FUVP-20",
+    "24": {
+      "n": 24,
+      "fr_id": "FR-OUP-24",
       "priority": "High",
-      "title": "Display Close Icon",
+      "title": "Display Computed Output Parameters",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2469,7 +3034,136 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall provide a close (X) icon in the top-right corner of the panel."
+                "text": "System shall display computed outputs including Upright Height (H_m), Δδ_max (mm): Auto Plumbness (mm/m): Auto, Governing Height (z_at_max): Auto and RAG: Auto."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see computed output parameters"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can review evaluation results."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Output Preview section is visible,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " results are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows Upright Height, Δδ_max, Plumbness, Governing Height, and RAG."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "25": {
+      "n": 25,
+      "fr_id": "FR-OUP-25",
+      "priority": "High",
+      "title": "Provide Save Changes Button",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall provide Save Changes button to store modified threshold configuration values."
               }
             ]
           }
@@ -2505,7 +3199,7 @@
               },
               {
                 "type": "text",
-                "text": " a close (X) icon in the panel header"
+                "text": " a Save Changes button"
               },
               {
                 "type": "hardBreak"
@@ -2521,7 +3215,265 @@
               },
               {
                 "type": "text",
-                "text": " I can quickly dismiss the panel."
+                "text": " I can store modified configuration values."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " configuration values are modified,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click Save Changes,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system saves the updated threshold configuration."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "26": {
+      "n": 26,
+      "fr_id": "FR-OUP-26",
+      "priority": "High",
+      "title": "Provide Cancel Button",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall provide Cancel button to discard changes and close the configuration panel."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a Cancel button"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can discard changes."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " configuration changes are made,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click Cancel,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system discards the changes and closes the panel."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "27": {
+      "n": 27,
+      "fr_id": "FR-OUP-27",
+      "priority": "High",
+      "title": "Provide Close Icon",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall provide a Close (X) icon to exit the panel."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a close (X) icon"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can exit the panel quickly."
               }
             ]
           }
@@ -2577,18 +3529,18 @@
               },
               {
                 "type": "text",
-                "text": " the system shows a close (X) icon in the top-right corner."
+                "text": " the system shows a close (X) icon."
               }
             ]
           }
         ]
       }
     },
-    "21": {
-      "n": 21,
-      "fr_id": "FR-FUVP-21",
-      "priority": "High",
-      "title": "Return to Testing List After Closing Panel",
+    "28": {
+      "n": 28,
+      "fr_id": "FR-OUP-28",
+      "priority": "Medium",
+      "title": "Display Formula Label",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2598,7 +3550,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall close the panel and return the user to the Rules and Action → Testing list screen when the close action is triggered."
+                "text": "System shall display “Formula based threshold (height ratio model)” label at the bottom of the panel."
               }
             ]
           }
@@ -2625,7 +3577,7 @@
               },
               {
                 "type": "text",
-                "text": "I want",
+                "text": "I want to",
                 "marks": [
                   {
                     "type": "strong"
@@ -2634,7 +3586,7 @@
               },
               {
                 "type": "text",
-                "text": " the system to return me to the Rules and Action → Testing list after closing the panel"
+                "text": " see a formula model label at the bottom"
               },
               {
                 "type": "hardBreak"
@@ -2650,7 +3602,7 @@
               },
               {
                 "type": "text",
-                "text": " I can continue reviewing other tests."
+                "text": " I understand the threshold model type."
               }
             ]
           }
@@ -2674,7 +3626,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is open,"
+                "text": " the panel footer is visible,"
               },
               {
                 "type": "hardBreak"
@@ -2690,7 +3642,7 @@
               },
               {
                 "type": "text",
-                "text": " I click the Close button or close (X) icon,"
+                "text": " informational labels are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -2706,7 +3658,7 @@
               },
               {
                 "type": "text",
-                "text": " the system closes the panel and returns to the Rules and Action → Testing list screen."
+                "text": " the system shows the label “Formula based threshold (height ratio model)”."
               }
             ]
           }
@@ -2718,11 +3670,9 @@
     "req_only": [],
     "story_only": [],
     "missing_acceptance": [],
-    "odd_prefix_ids": [
-      "FR-FUPV-01"
-    ],
-    "req_count": 21,
-    "story_count": 21,
-    "matched": 21
+    "odd_prefix_ids": [],
+    "req_count": 28,
+    "story_count": 28,
+    "matched": 28
   }
 }
