@@ -1,14 +1,14 @@
 {
   "epic_key": "IRDS-2499",
   "epic_name": "Rules and Action",
-  "fr_prefix": "FR-CT",
-  "created_at": "2026-05-20T05:55:40",
+  "fr_prefix": "FR-CC",
+  "created_at": "2026-05-20T06:26:35",
   "pairs": {
     "1": {
       "n": 1,
-      "fr_id": "FR-CT-01",
+      "fr_id": "FR-CC-01",
       "priority": "High",
-      "title": "Open Component Thickness Configuration Drawer",
+      "title": "Open Component Corrosion Configuration Panel",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -18,7 +18,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "When user selects a Component Thickness test (e.g., L4) from the Rules and Action test names list, system shall open a right-side configuration drawer Component Thickness test."
+                "text": "System shall open a right-side panel when the user clicks the Component Corrosion (L5) test from the Rules and Action → Testing list."
               }
             ]
           }
@@ -54,7 +54,7 @@
               },
               {
                 "type": "text",
-                "text": " a configuration drawer to open when I select the Component Thickness test"
+                "text": " a configuration panel to open when I select the Component Corrosion test"
               },
               {
                 "type": "hardBreak"
@@ -94,7 +94,7 @@
               },
               {
                 "type": "text",
-                "text": " I am viewing the Rules and Action test names list,"
+                "text": " I am viewing the Rules and Action → Testing list,"
               },
               {
                 "type": "hardBreak"
@@ -110,7 +110,7 @@
               },
               {
                 "type": "text",
-                "text": " I select Component Thickness (L4),"
+                "text": " I click the Component Corrosion (L5) test,"
               },
               {
                 "type": "hardBreak"
@@ -126,7 +126,7 @@
               },
               {
                 "type": "text",
-                "text": " the system opens a right-side configuration drawer titled “Component Thickness (L4)”."
+                "text": " the system opens a right-side configuration panel."
               }
             ]
           }
@@ -135,9 +135,9 @@
     },
     "2": {
       "n": 2,
-      "fr_id": "FR-CT-02",
-      "priority": "Medium",
-      "title": "Display Test Description",
+      "fr_id": "FR-CC-02",
+      "priority": "High",
+      "title": "Display Configuration Panel Title",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -147,7 +147,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a descriptive subtitle explaining the purpose of the test (e.g., Structural thickness verification.)"
+                "text": "System shall display the panel title “Component Corrosion (L5) — Configuration” at the top of the panel."
               }
             ]
           }
@@ -183,7 +183,7 @@
               },
               {
                 "type": "text",
-                "text": " a descriptive subtitle explaining the test purpose"
+                "text": " the configuration panel title displayed at the top"
               },
               {
                 "type": "hardBreak"
@@ -199,7 +199,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand what the test evaluates."
+                "text": " I know which test configuration I am viewing."
               }
             ]
           }
@@ -223,7 +223,7 @@
               },
               {
                 "type": "text",
-                "text": " the configuration drawer is open,"
+                "text": " the configuration panel is open,"
               },
               {
                 "type": "hardBreak"
@@ -255,7 +255,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays a descriptive subtitle explaining the purpose of the test."
+                "text": " the system displays the title “Component Corrosion (L5) — Configuration”."
               }
             ]
           }
@@ -264,9 +264,9 @@
     },
     "3": {
       "n": 3,
-      "fr_id": "FR-CT-03",
+      "fr_id": "FR-CC-03",
       "priority": "Medium",
-      "title": "Display Test Scope Badge",
+      "title": "Display Test Scope Label",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -276,7 +276,136 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the test scope badge (e.g., Local) in the header."
+                "text": "System shall display the test scope label (Local) beside the test title."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see the test scope label displayed beside the title"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I know the scope of the rule."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the configuration panel header is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the title section is rendered,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows the test scope label “Local”."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "4": {
+      "n": 4,
+      "fr_id": "FR-CC-04",
+      "priority": "Medium",
+      "title": "Display Test Description",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display a test description that the test “evaluates section loss percentage due to corrosion.”"
               }
             ]
           }
@@ -312,7 +441,7 @@
               },
               {
                 "type": "text",
-                "text": " the test scope badge displayed in the header"
+                "text": " a description explaining the test purpose"
               },
               {
                 "type": "hardBreak"
@@ -328,7 +457,7 @@
               },
               {
                 "type": "text",
-                "text": " I know whether the rule applies globally or locally."
+                "text": " I understand what the rule evaluates."
               }
             ]
           }
@@ -352,7 +481,7 @@
               },
               {
                 "type": "text",
-                "text": " the configuration drawer is open,"
+                "text": " the configuration panel is open,"
               },
               {
                 "type": "hardBreak"
@@ -368,7 +497,7 @@
               },
               {
                 "type": "text",
-                "text": " the header is displayed,"
+                "text": " the description section loads,"
               },
               {
                 "type": "hardBreak"
@@ -384,16 +513,16 @@
               },
               {
                 "type": "text",
-                "text": " the system shows the test scope badge (e.g., Local)."
+                "text": " the system displays the text indicating the test “evaluates section loss percentage due to corrosion.”"
               }
             ]
           }
         ]
       }
     },
-    "4": {
-      "n": 4,
-      "fr_id": "FR-CT-04",
+    "5": {
+      "n": 5,
+      "fr_id": "FR-CC-05",
       "priority": "High",
       "title": "Display Measured Parameters Section",
       "requirement": {
@@ -405,7 +534,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "For Component Thickness (L4), system shall display Measured Parameters section."
+                "text": "System shall display the Measured Parameters section listing the parameters required for corrosion evaluation."
               }
             ]
           }
@@ -457,7 +586,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the evaluation inputs used for the test."
+                "text": " I understand which parameters are used for corrosion evaluation."
               }
             ]
           }
@@ -481,7 +610,7 @@
               },
               {
                 "type": "text",
-                "text": " the Component Thickness (L4) configuration drawer is open,"
+                "text": " the configuration panel is open,"
               },
               {
                 "type": "hardBreak"
@@ -520,11 +649,11 @@
         ]
       }
     },
-    "5": {
-      "n": 5,
-      "fr_id": "FR-CT-05",
+    "6": {
+      "n": 6,
+      "fr_id": "FR-CC-06",
       "priority": "High",
-      "title": "Display Thickness Evaluation Inputs",
+      "title": "Display Original Section Area Parameter",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -534,7 +663,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display Original Thickness (t₀) and Measured Thickness (tₘ) as evaluation inputs."
+                "text": "System shall display Original Section Area (A₀) as an input parameter reference for corrosion evaluation."
               }
             ]
           }
@@ -570,7 +699,7 @@
               },
               {
                 "type": "text",
-                "text": " Original Thickness and Measured Thickness displayed"
+                "text": " the Original Section Area displayed as a parameter reference"
               },
               {
                 "type": "hardBreak"
@@ -586,7 +715,7 @@
               },
               {
                 "type": "text",
-                "text": " I know the values used for thickness evaluation."
+                "text": " I know the baseline value used for corrosion evaluation."
               }
             ]
           }
@@ -626,7 +755,7 @@
               },
               {
                 "type": "text",
-                "text": " evaluation inputs are displayed,"
+                "text": " parameters are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -642,18 +771,18 @@
               },
               {
                 "type": "text",
-                "text": " the system shows Original Thickness (t₀) and Measured Thickness (tₘ)."
+                "text": " the system shows Original Section Area (A₀)."
               }
             ]
           }
         ]
       }
     },
-    "6": {
-      "n": 6,
-      "fr_id": "FR-CT-06",
-      "priority": "Medium",
-      "title": "Display Thickness Configuration Notice",
+    "7": {
+      "n": 7,
+      "fr_id": "FR-CC-07",
+      "priority": "High",
+      "title": "Display Remaining Section Area Parameter",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -663,7 +792,136 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a descriptive text for Measured thickness section – “Thresholds are fixed under IRDS structural engineering framework. Manual configuration is not permitted.”"
+                "text": "System shall display Remaining Section Area (Aᵣ) as an input parameter reference for corrosion evaluation."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Remaining Section Area displayed as a parameter reference"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I know the measured value used in corrosion evaluation."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Measured Parameters section is visible,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " parameters are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows Remaining Section Area (Aᵣ)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "8": {
+      "n": 8,
+      "fr_id": "FR-CC-08",
+      "priority": "Medium",
+      "title": "Display System-Defined Threshold Note",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display a note indicating that corrosion thresholds are system-defined based on IRDS structural safety standards."
               }
             ]
           }
@@ -699,7 +957,7 @@
               },
               {
                 "type": "text",
-                "text": " see a notice indicating thresholds are fixed"
+                "text": " see a note indicating corrosion thresholds are system-defined"
               },
               {
                 "type": "hardBreak"
@@ -715,7 +973,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand that manual configuration is not allowed."
+                "text": " I understand they cannot be modified."
               }
             ]
           }
@@ -739,7 +997,7 @@
               },
               {
                 "type": "text",
-                "text": " the Measured Parameters section is displayed,"
+                "text": " the configuration panel is open,"
               },
               {
                 "type": "hardBreak"
@@ -755,7 +1013,7 @@
               },
               {
                 "type": "text",
-                "text": " the descriptive text is rendered,"
+                "text": " the threshold information is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -771,25 +1029,18 @@
               },
               {
                 "type": "text",
-                "text": " the system displays the message:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "“Thresholds are fixed under IRDS structural engineering framework. Manual configuration is not permitted.”"
+                "text": " the system shows a note indicating thresholds are system-defined based on IRDS structural safety standards."
               }
             ]
           }
         ]
       }
     },
-    "7": {
-      "n": 7,
-      "fr_id": "FR-CT-07",
+    "9": {
+      "n": 9,
+      "fr_id": "FR-CC-09",
       "priority": "High",
-      "title": "Display Severity Logic Based on Thickness Loss",
+      "title": "Display Severity Logic Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -799,7 +1050,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display Severity Logic based on calculated thickness loss percentage."
+                "text": "System shall display the Severity Logic section defining corrosion severity categories."
               }
             ]
           }
@@ -835,7 +1086,7 @@
               },
               {
                 "type": "text",
-                "text": " severity logic displayed based on thickness loss percentage"
+                "text": " the Severity Logic section displayed"
               },
               {
                 "type": "hardBreak"
@@ -851,7 +1102,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand how severity is determined."
+                "text": " I understand how corrosion severity is determined."
               }
             ]
           }
@@ -875,7 +1126,7 @@
               },
               {
                 "type": "text",
-                "text": " the configuration drawer is open,"
+                "text": " the configuration panel is open,"
               },
               {
                 "type": "hardBreak"
@@ -891,7 +1142,7 @@
               },
               {
                 "type": "text",
-                "text": " the severity logic section loads,"
+                "text": " the evaluation logic is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -907,18 +1158,18 @@
               },
               {
                 "type": "text",
-                "text": " the system displays severity conditions based on calculated thickness loss percentage."
+                "text": " the system shows the Severity Logic section."
               }
             ]
           }
         ]
       }
     },
-    "8": {
-      "n": 8,
-      "fr_id": "FR-CT-08",
+    "10": {
+      "n": 10,
+      "fr_id": "FR-CC-10",
       "priority": "High",
-      "title": "Define Green Condition for Thickness Loss",
+      "title": "Define Green Severity Condition",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -928,7 +1179,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall define Green condition for thickness loss as ≤ 5%."
+                "text": "System shall define Green severity when corrosion loss is ≤ 10%."
               }
             ]
           }
@@ -964,7 +1215,7 @@
               },
               {
                 "type": "text",
-                "text": " the Green condition defined for thickness loss"
+                "text": " the Green severity condition defined for corrosion loss"
               },
               {
                 "type": "hardBreak"
@@ -980,7 +1231,7 @@
               },
               {
                 "type": "text",
-                "text": " I know when the component remains within safe tolerance."
+                "text": " I know when corrosion remains within acceptable limits."
               }
             ]
           }
@@ -1004,7 +1255,7 @@
               },
               {
                 "type": "text",
-                "text": " thickness loss severity conditions are displayed,"
+                "text": " corrosion severity thresholds are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1036,18 +1287,18 @@
               },
               {
                 "type": "text",
-                "text": " it is defined as thickness loss ≤ 5%."
+                "text": " the system defines it as corrosion loss ≤ 10%."
               }
             ]
           }
         ]
       }
     },
-    "9": {
-      "n": 9,
-      "fr_id": "FR-CT-09",
+    "11": {
+      "n": 11,
+      "fr_id": "FR-CC-11",
       "priority": "High",
-      "title": "Define Amber Condition for Thickness Loss",
+      "title": "Define Amber Severity Condition for Corrosion Loss",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1057,7 +1308,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall define Amber condition for thickness loss as > 5% and ≤ 10%."
+                "text": "System shall define Amber severity when corrosion loss is > 10% and ≤ 20%."
               }
             ]
           }
@@ -1093,7 +1344,7 @@
               },
               {
                 "type": "text",
-                "text": " the Amber condition defined for thickness loss"
+                "text": " the Amber severity condition defined for corrosion loss"
               },
               {
                 "type": "hardBreak"
@@ -1109,7 +1360,7 @@
               },
               {
                 "type": "text",
-                "text": " I know when moderate deterioration is detected."
+                "text": " I know when corrosion requires monitoring."
               }
             ]
           }
@@ -1133,7 +1384,7 @@
               },
               {
                 "type": "text",
-                "text": " thickness loss severity conditions are displayed,"
+                "text": " corrosion severity thresholds are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1165,18 +1416,18 @@
               },
               {
                 "type": "text",
-                "text": " it is defined as thickness loss > 5% and ≤ 10%."
+                "text": " the system defines it as corrosion loss > 10% and ≤ 20%."
               }
             ]
           }
         ]
       }
     },
-    "10": {
-      "n": 10,
-      "fr_id": "FR-CT-10",
+    "12": {
+      "n": 12,
+      "fr_id": "FR-CC-12",
       "priority": "High",
-      "title": "Define Red Condition for Thickness Loss",
+      "title": "Define Red Severity Condition for Corrosion Loss",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1186,7 +1437,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall define Red condition for thickness loss as > 10%."
+                "text": "System shall define Red severity when corrosion loss is > 20%."
               }
             ]
           }
@@ -1222,7 +1473,7 @@
               },
               {
                 "type": "text",
-                "text": " the Red condition defined for thickness loss"
+                "text": " the red severity condition defined for corrosion loss"
               },
               {
                 "type": "hardBreak"
@@ -1238,7 +1489,7 @@
               },
               {
                 "type": "text",
-                "text": " I know when the component is critically weakened."
+                "text": " I know when corrosion becomes critical."
               }
             ]
           }
@@ -1262,7 +1513,7 @@
               },
               {
                 "type": "text",
-                "text": " thickness loss severity conditions are displayed,"
+                "text": " corrosion severity thresholds are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1294,18 +1545,18 @@
               },
               {
                 "type": "text",
-                "text": " it is defined as thickness loss > 10%."
+                "text": " the system defines it as corrosion loss > 20%."
               }
             ]
           }
         ]
       }
     },
-    "11": {
-      "n": 11,
-      "fr_id": "FR-CT-11",
+    "13": {
+      "n": 13,
+      "fr_id": "FR-CC-13",
       "priority": "High",
-      "title": "Display Critical Escalation Rule",
+      "title": "Display Visual Severity Indicators",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1315,7 +1566,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display Critical Escalation rule “if thickness loss exceeds 10% (beam-upright junction, baseplate anchor), immediate red flag escalation is required."
+                "text": "System shall visually represent severity categories using color indicators (Green, Amber, Red)."
               }
             ]
           }
@@ -1342,7 +1593,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -1351,7 +1602,7 @@
               },
               {
                 "type": "text",
-                "text": " see the critical escalation rule displayed"
+                "text": " severity categories represented visually"
               },
               {
                 "type": "hardBreak"
@@ -1367,7 +1618,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand when immediate escalation is required."
+                "text": " I can quickly distinguish severity levels."
               }
             ]
           }
@@ -1391,7 +1642,136 @@
               },
               {
                 "type": "text",
-                "text": " the severity logic section is visible,"
+                "text": " severity logic is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " severity categories are rendered,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system displays color indicators for Green, Amber, and Red."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "14": {
+      "n": 14,
+      "fr_id": "FR-CC-14",
+      "priority": "High",
+      "title": "Display Critical Escalation Section",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display a Critical Escalation section indicating that severe corrosion at load-bearing connections requires structural assessment."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a Critical Escalation section displayed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand when structural assessment is required."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the configuration panel is open,"
               },
               {
                 "type": "hardBreak"
@@ -1423,281 +1803,16 @@
               },
               {
                 "type": "text",
-                "text": " the system shows the rule:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "“if thickness loss exceeds 10% (beam-upright junction, baseplate anchor), immediate red flag escalation is required.”"
+                "text": " the system shows a section indicating that severe corrosion at load-bearing connections requires structural assessment."
               }
             ]
           }
         ]
       }
     },
-    "12": {
-      "n": 12,
-      "fr_id": "FR-CT-12",
-      "priority": "High",
-      "title": "Trigger Red-Flag Escalation",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall trigger red-flag escalation when critical threshold is exceeded."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system to trigger a red-flag escalation when critical thresholds are exceeded"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " severe structural risks are immediately highlighted."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a thickness loss measurement exceeds the defined critical threshold,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system evaluates the severity logic,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a red-flag escalation is triggered."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "13": {
-      "n": 13,
-      "fr_id": "FR-CT-13",
-      "priority": "High",
-      "title": "Prevent Manual Modification of Thresholds",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall not allow manual modification of severity thresholds for system-defined tests."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " severity thresholds locked for system-defined tests"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " standardized engineering rules cannot be altered."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Component Thickness test is system-defined,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the evaluation model modal is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system prevents manual modification of severity thresholds."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "14": {
-      "n": 14,
-      "fr_id": "FR-CT-14",
+    "15": {
+      "n": 15,
+      "fr_id": "FR-CC-15",
       "priority": "High",
       "title": "Display Calculation Method Section",
       "requirement": {
@@ -1709,7 +1824,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display Calculation Method section with the formula – Loss% = ((t₀ − tₘ) / t₀) × 100."
+                "text": "System shall display the Calculation Method section for corrosion loss percentage."
               }
             ]
           }
@@ -1745,7 +1860,7 @@
               },
               {
                 "type": "text",
-                "text": " see the calculation method used for thickness loss"
+                "text": " see the calculation method used for corrosion evaluation"
               },
               {
                 "type": "hardBreak"
@@ -1761,7 +1876,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand how severity is derived."
+                "text": " I understand how corrosion loss is derived."
               }
             ]
           }
@@ -1785,7 +1900,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation model modal is open,"
+                "text": " the evaluation logic section is visible,"
               },
               {
                 "type": "hardBreak"
@@ -1801,7 +1916,7 @@
               },
               {
                 "type": "text",
-                "text": " the calculation section is displayed,"
+                "text": " the calculation details are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1817,25 +1932,18 @@
               },
               {
                 "type": "text",
-                "text": " the system shows the formula:"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Loss% = ((t₀ − tₘ) / t₀) × 100."
+                "text": " the system shows a Calculation Method section."
               }
             ]
           }
         ]
       }
     },
-    "15": {
-      "n": 15,
-      "fr_id": "FR-CT-15",
-      "priority": "Medium",
-      "title": "Display Close Button in Modal",
+    "16": {
+      "n": 16,
+      "fr_id": "FR-CC-16",
+      "priority": "High",
+      "title": "Calculate Corrosion Loss Percentage",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1845,7 +1953,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Close button in the evaluation model modal."
+                "text": "System shall calculate corrosion loss using the formula Loss % = ((A₀ − Aᵣ) / A₀) × 100."
               }
             ]
           }
@@ -1881,7 +1989,272 @@
               },
               {
                 "type": "text",
-                "text": " a Close button available in the evaluation model modal"
+                "text": " the system to calculate corrosion loss automatically"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " severity evaluation is consistent."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Original Section Area (A₀) and Remaining Section Area (Aᵣ) values are available,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " corrosion evaluation is performed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system calculates corrosion loss using the formula:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Loss % = ((A₀ − Aᵣ) / A₀) × 100."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "17": {
+      "n": 17,
+      "fr_id": "FR-CC-17",
+      "priority": "Medium",
+      "title": "Display System Defined Label",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display the System Defined label indicating that configuration values cannot be modified by the user."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see a “System Defined” label"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand configuration values cannot be modified."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the configuration panel is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the rule configuration is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows a “System Defined” label indicating values cannot be modified."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "18": {
+      "n": 18,
+      "fr_id": "FR-CC-18",
+      "priority": "High",
+      "title": "Provide Close Button",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall provide a Close button to allow the user to exit the side panel."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " a Close button available in the panel"
               },
               {
                 "type": "hardBreak"
@@ -1921,7 +2294,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation model modal is open,"
+                "text": " the configuration panel is open,"
               },
               {
                 "type": "hardBreak"
@@ -1960,11 +2333,11 @@
         ]
       }
     },
-    "16": {
-      "n": 16,
-      "fr_id": "FR-CT-16",
-      "priority": "Medium",
-      "title": "Allow Modal Dismissal Using Close Icon",
+    "19": {
+      "n": 19,
+      "fr_id": "FR-CC-19",
+      "priority": "High",
+      "title": "Display Close Icon in Header",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1974,136 +2347,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall allow the user to dismiss the modal using the top-right close (X) icon."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " dismiss the modal using the top-right close (X) icon"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can quickly exit the modal."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the evaluation model modal is open,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I click the close (X) icon in the header,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the modal is dismissed."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "17": {
-      "n": 17,
-      "fr_id": "FR-CT-17",
-      "priority": "Medium",
-      "title": "Return to Previous Screen After Modal Dismissal",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall cancel the modal view and return the user to the previous screen when the modal is dismissed using Close or X action."
+                "text": "System shall provide a close (X) icon at the top-right corner of the panel."
               }
             ]
           }
@@ -2139,7 +2383,7 @@
               },
               {
                 "type": "text",
-                "text": " the system to return me to the previous screen after closing the modal"
+                "text": " a close (X) icon in the panel header"
               },
               {
                 "type": "hardBreak"
@@ -2155,7 +2399,7 @@
               },
               {
                 "type": "text",
-                "text": " I can continue working in the Rules and Actions list."
+                "text": " I can quickly dismiss the configuration panel."
               }
             ]
           }
@@ -2179,7 +2423,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation model modal is open,"
+                "text": " the configuration panel is open,"
               },
               {
                 "type": "hardBreak"
@@ -2195,7 +2439,7 @@
               },
               {
                 "type": "text",
-                "text": " I dismiss it using the Close button or close (X) icon,"
+                "text": " the header section is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -2211,7 +2455,136 @@
               },
               {
                 "type": "text",
-                "text": " the system cancels the modal view and returns to the previous screen."
+                "text": " the system shows a close (X) icon in the top-right corner."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "20": {
+      "n": 20,
+      "fr_id": "FR-CC-20",
+      "priority": "High",
+      "title": "Return to Testing List After Closing Panel",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall close the panel and return the user to the Rules and Action → Testing list screen when the Close action is triggered."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system to return me to the Rules and Action → Testing list"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can continue reviewing other tests."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the configuration panel is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I click the Close button or the close (X) icon,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system closes the panel and returns me to the Rules and Action → Testing list screen."
               }
             ]
           }
@@ -2224,8 +2597,8 @@
     "story_only": [],
     "missing_acceptance": [],
     "odd_prefix_ids": [],
-    "req_count": 17,
-    "story_count": 17,
-    "matched": 17
+    "req_count": 20,
+    "story_count": 20,
+    "matched": 20
   }
 }
