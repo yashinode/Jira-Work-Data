@@ -1,14 +1,14 @@
 {
   "epic_key": "IRDS-2499",
   "epic_name": "Rules and Action",
-  "fr_prefix": "FR-SCT",
-  "created_at": "2026-05-20T09:09:12",
+  "fr_prefix": "FR-FRH",
+  "created_at": "2026-05-20T09:43:57",
   "pairs": {
     "1": {
       "n": 1,
-      "fr_id": "FR-SCT-01",
+      "fr_id": "FR-FRH-01",
       "priority": "High",
-      "title": "Open Surface Coating Thickness Evaluation Panel",
+      "title": "Open Floor Rebound Hammer Test Evaluation Panel",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -18,7 +18,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall open a right-side panel when the user clicks the Surface Coating Thickness test from the Rules and Action → Testing list."
+                "text": "System shall open a right-side panel when the user clicks the Floor Rebound Hammer Test from the Rules and Action → Testing list."
               }
             ]
           }
@@ -54,7 +54,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel to open when I select the Surface Coating Thickness test"
+                "text": " the evaluation panel to open when I select the Floor Rebound Hammer Test"
               },
               {
                 "type": "hardBreak"
@@ -110,7 +110,7 @@
               },
               {
                 "type": "text",
-                "text": " I click the Surface Coating Thickness test,"
+                "text": " I click the Floor Rebound Hammer Test,"
               },
               {
                 "type": "hardBreak"
@@ -135,7 +135,7 @@
     },
     "2": {
       "n": 2,
-      "fr_id": "FR-SCT-02",
+      "fr_id": "FR-FRH-02",
       "priority": "High",
       "title": "Display Evaluation Panel Title",
       "requirement": {
@@ -147,7 +147,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the panel title “Surface Coating Thickness — Evaluation Model”."
+                "text": "System shall display the panel title “Floor Rebound Hammer Test — Evaluation Model”."
               }
             ]
           }
@@ -255,7 +255,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays the title “Surface Coating Thickness — Evaluation Model”."
+                "text": " the system displays the title “Floor Rebound Hammer Test — Evaluation Model”."
               }
             ]
           }
@@ -264,9 +264,9 @@
     },
     "3": {
       "n": 3,
-      "fr_id": "FR-SCT-03",
+      "fr_id": "FR-FRH-03",
       "priority": "Medium",
-      "title": "Display Local Scope Label",
+      "title": "Display Global Scope Label",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -276,7 +276,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Local scope label beside the test title."
+                "text": "System shall display the Global scope label beside the test title."
               }
             ]
           }
@@ -312,7 +312,7 @@
               },
               {
                 "type": "text",
-                "text": " the Local scope label displayed beside the test title"
+                "text": " the Global scope label displayed beside the test title"
               },
               {
                 "type": "hardBreak"
@@ -328,7 +328,7 @@
               },
               {
                 "type": "text",
-                "text": " I know the scope of the rule."
+                "text": " I understand the rule scope."
               }
             ]
           }
@@ -352,7 +352,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel header is displayed,"
+                "text": " the panel header is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -384,7 +384,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shows the Local scope label."
+                "text": " the system shows the Global scope label."
               }
             ]
           }
@@ -393,7 +393,7 @@
     },
     "4": {
       "n": 4,
-      "fr_id": "FR-SCT-04",
+      "fr_id": "FR-FRH-04",
       "priority": "Medium",
       "title": "Display Test Description",
       "requirement": {
@@ -405,7 +405,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a description “Verification of proactive coating thickness against design specification.”"
+                "text": "System shall display a description “In- situ concrete surface strength estimation using rebound hammer readings.” indicating that the test estimates in-situ concrete surface strength using rebound hammer readings."
               }
             ]
           }
@@ -432,7 +432,7 @@
               },
               {
                 "type": "text",
-                "text": "I want",
+                "text": "I want to",
                 "marks": [
                   {
                     "type": "strong"
@@ -441,7 +441,7 @@
               },
               {
                 "type": "text",
-                "text": " a description explaining the test purpose"
+                "text": " see the test description"
               },
               {
                 "type": "hardBreak"
@@ -457,7 +457,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand what the evaluation verifies."
+                "text": " I understand the purpose of the test."
               }
             ]
           }
@@ -513,7 +513,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays the text “Verification of proactive coating thickness against design specification.”"
+                "text": " the system displays the text indicating the test estimates in-situ concrete surface strength using rebound hammer readings."
               }
             ]
           }
@@ -522,9 +522,9 @@
     },
     "5": {
       "n": 5,
-      "fr_id": "FR-SCT-05",
+      "fr_id": "FR-FRH-05",
       "priority": "High",
-      "title": "Display Measurement Principle Section",
+      "title": "Display Measurement Method Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -534,7 +534,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Measurement Principles section describing the coating measurement guidelines."
+                "text": "System shall display the Measurement Method section explaining rebound hammer reading rules."
               }
             ]
           }
@@ -570,7 +570,7 @@
               },
               {
                 "type": "text",
-                "text": " the Measurement Principle section displayed"
+                "text": " the Measurement Method section displayed"
               },
               {
                 "type": "hardBreak"
@@ -586,7 +586,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand coating measurement guidelines."
+                "text": " I understand the rebound hammer reading guidelines."
               }
             ]
           }
@@ -626,7 +626,7 @@
               },
               {
                 "type": "text",
-                "text": " measurement guidelines are displayed,"
+                "text": " the measurement guidelines are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -642,7 +642,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shows the Measurement Principle section."
+                "text": " the system shows the Measurement Method section."
               }
             ]
           }
@@ -651,9 +651,9 @@
     },
     "6": {
       "n": 6,
-      "fr_id": "FR-SCT-06",
+      "fr_id": "FR-FRH-06",
       "priority": "High",
-      "title": "Display Minimum Reading Requirement",
+      "title": "Require Minimum Rebound Readings",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -663,7 +663,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall indicate that a minimum of three coating thickness readings are required for evaluation."
+                "text": "System shall require a minimum of 10 rebound readings per test zone."
               }
             ]
           }
@@ -690,7 +690,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -699,7 +699,7 @@
               },
               {
                 "type": "text",
-                "text": " see the requirement for multiple readings"
+                "text": " the system to require a minimum number of rebound readings"
               },
               {
                 "type": "hardBreak"
@@ -715,7 +715,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the evaluation process."
+                "text": " strength evaluation is statistically valid."
               }
             ]
           }
@@ -739,7 +739,7 @@
               },
               {
                 "type": "text",
-                "text": " the Measurement Principle section is visible,"
+                "text": " rebound readings are recorded for a test zone,"
               },
               {
                 "type": "hardBreak"
@@ -755,7 +755,7 @@
               },
               {
                 "type": "text",
-                "text": " the measurement guidelines are displayed,"
+                "text": " the system validates measurement data,"
               },
               {
                 "type": "hardBreak"
@@ -771,7 +771,7 @@
               },
               {
                 "type": "text",
-                "text": " the system indicates that at least three coating thickness readings are required."
+                "text": " it requires at least ten rebound readings."
               }
             ]
           }
@@ -780,9 +780,9 @@
     },
     "7": {
       "n": 7,
-      "fr_id": "FR-SCT-07",
-      "priority": "Medium",
-      "title": "Specify Flat Area Measurement Requirement",
+      "fr_id": "FR-FRH-07",
+      "priority": "High",
+      "title": "Remove Outlier Readings",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -792,7 +792,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall specify that measurement should be taken from flat surface areas. – “Flat area selection”"
+                "text": "System shall remove outlier readings where the absolute difference between Ri and the mean value exceeds 6."
               }
             ]
           }
@@ -828,7 +828,7 @@
               },
               {
                 "type": "text",
-                "text": " the guideline indicating measurement should be taken from flat surfaces"
+                "text": " the system to remove outlier readings"
               },
               {
                 "type": "hardBreak"
@@ -844,7 +844,7 @@
               },
               {
                 "type": "text",
-                "text": " measurements remain accurate."
+                "text": " inaccurate measurements do not affect results."
               }
             ]
           }
@@ -868,7 +868,7 @@
               },
               {
                 "type": "text",
-                "text": " measurement guidelines are displayed,"
+                "text": " rebound readings are recorded,"
               },
               {
                 "type": "hardBreak"
@@ -884,7 +884,7 @@
               },
               {
                 "type": "text",
-                "text": " instructions are shown,"
+                "text": " the system evaluates outliers,"
               },
               {
                 "type": "hardBreak"
@@ -900,7 +900,7 @@
               },
               {
                 "type": "text",
-                "text": " the system specifies that readings should be taken from flat surface areas."
+                "text": " it removes readings where the absolute difference between Ri and the mean exceeds 6."
               }
             ]
           }
@@ -909,9 +909,9 @@
     },
     "8": {
       "n": 8,
-      "fr_id": "FR-SCT-08",
-      "priority": "Medium",
-      "title": "Display Edge and Weld Avoidance Instruction",
+      "fr_id": "FR-FRH-08",
+      "priority": "High",
+      "title": "Recompute Mean After Outlier Removal",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -921,7 +921,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall indicate – “Avoid edges and welds” during measurement."
+                "text": "System shall recompute the final mean rebound value after removing outliers."
               }
             ]
           }
@@ -948,7 +948,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -957,7 +957,7 @@
               },
               {
                 "type": "text",
-                "text": " see instructions to avoid edges and welds"
+                "text": " the system to recompute the mean rebound value"
               },
               {
                 "type": "hardBreak"
@@ -973,7 +973,7 @@
               },
               {
                 "type": "text",
-                "text": " measurement errors are minimized."
+                "text": " final evaluation is based on valid readings."
               }
             ]
           }
@@ -997,7 +997,7 @@
               },
               {
                 "type": "text",
-                "text": " measurement guidelines are displayed,"
+                "text": " outlier readings have been removed,"
               },
               {
                 "type": "hardBreak"
@@ -1013,7 +1013,7 @@
               },
               {
                 "type": "text",
-                "text": " instructions are rendered,"
+                "text": " the system processes the readings,"
               },
               {
                 "type": "hardBreak"
@@ -1029,7 +1029,7 @@
               },
               {
                 "type": "text",
-                "text": " the system indicates that edges and welds should be avoided during measurement."
+                "text": " it recalculates the final mean rebound value."
               }
             ]
           }
@@ -1038,9 +1038,9 @@
     },
     "9": {
       "n": 9,
-      "fr_id": "FR-SCT-09",
+      "fr_id": "FR-FRH-09",
       "priority": "High",
-      "title": "Display Minimum Reading Governing Rule",
+      "title": "Display Strength Calculation Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1050,7 +1050,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall indicate that the minimum reading governs the durability assessment."
+                "text": "System shall display the Strength Calculation section."
               }
             ]
           }
@@ -1086,7 +1086,7 @@
               },
               {
                 "type": "text",
-                "text": " the system to indicate that the minimum reading governs durability assessment"
+                "text": " the Strength Calculation section displayed"
               },
               {
                 "type": "hardBreak"
@@ -1102,136 +1102,7 @@
               },
               {
                 "type": "text",
-                "text": " the most conservative measurement determines evaluation."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the measurement guidelines are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " governing logic is shown,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system indicates that the minimum reading governs durability assessment."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "10": {
-      "n": 10,
-      "fr_id": "FR-SCT-10",
-      "priority": "High",
-      "title": "Display Thickness Calculation Section",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display the Thickness Calculation section."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Thickness Calculation section displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand how coating thickness evaluation is performed."
+                "text": " I understand how compressive strength is derived."
               }
             ]
           }
@@ -1271,7 +1142,7 @@
               },
               {
                 "type": "text",
-                "text": " the calculation section loads,"
+                "text": " the calculation logic is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1287,7 +1158,136 @@
               },
               {
                 "type": "text",
-                "text": " the system displays the Thickness Calculation section."
+                "text": " the system shows the Strength Calculation section."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "10": {
+      "n": 10,
+      "fr_id": "FR-FRH-10",
+      "priority": "High",
+      "title": "Determine Final Mean Rebound Value",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall determine the Final Mean Rebound value (Rf) from the processed rebound readings."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system to determine the final mean rebound value"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it can be used for strength calculation."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " rebound readings are processed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the calculation step is executed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system determines the Final Mean Rebound value (Rf)."
               }
             ]
           }
@@ -1296,9 +1296,9 @@
     },
     "11": {
       "n": 11,
-      "fr_id": "FR-SCT-11",
+      "fr_id": "FR-FRH-11",
       "priority": "High",
-      "title": "Calculate Minimum Thickness",
+      "title": "Convert Rebound Value to Compressive Strength",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1308,7 +1308,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall calculate minimum thickness (tmin) as the minimum value from all recorded readings."
+                "text": "System shall convert rebound value to using a calibration curve. –“Convert using Calibration curve.”"
               }
             ]
           }
@@ -1344,7 +1344,7 @@
               },
               {
                 "type": "text",
-                "text": " the system to calculate the minimum thickness"
+                "text": " the system to convert rebound value to compressive strength"
               },
               {
                 "type": "hardBreak"
@@ -1360,7 +1360,7 @@
               },
               {
                 "type": "text",
-                "text": " the lowest measured value is identified."
+                "text": " the structural strength can be evaluated."
               }
             ]
           }
@@ -1384,7 +1384,7 @@
               },
               {
                 "type": "text",
-                "text": " multiple coating readings are recorded,"
+                "text": " the final mean rebound value is available,"
               },
               {
                 "type": "hardBreak"
@@ -1400,7 +1400,7 @@
               },
               {
                 "type": "text",
-                "text": " the system evaluates the readings,"
+                "text": " strength conversion is performed,"
               },
               {
                 "type": "hardBreak"
@@ -1416,7 +1416,7 @@
               },
               {
                 "type": "text",
-                "text": " it calculates tmin as the minimum value among all readings."
+                "text": " the system converts the rebound value using a calibration curve."
               }
             ]
           }
@@ -1425,9 +1425,9 @@
     },
     "12": {
       "n": 12,
-      "fr_id": "FR-SCT-12",
+      "fr_id": "FR-FRH-12",
       "priority": "High",
-      "title": "Calculate Coating Thickness Ratio",
+      "title": "Calculate Test Compressive Strength",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1437,7 +1437,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall calculate the Coating Thickness Ratio (CR) using the formula CR = tmin / tdesign."
+                "text": "System shall calculate test compressive strength using formula - “(fck,test) = f(Rf).”"
               }
             ]
           }
@@ -1473,7 +1473,7 @@
               },
               {
                 "type": "text",
-                "text": " the system to calculate the coating thickness ratio"
+                "text": " the system to calculate the test compressive strength"
               },
               {
                 "type": "hardBreak"
@@ -1489,7 +1489,7 @@
               },
               {
                 "type": "text",
-                "text": " the measurement can be compared with the design specification."
+                "text": " the value can be compared with design strength."
               }
             ]
           }
@@ -1513,7 +1513,7 @@
               },
               {
                 "type": "text",
-                "text": " tmin and tdesign values are available,"
+                "text": " the calibration curve is available,"
               },
               {
                 "type": "hardBreak"
@@ -1529,7 +1529,7 @@
               },
               {
                 "type": "text",
-                "text": " coating evaluation is performed,"
+                "text": " the system processes Rf,"
               },
               {
                 "type": "hardBreak"
@@ -1545,7 +1545,7 @@
               },
               {
                 "type": "text",
-                "text": " the system calculates CR = tmin / tdesign."
+                "text": " it calculates fck,test using the function f(Rf)."
               }
             ]
           }
@@ -1554,9 +1554,9 @@
     },
     "13": {
       "n": 13,
-      "fr_id": "FR-SCT-13",
+      "fr_id": "FR-FRH-13",
       "priority": "Medium",
-      "title": "Display Design Thickness Source Note",
+      "title": "Display Calibration Curve Information",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1566,7 +1566,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a note indicating that Design thickness is derived from coating specification."
+                "text": "System shall display a note indicating that “calibration curve stored in the system based on hammer type.”"
               }
             ]
           }
@@ -1602,7 +1602,7 @@
               },
               {
                 "type": "text",
-                "text": " see a note explaining the source of design thickness"
+                "text": " see information about calibration curves"
               },
               {
                 "type": "hardBreak"
@@ -1618,7 +1618,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand where the reference value comes from."
+                "text": " I understand how strength conversion is performed."
               }
             ]
           }
@@ -1642,7 +1642,7 @@
               },
               {
                 "type": "text",
-                "text": " the Thickness Calculation section is displayed,"
+                "text": " the Strength Calculation section is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1674,7 +1674,7 @@
               },
               {
                 "type": "text",
-                "text": " the system indicates that design thickness is derived from coating specification."
+                "text": " the system indicates that calibration curves are stored in the system based on hammer type."
               }
             ]
           }
@@ -1683,7 +1683,265 @@
     },
     "14": {
       "n": 14,
-      "fr_id": "FR-SCT-14",
+      "fr_id": "FR-FRH-14",
+      "priority": "High",
+      "title": "Display Strength Ratio Section",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display the Strength Ratio section."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Strength Ratio section displayed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand how test strength is compared with design strength."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the evaluation panel is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " strength comparison logic is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows the Strength Ratio section."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "15": {
+      "n": 15,
+      "fr_id": "FR-FRH-15",
+      "priority": "High",
+      "title": "Calculate Strength Ratio",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall calculate Strength Ratio (SR) using the formula SR = fck,test / fck,design."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system to calculate the Strength Ratio"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can determine compliance with design strength."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " fck, test and fck,  design values are available,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system performs evaluation,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it calculates SR = fck, test / fck, design."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "16": {
+      "n": 16,
+      "fr_id": "FR-FRH-16",
       "priority": "High",
       "title": "Display Acceptance Criteria Section",
       "requirement": {
@@ -1695,7 +1953,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Acceptance Criteria section."
+                "text": "System shall display the Acceptance Criteria section defining strength classification."
               }
             ]
           }
@@ -1762,7 +2020,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the severity classification rules."
+                "text": " I understand severity classification rules."
               },
               {
                 "type": "hardBreak"
@@ -1826,9 +2084,9 @@
         ]
       }
     },
-    "15": {
-      "n": 15,
-      "fr_id": "FR-SCT-15",
+    "17": {
+      "n": 17,
+      "fr_id": "FR-FRH-17",
       "priority": "High",
       "title": "Define Green Severity Condition",
       "requirement": {
@@ -1840,7 +2098,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall define Green condition when CR ≥ 0.80."
+                "text": "System shall define Green condition when SR ≥ 1.00."
               }
             ]
           }
@@ -1892,7 +2150,7 @@
               },
               {
                 "type": "text",
-                "text": " I know when coating thickness meets acceptable limits."
+                "text": " I know when concrete strength meets design requirements."
               }
             ]
           }
@@ -1916,7 +2174,7 @@
               },
               {
                 "type": "text",
-                "text": " coating thickness ratio values are evaluated,"
+                "text": " strength ratio values are evaluated,"
               },
               {
                 "type": "hardBreak"
@@ -1948,16 +2206,16 @@
               },
               {
                 "type": "text",
-                "text": " the system defines it as CR ≥ 0.80."
+                "text": " the system defines it as SR ≥ 1.00."
               }
             ]
           }
         ]
       }
     },
-    "16": {
-      "n": 16,
-      "fr_id": "FR-SCT-16",
+    "18": {
+      "n": 18,
+      "fr_id": "FR-FRH-18",
       "priority": "High",
       "title": "Define Amber Severity Condition",
       "requirement": {
@@ -1969,7 +2227,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall define Amber condition when 0.60 ≤ CR < 0.80."
+                "text": "System shall define Amber condition when 0.85 ≤ SR < 1.00."
               }
             ]
           }
@@ -2021,7 +2279,7 @@
               },
               {
                 "type": "text",
-                "text": " I know when coating thickness requires monitoring."
+                "text": " I know when concrete strength is slightly below design expectations."
               }
             ]
           }
@@ -2045,7 +2303,7 @@
               },
               {
                 "type": "text",
-                "text": " coating thickness ratio values are evaluated,"
+                "text": " strength ratio values are evaluated,"
               },
               {
                 "type": "hardBreak"
@@ -2077,16 +2335,16 @@
               },
               {
                 "type": "text",
-                "text": " the system defines it as 0.60 ≤ CR < 0.80."
+                "text": " the system defines it as 0.85 ≤ SR < 1.00."
               }
             ]
           }
         ]
       }
     },
-    "17": {
-      "n": 17,
-      "fr_id": "FR-SCT-17",
+    "19": {
+      "n": 19,
+      "fr_id": "FR-FRH-19",
       "priority": "High",
       "title": "Define Red Severity Condition",
       "requirement": {
@@ -2098,7 +2356,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall define Red condition when CR < 0.60."
+                "text": "System shall define Red condition when SR < 0.85."
               }
             ]
           }
@@ -2150,7 +2408,7 @@
               },
               {
                 "type": "text",
-                "text": " I know when coating thickness is critically low."
+                "text": " I know when concrete strength is critically low."
               }
             ]
           }
@@ -2174,7 +2432,7 @@
               },
               {
                 "type": "text",
-                "text": " coating thickness ratio values are evaluated,"
+                "text": " strength ratio values are evaluated,"
               },
               {
                 "type": "hardBreak"
@@ -2206,16 +2464,16 @@
               },
               {
                 "type": "text",
-                "text": " the system defines it as CR < 0.60."
+                "text": " the system defines it as SR < 0.85."
               }
             ]
           }
         ]
       }
     },
-    "18": {
-      "n": 18,
-      "fr_id": "FR-SCT-18",
+    "20": {
+      "n": 20,
+      "fr_id": "FR-FRH-20",
       "priority": "High",
       "title": "Display Visual Severity Indicators",
       "requirement": {
@@ -2227,7 +2485,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall visually represent severity levels using color indicators (Green, Amber, Red)."
+                "text": "System shall display severity levels using colour indicators (Green, Amber, Red)."
               }
             ]
           }
@@ -2263,7 +2521,7 @@
               },
               {
                 "type": "text",
-                "text": " severity categories visually represented"
+                "text": " severity levels visually represented"
               },
               {
                 "type": "hardBreak"
@@ -2279,7 +2537,7 @@
               },
               {
                 "type": "text",
-                "text": " I can quickly identify severity levels."
+                "text": " I can easily identify the severity classification."
               }
             ]
           }
@@ -2342,138 +2600,9 @@
         ]
       }
     },
-    "19": {
-      "n": 19,
-      "fr_id": "FR-SCT-19",
-      "priority": "High",
-      "title": "Display Governing Rule Section",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display the Governing Rule section indicating that the “minimum measured thickness governs classification.”"
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " see the governing rule explaining classification logic"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand how severity is determined."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the evaluation model is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " rule logic is shown,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system displays a Governing Rule section stating that the minimum measured thickness governs classification."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "20": {
-      "n": 20,
-      "fr_id": "FR-SCT-20",
+    "21": {
+      "n": 21,
+      "fr_id": "FR-FRH-21",
       "priority": "Medium",
       "title": "Display System Defined Label",
       "requirement": {
@@ -2485,7 +2614,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the System Defined label indicating the evaluation model is not editable by users."
+                "text": "System shall display the System Defined label indicating the evaluation model is not editable."
               }
             ]
           }
@@ -2537,7 +2666,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the evaluation model cannot be edited."
+                "text": " I understand the evaluation model cannot be modified."
               }
             ]
           }
@@ -2600,9 +2729,9 @@
         ]
       }
     },
-    "21": {
-      "n": 21,
-      "fr_id": "FR-SCT-21",
+    "22": {
+      "n": 22,
+      "fr_id": "FR-FRH-22",
       "priority": "High",
       "title": "Provide Close Button",
       "requirement": {
@@ -2729,9 +2858,9 @@
         ]
       }
     },
-    "22": {
-      "n": 22,
-      "fr_id": "FR-SCT-22",
+    "23": {
+      "n": 23,
+      "fr_id": "FR-FRH-23",
       "priority": "High",
       "title": "Display Close Icon",
       "requirement": {
@@ -2743,7 +2872,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall provide a close (X) icon in the top-right corner to close the panel."
+                "text": "System shall provide a close (X) icon to close the panel."
               }
             ]
           }
@@ -2858,9 +2987,9 @@
         ]
       }
     },
-    "23": {
-      "n": 23,
-      "fr_id": "FR-SCT-23",
+    "24": {
+      "n": 24,
+      "fr_id": "FR-FRH-24",
       "priority": "High",
       "title": "Return to Testing List After Closing Panel",
       "requirement": {
@@ -2872,7 +3001,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall return the user to the Rules and Action → Testing list after closing the panel."
+                "text": "System shall return the user to the Rules and Action → Testing list screen when the panel is closed."
               }
             ]
           }
@@ -2980,7 +3109,7 @@
               },
               {
                 "type": "text",
-                "text": " the system closes the panel and returns to the Rules and Action → Testing list."
+                "text": " the system closes the panel and returns to the Rules and Action → Testing list screen."
               }
             ]
           }
@@ -2993,8 +3122,8 @@
     "story_only": [],
     "missing_acceptance": [],
     "odd_prefix_ids": [],
-    "req_count": 23,
-    "story_count": 23,
-    "matched": 23
+    "req_count": 24,
+    "story_count": 24,
+    "matched": 24
   }
 }
