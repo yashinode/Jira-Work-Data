@@ -1,14 +1,14 @@
 {
   "epic_key": "IRDS-2499",
   "epic_name": "Rules and Action",
-  "fr_prefix": "FR-FRH",
-  "created_at": "2026-05-20T09:43:57",
+  "fr_prefix": "FR-FUVP",
+  "created_at": "2026-05-20T11:07:44",
   "pairs": {
     "1": {
       "n": 1,
-      "fr_id": "FR-FRH-01",
+      "fr_id": "FR-FUPV-01",
       "priority": "High",
-      "title": "Open Floor Rebound Hammer Test Evaluation Panel",
+      "title": "Open Floor UPV Test Evaluation Panel",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -18,7 +18,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall open a right-side panel when the user clicks the Floor Rebound Hammer Test from the Rules and Action → Testing list."
+                "text": "System shall open a right-side panel when the user clicks the Floor UPV Test from the Rules and Action → Testing list."
               }
             ]
           }
@@ -54,7 +54,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel to open when I select the Floor Rebound Hammer Test"
+                "text": " the evaluation panel to open when I select the Floor UPV Test"
               },
               {
                 "type": "hardBreak"
@@ -110,7 +110,7 @@
               },
               {
                 "type": "text",
-                "text": " I click the Floor Rebound Hammer Test,"
+                "text": " I click the Floor UPV Test,"
               },
               {
                 "type": "hardBreak"
@@ -135,7 +135,7 @@
     },
     "2": {
       "n": 2,
-      "fr_id": "FR-FRH-02",
+      "fr_id": "FR-FUVP-02",
       "priority": "High",
       "title": "Display Evaluation Panel Title",
       "requirement": {
@@ -147,7 +147,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the panel title “Floor Rebound Hammer Test — Evaluation Model”."
+                "text": "System shall display the panel title “Floor UPV Test — Evaluation Model” at the top of the side panel."
               }
             ]
           }
@@ -255,7 +255,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays the title “Floor Rebound Hammer Test — Evaluation Model”."
+                "text": " the system displays the title “Floor UPV Test — Evaluation Model”."
               }
             ]
           }
@@ -264,7 +264,7 @@
     },
     "3": {
       "n": 3,
-      "fr_id": "FR-FRH-03",
+      "fr_id": "FR-FUVP-03",
       "priority": "Medium",
       "title": "Display Global Scope Label",
       "requirement": {
@@ -352,7 +352,7 @@
               },
               {
                 "type": "text",
-                "text": " the panel header is displayed,"
+                "text": " the evaluation panel header is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -393,7 +393,7 @@
     },
     "4": {
       "n": 4,
-      "fr_id": "FR-FRH-04",
+      "fr_id": "FR-FUVP-04",
       "priority": "Medium",
       "title": "Display Test Description",
       "requirement": {
@@ -405,7 +405,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a description “In- situ concrete surface strength estimation using rebound hammer readings.” indicating that the test estimates in-situ concrete surface strength using rebound hammer readings."
+                "text": "System shall display a description indicating that “Concrete internal quality assessment using ultrasonic pulse velocity.”"
               }
             ]
           }
@@ -513,7 +513,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays the text indicating the test estimates in-situ concrete surface strength using rebound hammer readings."
+                "text": " the system displays the text indicating “Concrete internal quality assessment using ultrasonic pulse velocity.”"
               }
             ]
           }
@@ -522,9 +522,9 @@
     },
     "5": {
       "n": 5,
-      "fr_id": "FR-FRH-05",
+      "fr_id": "FR-FUVP-05",
       "priority": "High",
-      "title": "Display Measurement Method Section",
+      "title": "Display Velocity Calculation Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -534,7 +534,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Measurement Method section explaining rebound hammer reading rules."
+                "text": "System shall display the Velocity Calculation section explaining the UPV calculation method."
               }
             ]
           }
@@ -570,7 +570,7 @@
               },
               {
                 "type": "text",
-                "text": " the Measurement Method section displayed"
+                "text": " the Velocity Calculation section displayed"
               },
               {
                 "type": "hardBreak"
@@ -586,7 +586,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the rebound hammer reading guidelines."
+                "text": " I understand the UPV calculation method."
               }
             ]
           }
@@ -626,7 +626,7 @@
               },
               {
                 "type": "text",
-                "text": " the measurement guidelines are displayed,"
+                "text": " the calculation section loads,"
               },
               {
                 "type": "hardBreak"
@@ -642,7 +642,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shows the Measurement Method section."
+                "text": " the system displays the Velocity Calculation section."
               }
             ]
           }
@@ -651,9 +651,9 @@
     },
     "6": {
       "n": 6,
-      "fr_id": "FR-FRH-06",
+      "fr_id": "FR-FUVP-06",
       "priority": "High",
-      "title": "Require Minimum Rebound Readings",
+      "title": "Display UPV Formula",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -663,7 +663,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall require a minimum of 10 rebound readings per test zone."
+                "text": "System shall display the formula Velocity (V) = L / T for calculating ultrasonic pulse velocity."
               }
             ]
           }
@@ -699,7 +699,7 @@
               },
               {
                 "type": "text",
-                "text": " the system to require a minimum number of rebound readings"
+                "text": " the ultrasonic velocity calculation formula displayed"
               },
               {
                 "type": "hardBreak"
@@ -715,7 +715,7 @@
               },
               {
                 "type": "text",
-                "text": " strength evaluation is statistically valid."
+                "text": " I understand how the velocity value is computed."
               }
             ]
           }
@@ -739,7 +739,7 @@
               },
               {
                 "type": "text",
-                "text": " rebound readings are recorded for a test zone,"
+                "text": " the Velocity Calculation section is visible,"
               },
               {
                 "type": "hardBreak"
@@ -755,7 +755,7 @@
               },
               {
                 "type": "text",
-                "text": " the system validates measurement data,"
+                "text": " calculation details are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -771,7 +771,7 @@
               },
               {
                 "type": "text",
-                "text": " it requires at least ten rebound readings."
+                "text": " the system shows the formula Velocity (V) = L / T."
               }
             ]
           }
@@ -780,9 +780,9 @@
     },
     "7": {
       "n": 7,
-      "fr_id": "FR-FRH-07",
-      "priority": "High",
-      "title": "Remove Outlier Readings",
+      "fr_id": "FR-FUVP-07",
+      "priority": "Medium",
+      "title": "Define Path Length Variable",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -792,7 +792,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall remove outlier readings where the absolute difference between Ri and the mean value exceeds 6."
+                "text": "System shall define L as Path Length used in the velocity calculation."
               }
             ]
           }
@@ -828,7 +828,7 @@
               },
               {
                 "type": "text",
-                "text": " the system to remove outlier readings"
+                "text": " the variable L defined"
               },
               {
                 "type": "hardBreak"
@@ -844,7 +844,7 @@
               },
               {
                 "type": "text",
-                "text": " inaccurate measurements do not affect results."
+                "text": " I understand the calculation inputs."
               }
             ]
           }
@@ -868,7 +868,7 @@
               },
               {
                 "type": "text",
-                "text": " rebound readings are recorded,"
+                "text": " the formula is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -884,7 +884,7 @@
               },
               {
                 "type": "text",
-                "text": " the system evaluates outliers,"
+                "text": " variable definitions are shown,"
               },
               {
                 "type": "hardBreak"
@@ -900,7 +900,7 @@
               },
               {
                 "type": "text",
-                "text": " it removes readings where the absolute difference between Ri and the mean exceeds 6."
+                "text": " the system defines L as the path length used in the velocity calculation."
               }
             ]
           }
@@ -909,9 +909,9 @@
     },
     "8": {
       "n": 8,
-      "fr_id": "FR-FRH-08",
-      "priority": "High",
-      "title": "Recompute Mean After Outlier Removal",
+      "fr_id": "FR-FUVP-08",
+      "priority": "Medium",
+      "title": "Define Travel Time Variable",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -921,7 +921,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall recompute the final mean rebound value after removing outliers."
+                "text": "System shall define T as Travel Time of the ultrasonic pulse."
               }
             ]
           }
@@ -957,7 +957,7 @@
               },
               {
                 "type": "text",
-                "text": " the system to recompute the mean rebound value"
+                "text": " the variable T defined"
               },
               {
                 "type": "hardBreak"
@@ -973,7 +973,7 @@
               },
               {
                 "type": "text",
-                "text": " final evaluation is based on valid readings."
+                "text": " I understand the calculation inputs."
               }
             ]
           }
@@ -997,7 +997,7 @@
               },
               {
                 "type": "text",
-                "text": " outlier readings have been removed,"
+                "text": " the formula is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1013,7 +1013,7 @@
               },
               {
                 "type": "text",
-                "text": " the system processes the readings,"
+                "text": " variable definitions are shown,"
               },
               {
                 "type": "hardBreak"
@@ -1029,7 +1029,7 @@
               },
               {
                 "type": "text",
-                "text": " it recalculates the final mean rebound value."
+                "text": " the system defines T as the travel time of the ultrasonic pulse."
               }
             ]
           }
@@ -1038,9 +1038,9 @@
     },
     "9": {
       "n": 9,
-      "fr_id": "FR-FRH-09",
+      "fr_id": "FR-FUVP-09",
       "priority": "High",
-      "title": "Display Strength Calculation Section",
+      "title": "Convert Velocity to km/s",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1050,7 +1050,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Strength Calculation section."
+                "text": "System shall convert the calculated velocity value into kilometres per second  (km/s)."
               }
             ]
           }
@@ -1086,7 +1086,7 @@
               },
               {
                 "type": "text",
-                "text": " the Strength Calculation section displayed"
+                "text": " the velocity value converted to kilometres per second"
               },
               {
                 "type": "hardBreak"
@@ -1102,7 +1102,136 @@
               },
               {
                 "type": "text",
-                "text": " I understand how compressive strength is derived."
+                "text": " results are displayed in the standard unit."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the velocity value is calculated,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system processes the result,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it converts the velocity value into kilometres per second (km/s)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "10": {
+      "n": 10,
+      "fr_id": "FR-FUVP-10",
+      "priority": "High",
+      "title": "Display Concrete Quality Classification Section",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display the Concrete Quality Classification section."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Concrete Quality Classification section displayed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand the severity classification rules."
               }
             ]
           }
@@ -1142,7 +1271,7 @@
               },
               {
                 "type": "text",
-                "text": " the calculation logic is displayed,"
+                "text": " classification logic is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1158,136 +1287,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shows the Strength Calculation section."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "10": {
-      "n": 10,
-      "fr_id": "FR-FRH-10",
-      "priority": "High",
-      "title": "Determine Final Mean Rebound Value",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall determine the Final Mean Rebound value (Rf) from the processed rebound readings."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system to determine the final mean rebound value"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " it can be used for strength calculation."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " rebound readings are processed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the calculation step is executed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system determines the Final Mean Rebound value (Rf)."
+                "text": " the system shows the Concrete Quality Classification section."
               }
             ]
           }
@@ -1296,9 +1296,9 @@
     },
     "11": {
       "n": 11,
-      "fr_id": "FR-FRH-11",
+      "fr_id": "FR-FUVP-11",
       "priority": "High",
-      "title": "Convert Rebound Value to Compressive Strength",
+      "title": "Define Green Classification",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1308,7 +1308,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall convert rebound value to using a calibration curve. –“Convert using Calibration curve.”"
+                "text": "System shall classify the result as Green when V > 3.5 km/s."
               }
             ]
           }
@@ -1344,7 +1344,7 @@
               },
               {
                 "type": "text",
-                "text": " the system to convert rebound value to compressive strength"
+                "text": " the Green classification condition defined"
               },
               {
                 "type": "hardBreak"
@@ -1360,7 +1360,7 @@
               },
               {
                 "type": "text",
-                "text": " the structural strength can be evaluated."
+                "text": " I know when concrete quality is considered good."
               }
             ]
           }
@@ -1384,7 +1384,7 @@
               },
               {
                 "type": "text",
-                "text": " the final mean rebound value is available,"
+                "text": " velocity values are evaluated,"
               },
               {
                 "type": "hardBreak"
@@ -1400,7 +1400,7 @@
               },
               {
                 "type": "text",
-                "text": " strength conversion is performed,"
+                "text": " the Green condition is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1416,7 +1416,7 @@
               },
               {
                 "type": "text",
-                "text": " the system converts the rebound value using a calibration curve."
+                "text": " the system defines it as V > 3.5 km/s."
               }
             ]
           }
@@ -1425,9 +1425,9 @@
     },
     "12": {
       "n": 12,
-      "fr_id": "FR-FRH-12",
+      "fr_id": "FR-FUVP-12",
       "priority": "High",
-      "title": "Calculate Test Compressive Strength",
+      "title": "Define Amber Classification",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1437,7 +1437,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall calculate test compressive strength using formula - “(fck,test) = f(Rf).”"
+                "text": "System shall classify the result as Amber when 3.0 ≤ V ≤ 3.5 km/s."
               }
             ]
           }
@@ -1473,7 +1473,7 @@
               },
               {
                 "type": "text",
-                "text": " the system to calculate the test compressive strength"
+                "text": " the Amber classification condition defined"
               },
               {
                 "type": "hardBreak"
@@ -1489,7 +1489,7 @@
               },
               {
                 "type": "text",
-                "text": " the value can be compared with design strength."
+                "text": " I know when concrete quality is moderate."
               }
             ]
           }
@@ -1513,7 +1513,7 @@
               },
               {
                 "type": "text",
-                "text": " the calibration curve is available,"
+                "text": " velocity values are evaluated,"
               },
               {
                 "type": "hardBreak"
@@ -1529,7 +1529,7 @@
               },
               {
                 "type": "text",
-                "text": " the system processes Rf,"
+                "text": " the Amber condition is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1545,7 +1545,7 @@
               },
               {
                 "type": "text",
-                "text": " it calculates fck,test using the function f(Rf)."
+                "text": " the system defines it as 3.0 ≤ V ≤ 3.5 km/s."
               }
             ]
           }
@@ -1554,9 +1554,9 @@
     },
     "13": {
       "n": 13,
-      "fr_id": "FR-FRH-13",
-      "priority": "Medium",
-      "title": "Display Calibration Curve Information",
+      "fr_id": "FR-FUVP-13",
+      "priority": "High",
+      "title": "Define Red Classification",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1566,7 +1566,265 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a note indicating that “calibration curve stored in the system based on hammer type.”"
+                "text": "System shall classify the result as Red when V < 3.0 km/s."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Red classification condition defined"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I know when concrete quality is poor."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " velocity values are evaluated,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Red condition is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system defines it as V < 3.0 km/s."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "14": {
+      "n": 14,
+      "fr_id": "FR-FUVP-14",
+      "priority": "High",
+      "title": "Display Visual Severity Indicators",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall visually represent classification categories using colour indicators (Green, Amber, Red)."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " classification levels visually represented"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can easily identify the severity status."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " classification categories are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " severity indicators are rendered,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows color indicators for Green, Amber, and Red."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "15": {
+      "n": 15,
+      "fr_id": "FR-FUVP-15",
+      "priority": "Medium",
+      "title": "Display Standards Alignment Note",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display a note indicating that “velocity classification bands aligned with IS 13311 concrete quality standards”"
               }
             ]
           }
@@ -1602,7 +1860,7 @@
               },
               {
                 "type": "text",
-                "text": " see information about calibration curves"
+                "text": " see the standards reference note"
               },
               {
                 "type": "hardBreak"
@@ -1618,7 +1876,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand how strength conversion is performed."
+                "text": " I know the classification follows recognized guidelines."
               }
             ]
           }
@@ -1642,7 +1900,7 @@
               },
               {
                 "type": "text",
-                "text": " the Strength Calculation section is displayed,"
+                "text": " the classification section is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -1674,265 +1932,7 @@
               },
               {
                 "type": "text",
-                "text": " the system indicates that calibration curves are stored in the system based on hammer type."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "14": {
-      "n": 14,
-      "fr_id": "FR-FRH-14",
-      "priority": "High",
-      "title": "Display Strength Ratio Section",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display the Strength Ratio section."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Strength Ratio section displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand how test strength is compared with design strength."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the evaluation panel is open,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " strength comparison logic is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shows the Strength Ratio section."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "15": {
-      "n": 15,
-      "fr_id": "FR-FRH-15",
-      "priority": "High",
-      "title": "Calculate Strength Ratio",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall calculate Strength Ratio (SR) using the formula SR = fck,test / fck,design."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system to calculate the Strength Ratio"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can determine compliance with design strength."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " fck, test and fck,  design values are available,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system performs evaluation,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " it calculates SR = fck, test / fck, design."
+                "text": " the system displays the note “velocity classification bands aligned with IS 13311 concrete quality standards.”"
               }
             ]
           }
@@ -1941,9 +1941,9 @@
     },
     "16": {
       "n": 16,
-      "fr_id": "FR-FRH-16",
+      "fr_id": "FR-FUVP-16",
       "priority": "High",
-      "title": "Display Acceptance Criteria Section",
+      "title": "Display Overall Severity Logic Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1953,7 +1953,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Acceptance Criteria section defining strength classification."
+                "text": "System shall display the Overall Severity Logic section."
               }
             ]
           }
@@ -1989,22 +1989,7 @@
               },
               {
                 "type": "text",
-                "text": " the"
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "section displayed"
+                "text": " the Overall Severity Logic section displayed"
               },
               {
                 "type": "hardBreak"
@@ -2020,17 +2005,16 @@
               },
               {
                 "type": "text",
-                "text": " I understand severity classification rules."
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Acceptance Criteria"
+                "text": " I understand how the final severity is determined."
               }
             ]
-          },
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
           {
             "type": "paragraph",
             "content": [
@@ -2053,506 +2037,6 @@
               {
                 "type": "text",
                 "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " severity conditions are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shows the Acceptance Criteria section."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "17": {
-      "n": 17,
-      "fr_id": "FR-FRH-17",
-      "priority": "High",
-      "title": "Define Green Severity Condition",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define Green condition when SR ≥ 1.00."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Green severity condition defined"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know when concrete strength meets design requirements."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " strength ratio values are evaluated,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Green condition is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines it as SR ≥ 1.00."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "18": {
-      "n": 18,
-      "fr_id": "FR-FRH-18",
-      "priority": "High",
-      "title": "Define Amber Severity Condition",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define Amber condition when 0.85 ≤ SR < 1.00."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Amber severity condition defined"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know when concrete strength is slightly below design expectations."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " strength ratio values are evaluated,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Amber condition is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines it as 0.85 ≤ SR < 1.00."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "19": {
-      "n": 19,
-      "fr_id": "FR-FRH-19",
-      "priority": "High",
-      "title": "Define Red Severity Condition",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define Red condition when SR < 0.85."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Red severity condition defined"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know when concrete strength is critically low."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " strength ratio values are evaluated,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Red condition is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines it as SR < 0.85."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "20": {
-      "n": 20,
-      "fr_id": "FR-FRH-20",
-      "priority": "High",
-      "title": "Display Visual Severity Indicators",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display severity levels using colour indicators (Green, Amber, Red)."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " severity levels visually represented"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can easily identify the severity classification."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
                 "marks": [
                   {
                     "type": "strong"
@@ -2568,6 +2052,119 @@
               },
               {
                 "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows the Overall Severity Logic section."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "17": {
+      "n": 17,
+      "fr_id": "FR-FUVP-17",
+      "priority": "High",
+      "title": "Determine Final Severity from Velocity Value",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall determine the final RAG severity directly from the calculated velocity value."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the final RAG severity determined from the velocity value"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " classification is based directly on calculated results."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the velocity value is calculated,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
                 "text": "When",
                 "marks": [
                   {
@@ -2577,7 +2174,7 @@
               },
               {
                 "type": "text",
-                "text": " severity categories are rendered,"
+                "text": " the system performs classification,"
               },
               {
                 "type": "hardBreak"
@@ -2593,16 +2190,16 @@
               },
               {
                 "type": "text",
-                "text": " the system shows color indicators for Green, Amber, and Red."
+                "text": " it determines the final RAG severity directly from the calculated velocity value."
               }
             ]
           }
         ]
       }
     },
-    "21": {
-      "n": 21,
-      "fr_id": "FR-FRH-21",
+    "18": {
+      "n": 18,
+      "fr_id": "FR-FUVP-18",
       "priority": "Medium",
       "title": "Display System Defined Label",
       "requirement": {
@@ -2614,7 +2211,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the System Defined label indicating the evaluation model is not editable."
+                "text": "System shall display the System Defined label indicating that the evaluation logic is predefined and cannot be modified by users."
               }
             ]
           }
@@ -2666,7 +2263,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the evaluation model cannot be modified."
+                "text": " I understand the evaluation logic cannot be modified."
               }
             ]
           }
@@ -2729,9 +2326,9 @@
         ]
       }
     },
-    "22": {
-      "n": 22,
-      "fr_id": "FR-FRH-22",
+    "19": {
+      "n": 19,
+      "fr_id": "FR-FUVP-19",
       "priority": "High",
       "title": "Provide Close Button",
       "requirement": {
@@ -2858,9 +2455,9 @@
         ]
       }
     },
-    "23": {
-      "n": 23,
-      "fr_id": "FR-FRH-23",
+    "20": {
+      "n": 20,
+      "fr_id": "FR-FUVP-20",
       "priority": "High",
       "title": "Display Close Icon",
       "requirement": {
@@ -2872,7 +2469,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall provide a close (X) icon to close the panel."
+                "text": "System shall provide a close (X) icon in the top-right corner of the panel."
               }
             ]
           }
@@ -2987,9 +2584,9 @@
         ]
       }
     },
-    "24": {
-      "n": 24,
-      "fr_id": "FR-FRH-24",
+    "21": {
+      "n": 21,
+      "fr_id": "FR-FUVP-21",
       "priority": "High",
       "title": "Return to Testing List After Closing Panel",
       "requirement": {
@@ -3001,7 +2598,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall return the user to the Rules and Action → Testing list screen when the panel is closed."
+                "text": "System shall close the panel and return the user to the Rules and Action → Testing list screen when the close action is triggered."
               }
             ]
           }
@@ -3121,9 +2718,11 @@
     "req_only": [],
     "story_only": [],
     "missing_acceptance": [],
-    "odd_prefix_ids": [],
-    "req_count": 24,
-    "story_count": 24,
-    "matched": 24
+    "odd_prefix_ids": [
+      "FR-FUPV-01"
+    ],
+    "req_count": 21,
+    "story_count": 21,
+    "matched": 21
   }
 }
