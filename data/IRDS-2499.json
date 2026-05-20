@@ -1,14 +1,14 @@
 {
   "epic_key": "IRDS-2499",
   "epic_name": "Rules and Action",
-  "fr_prefix": "FR-CS",
-  "created_at": "2026-05-20T05:28:30",
+  "fr_prefix": "FR-CT",
+  "created_at": "2026-05-20T05:55:40",
   "pairs": {
     "1": {
       "n": 1,
-      "fr_id": "FR-CS-01",
+      "fr_id": "FR-CT-01",
       "priority": "High",
-      "title": "Open Component Splice Configuration Drawer",
+      "title": "Open Component Thickness Configuration Drawer",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -18,7 +18,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "When user selects a Component Splice test (e.g., L3) from the Rules and Action test names list, system shall open a right-side configuration drawer Component Splice (L3)"
+                "text": "When user selects a Component Thickness test (e.g., L4) from the Rules and Action test names list, system shall open a right-side configuration drawer Component Thickness test."
               }
             ]
           }
@@ -54,7 +54,7 @@
               },
               {
                 "type": "text",
-                "text": " a configuration drawer to open when I select the Component Splice test"
+                "text": " a configuration drawer to open when I select the Component Thickness test"
               },
               {
                 "type": "hardBreak"
@@ -110,7 +110,7 @@
               },
               {
                 "type": "text",
-                "text": " I select Component Splice (L3),"
+                "text": " I select Component Thickness (L4),"
               },
               {
                 "type": "hardBreak"
@@ -126,7 +126,7 @@
               },
               {
                 "type": "text",
-                "text": " the system opens a right-side configuration drawer titled “Component Splice (L3)”."
+                "text": " the system opens a right-side configuration drawer titled “Component Thickness (L4)”."
               }
             ]
           }
@@ -135,7 +135,7 @@
     },
     "2": {
       "n": 2,
-      "fr_id": "FR-CS-02",
+      "fr_id": "FR-CT-02",
       "priority": "Medium",
       "title": "Display Test Description",
       "requirement": {
@@ -147,7 +147,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a descriptive subtitle explaining the purpose of the test (e.g., Connection integrity assessment for upright splice.)"
+                "text": "System shall display a descriptive subtitle explaining the purpose of the test (e.g., Structural thickness verification.)"
               }
             ]
           }
@@ -174,7 +174,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -183,7 +183,7 @@
               },
               {
                 "type": "text",
-                "text": " see a descriptive subtitle explaining the test purpose"
+                "text": " a descriptive subtitle explaining the test purpose"
               },
               {
                 "type": "hardBreak"
@@ -199,7 +199,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand what the rule evaluates."
+                "text": " I understand what the test evaluates."
               }
             ]
           }
@@ -264,7 +264,7 @@
     },
     "3": {
       "n": 3,
-      "fr_id": "FR-CS-03",
+      "fr_id": "FR-CT-03",
       "priority": "Medium",
       "title": "Display Test Scope Badge",
       "requirement": {
@@ -368,7 +368,7 @@
               },
               {
                 "type": "text",
-                "text": " the header is rendered,"
+                "text": " the header is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -384,7 +384,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays the test scope badge (e.g., Local)."
+                "text": " the system shows the test scope badge (e.g., Local)."
               }
             ]
           }
@@ -393,9 +393,9 @@
     },
     "4": {
       "n": 4,
-      "fr_id": "FR-CS-04",
+      "fr_id": "FR-CT-04",
       "priority": "High",
-      "title": "Display Alignment Checks Section",
+      "title": "Display Measured Parameters Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -405,7 +405,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "For Component Splice (L3), system shall display Alignment Checks section."
+                "text": "For Component Thickness (L4), system shall display Measured Parameters section."
               }
             ]
           }
@@ -432,7 +432,7 @@
               },
               {
                 "type": "text",
-                "text": "I want",
+                "text": "I want to",
                 "marks": [
                   {
                     "type": "strong"
@@ -441,7 +441,7 @@
               },
               {
                 "type": "text",
-                "text": " an Alignment Checks section displayed for the Component Splice test"
+                "text": " see the Measured Parameters section"
               },
               {
                 "type": "hardBreak"
@@ -457,7 +457,7 @@
               },
               {
                 "type": "text",
-                "text": " I can review alignment-related parameters."
+                "text": " I understand the evaluation inputs used for the test."
               }
             ]
           }
@@ -481,7 +481,7 @@
               },
               {
                 "type": "text",
-                "text": " the Component Splice (L3) configuration drawer is open,"
+                "text": " the Component Thickness (L4) configuration drawer is open,"
               },
               {
                 "type": "hardBreak"
@@ -513,7 +513,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays an Alignment Checks section."
+                "text": " the system displays a Measured Parameters section."
               }
             ]
           }
@@ -522,9 +522,9 @@
     },
     "5": {
       "n": 5,
-      "fr_id": "FR-CS-05",
+      "fr_id": "FR-CT-05",
       "priority": "High",
-      "title": "Display Down-Aisle Offset Thresholds",
+      "title": "Display Thickness Evaluation Inputs",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -534,7 +534,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display Down-Aisle Offset (δDA) thresholds with defined severity ranges."
+                "text": "System shall display Original Thickness (t₀) and Measured Thickness (tₘ) as evaluation inputs."
               }
             ]
           }
@@ -570,7 +570,7 @@
               },
               {
                 "type": "text",
-                "text": " Down-Aisle Offset (δDA) thresholds displayed"
+                "text": " Original Thickness and Measured Thickness displayed"
               },
               {
                 "type": "hardBreak"
@@ -586,7 +586,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the severity criteria."
+                "text": " I know the values used for thickness evaluation."
               }
             ]
           }
@@ -610,7 +610,7 @@
               },
               {
                 "type": "text",
-                "text": " the Alignment Checks section is displayed,"
+                "text": " the Measured Parameters section is visible,"
               },
               {
                 "type": "hardBreak"
@@ -626,7 +626,7 @@
               },
               {
                 "type": "text",
-                "text": " threshold conditions are shown,"
+                "text": " evaluation inputs are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -642,7 +642,7 @@
               },
               {
                 "type": "text",
-                "text": " the system displays severity ranges for Down-Aisle Offset (δDA)."
+                "text": " the system shows Original Thickness (t₀) and Measured Thickness (tₘ)."
               }
             ]
           }
@@ -651,9 +651,9 @@
     },
     "6": {
       "n": 6,
-      "fr_id": "FR-CS-06",
-      "priority": "High",
-      "title": "Define Green Condition for δDA",
+      "fr_id": "FR-CT-06",
+      "priority": "Medium",
+      "title": "Display Thickness Configuration Notice",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -663,7 +663,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall define Green condition for δDA as ≤ 1.0 mm."
+                "text": "System shall display a descriptive text for Measured thickness section – “Thresholds are fixed under IRDS structural engineering framework. Manual configuration is not permitted.”"
               }
             ]
           }
@@ -690,7 +690,7 @@
               },
               {
                 "type": "text",
-                "text": "I want",
+                "text": "I want to",
                 "marks": [
                   {
                     "type": "strong"
@@ -699,7 +699,7 @@
               },
               {
                 "type": "text",
-                "text": " the green condition defined for Down-Aisle Offset"
+                "text": " see a notice indicating thresholds are fixed"
               },
               {
                 "type": "hardBreak"
@@ -715,7 +715,7 @@
               },
               {
                 "type": "text",
-                "text": " I know the acceptable alignment range."
+                "text": " I understand that manual configuration is not allowed."
               }
             ]
           }
@@ -739,7 +739,7 @@
               },
               {
                 "type": "text",
-                "text": " δDA severity conditions are displayed,"
+                "text": " the Measured Parameters section is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -755,7 +755,7 @@
               },
               {
                 "type": "text",
-                "text": " the Green condition is rendered,"
+                "text": " the descriptive text is rendered,"
               },
               {
                 "type": "hardBreak"
@@ -771,7 +771,14 @@
               },
               {
                 "type": "text",
-                "text": " it is defined as δDA ≤ 1.0 mm."
+                "text": " the system displays the message:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“Thresholds are fixed under IRDS structural engineering framework. Manual configuration is not permitted.”"
               }
             ]
           }
@@ -780,9 +787,9 @@
     },
     "7": {
       "n": 7,
-      "fr_id": "FR-CS-07",
+      "fr_id": "FR-CT-07",
       "priority": "High",
-      "title": "Define Amber Condition for δDA",
+      "title": "Display Severity Logic Based on Thickness Loss",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -792,7 +799,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall define Amber condition for δDA as > 1.0 mm and ≤ 2.0 mm."
+                "text": "System shall display Severity Logic based on calculated thickness loss percentage."
               }
             ]
           }
@@ -828,7 +835,7 @@
               },
               {
                 "type": "text",
-                "text": " the Amber condition defined for Down-Aisle Offset"
+                "text": " severity logic displayed based on thickness loss percentage"
               },
               {
                 "type": "hardBreak"
@@ -844,1942 +851,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand when moderate misalignment occurs."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " δDA severity conditions are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Amber condition is rendered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " it is defined as δDA > 1.0 mm and ≤ 2.0 mm."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "8": {
-      "n": 8,
-      "fr_id": "FR-CS-08",
-      "priority": "High",
-      "title": "Define Red Condition for δDA",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define Red condition for δDA as > 2.0 mm."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Red condition defined for Down-Aisle Offset"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know when alignment is critical."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " δDA severity conditions are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Red condition is rendered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " it is defined as δDA > 2.0 mm."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "9": {
-      "n": 9,
-      "fr_id": "FR-CS-09",
-      "priority": "High",
-      "title": "Display Cross-Aisle Offset Thresholds",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display Cross-Aisle Offset (δ CA) thresholds with severity ranges."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Cross-Aisle Offset (δCA) thresholds displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand severity classification for cross-aisle alignment."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Alignment Checks section is visible,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the configuration rules load,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system displays severity ranges for Cross-Aisle Offset (δCA)."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "10": {
-      "n": 10,
-      "fr_id": "FR-CS-10",
-      "priority": "High",
-      "title": "Define Green Condition for δCA",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define Green condition for δCA as ≤ 1.0 mm."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Green condition defined for Cross-Aisle Offset"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know the acceptable tolerance level."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " δCA severity conditions are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Green condition is rendered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " it is defined as δCA ≤ 1.0 mm."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "11": {
-      "n": 11,
-      "fr_id": "FR-CS-11",
-      "priority": "High",
-      "title": "Define Amber Condition for Cross-Aisle Offset",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define Amber condition for δ CA as > 1.0 mm and ≤ 2.0 mm."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Amber condition defined for Cross-Aisle Offset"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand when moderate cross-aisle misalignment occurs."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Cross-Aisle Offset (δCA) severity thresholds are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Amber condition is rendered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines it as δCA > 1.0 mm and ≤ 2.0 mm."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "12": {
-      "n": 12,
-      "fr_id": "FR-CS-12",
-      "priority": "High",
-      "title": "Define Red Condition for Cross-Aisle Offset",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define Red condition for δ CA as > 2.0 mm."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Red condition defined for Cross-Aisle Offset"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know when cross-aisle misalignment becomes critical."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Cross-Aisle Offset (δCA) severity thresholds are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Red condition is rendered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines it as δCA > 2.0 mm."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "13": {
-      "n": 13,
-      "fr_id": "FR-CS-13",
-      "priority": "High",
-      "title": "Display Vertical Gap Thresholds",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display Vertical Gap (gv) thresholds with severity ranges."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Vertical Gap (gv) thresholds displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand the severity criteria for vertical alignment."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Alignment Checks section is visible,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the configuration rules are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shows severity ranges for Vertical Gap (gv)."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "14": {
-      "n": 14,
-      "fr_id": "FR-CS-14",
-      "priority": "High",
-      "title": "Define Green Condition for Vertical Gap",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define Green condition for Vertical gv as ≤ 1.0 mm."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Green condition defined for Vertical Gap"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know the acceptable tolerance."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Vertical Gap (gv) severity thresholds are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Green condition is rendered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines it as gv ≤ 1.0 mm."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "15": {
-      "n": 15,
-      "fr_id": "FR-CS-15",
-      "priority": "High",
-      "title": "Define Amber Condition for Vertical Gap",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define Amber condition for Vertical gv as > 1.0 mm and ≤ 2.0 mm."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Amber condition defined for Vertical Gap"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know when vertical separation requires monitoring."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Vertical Gap (gv) severity thresholds are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Amber condition is rendered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines it as gv > 1.0 mm and ≤ 2.0 mm."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "16": {
-      "n": 16,
-      "fr_id": "FR-CS-16",
-      "priority": "High",
-      "title": "Define Red Condition for Vertical Gap",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define Red condition for Vertical gv as > 2.0 mm."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Red condition defined for Vertical Gap"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know when vertical separation is critical."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Vertical Gap (gv) severity thresholds are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Red condition is rendered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines it as gv > 2.0 mm."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "17": {
-      "n": 17,
-      "fr_id": "FR-CS-17",
-      "priority": "High",
-      "title": "Display Connection Integrity Section",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display Connection Integrity section for Component Splice."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a Connection Integrity section displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can review connection-related rule logic."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Component Splice configuration drawer is open,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the configuration sections load,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system displays a Connection Integrity section."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "18": {
-      "n": 18,
-      "fr_id": "FR-CS-18",
-      "priority": "High",
-      "title": "Display Bolt Torque Evaluation Logic",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display Bolt Torque (Tm vs Td) evaluation logic."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Bolt Torque evaluation logic displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand how torque values are assessed."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Connection Integrity section is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " evaluation logic is shown,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system displays Bolt Torque (Tm vs Td) evaluation logic."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "19": {
-      "n": 19,
-      "fr_id": "FR-CS-19",
-      "priority": "High",
-      "title": "Define Green Condition for Bolt Torque",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define Green condition for torque as 0.9 × Td ≤ Tm ≤ 1.1 × Td."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Green condition defined for bolt torque"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know when torque is within acceptable range."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Bolt Torque evaluation thresholds are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Green condition is rendered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines it as 0.9 × Td ≤ Tm ≤ 1.1 × Td."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "20": {
-      "n": 20,
-      "fr_id": "FR-CS-20",
-      "priority": "High",
-      "title": "Define Amber Condition for Bolt Torque",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define Amber condition for torque as 0.8 × Td ≤ Tm < 0.9 × Td."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Amber condition defined for bolt torque"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know when torque requires attention."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Bolt Torque evaluation thresholds are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Amber condition is rendered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines it as 0.8 × Td ≤ Tm < 0.9 × Td."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "21": {
-      "n": 21,
-      "fr_id": "FR-CS-21",
-      "priority": "High",
-      "title": "Define Red Condition for Bolt Torque",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall define Red condition for torque as Tm < 0.8 × Td."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Red condition defined for bolt torque"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know when torque is critically low."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " Bolt Torque evaluation thresholds are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Red condition is rendered,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines it as Tm < 0.8 × Td."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "22": {
-      "n": 22,
-      "fr_id": "FR-CS-22",
-      "priority": "High",
-      "title": "Display Bolt Count Section",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display Bolt Count section."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " a Bolt Count section displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can verify required bolt presence."
+                "text": " I understand how severity is determined."
               }
             ]
           }
@@ -2819,7 +891,7 @@
               },
               {
                 "type": "text",
-                "text": " connection evaluation logic loads,"
+                "text": " the severity logic section loads,"
               },
               {
                 "type": "hardBreak"
@@ -2835,18 +907,18 @@
               },
               {
                 "type": "text",
-                "text": " the system displays a Bolt Count section."
+                "text": " the system displays severity conditions based on calculated thickness loss percentage."
               }
             ]
           }
         ]
       }
     },
-    "23": {
-      "n": 23,
-      "fr_id": "FR-CS-23",
+    "8": {
+      "n": 8,
+      "fr_id": "FR-CT-08",
       "priority": "High",
-      "title": "Define Green Condition for Bolt Count",
+      "title": "Define Green Condition for Thickness Loss",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2856,7 +928,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall define Green condition for bolt count as Nm ≥ Nd."
+                "text": "System shall define Green condition for thickness loss as ≤ 5%."
               }
             ]
           }
@@ -2892,7 +964,7 @@
               },
               {
                 "type": "text",
-                "text": " the Green condition defined for bolt count"
+                "text": " the Green condition defined for thickness loss"
               },
               {
                 "type": "hardBreak"
@@ -2908,7 +980,7 @@
               },
               {
                 "type": "text",
-                "text": " I know when all required bolts are present."
+                "text": " I know when the component remains within safe tolerance."
               }
             ]
           }
@@ -2932,7 +1004,7 @@
               },
               {
                 "type": "text",
-                "text": " Bolt Count evaluation rules are displayed,"
+                "text": " thickness loss severity conditions are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -2964,18 +1036,18 @@
               },
               {
                 "type": "text",
-                "text": " the system defines it as Nm ≥ Nd."
+                "text": " it is defined as thickness loss ≤ 5%."
               }
             ]
           }
         ]
       }
     },
-    "24": {
-      "n": 24,
-      "fr_id": "FR-CS-24",
+    "9": {
+      "n": 9,
+      "fr_id": "FR-CT-09",
       "priority": "High",
-      "title": "Define Red Condition for Bolt Count",
+      "title": "Define Amber Condition for Thickness Loss",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2985,7 +1057,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall define Red condition for bolt count as Nm < Nd (Missing bolt)."
+                "text": "System shall define Amber condition for thickness loss as > 5% and ≤ 10%."
               }
             ]
           }
@@ -3021,7 +1093,7 @@
               },
               {
                 "type": "text",
-                "text": " the Red condition defined for bolt count"
+                "text": " the Amber condition defined for thickness loss"
               },
               {
                 "type": "hardBreak"
@@ -3037,7 +1109,7 @@
               },
               {
                 "type": "text",
-                "text": " I know when bolts are missing."
+                "text": " I know when moderate deterioration is detected."
               }
             ]
           }
@@ -3061,7 +1133,136 @@
               },
               {
                 "type": "text",
-                "text": " Bolt Count evaluation rules are displayed,"
+                "text": " thickness loss severity conditions are displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Amber condition is rendered,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " it is defined as thickness loss > 5% and ≤ 10%."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "10": {
+      "n": 10,
+      "fr_id": "FR-CT-10",
+      "priority": "High",
+      "title": "Define Red Condition for Thickness Loss",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall define Red condition for thickness loss as > 10%."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Red condition defined for thickness loss"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I know when the component is critically weakened."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " thickness loss severity conditions are displayed,"
               },
               {
                 "type": "hardBreak"
@@ -3093,18 +1294,18 @@
               },
               {
                 "type": "text",
-                "text": " the system defines it as Nm < Nd."
+                "text": " it is defined as thickness loss > 10%."
               }
             ]
           }
         ]
       }
     },
-    "25": {
-      "n": 25,
-      "fr_id": "FR-CS-25",
+    "11": {
+      "n": 11,
+      "fr_id": "FR-CT-11",
       "priority": "High",
-      "title": "Display Visible Crack Inspection Parameter",
+      "title": "Display Critical Escalation Rule",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -3114,394 +1315,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Visible Crack inspection parameter under the Component Splice evaluation model."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Visible Crack inspection parameter displayed in the Component Splice evaluation model"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can evaluate structural crack conditions."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Component Splice evaluation model modal is open,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the inspection parameters are displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shows the Visible Crack inspection parameter."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "26": {
-      "n": 26,
-      "fr_id": "FR-CS-26",
-      "priority": "High",
-      "title": "Define Green Condition for Visible Crack",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display the Green status condition for Visible Crack as “No crack observed.”"
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Green status condition defined for Visible Crack"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand the acceptable inspection outcome."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Visible Crack parameter is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " severity conditions are shown,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines the Green condition as “No crack observed.”"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "27": {
-      "n": 27,
-      "fr_id": "FR-CS-27",
-      "priority": "High",
-      "title": "Define Red Condition for Visible Crack",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display the Red status condition for Visible Crack as “Crack visible.”"
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Red status condition defined for Visible Crack"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand when the condition is critical."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Visible Crack parameter is displayed,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " severity conditions are shown,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system defines the Red condition as “Crack visible.”"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "28": {
-      "n": 28,
-      "fr_id": "FR-CS-28",
-      "priority": "High",
-      "title": "Display Overall Severity Logic Section",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display the Overall Severity Logic section within the Component Splice Evaluation Model modal."
+                "text": "System shall display Critical Escalation rule “if thickness loss exceeds 10% (beam-upright junction, baseplate anchor), immediate red flag escalation is required."
               }
             ]
           }
@@ -3537,7 +1351,7 @@
               },
               {
                 "type": "text",
-                "text": " see an Overall Severity Logic section in the evaluation model"
+                "text": " see the critical escalation rule displayed"
               },
               {
                 "type": "hardBreak"
@@ -3553,7 +1367,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand how the final severity is determined."
+                "text": " I understand when immediate escalation is required."
               }
             ]
           }
@@ -3577,7 +1391,7 @@
               },
               {
                 "type": "text",
-                "text": " the Component Splice Evaluation Model modal is open,"
+                "text": " the severity logic section is visible,"
               },
               {
                 "type": "hardBreak"
@@ -3593,7 +1407,7 @@
               },
               {
                 "type": "text",
-                "text": " evaluation logic is displayed,"
+                "text": " escalation logic is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -3609,18 +1423,25 @@
               },
               {
                 "type": "text",
-                "text": " the system shows an Overall Severity Logic section."
+                "text": " the system shows the rule:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "“if thickness loss exceeds 10% (beam-upright junction, baseplate anchor), immediate red flag escalation is required.”"
               }
             ]
           }
         ]
       }
     },
-    "29": {
-      "n": 29,
-      "fr_id": "FR-CS-29",
+    "12": {
+      "n": 12,
+      "fr_id": "FR-CT-12",
       "priority": "High",
-      "title": "Determine Final Severity Based on Worst Condition",
+      "title": "Trigger Red-Flag Escalation",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -3630,7 +1451,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall determine the Final severity based on the worst condition among all individual checks. (Final Severity = Worst of all individual checks."
+                "text": "System shall trigger red-flag escalation when critical threshold is exceeded."
               }
             ]
           }
@@ -3666,7 +1487,7 @@
               },
               {
                 "type": "text",
-                "text": " the final severity determined using the worst condition among checks"
+                "text": " the system to trigger a red-flag escalation when critical thresholds are exceeded"
               },
               {
                 "type": "hardBreak"
@@ -3682,7 +1503,7 @@
               },
               {
                 "type": "text",
-                "text": " the most critical inspection result governs the outcome."
+                "text": " severe structural risks are immediately highlighted."
               }
             ]
           }
@@ -3706,7 +1527,7 @@
               },
               {
                 "type": "text",
-                "text": " multiple inspection parameters are evaluated,"
+                "text": " a thickness loss measurement exceeds the defined critical threshold,"
               },
               {
                 "type": "hardBreak"
@@ -3722,7 +1543,7 @@
               },
               {
                 "type": "text",
-                "text": " the system calculates the final severity,"
+                "text": " the system evaluates the severity logic,"
               },
               {
                 "type": "hardBreak"
@@ -3738,18 +1559,18 @@
               },
               {
                 "type": "text",
-                "text": " it uses the rule “Final Severity = Worst of all individual checks.”"
+                "text": " a red-flag escalation is triggered."
               }
             ]
           }
         ]
       }
     },
-    "30": {
-      "n": 30,
-      "fr_id": "FR-CS-30",
+    "13": {
+      "n": 13,
+      "fr_id": "FR-CT-13",
       "priority": "High",
-      "title": "Set Final Severity to Red When Any Parameter is Red",
+      "title": "Prevent Manual Modification of Thresholds",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -3759,7 +1580,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall set the Final Severity as Red if any inspection parameter is classified as Red."
+                "text": "System shall not allow manual modification of severity thresholds for system-defined tests."
               }
             ]
           }
@@ -3795,7 +1616,7 @@
               },
               {
                 "type": "text",
-                "text": " the final severity set to Red if any parameter is Red"
+                "text": " severity thresholds locked for system-defined tests"
               },
               {
                 "type": "hardBreak"
@@ -3811,7 +1632,7 @@
               },
               {
                 "type": "text",
-                "text": " critical conditions are prioritized."
+                "text": " standardized engineering rules cannot be altered."
               }
             ]
           }
@@ -3835,7 +1656,7 @@
               },
               {
                 "type": "text",
-                "text": " one or more inspection parameters are classified as Red,"
+                "text": " the Component Thickness test is system-defined,"
               },
               {
                 "type": "hardBreak"
@@ -3851,7 +1672,7 @@
               },
               {
                 "type": "text",
-                "text": " the system determines the final severity,"
+                "text": " the evaluation model modal is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -3867,18 +1688,18 @@
               },
               {
                 "type": "text",
-                "text": " the final severity is set to Red."
+                "text": " the system prevents manual modification of severity thresholds."
               }
             ]
           }
         ]
       }
     },
-    "31": {
-      "n": 31,
-      "fr_id": "FR-CS-31",
+    "14": {
+      "n": 14,
+      "fr_id": "FR-CT-14",
       "priority": "High",
-      "title": "Set Final Severity to Amber When No Red Exists but Amber is Present",
+      "title": "Display Calculation Method Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -3888,265 +1709,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall set the Final Severity as Amber if no parameter if at any parameter is Amber."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the final severity set to Amber when Amber conditions exist but no Red conditions are present"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " moderate issues are reflected accurately."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " no inspection parameters are Red and at least one parameter is Amber,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system determines the final severity,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the final severity is set to Amber."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "32": {
-      "n": 32,
-      "fr_id": "FR-CS-32",
-      "priority": "High",
-      "title": "Set Final Severity to Green When All Conditions Are Green",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall set the Final Severity as Green if all inspection parameters are classified as Green."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the final severity set to Green when all parameters are acceptable"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know the component is compliant."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " all inspection parameters are classified as Green,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system calculates the final severity,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the final severity is set to Green."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "33": {
-      "n": 33,
-      "fr_id": "FR-CS-33",
-      "priority": "High",
-      "title": "Display System Defined Label",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display “System Defined” label in footer for non-configurable tests."
+                "text": "System shall display Calculation Method section with the formula – Loss% = ((t₀ − tₘ) / t₀) × 100."
               }
             ]
           }
@@ -4182,7 +1745,7 @@
               },
               {
                 "type": "text",
-                "text": " see a “System Defined” label for non-configurable tests"
+                "text": " see the calculation method used for thickness loss"
               },
               {
                 "type": "hardBreak"
@@ -4198,7 +1761,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the rule cannot be modified."
+                "text": " I understand how severity is derived."
               }
             ]
           }
@@ -4222,7 +1785,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation model represents a system-defined rule,"
+                "text": " the evaluation model modal is open,"
               },
               {
                 "type": "hardBreak"
@@ -4238,7 +1801,7 @@
               },
               {
                 "type": "text",
-                "text": " the modal footer is displayed,"
+                "text": " the calculation section is displayed,"
               },
               {
                 "type": "hardBreak"
@@ -4254,16 +1817,23 @@
               },
               {
                 "type": "text",
-                "text": " the system shows a “System Defined” label."
+                "text": " the system shows the formula:"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Loss% = ((t₀ − tₘ) / t₀) × 100."
               }
             ]
           }
         ]
       }
     },
-    "34": {
-      "n": 34,
-      "fr_id": "FR-CS-34",
+    "15": {
+      "n": 15,
+      "fr_id": "FR-CT-15",
       "priority": "Medium",
       "title": "Display Close Button in Modal",
       "requirement": {
@@ -4327,7 +1897,7 @@
               },
               {
                 "type": "text",
-                "text": " I can exit the view."
+                "text": " I can exit the configuration view."
               }
             ]
           }
@@ -4390,140 +1960,11 @@
         ]
       }
     },
-    "35": {
-      "n": 35,
-      "fr_id": "FR-CS-35",
+    "16": {
+      "n": 16,
+      "fr_id": "FR-CT-16",
       "priority": "Medium",
-      "title": "Close Modal Using Close Button",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall close the Component Splice Evaluation Model modal when the user clicks the Close button."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the modal to close when I click the Close button"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can return to the previous screen."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the evaluation model modal is open,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I click the Close button,"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the modal closes."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "36": {
-      "n": 36,
-      "fr_id": "FR-CS-36",
-      "priority": "Medium",
-      "title": "Close Modal Using Close Icon",
+      "title": "Allow Modal Dismissal Using Close Icon",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -4569,7 +2010,7 @@
               },
               {
                 "type": "text",
-                "text": " dismiss the modal using the close (X) icon"
+                "text": " dismiss the modal using the top-right close (X) icon"
               },
               {
                 "type": "hardBreak"
@@ -4625,7 +2066,7 @@
               },
               {
                 "type": "text",
-                "text": " I click the top-right close (X) icon,"
+                "text": " I click the close (X) icon in the header,"
               },
               {
                 "type": "hardBreak"
@@ -4648,9 +2089,9 @@
         ]
       }
     },
-    "37": {
-      "n": 37,
-      "fr_id": "FR-CS-37",
+    "17": {
+      "n": 17,
+      "fr_id": "FR-CT-17",
       "priority": "Medium",
       "title": "Return to Previous Screen After Modal Dismissal",
       "requirement": {
@@ -4783,8 +2224,8 @@
     "story_only": [],
     "missing_acceptance": [],
     "odd_prefix_ids": [],
-    "req_count": 37,
-    "story_count": 37,
-    "matched": 37
+    "req_count": 17,
+    "story_count": 17,
+    "matched": 17
   }
 }
