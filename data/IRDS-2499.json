@@ -1,14 +1,14 @@
 {
   "epic_key": "IRDS-2499",
   "epic_name": "Rules and Action",
-  "fr_prefix": "FR-BS",
-  "created_at": "2026-05-21T06:35:25",
+  "fr_prefix": "FR-BVD",
+  "created_at": "2026-05-21T07:18:52",
   "pairs": {
     "1": {
       "n": 1,
-      "fr_id": "FR-BS-01",
+      "fr_id": "FR-BVD-01",
       "priority": "High",
-      "title": "Open Baseplate Settlement- Evaluation Model Panel",
+      "title": "Open Beam Vertical Deflection- Threshold Configuration Panel",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -18,7 +18,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall open the Baseplate Settlement (G5) — Evaluation Model panel when the user selects the G5 test from the Rules and Actions → Testing tab."
+                "text": "System shall open the Beam Vertical Deflection (B1) — Threshold Configuration panel when the user selects the B1 test from the Rules and Actions → Testing tab."
               }
             ]
           }
@@ -54,7 +54,7 @@
               },
               {
                 "type": "text",
-                "text": " open the Baseplate Settlement (G5) evaluation model panel"
+                "text": " open the Beam Vertical Deflection (B1) threshold configuration panel"
               },
               {
                 "type": "hardBreak"
@@ -70,7 +70,7 @@
               },
               {
                 "type": "text",
-                "text": " I can review the evaluation logic for the G5 test."
+                "text": " I can configure allowable deflection parameters for beam testing."
               }
             ]
           }
@@ -110,7 +110,7 @@
               },
               {
                 "type": "text",
-                "text": " the user selects the G5 test"
+                "text": " the user selects the B1 test"
               },
               {
                 "type": "hardBreak"
@@ -126,7 +126,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall open the Baseplate Settlement (G5) — Evaluation Model panel."
+                "text": " the system shall open the Beam Vertical Deflection (B1) — Threshold Configuration panel."
               }
             ]
           }
@@ -135,9 +135,9 @@
     },
     "2": {
       "n": 2,
-      "fr_id": "FR-BS-02",
+      "fr_id": "FR-BVD-02",
       "priority": "High",
-      "title": "Display Evaluation Panel Title",
+      "title": "Display Panel Title",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -147,7 +147,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the panel title “Baseplate Settlement (G5) — Evaluation Model”."
+                "text": "System shall display the panel title “Beam Vertical Deflection (B1) — Threshold Configuration”."
               }
             ]
           }
@@ -183,7 +183,7 @@
               },
               {
                 "type": "text",
-                "text": " see the evaluation model title"
+                "text": " see the configuration panel title"
               },
               {
                 "type": "hardBreak"
@@ -199,7 +199,7 @@
               },
               {
                 "type": "text",
-                "text": " I clearly understand which evaluation model is being viewed."
+                "text": " I can clearly identify the configuration being edited."
               }
             ]
           }
@@ -223,7 +223,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation model panel is opened"
+                "text": " the configuration panel is opened"
               },
               {
                 "type": "hardBreak"
@@ -255,7 +255,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display the title “Baseplate Settlement (G5) — Evaluation Model.”"
+                "text": " the system shall display the title “Beam Vertical Deflection (B1) — Threshold Configuration.”"
               }
             ]
           }
@@ -264,9 +264,9 @@
     },
     "3": {
       "n": 3,
-      "fr_id": "FR-BS-03",
+      "fr_id": "FR-BVD-03",
       "priority": "Medium",
-      "title": "Display Global Scope Indicator",
+      "title": "Display Local Scope Indicator",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -276,7 +276,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a Global scope indicator beside the evaluation model title."
+                "text": "System shall display the Local scope indicator beside the panel title."
               }
             ]
           }
@@ -312,7 +312,7 @@
               },
               {
                 "type": "text",
-                "text": " see the global scope indicator"
+                "text": " see the local scope indicator"
               },
               {
                 "type": "hardBreak"
@@ -328,7 +328,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the scope of the evaluation model."
+                "text": " I understand the scope of the configuration."
               }
             ]
           }
@@ -352,7 +352,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is displayed"
+                "text": " the configuration panel is displayed"
               },
               {
                 "type": "hardBreak"
@@ -368,7 +368,7 @@
               },
               {
                 "type": "text",
-                "text": " the title section loads"
+                "text": " the header section loads"
               },
               {
                 "type": "hardBreak"
@@ -384,7 +384,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display a Global scope indicator beside the evaluation model title."
+                "text": " the system shall display a Local scope indicator beside the panel title."
               }
             ]
           }
@@ -393,9 +393,9 @@
     },
     "4": {
       "n": 4,
-      "fr_id": "FR-BS-04",
+      "fr_id": "FR-BVD-04",
       "priority": "Medium",
-      "title": "Display Evaluation Description",
+      "title": "Display Configuration Description",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -405,7 +405,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a description indicating the evaluation is derived from base elevation survey data (Z coordinates)."
+                "text": "System shall display a description indicating the configuration defines allowable deflection parameters for beams using formula-based span-dependent logic."
               }
             ]
           }
@@ -441,7 +441,7 @@
               },
               {
                 "type": "text",
-                "text": " see the evaluation description"
+                "text": " see a description of the configuration"
               },
               {
                 "type": "hardBreak"
@@ -457,7 +457,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand how the evaluation is derived."
+                "text": " I understand the logic used to calculate beam deflection."
               }
             ]
           }
@@ -481,7 +481,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is displayed"
+                "text": " the configuration panel is displayed"
               },
               {
                 "type": "hardBreak"
@@ -513,7 +513,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display a description indicating the evaluation is derived from base elevation survey data (Z coordinates)."
+                "text": " the system shall display a description indicating the configuration defines allowable deflection parameters for beams using formula-based span-dependent logic."
               }
             ]
           }
@@ -522,9 +522,9 @@
     },
     "5": {
       "n": 5,
-      "fr_id": "FR-BS-05",
+      "fr_id": "FR-BVD-05",
       "priority": "High",
-      "title": "Display Measurement Basis Section",
+      "title": "Display Deflection Modes Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -534,7 +534,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Measurement Basis section describing that base elevation values (Z_base,j) are measured at each upright base location within a rack row."
+                "text": "System shall display the Deflection Modes section within the panel."
               }
             ]
           }
@@ -570,7 +570,7 @@
               },
               {
                 "type": "text",
-                "text": " see the measurement basis information"
+                "text": " view deflection mode configurations"
               },
               {
                 "type": "hardBreak"
@@ -586,7 +586,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand how elevation values are collected."
+                "text": " I can understand the different beam deflection evaluation conditions."
               }
             ]
           }
@@ -610,7 +610,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is displayed"
+                "text": " the configuration panel is displayed"
               },
               {
                 "type": "hardBreak"
@@ -626,7 +626,7 @@
               },
               {
                 "type": "text",
-                "text": " the Measurement Basis section loads"
+                "text": " the panel loads"
               },
               {
                 "type": "hardBreak"
@@ -642,7 +642,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall describe that base elevation values (Z_base,j) are measured at each upright base location within a rack row."
+                "text": " the system shall display the Deflection Modes section."
               }
             ]
           }
@@ -651,9 +651,9 @@
     },
     "6": {
       "n": 6,
-      "fr_id": "FR-BS-06",
-      "priority": "Medium",
-      "title": "Display Z_base,j Definition",
+      "fr_id": "FR-BVD-06",
+      "priority": "High",
+      "title": "Display Elastic Mode Formula",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -663,7 +663,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the definition Z_base,j = measured elevation at base of upright j."
+                "text": "System shall display the Elastic Mode (Service Condition) formula as Δ_allow = L / [Elastic Divisor]."
               }
             ]
           }
@@ -699,7 +699,7 @@
               },
               {
                 "type": "text",
-                "text": " see the definition of Z_base,j"
+                "text": " see the Elastic Mode formula"
               },
               {
                 "type": "hardBreak"
@@ -715,7 +715,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the measurement parameter."
+                "text": " I understand how service condition deflection is calculated."
               }
             ]
           }
@@ -739,7 +739,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is displayed"
+                "text": " the Deflection Modes section is visible"
               },
               {
                 "type": "hardBreak"
@@ -755,7 +755,7 @@
               },
               {
                 "type": "text",
-                "text": " the definition section loads"
+                "text": " the Elastic Mode configuration loads"
               },
               {
                 "type": "hardBreak"
@@ -771,7 +771,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display Z_base,j = measured elevation at the base of upright j."
+                "text": " the system shall display the formula Δ_allow = L / [Elastic Divisor]."
               }
             ]
           }
@@ -780,9 +780,9 @@
     },
     "7": {
       "n": 7,
-      "fr_id": "FR-BS-07",
-      "priority": "Medium",
-      "title": "Display Reference Elevation Definition",
+      "fr_id": "FR-BVD-07",
+      "priority": "High",
+      "title": "Configure Elastic Divisor",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -792,7 +792,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display that reference elevation Z_ref is the mean base elevation of the rack row."
+                "text": "System shall provide an editable Elastic Divisor input field."
               }
             ]
           }
@@ -828,7 +828,7 @@
               },
               {
                 "type": "text",
-                "text": " see how reference elevation is defined"
+                "text": " configure the Elastic Divisor"
               },
               {
                 "type": "hardBreak"
@@ -844,7 +844,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand how settlement is calculated."
+                "text": " I can control allowable beam deflection limits."
               }
             ]
           }
@@ -868,7 +868,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is displayed"
+                "text": " the Elastic Mode configuration is displayed"
               },
               {
                 "type": "hardBreak"
@@ -884,7 +884,7 @@
               },
               {
                 "type": "text",
-                "text": " the measurement definitions load"
+                "text": " the divisor field is shown"
               },
               {
                 "type": "hardBreak"
@@ -900,7 +900,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display that reference elevation Z_ref is the mean base elevation of the rack row."
+                "text": " the system shall provide an editable Elastic Divisor input field."
               }
             ]
           }
@@ -909,9 +909,9 @@
     },
     "8": {
       "n": 8,
-      "fr_id": "FR-BS-08",
-      "priority": "Medium",
-      "title": "Display Settlement Formula",
+      "fr_id": "FR-BVD-08",
+      "priority": "High",
+      "title": "Default Elastic Divisor Value",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -921,7 +921,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the settlement expression S_j = Z_base,j − Z_ref."
+                "text": "System shall set the default value of the Elastic Divisor to 200."
               }
             ]
           }
@@ -948,7 +948,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -957,7 +957,7 @@
               },
               {
                 "type": "text",
-                "text": " see the settlement calculation formula"
+                "text": " a default Elastic Divisor value"
               },
               {
                 "type": "hardBreak"
@@ -973,7 +973,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand how settlement values are derived."
+                "text": " standard configuration is pre-applied."
               }
             ]
           }
@@ -997,7 +997,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is displayed"
+                "text": " the Elastic Divisor field is displayed"
               },
               {
                 "type": "hardBreak"
@@ -1013,7 +1013,7 @@
               },
               {
                 "type": "text",
-                "text": " the formula section loads"
+                "text": " the configuration panel loads"
               },
               {
                 "type": "hardBreak"
@@ -1029,7 +1029,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display S_j = Z_base,j − Z_ref."
+                "text": " the system shall set the default Elastic Divisor value to 200."
               }
             ]
           }
@@ -1038,9 +1038,9 @@
     },
     "9": {
       "n": 9,
-      "fr_id": "FR-BS-09",
-      "priority": "Medium",
-      "title": "Display Absolute Settlement Concept",
+      "fr_id": "FR-BVD-09",
+      "priority": "High",
+      "title": "Validate Elastic Divisor Values",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1050,7 +1050,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display that absolute settlement governs: S_j"
+                "text": "System shall validate the Elastic Divisor to accept integer values between 100 and 1000."
               }
             ]
           }
@@ -1077,7 +1077,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -1086,7 +1086,7 @@
               },
               {
                 "type": "text",
-                "text": " understand that absolute settlement is evaluated"
+                "text": " the Elastic Divisor input to be validated"
               },
               {
                 "type": "hardBreak"
@@ -1102,7 +1102,7 @@
               },
               {
                 "type": "text",
-                "text": " I can interpret the results correctly."
+                "text": " only acceptable configuration values are entered."
               }
             ]
           }
@@ -1126,7 +1126,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is displayed"
+                "text": " the user enters a value in the Elastic Divisor field"
               },
               {
                 "type": "hardBreak"
@@ -1142,7 +1142,7 @@
               },
               {
                 "type": "text",
-                "text": " the explanation section loads"
+                "text": " the value is outside the valid range"
               },
               {
                 "type": "hardBreak"
@@ -1158,7 +1158,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display that absolute settlement is evaluated for the rack row – S_j."
+                "text": " the system shall validate that only integer values between 100 and 1000 are accepted."
               }
             ]
           }
@@ -1167,9 +1167,9 @@
     },
     "10": {
       "n": 10,
-      "fr_id": "FR-BS-10",
-      "priority": "Medium",
-      "title": "Display Rack Run Scope",
+      "fr_id": "FR-BVD-10",
+      "priority": "High",
+      "title": "Display Permanent Mode Formula",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1179,7 +1179,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display that the evaluation is computed across all uprights within the same rack row."
+                "text": "System shall display the Permanent Mode (Residual Condition) formula as Δ_allow = L / [Permanent Divisor]."
               }
             ]
           }
@@ -1215,7 +1215,7 @@
               },
               {
                 "type": "text",
-                "text": " know that evaluation occurs across the rack run"
+                "text": " see the Permanent Mode formula"
               },
               {
                 "type": "hardBreak"
@@ -1231,7 +1231,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the evaluation coverage."
+                "text": " I understand the calculation for residual deflection."
               }
             ]
           }
@@ -1255,7 +1255,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is displayed"
+                "text": " the Deflection Modes section is displayed"
               },
               {
                 "type": "hardBreak"
@@ -1271,7 +1271,7 @@
               },
               {
                 "type": "text",
-                "text": " the scope description loads"
+                "text": " the Permanent Mode configuration loads"
               },
               {
                 "type": "hardBreak"
@@ -1287,7 +1287,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display that evaluation is computed across all uprights within the same rack row."
+                "text": " the system shall display the formula Δ_allow = L / [Permanent Divisor]."
               }
             ]
           }
@@ -1296,9 +1296,9 @@
     },
     "11": {
       "n": 11,
-      "fr_id": "FR-BS-11",
+      "fr_id": "FR-BVD-11",
       "priority": "High",
-      "title": "Display Minimum Measurement Requirement",
+      "title": "Configure Permanent Divisor",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1308,7 +1308,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a note indicating minimum two base elevation measurements are required."
+                "text": "System shall provide an editable Permanent Divisor input field."
               }
             ]
           }
@@ -1344,7 +1344,7 @@
               },
               {
                 "type": "text",
-                "text": " know the minimum data requirement"
+                "text": " configure the Permanent Divisor"
               },
               {
                 "type": "hardBreak"
@@ -1360,7 +1360,7 @@
               },
               {
                 "type": "text",
-                "text": " I can perform valid settlement calculations."
+                "text": " I can define allowable residual deflection limits."
               }
             ]
           }
@@ -1384,7 +1384,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is displayed"
+                "text": " the Permanent Mode configuration is displayed"
               },
               {
                 "type": "hardBreak"
@@ -1400,7 +1400,7 @@
               },
               {
                 "type": "text",
-                "text": " the requirement section loads"
+                "text": " the divisor field appears"
               },
               {
                 "type": "hardBreak"
@@ -1416,7 +1416,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall indicate that minimum two base elevation measurements are required."
+                "text": " the system shall provide an editable Permanent Divisor input field."
               }
             ]
           }
@@ -1425,9 +1425,9 @@
     },
     "12": {
       "n": 12,
-      "fr_id": "FR-BS-12",
-      "priority": "Medium",
-      "title": "Display Measurement Recommendation",
+      "fr_id": "FR-BVD-12",
+      "priority": "High",
+      "title": "Default Permanent Divisor Value",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1437,7 +1437,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a recommendation stating all uprights within the rack row should be measured."
+                "text": "System shall set the default value of the Permanent Divisor to 1000."
               }
             ]
           }
@@ -1464,7 +1464,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -1473,7 +1473,7 @@
               },
               {
                 "type": "text",
-                "text": " see recommended measurement practices"
+                "text": " a default Permanent Divisor value"
               },
               {
                 "type": "hardBreak"
@@ -1489,7 +1489,7 @@
               },
               {
                 "type": "text",
-                "text": " evaluation results are accurate."
+                "text": " the system starts with recommended configuration values."
               }
             ]
           }
@@ -1513,7 +1513,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is displayed"
+                "text": " the Permanent Divisor field is displayed"
               },
               {
                 "type": "hardBreak"
@@ -1529,7 +1529,7 @@
               },
               {
                 "type": "text",
-                "text": " the recommendations section loads"
+                "text": " the panel loads"
               },
               {
                 "type": "hardBreak"
@@ -1545,7 +1545,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall recommend measuring all uprights within the rack row."
+                "text": " the system shall set the default value to 1000"
               }
             ]
           }
@@ -1554,9 +1554,9 @@
     },
     "13": {
       "n": 13,
-      "fr_id": "FR-BS-13",
-      "priority": "Medium",
-      "title": "Display Instrument Support Section",
+      "fr_id": "FR-BVD-13",
+      "priority": "High",
+      "title": "Validate Permanent Divisor value",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1566,7 +1566,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Instrument Support section."
+                "text": "System shall validate the Permanent Divisor to accept integer values between 200 and 2000."
               }
             ]
           }
@@ -1593,7 +1593,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -1602,7 +1602,7 @@
               },
               {
                 "type": "text",
-                "text": " see supported instruments"
+                "text": " the Permanent Divisor value validated"
               },
               {
                 "type": "hardBreak"
@@ -1618,7 +1618,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand which tools can be used."
+                "text": " only valid configuration values are accepted."
               }
             ]
           }
@@ -1642,7 +1642,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is displayed"
+                "text": " the user enters a value in the Permanent Divisor field"
               },
               {
                 "type": "hardBreak"
@@ -1658,7 +1658,7 @@
               },
               {
                 "type": "text",
-                "text": " the Instrument Support section loads"
+                "text": " the value is entered"
               },
               {
                 "type": "hardBreak"
@@ -1674,7 +1674,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display supported and unsupported instruments."
+                "text": " the system shall accept integer values between 200 and 2000 only."
               }
             ]
           }
@@ -1683,9 +1683,9 @@
     },
     "14": {
       "n": 14,
-      "fr_id": "FR-BS-14",
+      "fr_id": "FR-BVD-14",
       "priority": "Medium",
-      "title": "Display Drone + Laser Support",
+      "title": "Display Deflection Calculation Note",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1695,7 +1695,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display Drone + Laser → Supported under instrument support."
+                "text": "System shall display a note indicating that allowable deflection is calculated automatically based on beam span (L)."
               }
             ]
           }
@@ -1731,7 +1731,7 @@
               },
               {
                 "type": "text",
-                "text": " see if Drone + Laser is supported"
+                "text": " see how deflection values are calculated"
               },
               {
                 "type": "hardBreak"
@@ -1747,7 +1747,7 @@
               },
               {
                 "type": "text",
-                "text": " I know it can be used for measurement."
+                "text": " I understand how beam span affects allowable deflection."
               }
             ]
           }
@@ -1771,7 +1771,7 @@
               },
               {
                 "type": "text",
-                "text": " the Instrument Support section is displayed"
+                "text": " the Deflection Modes section is displayed"
               },
               {
                 "type": "hardBreak"
@@ -1787,7 +1787,7 @@
               },
               {
                 "type": "text",
-                "text": " the supported instruments are listed"
+                "text": " the configuration explanation loads"
               },
               {
                 "type": "hardBreak"
@@ -1803,7 +1803,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display Drone + Laser → Supported"
+                "text": " the system shall display a note indicating that allowable deflection is calculated automatically based on beam span (L)."
               }
             ]
           }
@@ -1812,9 +1812,9 @@
     },
     "15": {
       "n": 15,
-      "fr_id": "FR-BS-15",
-      "priority": "Medium",
-      "title": "Display Total Station Support",
+      "fr_id": "FR-BVD-15",
+      "priority": "High",
+      "title": "Display Escalation Multiplier Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1824,7 +1824,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display Total Station → Supported under instrument support."
+                "text": "System shall display the Escalation Multiplier section."
               }
             ]
           }
@@ -1860,7 +1860,7 @@
               },
               {
                 "type": "text",
-                "text": " see if Total Station is supported"
+                "text": " see escalation configuration settings"
               },
               {
                 "type": "hardBreak"
@@ -1876,7 +1876,7 @@
               },
               {
                 "type": "text",
-                "text": " I know it can be used for survey measurement."
+                "text": " I can define severity escalation thresholds."
               }
             ]
           }
@@ -1900,7 +1900,7 @@
               },
               {
                 "type": "text",
-                "text": " the Instrument Support section is displayed"
+                "text": " the configuration panel is displayed"
               },
               {
                 "type": "hardBreak"
@@ -1916,7 +1916,7 @@
               },
               {
                 "type": "text",
-                "text": " the supported instruments are listed"
+                "text": " the escalation configuration loads"
               },
               {
                 "type": "hardBreak"
@@ -1932,7 +1932,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display Total Station → Supported."
+                "text": " the system shall display the Escalation Multiplier section."
               }
             ]
           }
@@ -1941,9 +1941,9 @@
     },
     "16": {
       "n": 16,
-      "fr_id": "FR-BS-16",
-      "priority": "Medium",
-      "title": "Display Plumb Bob Limitation",
+      "fr_id": "FR-BVD-16",
+      "priority": "High",
+      "title": "Display Red Escalation Rule",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1953,7 +1953,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display Plumb Bob → Not Supported under instrument support."
+                "text": "System shall display the escalation rule Red when Δ > Multiplier × Δ_allow."
               }
             ]
           }
@@ -1989,7 +1989,7 @@
               },
               {
                 "type": "text",
-                "text": " know if Plumb Bob is supported"
+                "text": " see the escalation rule definition"
               },
               {
                 "type": "hardBreak"
@@ -2005,7 +2005,7 @@
               },
               {
                 "type": "text",
-                "text": " I avoid unsupported measurement methods."
+                "text": " I understand when a Red severity is triggered."
               }
             ]
           }
@@ -2029,7 +2029,7 @@
               },
               {
                 "type": "text",
-                "text": " the Instrument Support section is displayed"
+                "text": " the Escalation Multiplier section is displayed"
               },
               {
                 "type": "hardBreak"
@@ -2045,7 +2045,7 @@
               },
               {
                 "type": "text",
-                "text": " instrument compatibility is shown"
+                "text": " the rule is shown"
               },
               {
                 "type": "hardBreak"
@@ -2061,7 +2061,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display Plumb Bob → Not Supported."
+                "text": " the system shall display the rule Red when Δ > Multiplier × Δ_allow."
               }
             ]
           }
@@ -2070,9 +2070,9 @@
     },
     "17": {
       "n": 17,
-      "fr_id": "FR-BS-17",
+      "fr_id": "FR-BVD-17",
       "priority": "High",
-      "title": "Display Calculation Logic Section",
+      "title": "Configure Red Threshold Multiplier",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2082,7 +2082,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Calculation Logic section in read-only mode."
+                "text": "System shall provide an editable Red Threshold Multiplier input field."
               }
             ]
           }
@@ -2118,7 +2118,7 @@
               },
               {
                 "type": "text",
-                "text": " see the calculation logic"
+                "text": " configure the Red Threshold Multiplier"
               },
               {
                 "type": "hardBreak"
@@ -2134,7 +2134,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand how settlement is computed."
+                "text": " I can define escalation sensitivity."
               }
             ]
           }
@@ -2158,7 +2158,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is displayed"
+                "text": " the Escalation Multiplier section is displayed"
               },
               {
                 "type": "hardBreak"
@@ -2174,7 +2174,7 @@
               },
               {
                 "type": "text",
-                "text": " the Calculation Logic section loads"
+                "text": " the configuration field loads"
               },
               {
                 "type": "hardBreak"
@@ -2190,7 +2190,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display the section in read-only mode."
+                "text": " the system shall provide an editable Red Threshold Multiplier input field."
               }
             ]
           }
@@ -2199,9 +2199,9 @@
     },
     "18": {
       "n": 18,
-      "fr_id": "FR-BS-18",
-      "priority": "Medium",
-      "title": "Display Calculation Steps",
+      "fr_id": "FR-BVD-18",
+      "priority": "High",
+      "title": "Default Red Multiplier threshold Value",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2211,35 +2211,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the calculation steps (Read only) for collecting base elevations and computing settlement values."
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "1. Collect base elevations: z_base,j"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "2. compute reference elevation: z_ref= mean (z_base,j)"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "3. Settlement per upright: s_j = Z_base,j- Z_ref"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "4. Governing settlement: S_max= max (S_Ji)"
+                "text": "System shall set the default value of the Red Threshold Multiplier to 1.5."
               }
             ]
           }
@@ -2266,7 +2238,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -2275,7 +2247,7 @@
               },
               {
                 "type": "text",
-                "text": " see calculation steps"
+                "text": " a default escalation multiplier value"
               },
               {
                 "type": "hardBreak"
@@ -2291,7 +2263,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the process used to compute settlement values."
+                "text": " recommended escalation settings are applied."
               }
             ]
           }
@@ -2315,7 +2287,7 @@
               },
               {
                 "type": "text",
-                "text": " the Calculation Logic section is visible"
+                "text": " the multiplier field is displayed"
               },
               {
                 "type": "hardBreak"
@@ -2331,7 +2303,7 @@
               },
               {
                 "type": "text",
-                "text": " the section loads"
+                "text": " the panel loads"
               },
               {
                 "type": "hardBreak"
@@ -2347,35 +2319,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display the steps for collecting base elevations and computing settlement values :"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "1. Collect base elevations: z_base,j"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "2. compute reference elevation: z_ref= mean (z_base,j)"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "3. Settlement per upright: s_j = Z_base,j- Z_ref"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "4. Governing settlement: S_max= max (S_Ji)"
+                "text": " the system shall set the default Red Threshold Multiplier to 1.5."
               }
             ]
           }
@@ -2384,9 +2328,9 @@
     },
     "19": {
       "n": 19,
-      "fr_id": "FR-BS-19",
-      "priority": "Medium",
-      "title": "Display Maximum Settlement Definition",
+      "fr_id": "FR-BVD-19",
+      "priority": "High",
+      "title": "Validate Red Threshold Multiplier Input",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2396,7 +2340,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a note within the Calculation logic section indicating S_max = maximum absolute vertical settlement within rack row (mm)"
+                "text": "System shall validate the Red Threshold Multiplier to accept numeric values between 1.0 and 3.0 with decimal values allowed."
               }
             ]
           }
@@ -2423,7 +2367,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -2432,7 +2376,7 @@
               },
               {
                 "type": "text",
-                "text": " see a note explaining the meaning of S_max in the calculation logic section"
+                "text": " multiplier values validated"
               },
               {
                 "type": "hardBreak"
@@ -2448,7 +2392,7 @@
               },
               {
                 "type": "text",
-                "text": " I clearly understand what parameter represents the maximum vertical settlement used in evaluation."
+                "text": " invalid escalation thresholds are prevented."
               }
             ]
           }
@@ -2472,7 +2416,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation model panel is open,"
+                "text": " the user enters a value in the multiplier field"
               },
               {
                 "type": "hardBreak"
@@ -2488,7 +2432,7 @@
               },
               {
                 "type": "text",
-                "text": " the Calculation Logic section is displayed,"
+                "text": " the value is entered"
               },
               {
                 "type": "hardBreak"
@@ -2504,7 +2448,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shows a note indicating that S_max represents the maximum absolute vertical settlement within the rack row (mm)."
+                "text": " the system shall accept numeric values between 1.0 and 3.0 including decimals."
               }
             ]
           }
@@ -2513,9 +2457,9 @@
     },
     "20": {
       "n": 20,
-      "fr_id": "FR-BS-20",
-      "priority": "High",
-      "title": "Display Locked RAG Criteria",
+      "fr_id": "FR-BVD-20",
+      "priority": "Medium",
+      "title": "Display Escalation Note",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2525,7 +2469,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the RAG Criteria section as locked (non-editable)."
+                "text": "System shall display a note indicating that the multiplier defines escalation from Amber to Red severity."
               }
             ]
           }
@@ -2561,7 +2505,7 @@
               },
               {
                 "type": "text",
-                "text": " see evaluation thresholds"
+                "text": " understand the escalation multiplier purpose"
               },
               {
                 "type": "hardBreak"
@@ -2577,7 +2521,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand classification rules."
+                "text": " I know how severity changes occur."
               }
             ]
           }
@@ -2601,7 +2545,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is displayed"
+                "text": " the Escalation Multiplier section is displayed"
               },
               {
                 "type": "hardBreak"
@@ -2617,7 +2561,7 @@
               },
               {
                 "type": "text",
-                "text": " the RAG Criteria section loads"
+                "text": " the informational note loads"
               },
               {
                 "type": "hardBreak"
@@ -2633,7 +2577,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display the section as locked (non-editable)."
+                "text": " the system shall display a note indicating that the multiplier defines escalation from Amber to Red severity."
               }
             ]
           }
@@ -2642,9 +2586,9 @@
     },
     "21": {
       "n": 21,
-      "fr_id": "FR-BS-21",
-      "priority": "High",
-      "title": "Green Classification Rule",
+      "fr_id": "FR-BVD-21",
+      "priority": "Medium",
+      "title": "Display Calculation Preview Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2654,7 +2598,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the RAG criteria Green when S_max ≤ 2 mm."
+                "text": "System shall display the Calculation Preview section."
               }
             ]
           }
@@ -2690,7 +2634,7 @@
               },
               {
                 "type": "text",
-                "text": " know when results are classified as Green"
+                "text": " see calculation examples"
               },
               {
                 "type": "hardBreak"
@@ -2706,7 +2650,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand acceptable settlement levels."
+                "text": " I can understand how configuration values affect results."
               }
             ]
           }
@@ -2730,7 +2674,7 @@
               },
               {
                 "type": "text",
-                "text": " settlement value S_max is calculated"
+                "text": " the configuration panel is displayed"
               },
               {
                 "type": "hardBreak"
@@ -2746,7 +2690,7 @@
               },
               {
                 "type": "text",
-                "text": " S_max ≤ 2 mm"
+                "text": " preview data loads"
               },
               {
                 "type": "hardBreak"
@@ -2762,7 +2706,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall classify the result as Green."
+                "text": " the system shall display the Calculation Preview section."
               }
             ]
           }
@@ -2771,9 +2715,9 @@
     },
     "22": {
       "n": 22,
-      "fr_id": "FR-BS-22",
-      "priority": "High",
-      "title": "Amber Classification Rule",
+      "fr_id": "FR-BVD-22",
+      "priority": "Medium",
+      "title": "Display Example Span Value",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2783,7 +2727,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the RAG criteria Amber when 2 mm < S_max ≤ 4 mm."
+                "text": "System shall display an example span value (e.g., 2700 mm) in the calculation preview."
               }
             ]
           }
@@ -2819,7 +2763,7 @@
               },
               {
                 "type": "text",
-                "text": " know when results are classified as Amber"
+                "text": " see an example beam span"
               },
               {
                 "type": "hardBreak"
@@ -2835,7 +2779,7 @@
               },
               {
                 "type": "text",
-                "text": " moderate settlement conditions are identified."
+                "text": " I can understand calculation results."
               }
             ]
           }
@@ -2859,7 +2803,7 @@
               },
               {
                 "type": "text",
-                "text": " settlement value S_max is calculated"
+                "text": " the Calculation Preview section is displayed"
               },
               {
                 "type": "hardBreak"
@@ -2875,7 +2819,7 @@
               },
               {
                 "type": "text",
-                "text": " 2 mm < S_max ≤ 4 mm"
+                "text": " preview values load"
               },
               {
                 "type": "hardBreak"
@@ -2891,7 +2835,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall classify the result as Amber."
+                "text": " the system shall display an example span value (e.g., 2700 mm)."
               }
             ]
           }
@@ -2900,9 +2844,9 @@
     },
     "23": {
       "n": 23,
-      "fr_id": "FR-BS-23",
-      "priority": "High",
-      "title": "Red Classification Rule",
+      "fr_id": "FR-BVD-23",
+      "priority": "Medium",
+      "title": "Display Elastic Mode Example",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2912,7 +2856,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the RAG criteria Red when S_max > 4 mm."
+                "text": "System shall display an Elastic Mode example calculation showing the allowable deflection value and corresponding Red limit."
               }
             ]
           }
@@ -2948,7 +2892,7 @@
               },
               {
                 "type": "text",
-                "text": " know when results are classified as Red"
+                "text": " see example calculations for Elastic Mode"
               },
               {
                 "type": "hardBreak"
@@ -2964,7 +2908,7 @@
               },
               {
                 "type": "text",
-                "text": " critical settlement conditions are identified."
+                "text": " I understand allowable deflection values."
               }
             ]
           }
@@ -2988,7 +2932,7 @@
               },
               {
                 "type": "text",
-                "text": " settlement value S_max is calculated"
+                "text": " the Calculation Preview section is displayed"
               },
               {
                 "type": "hardBreak"
@@ -3004,7 +2948,7 @@
               },
               {
                 "type": "text",
-                "text": " S_max > 4 mm"
+                "text": " the preview loads"
               },
               {
                 "type": "hardBreak"
@@ -3020,7 +2964,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall classify the result as Red."
+                "text": " the system shall display the Elastic Mode allowable deflection value and Red limit."
               }
             ]
           }
@@ -3029,9 +2973,9 @@
     },
     "24": {
       "n": 24,
-      "fr_id": "FR-BS-24",
+      "fr_id": "FR-BVD-24",
       "priority": "Medium",
-      "title": "Display Threshold Guidance Note",
+      "title": "Display Permanent Mode Example",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -3041,7 +2985,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a note indicating limits are based on rack support tolerance and localized slab settlement behavior."
+                "text": "System shall display a Permanent Mode example calculation showing the allowable deflection value and corresponding Red limit."
               }
             ]
           }
@@ -3077,7 +3021,7 @@
               },
               {
                 "type": "text",
-                "text": " see the rationale behind the thresholds"
+                "text": " see example calculations for Permanent Mode"
               },
               {
                 "type": "hardBreak"
@@ -3093,7 +3037,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the engineering guidance used."
+                "text": " I understand residual deflection thresholds."
               }
             ]
           }
@@ -3117,7 +3061,7 @@
               },
               {
                 "type": "text",
-                "text": " the RAG criteria section is displayed"
+                "text": " the Calculation Preview section is displayed"
               },
               {
                 "type": "hardBreak"
@@ -3133,7 +3077,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel loads"
+                "text": " the preview loads"
               },
               {
                 "type": "hardBreak"
@@ -3149,7 +3093,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display a note explaining limits are based on rack support tolerance and localized slab settlement behavior."
+                "text": " the system shall display the Permanent Mode allowable deflection value and Red limit."
               }
             ]
           }
@@ -3158,9 +3102,9 @@
     },
     "25": {
       "n": 25,
-      "fr_id": "FR-BS-25",
+      "fr_id": "FR-BVD-25",
       "priority": "High",
-      "title": "Display Output Preview Section",
+      "title": "Update Calculation Preview Dynamically",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -3170,7 +3114,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display an Output Preview section in the evaluation panel."
+                "text": "System shall update the Calculation Preview automatically when divisor or multiplier inputs change."
               }
             ]
           }
@@ -3197,7 +3141,7 @@
               },
               {
                 "type": "text",
-                "text": "I want to",
+                "text": "I want",
                 "marks": [
                   {
                     "type": "strong"
@@ -3206,7 +3150,7 @@
               },
               {
                 "type": "text",
-                "text": " see the evaluation results preview"
+                "text": " the calculation preview to update automatically"
               },
               {
                 "type": "hardBreak"
@@ -3222,7 +3166,7 @@
               },
               {
                 "type": "text",
-                "text": " I can review computed settlement outputs."
+                "text": " I can immediately see the impact of configuration changes."
               }
             ]
           }
@@ -3246,7 +3190,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is displayed"
+                "text": " the Calculation Preview section is displayed"
               },
               {
                 "type": "hardBreak"
@@ -3262,7 +3206,7 @@
               },
               {
                 "type": "text",
-                "text": " results are generated"
+                "text": " the divisor or multiplier values change"
               },
               {
                 "type": "hardBreak"
@@ -3278,7 +3222,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display an Output Preview section."
+                "text": " the system shall automatically update the calculation preview."
               }
             ]
           }
@@ -3287,9 +3231,9 @@
     },
     "26": {
       "n": 26,
-      "fr_id": "FR-BS-26",
+      "fr_id": "FR-BVD-26",
       "priority": "High",
-      "title": "Display Maximum Settlement Value",
+      "title": "Cancel Configuration Changes",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -3299,7 +3243,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display S_max (mm): Auto under the Output Preview section."
+                "text": "System shall display a Cancel button allowing the user to discard changes and close the configuration panel."
               }
             ]
           }
@@ -3335,7 +3279,7 @@
               },
               {
                 "type": "text",
-                "text": " see the maximum settlement value"
+                "text": " cancel configuration changes"
               },
               {
                 "type": "hardBreak"
@@ -3351,7 +3295,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the governing settlement magnitude."
+                "text": " I can exit without saving updates."
               }
             ]
           }
@@ -3375,7 +3319,7 @@
               },
               {
                 "type": "text",
-                "text": " settlement calculations are completed"
+                "text": " the configuration panel is open"
               },
               {
                 "type": "hardBreak"
@@ -3391,7 +3335,7 @@
               },
               {
                 "type": "text",
-                "text": " the Output Preview loads"
+                "text": " the user clicks Cancel"
               },
               {
                 "type": "hardBreak"
@@ -3407,7 +3351,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display S_max (mm) automatically."
+                "text": " the system shall discard changes and close the panel."
               }
             ]
           }
@@ -3416,9 +3360,9 @@
     },
     "27": {
       "n": 27,
-      "fr_id": "FR-BS-27",
-      "priority": "Medium",
-      "title": "Display Governing Upright ID",
+      "fr_id": "FR-BVD-27",
+      "priority": "High",
+      "title": "Save Configuration Changes",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -3428,7 +3372,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display Governing Upright ID: Auto under the Output Preview section."
+                "text": "System shall display a Save Changes button allowing the user to save updated threshold configuration values."
               }
             ]
           }
@@ -3464,7 +3408,7 @@
               },
               {
                 "type": "text",
-                "text": " see which upright governs settlement"
+                "text": " save threshold configuration changes"
               },
               {
                 "type": "hardBreak"
@@ -3480,7 +3424,7 @@
               },
               {
                 "type": "text",
-                "text": " I know where the maximum settlement occurs."
+                "text": " the updated parameters are applied to the system."
               }
             ]
           }
@@ -3504,7 +3448,7 @@
               },
               {
                 "type": "text",
-                "text": " settlement calculations are completed"
+                "text": " the configuration values are updated"
               },
               {
                 "type": "hardBreak"
@@ -3520,7 +3464,7 @@
               },
               {
                 "type": "text",
-                "text": " the Output Preview loads"
+                "text": " the user clicks Save Changes"
               },
               {
                 "type": "hardBreak"
@@ -3536,7 +3480,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display Governing Upright ID automatically."
+                "text": " the system shall save the updated threshold configuration values."
               }
             ]
           }
@@ -3545,523 +3489,7 @@
     },
     "28": {
       "n": 28,
-      "fr_id": "FR-BS-28",
-      "priority": "Medium",
-      "title": "Display Settlement Direction",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display Settlement Direction (Up/Down): Auto under the Output Preview section."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " see the settlement direction"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand whether the base moved upward or downward."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " settlement calculations are completed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Output Preview loads"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall display Settlement Direction (Up/Down)."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "29": {
-      "n": 29,
-      "fr_id": "FR-BS-29",
-      "priority": "Medium",
-      "title": "Display Reference Elevation",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display Reference Elevation (Z_ref): Auto under the Output Preview section."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " see the reference elevation"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand the baseline used for settlement calculations."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " settlement calculations are completed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Output Preview loads"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall display Reference Elevation (Z_ref)."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "30": {
-      "n": 30,
-      "fr_id": "FR-BS-30",
-      "priority": "Medium",
-      "title": "Display Rack Row ID",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display Rack Row ID: Auto under the Output Preview section."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " see the rack row ID"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know which rack run the evaluation applies to."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Output Preview section is displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " results load"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall display the Rack Row ID automatically."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "31": {
-      "n": 31,
-      "fr_id": "FR-BS-31",
-      "priority": "High",
-      "title": "Display Final RAG Result",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display RAG: Auto under the Output Preview section."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " see the final RAG classification"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand the settlement evaluation outcome."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " settlement calculations are completed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Output Preview loads"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall display the RAG classification automatically."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "32": {
-      "n": 32,
-      "fr_id": "FR-BS-32",
+      "fr_id": "FR-BVD-28",
       "priority": "High",
       "title": "Close Panel Using Header Icon",
       "requirement": {
@@ -4073,7 +3501,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall allow the user to close the panel using the Close (X) icon in the panel header."
+                "text": "System shall display a Close (X) icon allowing the user to close the panel."
               }
             ]
           }
@@ -4109,7 +3537,7 @@
               },
               {
                 "type": "text",
-                "text": " close the evaluation panel using the header icon"
+                "text": " close the configuration panel using the header icon"
               },
               {
                 "type": "hardBreak"
@@ -4125,7 +3553,7 @@
               },
               {
                 "type": "text",
-                "text": " I can quickly exit the panel."
+                "text": " I can quickly exit the configuration view."
               }
             ]
           }
@@ -4149,7 +3577,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is open"
+                "text": " the configuration panel is open"
               },
               {
                 "type": "hardBreak"
@@ -4188,138 +3616,9 @@
         ]
       }
     },
-    "33": {
-      "n": 33,
-      "fr_id": "FR-BS-33",
-      "priority": "High",
-      "title": "Close Panel Using Close Button",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall provide a Close button to exit the evaluation panel."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " close the evaluation panel using a button"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I can exit the evaluation view."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the evaluation panel is open"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the user clicks the Close button"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall close the panel."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "34": {
-      "n": 34,
-      "fr_id": "FR-BS-34",
+    "29": {
+      "n": 29,
+      "fr_id": "FR-BVD-29",
       "priority": "High",
       "title": "Return to Testing Tab",
       "requirement": {
@@ -4383,7 +3682,7 @@
               },
               {
                 "type": "text",
-                "text": " I can continue working in Rules and Actions."
+                "text": " I can continue managing testing configurations."
               }
             ]
           }
@@ -4407,7 +3706,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation panel is closed"
+                "text": " the configuration panel is closed"
               },
               {
                 "type": "hardBreak"
@@ -4452,8 +3751,8 @@
     "story_only": [],
     "missing_acceptance": [],
     "odd_prefix_ids": [],
-    "req_count": 34,
-    "story_count": 34,
-    "matched": 34
+    "req_count": 29,
+    "story_count": 29,
+    "matched": 29
   }
 }
