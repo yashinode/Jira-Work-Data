@@ -1,14 +1,14 @@
 {
   "epic_key": "IRDS-2499",
   "epic_name": "Rules and Action",
-  "fr_prefix": "FR-FF",
-  "created_at": "2026-05-21T05:58:19",
+  "fr_prefix": "FR-BS",
+  "created_at": "2026-05-21T06:35:25",
   "pairs": {
     "1": {
       "n": 1,
-      "fr_id": "FR-FF-01",
+      "fr_id": "FR-BS-01",
       "priority": "High",
-      "title": "Open Floor Flatness at Rack base -Evaluation Model Panel",
+      "title": "Open Baseplate Settlement- Evaluation Model Panel",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -18,7 +18,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall open the Floor Flatness at Rack Base (G4) — Evaluation Model panel when the user selects the G4 test from the Rules and Actions → Testing tab."
+                "text": "System shall open the Baseplate Settlement (G5) — Evaluation Model panel when the user selects the G5 test from the Rules and Actions → Testing tab."
               }
             ]
           }
@@ -54,7 +54,7 @@
               },
               {
                 "type": "text",
-                "text": " open the Floor Flatness at Rack Base (G4) evaluation model panel"
+                "text": " open the Baseplate Settlement (G5) evaluation model panel"
               },
               {
                 "type": "hardBreak"
@@ -70,7 +70,7 @@
               },
               {
                 "type": "text",
-                "text": " I can review the evaluation logic for the G4 test."
+                "text": " I can review the evaluation logic for the G5 test."
               }
             ]
           }
@@ -94,7 +94,7 @@
               },
               {
                 "type": "text",
-                "text": " the user is on the Rules and Actions → Testing tab"
+                "text": " the user is on Rules and Actions → Testing tab"
               },
               {
                 "type": "hardBreak"
@@ -110,7 +110,7 @@
               },
               {
                 "type": "text",
-                "text": " the user selects the Floor flatness at Rack base test"
+                "text": " the user selects the G5 test"
               },
               {
                 "type": "hardBreak"
@@ -126,7 +126,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall open the Floor Flatness at Rack Base (G4) — Evaluation Model panel."
+                "text": " the system shall open the Baseplate Settlement (G5) — Evaluation Model panel."
               }
             ]
           }
@@ -135,9 +135,9 @@
     },
     "2": {
       "n": 2,
-      "fr_id": "FR-FF-02",
+      "fr_id": "FR-BS-02",
       "priority": "High",
-      "title": "Display Evaluation Model Title",
+      "title": "Display Evaluation Panel Title",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -147,7 +147,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the panel title “Floor Flatness at Rack Base (G4) — Evaluation Model”."
+                "text": "System shall display the panel title “Baseplate Settlement (G5) — Evaluation Model”."
               }
             ]
           }
@@ -199,7 +199,7 @@
               },
               {
                 "type": "text",
-                "text": " I clearly identify the evaluation panel."
+                "text": " I clearly understand which evaluation model is being viewed."
               }
             ]
           }
@@ -223,7 +223,7 @@
               },
               {
                 "type": "text",
-                "text": " the G4 evaluation panel is opened"
+                "text": " the evaluation model panel is opened"
               },
               {
                 "type": "hardBreak"
@@ -255,7 +255,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display the title “Floor Flatness at Rack Base (G4) — Evaluation Model.”"
+                "text": " the system shall display the title “Baseplate Settlement (G5) — Evaluation Model.”"
               }
             ]
           }
@@ -264,7 +264,7 @@
     },
     "3": {
       "n": 3,
-      "fr_id": "FR-FF-03",
+      "fr_id": "FR-BS-03",
       "priority": "Medium",
       "title": "Display Global Scope Indicator",
       "requirement": {
@@ -328,7 +328,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the evaluation scope."
+                "text": " I understand the scope of the evaluation model."
               }
             ]
           }
@@ -352,7 +352,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation model panel is displayed"
+                "text": " the evaluation panel is displayed"
               },
               {
                 "type": "hardBreak"
@@ -384,7 +384,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display a Global scope indicator beside the title."
+                "text": " the system shall display a Global scope indicator beside the evaluation model title."
               }
             ]
           }
@@ -393,7 +393,7 @@
     },
     "4": {
       "n": 4,
-      "fr_id": "FR-FF-04",
+      "fr_id": "FR-BS-04",
       "priority": "Medium",
       "title": "Display Evaluation Description",
       "requirement": {
@@ -481,7 +481,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation model panel is displayed"
+                "text": " the evaluation panel is displayed"
               },
               {
                 "type": "hardBreak"
@@ -513,7 +513,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display a description explaining the evaluation is derived from base elevation survey data (Z coordinates)."
+                "text": " the system shall display a description indicating the evaluation is derived from base elevation survey data (Z coordinates)."
               }
             ]
           }
@@ -522,7 +522,7 @@
     },
     "5": {
       "n": 5,
-      "fr_id": "FR-FF-05",
+      "fr_id": "FR-BS-05",
       "priority": "High",
       "title": "Display Measurement Basis Section",
       "requirement": {
@@ -534,7 +534,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a Measurement Basis section explaining that evaluation is computed from base elevation values (Z_base,j) measured at each upright base location."
+                "text": "System shall display the Measurement Basis section describing that base elevation values (Z_base,j) are measured at each upright base location within a rack row."
               }
             ]
           }
@@ -570,7 +570,7 @@
               },
               {
                 "type": "text",
-                "text": " see the measurement basis explanation"
+                "text": " see the measurement basis information"
               },
               {
                 "type": "hardBreak"
@@ -586,7 +586,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand how elevation data is used."
+                "text": " I understand how elevation values are collected."
               }
             ]
           }
@@ -610,7 +610,7 @@
               },
               {
                 "type": "text",
-                "text": " the evaluation model panel is displayed"
+                "text": " the evaluation panel is displayed"
               },
               {
                 "type": "hardBreak"
@@ -642,7 +642,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display that evaluation is computed using base elevation values (Z_base,j)."
+                "text": " the system shall describe that base elevation values (Z_base,j) are measured at each upright base location within a rack row."
               }
             ]
           }
@@ -651,138 +651,9 @@
     },
     "6": {
       "n": 6,
-      "fr_id": "FR-FF-06",
-      "priority": "High",
-      "title": "Explain Rack Run Calculation Scope",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display that the calculation is performed across all uprights within the same rack run."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " know the calculation scope"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand which uprights are evaluated."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Measurement Basis section is displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the panel loads"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall indicate that calculations are performed across all uprights within the same rack run."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "7": {
-      "n": 7,
-      "fr_id": "FR-FF-07",
+      "fr_id": "FR-BS-06",
       "priority": "Medium",
-      "title": "Define Z_base,j Parameter",
+      "title": "Display Z_base,j Definition",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -792,7 +663,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the definition Z_base,j represents the elevation at the base of upright j."
+                "text": "System shall display the definition Z_base,j = measured elevation at base of upright j."
               }
             ]
           }
@@ -844,7 +715,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the parameter used in the evaluation."
+                "text": " I understand the measurement parameter."
               }
             ]
           }
@@ -884,7 +755,7 @@
               },
               {
                 "type": "text",
-                "text": " the definitions section loads"
+                "text": " the definition section loads"
               },
               {
                 "type": "hardBreak"
@@ -900,7 +771,136 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display the definition Z_base,j represents the elevation at the base of upright j."
+                "text": " the system shall display Z_base,j = measured elevation at the base of upright j."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "7": {
+      "n": 7,
+      "fr_id": "FR-BS-07",
+      "priority": "Medium",
+      "title": "Display Reference Elevation Definition",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display that reference elevation Z_ref is the mean base elevation of the rack row."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see how reference elevation is defined"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand how settlement is calculated."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the evaluation panel is displayed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the measurement definitions load"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shall display that reference elevation Z_ref is the mean base elevation of the rack row."
               }
             ]
           }
@@ -909,9 +909,9 @@
     },
     "8": {
       "n": 8,
-      "fr_id": "FR-FF-08",
+      "fr_id": "FR-BS-08",
       "priority": "Medium",
-      "title": "Display Supported Survey Data Sources",
+      "title": "Display Settlement Formula",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -921,7 +921,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display supported survey data sources such as Drone + Laser or Total Station."
+                "text": "System shall display the settlement expression S_j = Z_base,j − Z_ref."
               }
             ]
           }
@@ -957,7 +957,7 @@
               },
               {
                 "type": "text",
-                "text": " know supported survey sources"
+                "text": " see the settlement calculation formula"
               },
               {
                 "type": "hardBreak"
@@ -973,7 +973,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand compatible measurement tools."
+                "text": " I understand how settlement values are derived."
               }
             ]
           }
@@ -1013,7 +1013,7 @@
               },
               {
                 "type": "text",
-                "text": " the data source section loads"
+                "text": " the formula section loads"
               },
               {
                 "type": "hardBreak"
@@ -1029,7 +1029,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display supported sources such as Drone + Laser and Total Station."
+                "text": " the system shall display S_j = Z_base,j − Z_ref."
               }
             ]
           }
@@ -1038,9 +1038,9 @@
     },
     "9": {
       "n": 9,
-      "fr_id": "FR-FF-09",
+      "fr_id": "FR-BS-09",
       "priority": "Medium",
-      "title": "Display Calculation Method Note",
+      "title": "Display Absolute Settlement Concept",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1050,7 +1050,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall indicate that the calculation uses absolute elevation values rather than deviation profile δ(z)."
+                "text": "System shall display that absolute settlement governs: S_j"
               }
             ]
           }
@@ -1086,7 +1086,7 @@
               },
               {
                 "type": "text",
-                "text": " understand the calculation method"
+                "text": " understand that absolute settlement is evaluated"
               },
               {
                 "type": "hardBreak"
@@ -1102,136 +1102,7 @@
               },
               {
                 "type": "text",
-                "text": " I know how elevation values are used."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the evaluation model panel is displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the calculation description loads"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall indicate that the calculation uses absolute elevation values rather than deviation profile δ(z)."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "10": {
-      "n": 10,
-      "fr_id": "FR-FF-10",
-      "priority": "Medium",
-      "title": "Display Instrument Limitation Note",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display a note indicating Plumb Bob instrument does not support the G4 evaluation model."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " know unsupported instruments"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I avoid incorrect measurements."
+                "text": " I can interpret the results correctly."
               }
             ]
           }
@@ -1271,7 +1142,7 @@
               },
               {
                 "type": "text",
-                "text": " the notes section loads"
+                "text": " the explanation section loads"
               },
               {
                 "type": "hardBreak"
@@ -1287,18 +1158,18 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display a note that Plumb Bob instrument does not support the G4 evaluation model."
+                "text": " the system shall display that absolute settlement is evaluated for the rack row – S_j."
               }
             ]
           }
         ]
       }
     },
-    "11": {
-      "n": 11,
-      "fr_id": "FR-FF-11",
-      "priority": "High",
-      "title": "Minimum Measurement Requirement",
+    "10": {
+      "n": 10,
+      "fr_id": "FR-BS-10",
+      "priority": "Medium",
+      "title": "Display Rack Run Scope",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1308,7 +1179,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall require a minimum of two base elevation measurements to perform the G4 evaluation."
+                "text": "System shall display that the evaluation is computed across all uprights within the same rack row."
               }
             ]
           }
@@ -1344,7 +1215,7 @@
               },
               {
                 "type": "text",
-                "text": " know the minimum measurement requirement"
+                "text": " know that evaluation occurs across the rack run"
               },
               {
                 "type": "hardBreak"
@@ -1360,7 +1231,136 @@
               },
               {
                 "type": "text",
-                "text": " evaluation can be performed correctly."
+                "text": " I understand the evaluation coverage."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the evaluation panel is displayed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the scope description loads"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shall display that evaluation is computed across all uprights within the same rack row."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "11": {
+      "n": 11,
+      "fr_id": "FR-BS-11",
+      "priority": "High",
+      "title": "Display Minimum Measurement Requirement",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display a note indicating minimum two base elevation measurements are required."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " know the minimum data requirement"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I can perform valid settlement calculations."
               }
             ]
           }
@@ -1416,7 +1416,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall indicate that a minimum of two base elevation measurements is required."
+                "text": " the system shall indicate that minimum two base elevation measurements are required."
               }
             ]
           }
@@ -1425,9 +1425,9 @@
     },
     "12": {
       "n": 12,
-      "fr_id": "FR-FF-12",
+      "fr_id": "FR-BS-12",
       "priority": "Medium",
-      "title": "Measurement Recommendation",
+      "title": "Display Measurement Recommendation",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1437,7 +1437,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a recommendation that all uprights within the rack run should be measured."
+                "text": "System shall display a recommendation stating all uprights within the rack row should be measured."
               }
             ]
           }
@@ -1473,7 +1473,7 @@
               },
               {
                 "type": "text",
-                "text": " see measurement recommendations"
+                "text": " see recommended measurement practices"
               },
               {
                 "type": "hardBreak"
@@ -1489,7 +1489,7 @@
               },
               {
                 "type": "text",
-                "text": " I can collect complete survey data."
+                "text": " evaluation results are accurate."
               }
             ]
           }
@@ -1545,7 +1545,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall recommend measuring all uprights within the rack run."
+                "text": " the system shall recommend measuring all uprights within the rack row."
               }
             ]
           }
@@ -1554,9 +1554,525 @@
     },
     "13": {
       "n": 13,
-      "fr_id": "FR-FF-13",
+      "fr_id": "FR-BS-13",
+      "priority": "Medium",
+      "title": "Display Instrument Support Section",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display the Instrument Support section."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see supported instruments"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand which tools can be used."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the evaluation panel is displayed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Instrument Support section loads"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shall display supported and unsupported instruments."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "14": {
+      "n": 14,
+      "fr_id": "FR-BS-14",
+      "priority": "Medium",
+      "title": "Display Drone + Laser Support",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display Drone + Laser → Supported under instrument support."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see if Drone + Laser is supported"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I know it can be used for measurement."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Instrument Support section is displayed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the supported instruments are listed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shall display Drone + Laser → Supported"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "15": {
+      "n": 15,
+      "fr_id": "FR-BS-15",
+      "priority": "Medium",
+      "title": "Display Total Station Support",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display Total Station → Supported under instrument support."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see if Total Station is supported"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I know it can be used for survey measurement."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Instrument Support section is displayed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the supported instruments are listed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shall display Total Station → Supported."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "16": {
+      "n": 16,
+      "fr_id": "FR-BS-16",
+      "priority": "Medium",
+      "title": "Display Plumb Bob Limitation",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display Plumb Bob → Not Supported under instrument support."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " know if Plumb Bob is supported"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I avoid unsupported measurement methods."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Instrument Support section is displayed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " instrument compatibility is shown"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shall display Plumb Bob → Not Supported."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "17": {
+      "n": 17,
+      "fr_id": "FR-BS-17",
       "priority": "High",
-      "title": "Display Calculation Logic in Read-Only Mode",
+      "title": "Display Calculation Logic Section",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1602,7 +2118,7 @@
               },
               {
                 "type": "text",
-                "text": " view the calculation logic"
+                "text": " see the calculation logic"
               },
               {
                 "type": "hardBreak"
@@ -1618,7 +2134,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand how results are generated."
+                "text": " I understand how settlement is computed."
               }
             ]
           }
@@ -1674,276 +2190,18 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display the calculation logic in read-only mode."
+                "text": " the system shall display the section in read-only mode."
               }
             ]
           }
         ]
       }
     },
-    "14": {
-      "n": 14,
-      "fr_id": "FR-FF-14",
-      "priority": "High",
-      "title": "Collect Base Elevation Data",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall collect base elevation values (Z_base,j) from survey measurements."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system to collect base elevation values"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the evaluation can be computed."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " survey data is available"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " evaluation processing begins"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall collect Z_base,j values for each upright."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "15": {
-      "n": 15,
-      "fr_id": "FR-FF-15",
-      "priority": "High",
-      "title": "Compute Maximum Elevation Differential",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall compute the maximum elevation differential ΔZ_max = max(Z_base,j) − min(Z_base,j) across the rack run."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system to calculate the elevation difference"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " rack floor flatness can be evaluated."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " elevation data is available"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the evaluation is executed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall compute ΔZ_max = max(Z_base,j) − min(Z_base,j)."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "16": {
-      "n": 16,
-      "fr_id": "FR-FF-16",
+    "18": {
+      "n": 18,
+      "fr_id": "FR-BS-18",
       "priority": "Medium",
-      "title": "Define Elevation Differential",
+      "title": "Display Calculation Steps",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -1953,7 +2211,35 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall define ΔZ_max as the maximum elevation difference across uprights within the rack run in millimetres."
+                "text": "System shall display the calculation steps (Read only) for collecting base elevations and computing settlement values."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "1. Collect base elevations: z_base,j"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "2. compute reference elevation: z_ref= mean (z_base,j)"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "3. Settlement per upright: s_j = Z_base,j- Z_ref"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "4. Governing settlement: S_max= max (S_Ji)"
               }
             ]
           }
@@ -1989,7 +2275,7 @@
               },
               {
                 "type": "text",
-                "text": " see the definition of ΔZ_max"
+                "text": " see calculation steps"
               },
               {
                 "type": "hardBreak"
@@ -2005,7 +2291,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the calculation meaning."
+                "text": " I understand the process used to compute settlement values."
               }
             ]
           }
@@ -2029,7 +2315,7 @@
               },
               {
                 "type": "text",
-                "text": " the calculation logic is displayed"
+                "text": " the Calculation Logic section is visible"
               },
               {
                 "type": "hardBreak"
@@ -2045,7 +2331,7 @@
               },
               {
                 "type": "text",
-                "text": " the definition section loads"
+                "text": " the section loads"
               },
               {
                 "type": "hardBreak"
@@ -2061,18 +2347,46 @@
               },
               {
                 "type": "text",
-                "text": " the system shall define ΔZ_max as the maximum elevation difference across uprights within the rack run in millimetres."
+                "text": " the system shall display the steps for collecting base elevations and computing settlement values :"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "1. Collect base elevations: z_base,j"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "2. compute reference elevation: z_ref= mean (z_base,j)"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "3. Settlement per upright: s_j = Z_base,j- Z_ref"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "4. Governing settlement: S_max= max (S_Ji)"
               }
             ]
           }
         ]
       }
     },
-    "17": {
-      "n": 17,
-      "fr_id": "FR-FF-17",
-      "priority": "High",
-      "title": "Display RAG Criteria",
+    "19": {
+      "n": 19,
+      "fr_id": "FR-BS-19",
+      "priority": "Medium",
+      "title": "Display Maximum Settlement Definition",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -2082,7 +2396,136 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display a RAG Criteria section with locked thresholds indicating the values are system defined."
+                "text": "System shall display a note within the Calculation logic section indicating S_max = maximum absolute vertical settlement within rack row (mm)"
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see a note explaining the meaning of S_max in the calculation logic section"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I clearly understand what parameter represents the maximum vertical settlement used in evaluation."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the evaluation model panel is open,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Calculation Logic section is displayed,"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shows a note indicating that S_max represents the maximum absolute vertical settlement within the rack row (mm)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "20": {
+      "n": 20,
+      "fr_id": "FR-BS-20",
+      "priority": "High",
+      "title": "Display Locked RAG Criteria",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display the RAG Criteria section as locked (non-editable)."
               }
             ]
           }
@@ -2190,16 +2633,16 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display system-defined thresholds in locked format."
+                "text": " the system shall display the section as locked (non-editable)."
               }
             ]
           }
         ]
       }
     },
-    "18": {
-      "n": 18,
-      "fr_id": "FR-FF-18",
+    "21": {
+      "n": 21,
+      "fr_id": "FR-BS-21",
       "priority": "High",
       "title": "Green Classification Rule",
       "requirement": {
@@ -2211,7 +2654,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall classify the result as Green when ΔZ_max ≤ 3 mm."
+                "text": "System shall display the RAG criteria Green when S_max ≤ 2 mm."
               }
             ]
           }
@@ -2247,7 +2690,7 @@
               },
               {
                 "type": "text",
-                "text": " know the green threshold"
+                "text": " know when results are classified as Green"
               },
               {
                 "type": "hardBreak"
@@ -2263,7 +2706,7 @@
               },
               {
                 "type": "text",
-                "text": " acceptable floor conditions can be identified."
+                "text": " I understand acceptable settlement levels."
               }
             ]
           }
@@ -2287,7 +2730,7 @@
               },
               {
                 "type": "text",
-                "text": " ΔZ_max is calculated"
+                "text": " settlement value S_max is calculated"
               },
               {
                 "type": "hardBreak"
@@ -2303,7 +2746,7 @@
               },
               {
                 "type": "text",
-                "text": " ΔZ_max ≤ 3 mm"
+                "text": " S_max ≤ 2 mm"
               },
               {
                 "type": "hardBreak"
@@ -2326,9 +2769,9 @@
         ]
       }
     },
-    "19": {
-      "n": 19,
-      "fr_id": "FR-FF-19",
+    "22": {
+      "n": 22,
+      "fr_id": "FR-BS-22",
       "priority": "High",
       "title": "Amber Classification Rule",
       "requirement": {
@@ -2340,7 +2783,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall classify the result as Amber when 3 mm < ΔZ_max ≤ 5 mm."
+                "text": "System shall display the RAG criteria Amber when 2 mm < S_max ≤ 4 mm."
               }
             ]
           }
@@ -2376,7 +2819,7 @@
               },
               {
                 "type": "text",
-                "text": " know the amber threshold"
+                "text": " know when results are classified as Amber"
               },
               {
                 "type": "hardBreak"
@@ -2392,7 +2835,7 @@
               },
               {
                 "type": "text",
-                "text": " moderate deviations can be identified."
+                "text": " moderate settlement conditions are identified."
               }
             ]
           }
@@ -2416,7 +2859,7 @@
               },
               {
                 "type": "text",
-                "text": " ΔZ_max is calculated"
+                "text": " settlement value S_max is calculated"
               },
               {
                 "type": "hardBreak"
@@ -2432,7 +2875,7 @@
               },
               {
                 "type": "text",
-                "text": " 3 mm < ΔZ_max ≤ 5 mm"
+                "text": " 2 mm < S_max ≤ 4 mm"
               },
               {
                 "type": "hardBreak"
@@ -2455,9 +2898,9 @@
         ]
       }
     },
-    "20": {
-      "n": 20,
-      "fr_id": "FR-FF-20",
+    "23": {
+      "n": 23,
+      "fr_id": "FR-BS-23",
       "priority": "High",
       "title": "Red Classification Rule",
       "requirement": {
@@ -2469,7 +2912,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall classify the result as Red when ΔZ_max > 5 mm."
+                "text": "System shall display the RAG criteria Red when S_max > 4 mm."
               }
             ]
           }
@@ -2505,7 +2948,7 @@
               },
               {
                 "type": "text",
-                "text": " know the red threshold"
+                "text": " know when results are classified as Red"
               },
               {
                 "type": "hardBreak"
@@ -2521,7 +2964,7 @@
               },
               {
                 "type": "text",
-                "text": " critical deviations can be identified."
+                "text": " critical settlement conditions are identified."
               }
             ]
           }
@@ -2545,7 +2988,7 @@
               },
               {
                 "type": "text",
-                "text": " ΔZ_max is calculated"
+                "text": " settlement value S_max is calculated"
               },
               {
                 "type": "hardBreak"
@@ -2561,7 +3004,7 @@
               },
               {
                 "type": "text",
-                "text": " ΔZ_max > 5 mm"
+                "text": " S_max > 4 mm"
               },
               {
                 "type": "hardBreak"
@@ -2584,9 +3027,9 @@
         ]
       }
     },
-    "21": {
-      "n": 21,
-      "fr_id": "FR-FF-21",
+    "24": {
+      "n": 24,
+      "fr_id": "FR-BS-24",
       "priority": "Medium",
       "title": "Display Threshold Guidance Note",
       "requirement": {
@@ -2598,7 +3041,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display an informational note indicating thresholds are based on rack installation tolerance and floor settlement control guidance."
+                "text": "System shall display a note indicating limits are based on rack support tolerance and localized slab settlement behavior."
               }
             ]
           }
@@ -2634,7 +3077,7 @@
               },
               {
                 "type": "text",
-                "text": " understand the source of thresholds"
+                "text": " see the rationale behind the thresholds"
               },
               {
                 "type": "hardBreak"
@@ -2650,7 +3093,7 @@
               },
               {
                 "type": "text",
-                "text": " I know they follow installation standards."
+                "text": " I understand the engineering guidance used."
               }
             ]
           }
@@ -2690,7 +3133,7 @@
               },
               {
                 "type": "text",
-                "text": " the panel loads"
+                "text": " the evaluation panel loads"
               },
               {
                 "type": "hardBreak"
@@ -2706,17 +3149,17 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display a note explaining thresholds are based on rack installation tolerance and floor settlement control guidance."
+                "text": " the system shall display a note explaining limits are based on rack support tolerance and localized slab settlement behavior."
               }
             ]
           }
         ]
       }
     },
-    "22": {
-      "n": 22,
-      "fr_id": "FR-FF-22",
-      "priority": "Medium",
+    "25": {
+      "n": 25,
+      "fr_id": "FR-BS-25",
+      "priority": "High",
       "title": "Display Output Preview Section",
       "requirement": {
         "type": "doc",
@@ -2727,7 +3170,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display an Output Preview section showing automatically calculated evaluation results."
+                "text": "System shall display an Output Preview section in the evaluation panel."
               }
             ]
           }
@@ -2763,7 +3206,7 @@
               },
               {
                 "type": "text",
-                "text": " see the evaluation output preview"
+                "text": " see the evaluation results preview"
               },
               {
                 "type": "hardBreak"
@@ -2779,7 +3222,7 @@
               },
               {
                 "type": "text",
-                "text": " I can review computed results."
+                "text": " I can review computed settlement outputs."
               }
             ]
           }
@@ -2819,7 +3262,7 @@
               },
               {
                 "type": "text",
-                "text": " the Output Preview section loads"
+                "text": " results are generated"
               },
               {
                 "type": "hardBreak"
@@ -2835,394 +3278,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display automatically calculated evaluation results."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "23": {
-      "n": 23,
-      "fr_id": "FR-FF-23",
-      "priority": "High",
-      "title": "Display Maximum Elevation Difference",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display the computed maximum elevation difference (ΔZ_max in mm) in the Output Preview."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " see the calculated elevation difference"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I understand the evaluation result."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " evaluation calculations are completed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Output Preview is displayed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall display ΔZ_max in millimetres."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "24": {
-      "n": 24,
-      "fr_id": "FR-FF-24",
-      "priority": "Medium",
-      "title": "Display Highest Base Location",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display the Highest Base Location identified from the elevation dataset."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " see the highest base location"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know the highest elevation point."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " elevation data is processed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Output Preview loads"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall display the Highest Base Location."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "25": {
-      "n": 25,
-      "fr_id": "FR-FF-25",
-      "priority": "Medium",
-      "title": "Display Lowest Base Location",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall display the Lowest Base Location identified from the elevation dataset."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want to",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " see the lowest base location"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I know the lowest elevation point."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " elevation data is processed"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the Output Preview loads"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall display the Lowest Base Location."
+                "text": " the system shall display an Output Preview section."
               }
             ]
           }
@@ -3231,9 +3287,9 @@
     },
     "26": {
       "n": 26,
-      "fr_id": "FR-FF-26",
-      "priority": "Medium",
-      "title": "Display Governing Upright Pair",
+      "fr_id": "FR-BS-26",
+      "priority": "High",
+      "title": "Display Maximum Settlement Value",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -3243,7 +3299,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Governing Upright Pair responsible for the maximum elevation differential."
+                "text": "System shall display S_max (mm): Auto under the Output Preview section."
               }
             ]
           }
@@ -3279,7 +3335,7 @@
               },
               {
                 "type": "text",
-                "text": " see the governing upright pair"
+                "text": " see the maximum settlement value"
               },
               {
                 "type": "hardBreak"
@@ -3295,7 +3351,7 @@
               },
               {
                 "type": "text",
-                "text": " I know which uprights caused the maximum differential."
+                "text": " I understand the governing settlement magnitude."
               }
             ]
           }
@@ -3319,7 +3375,7 @@
               },
               {
                 "type": "text",
-                "text": " evaluation calculations are completed"
+                "text": " settlement calculations are completed"
               },
               {
                 "type": "hardBreak"
@@ -3351,7 +3407,7 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display the Governing Upright Pair."
+                "text": " the system shall display S_max (mm) automatically."
               }
             ]
           }
@@ -3360,7 +3416,394 @@
     },
     "27": {
       "n": 27,
-      "fr_id": "FR-FF-27",
+      "fr_id": "FR-BS-27",
+      "priority": "Medium",
+      "title": "Display Governing Upright ID",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display Governing Upright ID: Auto under the Output Preview section."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see which upright governs settlement"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I know where the maximum settlement occurs."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " settlement calculations are completed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Output Preview loads"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shall display Governing Upright ID automatically."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "28": {
+      "n": 28,
+      "fr_id": "FR-BS-28",
+      "priority": "Medium",
+      "title": "Display Settlement Direction",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display Settlement Direction (Up/Down): Auto under the Output Preview section."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see the settlement direction"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand whether the base moved upward or downward."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " settlement calculations are completed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Output Preview loads"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shall display Settlement Direction (Up/Down)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "29": {
+      "n": 29,
+      "fr_id": "FR-BS-29",
+      "priority": "Medium",
+      "title": "Display Reference Elevation",
+      "requirement": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "System shall display Reference Elevation (Z_ref): Auto under the Output Preview section."
+              }
+            ]
+          }
+        ]
+      },
+      "story": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As a user",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "I want to",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " see the reference elevation"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "So that",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " I understand the baseline used for settlement calculations."
+              }
+            ]
+          }
+        ]
+      },
+      "acceptance": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Given",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " settlement calculations are completed"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "When",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the Output Preview loads"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Then",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " the system shall display Reference Elevation (Z_ref)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "30": {
+      "n": 30,
+      "fr_id": "FR-BS-30",
       "priority": "Medium",
       "title": "Display Rack Row ID",
       "requirement": {
@@ -3372,7 +3815,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the Rack Row ID associated with the evaluation."
+                "text": "System shall display Rack Row ID: Auto under the Output Preview section."
               }
             ]
           }
@@ -3408,7 +3851,7 @@
               },
               {
                 "type": "text",
-                "text": " see the rack run ID"
+                "text": " see the rack row ID"
               },
               {
                 "type": "hardBreak"
@@ -3448,7 +3891,7 @@
               },
               {
                 "type": "text",
-                "text": " evaluation results are displayed"
+                "text": " the Output Preview section is displayed"
               },
               {
                 "type": "hardBreak"
@@ -3464,7 +3907,7 @@
               },
               {
                 "type": "text",
-                "text": " the Output Preview loads"
+                "text": " results load"
               },
               {
                 "type": "hardBreak"
@@ -3480,18 +3923,18 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display the Rack Row ID."
+                "text": " the system shall display the Rack Row ID automatically."
               }
             ]
           }
         ]
       }
     },
-    "28": {
-      "n": 28,
-      "fr_id": "FR-FF-28",
+    "31": {
+      "n": 31,
+      "fr_id": "FR-BS-31",
       "priority": "High",
-      "title": "Display RAG Classification Result",
+      "title": "Display Final RAG Result",
       "requirement": {
         "type": "doc",
         "version": 1,
@@ -3501,7 +3944,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall display the final RAG classification result in the Output Preview."
+                "text": "System shall display RAG: Auto under the Output Preview section."
               }
             ]
           }
@@ -3553,7 +3996,7 @@
               },
               {
                 "type": "text",
-                "text": " I understand the evaluation outcome."
+                "text": " I understand the settlement evaluation outcome."
               }
             ]
           }
@@ -3577,7 +4020,7 @@
               },
               {
                 "type": "text",
-                "text": " evaluation calculations are completed"
+                "text": " settlement calculations are completed"
               },
               {
                 "type": "hardBreak"
@@ -3609,145 +4052,16 @@
               },
               {
                 "type": "text",
-                "text": " the system shall display the final RAG classification."
+                "text": " the system shall display the RAG classification automatically."
               }
             ]
           }
         ]
       }
     },
-    "29": {
-      "n": 29,
-      "fr_id": "FR-FF-29",
-      "priority": "High",
-      "title": "Auto Populate Output Values",
-      "requirement": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "System shall populate the output values automatically based on survey data provided for the rack row."
-              }
-            ]
-          }
-        ]
-      },
-      "story": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "As a user",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "I want",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " output values to be auto populated"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "So that",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " I do not need manual calculations."
-              }
-            ]
-          }
-        ]
-      },
-      "acceptance": {
-        "type": "doc",
-        "version": 1,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": [
-              {
-                "type": "text",
-                "text": "Given",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " survey data is available"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "When",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the evaluation panel loads"
-              },
-              {
-                "type": "hardBreak"
-              },
-              {
-                "type": "text",
-                "text": "Then",
-                "marks": [
-                  {
-                    "type": "strong"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": " the system shall automatically populate the output value."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "30": {
-      "n": 30,
-      "fr_id": "FR-FF-30",
+    "32": {
+      "n": 32,
+      "fr_id": "FR-BS-32",
       "priority": "High",
       "title": "Close Panel Using Header Icon",
       "requirement": {
@@ -3795,7 +4109,7 @@
               },
               {
                 "type": "text",
-                "text": " close the evaluation panel using the close icon"
+                "text": " close the evaluation panel using the header icon"
               },
               {
                 "type": "hardBreak"
@@ -3811,7 +4125,7 @@
               },
               {
                 "type": "text",
-                "text": " I can exit the panel quickly."
+                "text": " I can quickly exit the panel."
               }
             ]
           }
@@ -3874,9 +4188,9 @@
         ]
       }
     },
-    "31": {
-      "n": 31,
-      "fr_id": "FR-FF-31",
+    "33": {
+      "n": 33,
+      "fr_id": "FR-BS-33",
       "priority": "High",
       "title": "Close Panel Using Close Button",
       "requirement": {
@@ -3915,7 +4229,7 @@
               },
               {
                 "type": "text",
-                "text": "I want",
+                "text": "I want to",
                 "marks": [
                   {
                     "type": "strong"
@@ -3924,7 +4238,7 @@
               },
               {
                 "type": "text",
-                "text": " a close button in the panel"
+                "text": " close the evaluation panel using a button"
               },
               {
                 "type": "hardBreak"
@@ -3940,7 +4254,7 @@
               },
               {
                 "type": "text",
-                "text": " I can exit the evaluation panel."
+                "text": " I can exit the evaluation view."
               }
             ]
           }
@@ -3996,16 +4310,16 @@
               },
               {
                 "type": "text",
-                "text": " the system shall close the evaluation panel."
+                "text": " the system shall close the panel."
               }
             ]
           }
         ]
       }
     },
-    "32": {
-      "n": 32,
-      "fr_id": "FR-FF-32",
+    "34": {
+      "n": 34,
+      "fr_id": "FR-BS-34",
       "priority": "High",
       "title": "Return to Testing Tab",
       "requirement": {
@@ -4017,7 +4331,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "System shall return the user to the Rules and Actions → Testing tab after closing the panel."
+                "text": "System shall return the user to the Rules and Actions → Testing tab when the panel is closed."
               }
             ]
           }
@@ -4069,7 +4383,7 @@
               },
               {
                 "type": "text",
-                "text": " I can continue working in the Rules and Actions module."
+                "text": " I can continue working in Rules and Actions."
               }
             ]
           }
@@ -4138,8 +4452,8 @@
     "story_only": [],
     "missing_acceptance": [],
     "odd_prefix_ids": [],
-    "req_count": 32,
-    "story_count": 32,
-    "matched": 32
+    "req_count": 34,
+    "story_count": 34,
+    "matched": 34
   }
 }
