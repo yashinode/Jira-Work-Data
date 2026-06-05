@@ -2,7 +2,7 @@
   "epic_key": "DT-440",
   "epic_name": "Digital Twin Projects screen",
   "fr_prefix": "FR-RB",
-  "created_at": "2026-06-04T11:28:04",
+  "created_at": "2026-06-05T09:26:43",
   "pairs": {
     "1": {
       "n": 1,
@@ -255,7 +255,7 @@
               },
               {
                 "type": "text",
-                "text": " the system enables the Undo control."
+                "text": " the system enables the Undo control"
               }
             ]
           }
@@ -6092,7 +6092,7 @@
               },
               {
                 "type": "text",
-                "text": " the modeling interface is displayed"
+                "text": " the modelling interface is displayed"
               },
               {
                 "type": "hardBreak"
@@ -9208,7 +9208,7 @@
               },
               {
                 "type": "text",
-                "text": " the system updates the model view immediately and displays the mirrored geometry in its resulting position."
+                "text": " the system updates the model view immediately and displays the mirrored geometry in its resulting position"
               }
             ]
           }
